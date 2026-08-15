@@ -1,6 +1,6 @@
 {
   "date": "2026-08-15",
-  "updated_at_local": "2026-08-15T14:14:55.279552-07:00",
+  "updated_at_local": "2026-08-15T14:27:24.631669-07:00",
   "latest_metar_time": "2026-08-15T13:56:00-07:00",
   "latest_temp_f": 88.0,
   "latest_precise_temp_f": 87.98,
@@ -144,10 +144,15 @@
   },
   "radar": {
     "available": true,
-    "latest_time_utc": "2026-08-15T21:08:55+00:00",
-    "prior_time_utc": "2026-08-15T20:38:55+00:00",
+    "latest_time_utc": "2026-08-15T21:14:58+00:00",
+    "prior_time_utc": "2026-08-15T20:44:58+00:00",
     "current": {
-      "echo_fraction_by_radius": {},
+      "echo_fraction_by_radius": {
+        "0": 0.0,
+        "10": 0.0,
+        "25": 0.0,
+        "50": 0.0
+      },
       "nearest_echo_miles": null
     },
     "prior": {
@@ -175,16 +180,16 @@
       "strike_type": "between",
       "floor_strike": 94.0,
       "cap_strike": 95.0,
-      "yes_bid": 0.12,
-      "yes_ask": 0.21,
-      "last_price": 0.22,
-      "market_mid": 0.16499999999999998,
+      "yes_bid": 0.07,
+      "yes_ask": 0.11,
+      "last_price": 0.07,
+      "market_mid": 0.09,
       "close_time": "2026-08-16T08:00:00Z",
       "occurrence_datetime": "2026-08-16T14:40:48Z",
       "updated_time": "2026-08-14T14:40:48.259219Z",
       "model_probability": 0.6510191476219889,
-      "edge_vs_ask": 0.4410191476219889,
-      "difference": 0.4860191476219889
+      "edge_vs_ask": 0.5410191476219889,
+      "difference": 0.5610191476219889
     },
     {
       "ticker": "KXHIGHTLV-26AUG15-B92.5",
@@ -194,16 +199,16 @@
       "strike_type": "between",
       "floor_strike": 92.0,
       "cap_strike": 93.0,
-      "yes_bid": 0.2,
-      "yes_ask": 0.24,
-      "last_price": 0.25,
-      "market_mid": 0.22,
+      "yes_bid": 0.05,
+      "yes_ask": 0.1,
+      "last_price": 0.08,
+      "market_mid": 0.07500000000000001,
       "close_time": "2026-08-16T08:00:00Z",
       "occurrence_datetime": "2026-08-16T14:40:48Z",
       "updated_time": "2026-08-14T14:40:48.259219Z",
       "model_probability": 0.18159357628165532,
-      "edge_vs_ask": -0.058406423718344674,
-      "difference": -0.038406423718344684
+      "edge_vs_ask": 0.08159357628165531,
+      "difference": 0.1065935762816553
     },
     {
       "ticker": "KXHIGHTLV-26AUG15-B96.5",
@@ -215,7 +220,7 @@
       "cap_strike": 97.0,
       "yes_bid": 0.01,
       "yes_ask": 0.04,
-      "last_price": 0.01,
+      "last_price": 0.04,
       "market_mid": 0.025,
       "close_time": "2026-08-16T08:00:00Z",
       "occurrence_datetime": "2026-08-16T14:40:48Z",
@@ -232,16 +237,16 @@
       "strike_type": "less",
       "floor_strike": null,
       "cap_strike": 92.0,
-      "yes_bid": 0.61,
-      "yes_ask": 0.63,
-      "last_price": 0.61,
-      "market_mid": 0.62,
+      "yes_bid": 0.71,
+      "yes_ask": 0.76,
+      "last_price": 0.76,
+      "market_mid": 0.735,
       "close_time": "2026-08-16T08:00:00Z",
       "occurrence_datetime": "2026-08-16T14:40:48Z",
       "updated_time": "2026-08-14T14:40:48.259219Z",
       "model_probability": 0.06794317479925881,
-      "edge_vs_ask": -0.5620568252007412,
-      "difference": -0.5520568252007412
+      "edge_vs_ask": -0.6920568252007412,
+      "difference": -0.6670568252007412
     },
     {
       "ticker": "KXHIGHTLV-26AUG15-B98.5",
@@ -316,16 +321,16 @@
     "strike_type": "between",
     "floor_strike": 94.0,
     "cap_strike": 95.0,
-    "yes_bid": 0.12,
-    "yes_ask": 0.21,
-    "last_price": 0.22,
-    "market_mid": 0.16499999999999998,
+    "yes_bid": 0.07,
+    "yes_ask": 0.11,
+    "last_price": 0.07,
+    "market_mid": 0.09,
     "close_time": "2026-08-16T08:00:00Z",
     "occurrence_datetime": "2026-08-16T14:40:48Z",
     "updated_time": "2026-08-14T14:40:48.259219Z",
     "model_probability": 0.6510191476219889,
-    "edge_vs_ask": 0.4410191476219889,
-    "difference": 0.4860191476219889
+    "edge_vs_ask": 0.5410191476219889,
+    "difference": 0.5610191476219889
   },
   "research_status": "EDGE WATCH \u2014 WEATHER RISK MEDIUM",
   "next_update_local": "2026-08-15T15:05:00-07:00",
