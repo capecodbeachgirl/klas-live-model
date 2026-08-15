@@ -324,18 +324,68 @@ def fetch_live_asos(
     request: AsosRequest = AsosRequest(),
     timeout: int = 60,
 ) -> pd.DataFrame:
-    """Resilient live fetch: IEM first, official AviationWeather.gov fallback.
+    """Fetch live KLAS observations from both IEM and AviationWeather.gov.
 
-    A transient IEM outage should not take down the hourly dashboard. Historical data remains
-    IEM-based; this fallback is only for the live refresh path.
+    The two sources may update at slightly different times. Merge both feeds so
+    a lagging IEM response cannot hide a newer official AviationWeather METAR.
+    For duplicate timestamps, prefer the IEM row because it contains the richer
+    historical ASOS fields used by the model.
     """
+    frames: list[pd.DataFrame] = []
+    errors: list[str] = []
+
+    # Source 1: Iowa Environmental Mesonet
     try:
-        obs = fetch_asos(start, end, request=request, timeout=timeout)
-        if not obs.empty:
-            return obs
-    except requests.RequestException:
-        pass
-    obs = fetch_awc_live_metars(hours=24, station="K" + request.station if len(request.station) == 3 else request.station, timezone=request.tz, timeout=min(timeout, 30))
+        iem = fetch_asos(start, end, request=request, timeout=timeout)
+        if not iem.empty:
+            frames.append(iem)
+    except Exception as exc:
+        errors.append(f"IEM: {exc}")
+
+    # Source 2: official Aviation Weather Center
+    try:
+        station = "K" + request.station if len(request.station) == 3 else request.station
+        awc = fetch_awc_live_metars(
+            hours=24,
+            station=station,
+            timezone=request.tz,
+            timeout=min(timeout, 30),
+        )
+        if not awc.empty:
+            frames.append(awc)
+    except Exception as exc:
+        errors.append(f"AviationWeather.gov: {exc}")
+
+    if not frames:
+        detail = "; ".join(errors) if errors else "both sources returned no observations"
+        raise RuntimeError(
+            f"No live KLAS METAR observations available. {detail}"
+        )
+
+    # Combine the feeds. IEM comes first, so on an identical timestamp its row
+    # is retained; newer AWC-only timestamps are still added.
+    obs = pd.concat(frames, ignore_index=True, sort=False)
+    obs["timestamp"] = pd.to_datetime(obs["timestamp"], errors="coerce")
+
+    obs = (
+        obs.dropna(subset=["timestamp"])
+        .sort_values("timestamp")
+        .drop_duplicates(subset=["timestamp"], keep="first")
+        .reset_index(drop=True)
+    )
+
+    # Keep only the requested Las Vegas calendar-day range.
+    start_local = pd.Timestamp(start, tz=request.tz)
+    end_local = pd.Timestamp(end, tz=request.tz) + pd.Timedelta(days=1)
+
+    obs = obs[
+        (obs["timestamp"] >= start_local)
+        & (obs["timestamp"] < end_local)
+    ].reset_index(drop=True)
+
     if obs.empty:
-        raise RuntimeError("No live KLAS METAR observations available from IEM or AviationWeather.gov")
+        raise RuntimeError(
+            "Live METAR sources responded, but no observations matched the requested date."
+        )
+
     return obs
