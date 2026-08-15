@@ -151,8 +151,8 @@ def render_dashboard(state: dict) -> str:
     six_report_time = _friendly_time(state.get("six_hour_max_report_time"))
     analogs = state.get("historical_analogs") or {}
 
-if analogs.get("available"):
-    analog_html = f'''
+    if analogs.get("available"):
+        analog_html = f'''
 <section>
 <h3>Historical analogs</h3>
 <div class="grid">
@@ -187,8 +187,8 @@ Historical analogs currently use KLAS temperature and the NWS morning forecast f
 </div>
 </section>
 '''
-else:
-    analog_html = ""
+    else:
+        analog_html = ""
 
     return f'''<!doctype html><html><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
 <title>KLAS Live Model</title><style>
