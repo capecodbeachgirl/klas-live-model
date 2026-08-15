@@ -159,7 +159,12 @@
     "latest_time_utc": "2026-08-15T20:26:58+00:00",
     "prior_time_utc": "2026-08-15T19:56:58+00:00",
     "current": {
-      "echo_fraction_by_radius": {},
+      "echo_fraction_by_radius": {
+        "0": 0.0,
+        "10": 0.0,
+        "25": 0.0,
+        "50": 0.0
+      },
       "nearest_echo_miles": null
     },
     "prior": {
