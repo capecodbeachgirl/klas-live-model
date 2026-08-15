@@ -149,6 +149,46 @@ def render_dashboard(state: dict) -> str:
     next_update = _friendly_time(state.get("next_update_local"))
     metar_status, metar_status_class, metar_age = _metar_freshness(state)
     six_report_time = _friendly_time(state.get("six_hour_max_report_time"))
+    analogs = state.get("historical_analogs") or {}
+
+if analogs.get("available"):
+    analog_html = f'''
+<section>
+<h3>Historical analogs</h3>
+<div class="grid">
+
+<div class="card">
+<div class="label">Similar Past Days</div>
+<div class="big">{_v(analogs.get("count"))}</div>
+<div class="mini">Matched at the current hourly checkpoint</div>
+</div>
+
+<div class="card">
+<div class="label">Typical Final High</div>
+<div class="big">{_v(analogs.get("median_final_high_f"), "°F")}</div>
+<div class="mini">Median official CLI high</div>
+</div>
+
+<div class="card">
+<div class="label">Historical 80% Range</div>
+<div class="big">{_v(analogs.get("range_80_low_f"))}–{_v(analogs.get("range_80_high_f"))}°F</div>
+<div class="mini">Middle 80% of comparable days</div>
+</div>
+
+<div class="card">
+<div class="label">Typical Heating Left</div>
+<div class="big">+{_v(analogs.get("median_heating_remaining_f"), "°F")}</div>
+<div class="mini">Median additional heating after this hour</div>
+</div>
+
+</div>
+<div class="mini" style="margin-top:10px">
+Historical analogs currently use KLAS temperature and the NWS morning forecast for matching. They are a cross-check and do not yet alter the validated model prediction.
+</div>
+</section>
+'''
+else:
+    analog_html = ""
 
     return f'''<!doctype html><html><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
 <title>KLAS Live Model</title><style>
@@ -186,6 +226,7 @@ table{{width:100%;border-collapse:collapse}} th,td{{text-align:left;padding:9px;
 <p><strong>Thunder forecast:</strong> {thunder} &nbsp; · &nbsp; <strong>Max rain chance:</strong> {_fmt_pct(pop)} &nbsp; · &nbsp; <strong>Max sky cover:</strong> {_fmt_pct(sky)}</p>
 <div class="mini">{escape(str(nws_live.get('summary') or 'NWS hourly forecast unavailable'))}</div><h4>NWS Las Vegas discussion</h4><div class="mini">{afd_snippet}</div></section>
 <section><h3>Radar around KLAS</h3>{radar_panel}<div class="mini" style="margin-top:7px"><strong>{escape(radar_distance_text)}</strong><br>{radar_summary}. Center marker = KLAS. Automated ring scan is intentionally coarse.</div></section></div>
+{analog_html}
 <section><h3>Today's progression</h3>{_progression_html(state)}</section>
 <section><h3>Kalshi buckets</h3><table><thead><tr><th>Bucket</th><th>Model</th><th>Bid</th><th>Ask</th><th>Model − ask</th></tr></thead><tbody>{bucket_rows}</tbody></table><div class="mini">{escape(total_text)} · Largest model-vs-ask gap: {top_gap_text}</div></section>
 <section><h3>Model status</h3><p>Checkpoint: {_v(state.get('checkpoint_hour'),':00 local')} · Held-out MAE: {_v(None if state.get('model_mae_f') is None else round(state.get('model_mae_f'),2),'°F')} · Hourly refresh target: ~:05 after the routine METAR.</p><div class="mini">Forecast/radar/AFD signals currently affect risk and confidence, not the validated temperature correction. We will only let them alter the predicted high after separate historical validation.</div></section>
