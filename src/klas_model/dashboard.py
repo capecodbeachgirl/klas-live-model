@@ -150,11 +150,54 @@ def render_dashboard(state: dict) -> str:
     metar_status, metar_status_class, metar_age = _metar_freshness(state)
     six_report_time = _friendly_time(state.get("six_hour_max_report_time"))
     analogs = state.get("historical_analogs") or {}
+        agreement_html = ""
+
+    if (
+        analogs.get("available")
+        and model_high is not None
+        and analogs.get("median_final_high_f") is not None
+    ):
+        analog_median = float(analogs["median_final_high_f"])
+        analog_low = float(analogs["range_80_low_f"])
+        analog_high = float(analogs["range_80_high_f"])
+
+        diff = float(model_high) - analog_median
+
+        if analog_low <= float(model_high) <= analog_high:
+            agreement_label = "MODEL + HISTORY AGREE"
+            agreement_class = "low"
+        elif float(model_high) < analog_low:
+            outside = analog_low - float(model_high)
+            agreement_label = (
+                "NEAR AGREEMENT"
+                if outside <= 1.0
+                else "MODEL / HISTORY DISAGREE"
+            )
+            agreement_class = "med" if outside <= 1.0 else "high"
+        else:
+            outside = float(model_high) - analog_high
+            agreement_label = (
+                "NEAR AGREEMENT"
+                if outside <= 1.0
+                else "MODEL / HISTORY DISAGREE"
+            )
+            agreement_class = "med" if outside <= 1.0 else "high"
+
+        direction = "warmer" if diff > 0 else "cooler"
+
+        agreement_html = f'''
+<div class="why">
+<strong class="{agreement_class}">{agreement_label}</strong> ·
+Model {model_high:.1f}°F vs historical median {analog_median:.1f}°F ·
+model is {abs(diff):.1f}°F {direction} than the analog median.
+</div>
+'''
 
     if analogs.get("available"):
         analog_html = f'''
 <section>
 <h3>Historical analogs</h3>
+{agreement_html}
 <div class="grid">
 
 <div class="card">
