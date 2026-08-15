@@ -13,6 +13,7 @@ from klas_model.collectors.kalshi import fetch_open_temperature_markets, select_
 from klas_model.collectors.nws_forecast import fetch_nws_live_forecast
 from klas_model.collectors.pfm import fetch_pfm_morning_history
 from klas_model.collectors.radar import fetch_radar_proximity, radar_export_url
+from klas_model.collectors.satellite import fetch_satellite_cloud_watch
 from klas_model.dashboard import save_dashboard
 from klas_model.live import build_live_state, save_json
 
@@ -119,6 +120,22 @@ def main() -> None:
         },
     )
 
+    satellite = _safe_fetch(
+        "GOES satellite",
+        lambda: fetch_satellite_cloud_watch(obs),
+        {
+            "available": False,
+            "risk": "UNKNOWN",
+            "summary": "Satellite cloud watch unavailable",
+        },
+    )
+
+    print(
+        "satellite cloud: "
+        f"{satellite.get('risk')} | "
+        f"{satellite.get('summary')}"
+    )
+
     try:
         all_markets = fetch_open_temperature_markets()
         markets = select_event_markets(all_markets, today)
@@ -136,7 +153,7 @@ def main() -> None:
         afd=afd,
         radar=radar,
     )
-
+    state["satellite"] = satellite
     if state.get("model_available"):
         risk = str(state.get("weather_risk") or "UNKNOWN").upper()
         top_gap = state.get("largest_model_ask_gap") or {}

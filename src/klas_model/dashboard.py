@@ -94,6 +94,7 @@ def render_dashboard(state: dict) -> str:
     nws_live = state.get("nws_live_forecast") or {}
     afd = state.get("afd") or {}
     radar = state.get("radar") or {}
+    satellite = state.get("satellite") or {}
     components = state.get("weather_risk_components") or {}
     pop = nws_live.get("max_pop_pct")
     sky = nws_live.get("max_sky_cover_pct")
@@ -112,6 +113,25 @@ def render_dashboard(state: dict) -> str:
         f'<div class="radar-box"><img src="{radar_url}" alt="NWS MRMS radar around KLAS">'
         '<div class="crosshair">✚</div><div class="radar-label">KLAS</div></div>'
         if radar_url else '<div class="muted">Radar image unavailable.</div>'
+    )
+
+    satellite_url = escape(
+        str(satellite.get("geocolor_image_url") or ""),
+        quote=True,
+    )
+    satellite_summary = escape(
+        str(satellite.get("summary") or "Satellite cloud watch unavailable")
+    )
+    satellite_risk = escape(
+        str(satellite.get("risk") or "UNKNOWN")
+    )
+
+    satellite_panel = (
+        f'<div class="radar-box"><img src="{satellite_url}" '
+        f'alt="GOES satellite cloud cover around Las Vegas" '
+        f'style="max-height:340px; object-fit:contain;"></div>'
+        if satellite_url
+        else '<div class="muted">Satellite image unavailable.</div>'
     )
 
     if correction is None:
@@ -159,7 +179,29 @@ table{{width:100%;border-collapse:collapse}} th,td{{text-align:left;padding:9px;
 <div class="two"><section><h3>Forecast rain / convection</h3>
 <p><strong>Thunder forecast:</strong> {thunder} &nbsp; · &nbsp; <strong>Max rain chance:</strong> {_fmt_pct(pop)} &nbsp; · &nbsp; <strong>Max sky cover:</strong> {_fmt_pct(sky)}</p>
 <div class="mini">{escape(str(nws_live.get('summary') or 'NWS hourly forecast unavailable'))}</div><h4>NWS Las Vegas discussion</h4><div class="mini">{afd_snippet}</div></section>
-<section><h3>Radar around KLAS</h3>{radar_panel}<div class="mini" style="margin-top:7px"><strong>{escape(radar_distance_text)}</strong><br>{radar_summary}. Center marker = KLAS. Automated ring scan is intentionally coarse.</div></section></div>
+<section>
+<h3>Radar around KLAS</h3>
+{radar_panel}
+<div class="mini" style="margin-top:7px">
+<strong>{escape(radar_distance_text)}</strong><br>
+{radar_summary}. Center marker = KLAS. Automated ring scan is intentionally coarse.
+</div>
+
+<h4>Satellite / cloud shading</h4>
+{satellite_panel}
+
+<div class="risk" style="margin-top:8px">
+Cloud shading risk:
+<span class="{_risk_class(satellite.get('risk'))}">
+{satellite_risk}
+</span>
+</div>
+
+<div class="mini" style="margin-top:6px">
+{satellite_summary}. GOES GeoColor is currently a visual cross-check; the shading risk is based on observed KLAS cloud cover.
+</div>
+</section>
+</div>
 <section><h3>Today's progression</h3>{_progression_html(state)}</section>
 <section><h3>Kalshi buckets</h3><table><thead><tr><th>Bucket</th><th>Model</th><th>Bid</th><th>Ask</th><th>Model − ask</th></tr></thead><tbody>{bucket_rows}</tbody></table><div class="mini">{escape(total_text)} · Largest model-vs-ask gap: {top_gap_text}</div></section>
 <section><h3>Model status</h3><p>Checkpoint: {_v(state.get('checkpoint_hour'),':00 local')} · Held-out MAE: {_v(None if state.get('model_mae_f') is None else round(state.get('model_mae_f'),2),'°F')} · Hourly refresh target: ~:05 after the routine METAR.</p><div class="mini">Forecast/radar/AFD signals currently affect risk and confidence, not the validated temperature correction. We will only let them alter the predicted high after separate historical validation.</div></section>
