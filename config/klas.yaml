@@ -1,0 +1,8 @@
+station: KLAS
+timezone: America/Los_Angeles
+nws_office: VEF
+settlement_source: NWS Daily Climate Report
+kalshi_series: KXHIGHTLV
+morning_forecast_target_time_local: "03:00"
+error_postmortem_threshold_f: 2.0
+bucket_width_f: 2

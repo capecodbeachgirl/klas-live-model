@@ -1,0 +1,71 @@
+name: KLAS hourly live update + Pages
+
+on:
+  schedule:
+    - cron: "5 * * * *"
+      timezone: "America/Los_Angeles"
+  workflow_dispatch:
+
+# Do not allow two hourly refreshes to write the history file at the same time.
+concurrency:
+  group: klas-live-dashboard
+  cancel-in-progress: false
+
+permissions:
+  contents: write
+  pages: write
+  id-token: write
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v6
+
+      - name: Set up Python
+        uses: actions/setup-python@v6
+        with:
+          python-version: "3.13"
+          cache: "pip"
+
+      - name: Install model
+        run: python -m pip install -e .
+
+      - name: Deployment preflight
+        run: python scripts/check_deploy_ready.py
+
+      - name: Refresh KLAS dashboard
+        run: python scripts/live_update.py
+
+      - name: Persist live history and latest dashboard
+        shell: bash
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add docs/index.html data/live/
+          if git diff --cached --quiet; then
+            echo "No persisted live-state changes to commit."
+          else
+            git commit -m "Hourly KLAS dashboard update [skip ci]"
+            git push
+          fi
+
+      - name: Configure GitHub Pages
+        uses: actions/configure-pages@v5
+
+      - name: Upload dashboard for Pages
+        uses: actions/upload-pages-artifact@v4
+        with:
+          path: docs
+
+  deploy:
+    needs: refresh
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - name: Deploy GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4

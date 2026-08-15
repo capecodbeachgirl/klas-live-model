@@ -1,0 +1,22 @@
+[project]
+name = "klas-kalshi-model"
+version = "0.14.0"
+description = "KLAS daily high temperature research model for Kalshi weather markets"
+requires-python = ">=3.11"
+dependencies = [
+  "pandas>=2.2",
+  "numpy>=2.0",
+  "requests>=2.32",
+  "pydantic>=2.8",
+  "scikit-learn>=1.5",
+  "joblib>=1.4",
+]
+
+[project.optional-dependencies]
+dev = ["pytest>=8.0", "ruff>=0.6"]
+
+[tool.pytest.ini_options]
+pythonpath = ["src"]
+
+[tool.ruff]
+line-length = 100

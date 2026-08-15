@@ -1,0 +1,14 @@
+Metadata-Version: 2.4
+Name: klas-kalshi-model
+Version: 0.14.0
+Summary: KLAS daily high temperature research model for Kalshi weather markets
+Requires-Python: >=3.11
+Requires-Dist: pandas>=2.2
+Requires-Dist: numpy>=2.0
+Requires-Dist: requests>=2.32
+Requires-Dist: pydantic>=2.8
+Requires-Dist: scikit-learn>=1.5
+Requires-Dist: joblib>=1.4
+Provides-Extra: dev
+Requires-Dist: pytest>=8.0; extra == "dev"
+Requires-Dist: ruff>=0.6; extra == "dev"

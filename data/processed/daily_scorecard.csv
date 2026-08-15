@@ -1,0 +1,1 @@
+date,station,nws_forecast_high_f,nws_forecast_issued_at,model_predicted_high_f,model_run_at,model_version,actual_cli_high_f,cli_issued_at,model_error_f,nws_error_f,settlement_bucket,primary_cause,secondary_cause,postmortem_notes,kalshi_market_ticker

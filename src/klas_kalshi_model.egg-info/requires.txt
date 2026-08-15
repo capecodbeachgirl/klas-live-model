@@ -1,0 +1,10 @@
+pandas>=2.2
+numpy>=2.0
+requests>=2.32
+pydantic>=2.8
+scikit-learn>=1.5
+joblib>=1.4
+
+[dev]
+pytest>=8.0
+ruff>=0.6

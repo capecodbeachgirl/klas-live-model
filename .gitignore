@@ -1,0 +1,16 @@
+.venv/
+__pycache__/
+.pytest_cache/
+.ruff_cache/
+*.pyc
+.DS_Store
+data/raw/*
+!data/raw/.gitkeep
+
+# Commit compact live model bundles and dashboard state.
+!data/model/
+!data/model/**
+!data/live/
+!data/live/**
+!docs/
+!docs/**

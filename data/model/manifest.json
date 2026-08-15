@@ -1,0 +1,159 @@
+{
+  "version": "0.11",
+  "checkpoints": {
+    "8": {
+      "path": "data\\model\\h08.joblib",
+      "trained_through": "2026-08-14",
+      "mae_f": 1.0675675675675675,
+      "nws_mae_f": 1.1081081081081081,
+      "improvement_f": 0.04054054054054057,
+      "n_calibration": 74,
+      "params": {
+        "alpha": 20.0,
+        "shrink": 1.0,
+        "gate_f": 1.0,
+        "cap_f": 1.0
+      }
+    },
+    "9": {
+      "path": "data\\model\\h09.joblib",
+      "trained_through": "2026-08-14",
+      "mae_f": 0.9807276885520714,
+      "nws_mae_f": 1.1081081081081081,
+      "improvement_f": 0.12738041955603674,
+      "n_calibration": 74,
+      "params": {
+        "alpha": 8.0,
+        "shrink": 1.0,
+        "gate_f": 0.75,
+        "cap_f": 1.0
+      }
+    },
+    "10": {
+      "path": "data\\model\\h10.joblib",
+      "trained_through": "2026-08-14",
+      "mae_f": 0.972972972972973,
+      "nws_mae_f": 1.1081081081081081,
+      "improvement_f": 0.1351351351351351,
+      "n_calibration": 74,
+      "params": {
+        "alpha": 20.0,
+        "shrink": 1.0,
+        "gate_f": 1.0,
+        "cap_f": 1.0
+      }
+    },
+    "11": {
+      "path": "data\\model\\h11.joblib",
+      "trained_through": "2026-08-14",
+      "mae_f": 1.0124503306570194,
+      "nws_mae_f": 1.1081081081081081,
+      "improvement_f": 0.09565777745108872,
+      "n_calibration": 74,
+      "params": {
+        "alpha": 2.0,
+        "shrink": 1.0,
+        "gate_f": 0.75,
+        "cap_f": 1.0
+      }
+    },
+    "12": {
+      "path": "data\\model\\h12.joblib",
+      "trained_through": "2026-08-14",
+      "mae_f": 0.9234740730864509,
+      "nws_mae_f": 1.1066666666666667,
+      "improvement_f": 0.18319259358021578,
+      "n_calibration": 75,
+      "params": {
+        "alpha": 50.0,
+        "shrink": 1.0,
+        "gate_f": 0.5,
+        "cap_f": 3.0
+      }
+    },
+    "13": {
+      "path": "data\\model\\h13.joblib",
+      "trained_through": "2026-08-14",
+      "mae_f": 0.7550828445090019,
+      "nws_mae_f": 1.1066666666666667,
+      "improvement_f": 0.3515838221576648,
+      "n_calibration": 75,
+      "params": {
+        "alpha": 20.0,
+        "shrink": 1.0,
+        "gate_f": 0.5,
+        "cap_f": 3.0
+      }
+    },
+    "14": {
+      "path": "data\\model\\h14.joblib",
+      "trained_through": "2026-08-14",
+      "mae_f": 0.6977868396413381,
+      "nws_mae_f": 1.1066666666666667,
+      "improvement_f": 0.40887982702532855,
+      "n_calibration": 75,
+      "params": {
+        "alpha": 2.0,
+        "shrink": 1.0,
+        "gate_f": 0.5,
+        "cap_f": 3.0
+      }
+    },
+    "15": {
+      "path": "data\\model\\h15.joblib",
+      "trained_through": "2026-08-14",
+      "mae_f": 0.6613802235694886,
+      "nws_mae_f": 1.1066666666666667,
+      "improvement_f": 0.44528644309717813,
+      "n_calibration": 75,
+      "params": {
+        "alpha": 2.0,
+        "shrink": 1.0,
+        "gate_f": 0.5,
+        "cap_f": 3.0
+      }
+    },
+    "16": {
+      "path": "data\\model\\h16.joblib",
+      "trained_through": "2026-08-14",
+      "mae_f": 0.6646913648003419,
+      "nws_mae_f": 1.0945945945945945,
+      "improvement_f": 0.42990322979425266,
+      "n_calibration": 74,
+      "params": {
+        "alpha": 2.0,
+        "shrink": 1.0,
+        "gate_f": 0.75,
+        "cap_f": 3.0
+      }
+    },
+    "17": {
+      "path": "data\\model\\h17.joblib",
+      "trained_through": "2026-08-14",
+      "mae_f": 0.663498548527236,
+      "nws_mae_f": 1.1066666666666667,
+      "improvement_f": 0.4431681181394307,
+      "n_calibration": 75,
+      "params": {
+        "alpha": 2.0,
+        "shrink": 1.0,
+        "gate_f": 0.5,
+        "cap_f": 3.0
+      }
+    },
+    "18": {
+      "path": "data\\model\\h18.joblib",
+      "trained_through": "2026-08-14",
+      "mae_f": 0.7266373007152267,
+      "nws_mae_f": 1.1066666666666667,
+      "improvement_f": 0.38002936595144,
+      "n_calibration": 75,
+      "params": {
+        "alpha": 2.0,
+        "shrink": 1.0,
+        "gate_f": 0.25,
+        "cap_f": 3.0
+      }
+    }
+  }
+}
