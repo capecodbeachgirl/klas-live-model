@@ -1,6 +1,6 @@
 {
   "date": "2026-08-15",
-  "updated_at_local": "2026-08-15T12:41:41.726944-07:00",
+  "updated_at_local": "2026-08-15T13:10:56.383163-07:00",
   "latest_metar_time": "2026-08-15T11:56:00-07:00",
   "latest_temp_f": 86.0,
   "latest_precise_temp_f": 86.0,
@@ -26,14 +26,6 @@
   "nws_live_forecast": {
     "available": true,
     "hours": [
-      {
-        "time": "2026-08-15T12:00:00-07:00",
-        "temp_f": 88.0,
-        "pop_pct": 1.0,
-        "short_forecast": "Sunny",
-        "wind_speed": "3 mph",
-        "wind_direction": "E"
-      },
       {
         "time": "2026-08-15T13:00:00-07:00",
         "temp_f": 89.0,
@@ -106,10 +98,6 @@
     "max_sky_cover_pct": 38.0,
     "sky_hours": [
       {
-        "time": "2026-08-15T12:00:00-07:00",
-        "sky_cover_pct": 2.0
-      },
-      {
         "time": "2026-08-15T13:00:00-07:00",
         "sky_cover_pct": 4.0
       },
@@ -168,10 +156,15 @@
   },
   "radar": {
     "available": true,
-    "latest_time_utc": "2026-08-15T19:36:54+00:00",
-    "prior_time_utc": "2026-08-15T19:06:54+00:00",
+    "latest_time_utc": "2026-08-15T19:58:57+00:00",
+    "prior_time_utc": "2026-08-15T19:28:57+00:00",
     "current": {
-      "echo_fraction_by_radius": {},
+      "echo_fraction_by_radius": {
+        "0": 0.0,
+        "10": 0.0,
+        "25": 0.0,
+        "50": 0.0
+      },
       "nearest_echo_miles": null
     },
     "prior": {
@@ -199,16 +192,16 @@
       "strike_type": "between",
       "floor_strike": 94.0,
       "cap_strike": 95.0,
-      "yes_bid": 0.34,
-      "yes_ask": 0.4,
-      "last_price": 0.39,
-      "market_mid": 0.37,
+      "yes_bid": 0.43,
+      "yes_ask": 0.46,
+      "last_price": 0.46,
+      "market_mid": 0.445,
       "close_time": "2026-08-16T08:00:00Z",
       "occurrence_datetime": "2026-08-16T14:40:48Z",
       "updated_time": "2026-08-14T14:40:48.259219Z",
       "model_probability": 0.5621156211562116,
-      "edge_vs_ask": 0.1621156211562116,
-      "difference": 0.1921156211562116
+      "edge_vs_ask": 0.10211562115621159,
+      "difference": 0.1171156211562116
     },
     {
       "ticker": "KXHIGHTLV-26AUG15-B96.5",
@@ -218,16 +211,16 @@
       "strike_type": "between",
       "floor_strike": 96.0,
       "cap_strike": 97.0,
-      "yes_bid": 0.07,
-      "yes_ask": 0.1,
+      "yes_bid": 0.08,
+      "yes_ask": 0.09,
       "last_price": 0.09,
-      "market_mid": 0.085,
+      "market_mid": 0.08499999999999999,
       "close_time": "2026-08-16T08:00:00Z",
       "occurrence_datetime": "2026-08-16T14:40:48Z",
       "updated_time": "2026-08-14T14:40:48.259219Z",
       "model_probability": 0.27921279212792127,
-      "edge_vs_ask": 0.17921279212792127,
-      "difference": 0.19421279212792125
+      "edge_vs_ask": 0.18921279212792128,
+      "difference": 0.19421279212792128
     },
     {
       "ticker": "KXHIGHTLV-26AUG15-B92.5",
@@ -237,16 +230,16 @@
       "strike_type": "between",
       "floor_strike": 92.0,
       "cap_strike": 93.0,
-      "yes_bid": 0.23,
-      "yes_ask": 0.27,
-      "last_price": 0.27,
-      "market_mid": 0.25,
+      "yes_bid": 0.14,
+      "yes_ask": 0.15,
+      "last_price": 0.15,
+      "market_mid": 0.14500000000000002,
       "close_time": "2026-08-16T08:00:00Z",
       "occurrence_datetime": "2026-08-16T14:40:48Z",
       "updated_time": "2026-08-14T14:40:48.259219Z",
       "model_probability": 0.057810578105781066,
-      "edge_vs_ask": -0.21218942189421897,
-      "difference": -0.19218942189421895
+      "edge_vs_ask": -0.09218942189421893,
+      "difference": -0.08718942189421895
     },
     {
       "ticker": "KXHIGHTLV-26AUG15-T92",
@@ -256,16 +249,16 @@
       "strike_type": "less",
       "floor_strike": null,
       "cap_strike": 92.0,
-      "yes_bid": 0.19,
-      "yes_ask": 0.23,
-      "last_price": 0.19,
-      "market_mid": 0.21000000000000002,
+      "yes_bid": 0.31,
+      "yes_ask": 0.33,
+      "last_price": 0.33,
+      "market_mid": 0.32,
       "close_time": "2026-08-16T08:00:00Z",
       "occurrence_datetime": "2026-08-16T14:40:48Z",
       "updated_time": "2026-08-14T14:40:48.259219Z",
       "model_probability": 0.055350553505535055,
-      "edge_vs_ask": -0.17464944649446495,
-      "difference": -0.15464944649446496
+      "edge_vs_ask": -0.274649446494465,
+      "difference": -0.264649446494465
     },
     {
       "ticker": "KXHIGHTLV-26AUG15-B98.5",
@@ -275,16 +268,16 @@
       "strike_type": "between",
       "floor_strike": 98.0,
       "cap_strike": 99.0,
-      "yes_bid": 0.02,
-      "yes_ask": 0.05,
+      "yes_bid": 0.01,
+      "yes_ask": 0.03,
       "last_price": 0.01,
-      "market_mid": 0.035,
+      "market_mid": 0.02,
       "close_time": "2026-08-16T08:00:00Z",
       "occurrence_datetime": "2026-08-16T14:40:48Z",
       "updated_time": "2026-08-14T14:40:48.259219Z",
       "model_probability": 0.04551045510455105,
-      "edge_vs_ask": -0.004489544895448956,
-      "difference": 0.010510455104551043
+      "edge_vs_ask": 0.015510455104551048,
+      "difference": 0.025510455104551046
     },
     {
       "ticker": "KXHIGHTLV-26AUG15-T99",
@@ -294,16 +287,16 @@
       "strike_type": "greater",
       "floor_strike": 99.0,
       "cap_strike": null,
-      "yes_bid": 0.01,
+      "yes_bid": 0.0,
       "yes_ask": 0.02,
-      "last_price": 0.01,
-      "market_mid": 0.015,
+      "last_price": 0.02,
+      "market_mid": 0.01,
       "close_time": "2026-08-16T08:00:00Z",
       "occurrence_datetime": "2026-08-16T14:40:48Z",
       "updated_time": "2026-08-14T14:40:48.259219Z",
       "model_probability": 0,
       "edge_vs_ask": -0.02,
-      "difference": -0.015
+      "difference": -0.01
     }
   ],
   "model_predicted_high_f": 95.23445237494342,
@@ -341,19 +334,19 @@
     "strike_type": "between",
     "floor_strike": 96.0,
     "cap_strike": 97.0,
-    "yes_bid": 0.07,
-    "yes_ask": 0.1,
+    "yes_bid": 0.08,
+    "yes_ask": 0.09,
     "last_price": 0.09,
-    "market_mid": 0.085,
+    "market_mid": 0.08499999999999999,
     "close_time": "2026-08-16T08:00:00Z",
     "occurrence_datetime": "2026-08-16T14:40:48Z",
     "updated_time": "2026-08-14T14:40:48.259219Z",
     "model_probability": 0.27921279212792127,
-    "edge_vs_ask": 0.17921279212792127,
-    "difference": 0.19421279212792125
+    "edge_vs_ask": 0.18921279212792128,
+    "difference": 0.19421279212792128
   },
-  "research_status": "LARGE MODEL/MARKET GAP",
-  "next_update_local": "2026-08-15T13:05:00-07:00",
+  "research_status": "EDGE WATCH \u2014 WEATHER RISK MEDIUM",
+  "next_update_local": "2026-08-15T14:05:00-07:00",
   "progression": [
     {
       "checkpoint_hour": 11,
