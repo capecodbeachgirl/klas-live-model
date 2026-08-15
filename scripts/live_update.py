@@ -127,6 +127,18 @@ def main() -> None:
         markets = []
 
     state = build_live_state(
+        if state.get("model_available"):
+    risk = str(state.get("weather_risk") or "UNKNOWN").upper()
+    top_gap = state.get("largest_model_ask_gap") or {}
+    edge = top_gap.get("edge_vs_ask")
+
+    if risk == "MEDIUM":
+        if edge is not None and float(edge) >= 0.08:
+            state["research_status"] = "EDGE WATCH — WEATHER RISK MEDIUM"
+        elif edge is not None and float(edge) >= 0.05:
+            state["research_status"] = "WATCH — WEATHER RISK MEDIUM"
+        else:
+            state["research_status"] = "WEATHER WATCH"
         obs,
         float(nws["nws_am_forecast_high_f"]),
         nws.get("nws_am_issued_at"),
