@@ -257,6 +257,10 @@ def main() -> None:
                 state["research_status"] = "WATCH — WEATHER RISK MEDIUM"
             else:
                 state["research_status"] = "WEATHER WATCH"
+
+    state["historical_analogs"] = historical_analogs(state)
+    print(f"historical analogs: {state['historical_analogs']}")
+    
     state["next_update_local"] = next_hourly_update(now)
     history = append_history(state, Path(args.history))
     state["progression"] = progression_rows(history, state["date"])
