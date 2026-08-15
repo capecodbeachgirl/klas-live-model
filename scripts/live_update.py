@@ -73,7 +73,115 @@ def progression_rows(history: pd.DataFrame, today: str, limit: int = 8) -> list[
         rows.append({k: (None if pd.isna(r.get(k)) else r.get(k)) for k in fields})
     return rows
 
+def historical_analogs(
+    state: dict,
+    path: Path = Path("data/processed/klas_daily_heating.csv"),
+) -> dict:
+    """Find past KLAS days that looked similar at the current checkpoint hour."""
+    checkpoint = state.get("checkpoint_hour")
+    current_temp = state.get("latest_precise_temp_f")
+    if current_temp is None:
+        current_temp = state.get("latest_temp_f")
 
+    if checkpoint is None or current_temp is None or not path.exists():
+        return {"available": False}
+
+    hour = int(checkpoint)
+    if hour < 8 or hour > 18:
+        return {"available": False}
+
+    temp_col = f"h{hour:02d}_temp_f"
+    remain_col = f"h{hour:02d}_heating_remaining_cli_f"
+
+    hist = pd.read_csv(path)
+
+    required = {temp_col, "actual_cli_high_f"}
+    if not required.issubset(hist.columns):
+        return {"available": False}
+
+    hist[temp_col] = pd.to_numeric(hist[temp_col], errors="coerce")
+    hist["actual_cli_high_f"] = pd.to_numeric(
+        hist["actual_cli_high_f"], errors="coerce"
+    )
+
+    if remain_col in hist.columns:
+        hist[remain_col] = pd.to_numeric(hist[remain_col], errors="coerce")
+
+    if "nws_am_forecast_high_f" in hist.columns:
+        hist["nws_am_forecast_high_f"] = pd.to_numeric(
+            hist["nws_am_forecast_high_f"], errors="coerce"
+        )
+
+    hist = hist.dropna(subset=[temp_col, "actual_cli_high_f"]).copy()
+
+    if "day_complete" in hist.columns:
+        complete = hist["day_complete"].astype(str).str.lower().isin(
+            ["true", "1", "yes"]
+        )
+        hist = hist[complete]
+
+    # Never use today itself as one of the historical analogs.
+    if "date" in hist.columns and state.get("date"):
+        hist = hist[hist["date"].astype(str) != str(state["date"])]
+
+    if hist.empty:
+        return {"available": False}
+
+    hist["_temp_diff"] = (hist[temp_col] - float(current_temp)).abs()
+
+    nws_today = state.get("nws_am_forecast_high_f")
+    if nws_today is not None and "nws_am_forecast_high_f" in hist.columns:
+        hist["_nws_diff"] = (
+            hist["nws_am_forecast_high_f"] - float(nws_today)
+        ).abs()
+    else:
+        hist["_nws_diff"] = 0.0
+
+    # Start fairly strict, then widen only if we do not have enough examples.
+    analogs = hist[
+        (hist["_temp_diff"] <= 2.0)
+        & (hist["_nws_diff"] <= 3.0)
+    ].copy()
+
+    if len(analogs) < 12:
+        analogs = hist[
+            (hist["_temp_diff"] <= 3.0)
+            & (hist["_nws_diff"] <= 5.0)
+        ].copy()
+
+    if len(analogs) < 8:
+        analogs = hist[hist["_temp_diff"] <= 4.0].copy()
+
+    if analogs.empty:
+        return {"available": False}
+
+    # Favor the closest temperature/NWS matches if the pool is large.
+    analogs["_match_score"] = (
+        analogs["_temp_diff"] + 0.35 * analogs["_nws_diff"]
+    )
+    analogs = analogs.sort_values("_match_score").head(40)
+
+    final_highs = analogs["actual_cli_high_f"].dropna()
+
+    result = {
+        "available": True,
+        "count": int(len(analogs)),
+        "checkpoint_hour": hour,
+        "current_temp_f": round(float(current_temp), 1),
+        "median_final_high_f": round(float(final_highs.median()), 1),
+        "range_80_low_f": round(float(final_highs.quantile(0.10)), 1),
+        "range_80_high_f": round(float(final_highs.quantile(0.90)), 1),
+    }
+
+    if remain_col in analogs.columns:
+        remaining = analogs[remain_col].dropna()
+        if not remaining.empty:
+            result["median_heating_remaining_f"] = round(
+                float(remaining.median()), 1
+            )
+
+    return result
+    
 def next_hourly_update(now: datetime) -> str:
     nxt = now.replace(minute=5, second=0, microsecond=0)
     if nxt <= now:
@@ -166,6 +274,10 @@ def main() -> None:
                 state["research_status"] = "WATCH — WEATHER RISK MEDIUM"
             else:
                 state["research_status"] = "WEATHER WATCH"
+
+    state["historical_analogs"] = historical_analogs(state)
+    print(f"historical analogs: {state['historical_analogs']}")
+    
     state["next_update_local"] = next_hourly_update(now)
     history = append_history(state, Path(args.history))
     state["progression"] = progression_rows(history, state["date"])

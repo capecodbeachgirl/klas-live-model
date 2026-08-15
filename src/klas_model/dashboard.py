@@ -21,6 +21,26 @@ def _friendly_time(value: object) -> str:
     except Exception:
         return str(value)
 
+def _metar_freshness(state: dict) -> tuple[str, str, str]:
+    try:
+        updated = datetime.fromisoformat(str(state.get("updated_at_local")))
+        metar = datetime.fromisoformat(str(state.get("latest_metar_time")))
+        age_minutes = max(0, int((updated - metar).total_seconds() // 60))
+    except Exception:
+        return "METAR AGE UNKNOWN", "neutral", "age unavailable"
+
+    if age_minutes <= 75:
+        status, css = "METAR CURRENT", "low"
+    elif age_minutes <= 90:
+        status, css = "METAR DELAYED", "med"
+    else:
+        status, css = "STALE METAR", "high"
+
+    hours, minutes = divmod(age_minutes, 60)
+    age_text = f"{hours}h {minutes}m old" if hours else f"{minutes} min old"
+
+    return status, css, age_text
+
 
 def _risk_class(value: object) -> str:
     v = str(value or "UNKNOWN").upper()
@@ -147,6 +167,91 @@ def render_dashboard(state: dict) -> str:
 
     status = escape(str(state.get("research_status") or "MODEL RUNNING"))
     next_update = _friendly_time(state.get("next_update_local"))
+    metar_status, metar_status_class, metar_age = _metar_freshness(state)
+    six_report_time = _friendly_time(state.get("six_hour_max_report_time"))
+    analogs = state.get("historical_analogs") or {}
+    agreement_html = ""
+
+    if (
+        analogs.get("available")
+        and model_high is not None
+        and analogs.get("median_final_high_f") is not None
+    ):
+        analog_median = float(analogs["median_final_high_f"])
+        analog_low = float(analogs["range_80_low_f"])
+        analog_high = float(analogs["range_80_high_f"])
+
+        diff = float(model_high) - analog_median
+
+        if analog_low <= float(model_high) <= analog_high:
+            agreement_label = "MODEL + HISTORY AGREE"
+            agreement_class = "low"
+        elif float(model_high) < analog_low:
+            outside = analog_low - float(model_high)
+            agreement_label = (
+                "NEAR AGREEMENT"
+                if outside <= 1.0
+                else "MODEL / HISTORY DISAGREE"
+            )
+            agreement_class = "med" if outside <= 1.0 else "high"
+        else:
+            outside = float(model_high) - analog_high
+            agreement_label = (
+                "NEAR AGREEMENT"
+                if outside <= 1.0
+                else "MODEL / HISTORY DISAGREE"
+            )
+            agreement_class = "med" if outside <= 1.0 else "high"
+
+        direction = "warmer" if diff > 0 else "cooler"
+
+        agreement_html = f'''
+<div class="why">
+<strong class="{agreement_class}">{agreement_label}</strong> ·
+Model {model_high:.1f}°F vs historical median {analog_median:.1f}°F ·
+model is {abs(diff):.1f}°F {direction} than the analog median.
+</div>
+'''
+
+    if analogs.get("available"):
+        analog_html = f'''
+<section>
+<h3>Historical analogs</h3>
+{agreement_html}
+<div class="grid">
+
+<div class="card">
+<div class="label">Similar Past Days</div>
+<div class="big">{_v(analogs.get("count"))}</div>
+<div class="mini">Matched at the current hourly checkpoint</div>
+</div>
+
+<div class="card">
+<div class="label">Typical Final High</div>
+<div class="big">{_v(analogs.get("median_final_high_f"), "°F")}</div>
+<div class="mini">Median official CLI high</div>
+</div>
+
+<div class="card">
+<div class="label">Historical 80% Range</div>
+<div class="big">{_v(analogs.get("range_80_low_f"))}–{_v(analogs.get("range_80_high_f"))}°F</div>
+<div class="mini">Middle 80% of comparable days</div>
+</div>
+
+<div class="card">
+<div class="label">Typical Heating Left</div>
+<div class="big">+{_v(analogs.get("median_heating_remaining_f"), "°F")}</div>
+<div class="mini">Median additional heating after this hour</div>
+</div>
+
+</div>
+<div class="mini" style="margin-top:10px">
+Historical analogs currently use KLAS temperature and the NWS morning forecast for matching. They are a cross-check and do not yet alter the validated model prediction.
+</div>
+</section>
+'''
+    else:
+        analog_html = ""
 
     return f'''<!doctype html><html><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
 <title>KLAS Live Model</title><style>
@@ -156,16 +261,20 @@ h1{{margin:0 0 4px;font-size:34px}} .sub{{color:var(--muted);margin-bottom:14px}
 .grid{{display:grid;grid-template-columns:repeat(auto-fit,minmax(170px,1fr));gap:12px}} .card,section{{background:var(--card);border:1px solid var(--border);border-radius:12px;padding:16px}} .big{{font-size:30px;font-weight:700;margin-top:7px}} .label{{font-size:12px;color:var(--muted);text-transform:uppercase;letter-spacing:.05em}}
 section{{margin-top:14px}} .two{{display:grid;grid-template-columns:1.15fr .85fr;gap:14px}} .intel-grid{{display:grid;grid-template-columns:repeat(4,1fr);gap:8px;margin:12px 0}} .pill{{border:1px solid var(--border);border-radius:10px;padding:10px}} .pill .k{{font-size:11px;color:var(--muted);text-transform:uppercase}} .pill .v{{font-size:17px;font-weight:700;margin-top:4px}} .low{{color:var(--good)}} .med{{color:var(--warn)}} .high{{color:var(--bad)}} .neutral{{color:var(--muted)}}
 table{{width:100%;border-collapse:collapse}} th,td{{text-align:left;padding:9px;border-bottom:1px solid #edf0f2;font-size:14px}} th{{color:var(--muted)}} .risk{{font-weight:700}} ul{{margin:8px 0 0 18px}} .foot,.muted,.mini{{font-size:12px;color:var(--muted)}} .pos{{font-weight:700}} .neg{{color:var(--muted)}} .why{{border-left:4px solid var(--accent);padding:8px 10px;background:#f8fafc;margin-top:10px;font-size:14px}}
+.freshness{{display:inline-block;margin-left:8px;padding:3px 8px;border-radius:999px;font-size:12px;font-weight:700;background:#eef1f4}}
+.freshness.low{{background:#eaf7ef}}
+.freshness.med{{background:#fff3df}}
+.freshness.high{{background:#fdecea}}
 .radar-box{{position:relative;background:#eef1f4;border-radius:10px;overflow:hidden;min-height:260px}} .radar-box img{{width:100%;height:100%;min-height:260px;object-fit:cover;display:block}} .crosshair{{position:absolute;left:50%;top:50%;transform:translate(-50%,-50%);font-size:30px;color:#111;text-shadow:0 0 3px #fff}} .radar-label{{position:absolute;left:calc(50% + 13px);top:calc(50% - 22px);font-size:11px;font-weight:700;background:#fff;padding:2px 4px;border-radius:3px}}
 @media(max-width:850px){{.two{{grid-template-columns:1fr}} .intel-grid{{grid-template-columns:repeat(2,1fr)}}}} @media(max-width:650px){{.wrap{{padding:12px}} h1{{font-size:28px}} th,td{{padding:7px 5px;font-size:12px}} .big{{font-size:26px}} .status{{align-items:flex-start;flex-direction:column}}}}
-</style></head><body><div class="wrap"><h1>KLAS Live High Model</h1><div class="sub">Updated {_friendly_time(state.get('updated_at_local'))} · Latest METAR {_friendly_time(state.get('latest_metar_time'))}</div>
+</style></head><body><div class="wrap"><h1>KLAS Live High Model</h1><div class="sub">Updated {_friendly_time(state.get('updated_at_local'))} · Latest METAR {_friendly_time(state.get('latest_metar_time'))} <span class="freshness {metar_status_class}">{metar_status} — {metar_age}</span></div>
 <div class="status"><strong>{status}</strong><span>Next hourly refresh: ~{next_update} Las Vegas time</span></div>
 <div class="grid">
 <div class="card"><div class="label">Current KLAS</div><div class="big">{_v(current_display,'°F')}</div><div class="mini">Precise METAR T-group when available</div></div>
 <div class="card"><div class="label">NWS Morning High</div><div class="big">{_v(state.get('nws_am_forecast_high_f'),'°F')}</div></div>
 <div class="card"><div class="label">Our Model High</div><div class="big">{_v(model_high,'°F')}</div><div>{correction_text}</div></div>
 <div class="card"><div class="label">80% Model Range</div><div class="big">{likely}</div><div>{escape(str(state.get('confidence','—')))} confidence</div></div>
-<div class="card"><div class="label">6-Hour ASOS Max</div><div class="big">{six_display}</div></div>
+<div class="card"><div class="label">Latest 6-Hour Max Report</div><div class="big">{six_display}</div><div class="mini">Reported {six_report_time}</div></div>
 <div class="card"><div class="label">Precise METAR Peak</div><div class="big">{_v(metar_peak_display,'°F')}</div></div>
 </div>
 <section><h3>Live weather intelligence</h3><div class="intel-grid">
@@ -202,6 +311,7 @@ Cloud shading risk:
 </div>
 </section>
 </div>
+{analog_html}
 <section><h3>Today's progression</h3>{_progression_html(state)}</section>
 <section><h3>Kalshi buckets</h3><table><thead><tr><th>Bucket</th><th>Model</th><th>Bid</th><th>Ask</th><th>Model − ask</th></tr></thead><tbody>{bucket_rows}</tbody></table><div class="mini">{escape(total_text)} · Largest model-vs-ask gap: {top_gap_text}</div></section>
 <section><h3>Model status</h3><p>Checkpoint: {_v(state.get('checkpoint_hour'),':00 local')} · Held-out MAE: {_v(None if state.get('model_mae_f') is None else round(state.get('model_mae_f'),2),'°F')} · Hourly refresh target: ~:05 after the routine METAR.</p><div class="mini">Forecast/radar/AFD signals currently affect risk and confidence, not the validated temperature correction. We will only let them alter the predicted high after separate historical validation.</div></section>
