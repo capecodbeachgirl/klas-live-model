@@ -25,7 +25,7 @@ def test_dashboard_has_core_cards_and_actionable_edge_label():
         "markets":[],
     })
     assert "KLAS Live High Model" in html
-    assert "6-Hour ASOS Max" in html
+    assert "Latest 6-Hour Max Report" in html
     assert "Precise METAR Peak" in html
     assert "80% Model Range" in html
     assert "Model − ask" in html
