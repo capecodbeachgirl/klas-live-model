@@ -150,7 +150,7 @@ def render_dashboard(state: dict) -> str:
     metar_status, metar_status_class, metar_age = _metar_freshness(state)
     six_report_time = _friendly_time(state.get("six_hour_max_report_time"))
     analogs = state.get("historical_analogs") or {}
-        agreement_html = ""
+    agreement_html = ""
 
     if (
         analogs.get("available")
