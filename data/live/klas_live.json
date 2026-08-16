@@ -1,10 +1,10 @@
 {
   "date": "2026-08-15",
-  "updated_at_local": "2026-08-15T19:35:41.605179-07:00",
-  "latest_metar_time": "2026-08-15T18:56:00-07:00",
-  "latest_temp_f": 89.0,
-  "latest_precise_temp_f": 89.06,
-  "latest_dewpoint_f": 56.0,
+  "updated_at_local": "2026-08-15T20:34:15.924911-07:00",
+  "latest_metar_time": "2026-08-15T19:56:00-07:00",
+  "latest_temp_f": 88.0,
+  "latest_precise_temp_f": 87.98,
+  "latest_dewpoint_f": 57.0,
   "raw_metar_peak_f": 89.0,
   "precise_metar_peak_f": 89.06,
   "six_hour_max_f": 88,
@@ -15,26 +15,17 @@
   "weather_risk": "MEDIUM",
   "weather_reasons": [
     "Heavy recent cloud cover",
-    "NWS hourly forecast includes thunderstorm potential",
     "Las Vegas NWS discussion contains a convective/monsoon signal"
   ],
   "weather_risk_components": {
     "observed_risk": "MEDIUM",
-    "forecast_risk": "MEDIUM",
+    "forecast_risk": "LOW",
     "afd_risk": "MEDIUM",
     "radar_risk": "LOW"
   },
   "nws_live_forecast": {
     "available": true,
     "hours": [
-      {
-        "time": "2026-08-15T19:00:00-07:00",
-        "temp_f": 92.0,
-        "pop_pct": 11.0,
-        "short_forecast": "Slight Chance Showers And Thunderstorms",
-        "wind_speed": "3 mph",
-        "wind_direction": "WNW"
-      },
       {
         "time": "2026-08-15T20:00:00-07:00",
         "temp_f": 91.0,
@@ -44,16 +35,12 @@
         "wind_direction": "NW"
       }
     ],
-    "max_pop_pct": 11.0,
-    "thunder_possible": true,
-    "rain_possible": true,
-    "summary": "NWS hourly forecast includes thunderstorms",
-    "max_sky_cover_pct": 33.0,
+    "max_pop_pct": 5.0,
+    "thunder_possible": false,
+    "rain_possible": false,
+    "summary": "No meaningful rain/thunder signal in the remaining NWS hourly forecast",
+    "max_sky_cover_pct": 26.0,
     "sky_hours": [
-      {
-        "time": "2026-08-15T19:00:00-07:00",
-        "sky_cover_pct": 33.0
-      },
       {
         "time": "2026-08-15T20:00:00-07:00",
         "sky_cover_pct": 26.0
@@ -85,8 +72,8 @@
   },
   "radar": {
     "available": true,
-    "latest_time_utc": "2026-08-16T02:22:57+00:00",
-    "prior_time_utc": "2026-08-16T01:52:57+00:00",
+    "latest_time_utc": "2026-08-16T03:24:58+00:00",
+    "prior_time_utc": "2026-08-16T02:54:58+00:00",
     "current": {
       "echo_fraction_by_radius": {
         "0": 0.0,
@@ -121,10 +108,10 @@
     "mean_cloud_fraction_2h": 0.875,
     "cloud_fraction_trend_2h": 0.0,
     "latest_cloud_fraction_below_20000": 0.875,
-    "geocolor_image_url": "https://cdn.star.nesdis.noaa.gov/WFO/vef/GEOCOLOR/20262280210_GOES18-ABI-vef-GEOCOLOR-600x600.jpg",
-    "geocolor_time_utc": "2026-08-16T02:10:00+00:00",
-    "infrared_image_url": "https://cdn.star.nesdis.noaa.gov/WFO/vef/13/20262280210_GOES18-ABI-vef-13-600x600.jpg",
-    "infrared_time_utc": "2026-08-16T02:10:00+00:00",
+    "geocolor_image_url": "https://cdn.star.nesdis.noaa.gov/WFO/vef/GEOCOLOR/20262280300_GOES18-ABI-vef-GEOCOLOR-600x600.jpg",
+    "geocolor_time_utc": "2026-08-16T03:00:00+00:00",
+    "infrared_image_url": "https://cdn.star.nesdis.noaa.gov/WFO/vef/13/20262280310_GOES18-ABI-vef-13-600x600.jpg",
+    "infrared_time_utc": "2026-08-16T03:10:00+00:00",
     "errors": [],
     "image_note": "GOES images are a visual cross-check in this version. The shading label uses KLAS-observed sky cover and does not alter the validated temperature prediction.",
     "source": "NOAA/NESDIS/STAR GOES imagery + KLAS METAR sky cover"
@@ -132,17 +119,8 @@
   "historical_analogs": {
     "available": false
   },
-  "next_update_local": "2026-08-15T19:50:00-07:00",
+  "next_update_local": "2026-08-15T21:05:00-07:00",
   "progression": [
-    {
-      "checkpoint_hour": 12.0,
-      "latest_precise_temp_f": 86.0,
-      "latest_temp_f": 86.0,
-      "six_hour_max_f": 82,
-      "model_predicted_high_f": 95.23445237494342,
-      "nws_am_forecast_high_f": 96.0,
-      "weather_risk": "MEDIUM"
-    },
     {
       "checkpoint_hour": 13.0,
       "latest_precise_temp_f": 87.08000000000001,
@@ -201,6 +179,15 @@
       "checkpoint_hour": null,
       "latest_precise_temp_f": 89.06,
       "latest_temp_f": 89.0,
+      "six_hour_max_f": 88,
+      "model_predicted_high_f": null,
+      "nws_am_forecast_high_f": 96.0,
+      "weather_risk": "MEDIUM"
+    },
+    {
+      "checkpoint_hour": null,
+      "latest_precise_temp_f": 87.98,
+      "latest_temp_f": 88.0,
       "six_hour_max_f": 88,
       "model_predicted_high_f": null,
       "nws_am_forecast_high_f": 96.0,
