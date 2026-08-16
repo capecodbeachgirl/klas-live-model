@@ -1,6 +1,6 @@
 {
   "date": "2026-08-16",
-  "updated_at_local": "2026-08-16T11:07:26.301922-07:00",
+  "updated_at_local": "2026-08-16T11:09:18.361034-07:00",
   "latest_metar_time": "2026-08-16T10:56:00-07:00",
   "latest_temp_f": 93.0,
   "latest_precise_temp_f": 93.02,
@@ -257,15 +257,15 @@
       "floor_strike": 103.0,
       "cap_strike": 104.0,
       "yes_bid": 0.1,
-      "yes_ask": 0.13,
+      "yes_ask": 0.12,
       "last_price": 0.13,
-      "market_mid": 0.115,
+      "market_mid": 0.11,
       "close_time": "2026-08-17T08:00:00Z",
       "occurrence_datetime": "2026-08-17T14:00:00Z",
       "updated_time": "2026-08-15T14:00:01.051231Z",
       "model_probability": 0.11075747931253978,
-      "edge_vs_ask": -0.019242520687460227,
-      "difference": -0.004242520687460227
+      "edge_vs_ask": -0.009242520687460218,
+      "difference": 0.0007574793125397772
     },
     {
       "ticker": "KXHIGHTLV-26AUG16-T97",
@@ -294,16 +294,16 @@
       "strike_type": "between",
       "floor_strike": 97.0,
       "cap_strike": 98.0,
-      "yes_bid": 0.04,
+      "yes_bid": 0.03,
       "yes_ask": 0.05,
       "last_price": 0.05,
-      "market_mid": 0.045,
+      "market_mid": 0.04,
       "close_time": "2026-08-17T08:00:00Z",
       "occurrence_datetime": "2026-08-17T14:00:00Z",
       "updated_time": "2026-08-15T14:00:01.051231Z",
       "model_probability": 0.03437301082113304,
       "edge_vs_ask": -0.015626989178866964,
-      "difference": -0.01062698917886696
+      "difference": -0.005626989178866962
     },
     {
       "ticker": "KXHIGHTLV-26AUG16-T104",
@@ -388,7 +388,7 @@
   },
   "wethr": {
     "available": true,
-    "collected_at_local": "2026-08-16T11:07:19.011179-07:00",
+    "collected_at_local": "2026-08-16T11:09:07.732320-07:00",
     "models": {
       "HRRR": {
         "available": true,
