@@ -122,6 +122,8 @@ def render_dashboard(state: dict) -> str:
     wethr = state.get("wethr") or {}
     wethr_consensus = wethr.get("consensus") or {}
     wethr_models = wethr.get("models") or {}
+    wethr_observed = state.get("wethr_observed_high") or {}
+    wethr_observed_high = wethr_observed.get("wethr_high_f")
     components = state.get("weather_risk_components") or {}
     pop = nws_live.get("max_pop_pct")
     sky = nws_live.get("max_sky_cover_pct")
@@ -338,6 +340,24 @@ table{{width:100%;border-collapse:collapse}} th,td{{text-align:left;padding:9px;
 <div class="card"><div class="label">80% Model Range</div><div class="big">{likely}</div><div>{escape(str(state.get('confidence','—')))} confidence</div></div>
 <div class="card"><div class="label">Latest 6-Hour Max Report</div><div class="big">{six_display}</div><div class="mini">{six_report_text}</div></div>
 <div class="card"><div class="label">Precise METAR Peak</div><div class="big">{_v(metar_peak_display,'°F')}</div></div>
+<div class="card">
+<div class="label">Wethr Live High</div>
+<div class="big">{_v(wethr_observed_high, '°F')}</div>
+<div class="mini">
+{
+    'OMO-informed'
+    if wethr_observed.get('omo_informed')
+    else (
+        'Source: ' + ', '.join(
+            str(source).upper()
+            for source in (wethr_observed.get('sources') or [])
+        )
+        if wethr_observed.get('sources')
+        else 'Wethr observed high'
+    )
+}
+</div>
+</div>
 </div>
 <section><h3>Live weather intelligence</h3><div class="intel-grid">
 <div class="pill"><div class="k">Observed KLAS</div><div class="v {_risk_class(components.get('observed_risk'))}">{escape(str(components.get('observed_risk','—')))}</div></div>
