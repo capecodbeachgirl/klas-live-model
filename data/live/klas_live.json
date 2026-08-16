@@ -1,6 +1,6 @@
 {
   "date": "2026-08-16",
-  "updated_at_local": "2026-08-16T11:45:53.986164-07:00",
+  "updated_at_local": "2026-08-16T11:50:00.971468-07:00",
   "latest_metar_time": "2026-08-16T10:56:00-07:00",
   "latest_temp_f": 93.0,
   "latest_precise_temp_f": 93.02,
@@ -220,7 +220,7 @@
       "cap_strike": 102.0,
       "yes_bid": 0.67,
       "yes_ask": 0.71,
-      "last_price": 0.7,
+      "last_price": 0.71,
       "market_mid": 0.69,
       "close_time": "2026-08-17T08:00:00Z",
       "occurrence_datetime": "2026-08-17T14:00:00Z",
@@ -237,16 +237,16 @@
       "strike_type": "between",
       "floor_strike": 99.0,
       "cap_strike": 100.0,
-      "yes_bid": 0.14,
+      "yes_bid": 0.15,
       "yes_ask": 0.18,
-      "last_price": 0.17,
-      "market_mid": 0.16,
+      "last_price": 0.18,
+      "market_mid": 0.16499999999999998,
       "close_time": "2026-08-17T08:00:00Z",
       "occurrence_datetime": "2026-08-17T14:00:00Z",
       "updated_time": "2026-08-15T14:00:01.051231Z",
       "model_probability": 0.2507956715467855,
       "edge_vs_ask": 0.07079567154678551,
-      "difference": 0.0907956715467855
+      "difference": 0.08579567154678552
     },
     {
       "ticker": "KXHIGHTLV-26AUG16-B103.5",
@@ -296,7 +296,7 @@
       "cap_strike": 98.0,
       "yes_bid": 0.04,
       "yes_ask": 0.07,
-      "last_price": 0.08,
+      "last_price": 0.04,
       "market_mid": 0.05500000000000001,
       "close_time": "2026-08-17T08:00:00Z",
       "occurrence_datetime": "2026-08-17T14:00:00Z",
@@ -358,16 +358,16 @@
     "strike_type": "between",
     "floor_strike": 99.0,
     "cap_strike": 100.0,
-    "yes_bid": 0.14,
+    "yes_bid": 0.15,
     "yes_ask": 0.18,
-    "last_price": 0.17,
-    "market_mid": 0.16,
+    "last_price": 0.18,
+    "market_mid": 0.16499999999999998,
     "close_time": "2026-08-17T08:00:00Z",
     "occurrence_datetime": "2026-08-17T14:00:00Z",
     "updated_time": "2026-08-15T14:00:01.051231Z",
     "model_probability": 0.2507956715467855,
     "edge_vs_ask": 0.07079567154678551,
-    "difference": 0.0907956715467855
+    "difference": 0.08579567154678552
   },
   "research_status": "WATCH \u2014 WEATHER RISK MEDIUM",
   "satellite": {
@@ -388,7 +388,7 @@
   },
   "wethr": {
     "available": true,
-    "collected_at_local": "2026-08-16T11:45:40.785392-07:00",
+    "collected_at_local": "2026-08-16T11:49:56.355532-07:00",
     "models": {
       "HRRR": {
         "available": true,
@@ -505,7 +505,7 @@
   "wethr_observed_high": {
     "available": true,
     "wethr_high_f": 93.0,
-    "time_of_high_utc": "2026-08-16 18:43:00",
+    "time_of_high_utc": "2026-08-16 18:47:00",
     "sources": [
       "omo",
       "hf_metar",
@@ -515,11 +515,11 @@
     "source_detail": {
       "omo": {
         "first_confirmed_utc": "2026-08-16 17:42:00",
-        "count": 51
+        "count": 55
       },
       "hf_metar": {
         "first_confirmed_utc": "2026-08-16 17:50:00",
-        "count": 10
+        "count": 11
       },
       "metar": {
         "first_confirmed_utc": "2026-08-16 17:56:00",
