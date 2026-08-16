@@ -182,11 +182,17 @@ def historical_analogs(
 
     return result
     
-def next_hourly_update(now: datetime) -> str:
-    nxt = now.replace(minute=5, second=0, microsecond=0)
-    if nxt <= now:
-        nxt += timedelta(hours=1)
-    return nxt.isoformat()
+def next_scheduled_update(now: datetime) -> str:
+    for hours_ahead in range(25):
+        base = now + timedelta(hours=hours_ahead)
+        minutes = [5, 20, 35, 50] if 8 <= base.hour <= 19 else [5]
+
+        for minute in minutes:
+            candidate = base.replace(minute=minute, second=0, microsecond=0)
+            if candidate > now:
+                return candidate.isoformat()
+
+    return (now + timedelta(hours=1)).isoformat()
 
 
 def main() -> None:
@@ -278,7 +284,7 @@ def main() -> None:
     state["historical_analogs"] = historical_analogs(state)
     print(f"historical analogs: {state['historical_analogs']}")
     
-    state["next_update_local"] = next_hourly_update(now)
+    state["next_update_local"] = next_scheduled_update(now)
     history = append_history(state, Path(args.history))
     state["progression"] = progression_rows(history, state["date"])
     save_json(state, args.json)
