@@ -270,7 +270,7 @@ table{{width:100%;border-collapse:collapse}} th,td{{text-align:left;padding:9px;
 .radar-box{{position:relative;background:#eef1f4;border-radius:10px;overflow:hidden;min-height:260px}} .radar-box img{{width:100%;height:100%;min-height:260px;object-fit:cover;display:block}} .crosshair{{position:absolute;left:50%;top:50%;transform:translate(-50%,-50%);font-size:30px;color:#111;text-shadow:0 0 3px #fff}} .radar-label{{position:absolute;left:calc(50% + 13px);top:calc(50% - 22px);font-size:11px;font-weight:700;background:#fff;padding:2px 4px;border-radius:3px}}
 @media(max-width:850px){{.two{{grid-template-columns:1fr}} .intel-grid{{grid-template-columns:repeat(2,1fr)}}}} @media(max-width:650px){{.wrap{{padding:12px}} h1{{font-size:28px}} th,td{{padding:7px 5px;font-size:12px}} .big{{font-size:26px}} .status{{align-items:flex-start;flex-direction:column}}}}
 </style></head><body><div class="wrap"><h1>KLAS Live High Model</h1><div class="sub">Updated {_friendly_time(state.get('updated_at_local'))} · Latest METAR {_friendly_time(state.get('latest_metar_time'))} <span class="freshness {metar_status_class}">{metar_status} — {metar_age}</span></div>
-Next scheduled refresh: ~{next_update} Las Vegas time
+<div class="status"><strong>{status}</strong><span>Next scheduled refresh: ~{next_update} Las Vegas time</span></div>
 <div class="grid">
 <div class="card"><div class="label">Current KLAS</div><div class="big">{_v(current_display,'°F')}</div><div class="mini">Precise METAR T-group when available</div></div>
 <div class="card"><div class="label">NWS Morning High</div><div class="big">{_v(state.get('nws_am_forecast_high_f'),'°F')}</div></div>
@@ -316,7 +316,7 @@ Cloud shading risk:
 
 <section><h3>Today's progression</h3>{_progression_html(state)}</section>
 <section><h3>Kalshi buckets</h3><table><thead><tr><th>Bucket</th><th>Model</th><th>Bid</th><th>Ask</th><th>Model − ask</th></tr></thead><tbody>{bucket_rows}</tbody></table><div class="mini">{escape(total_text)} · Largest model-vs-ask gap: {top_gap_text}</div></section>
-Daytime refresh: every 15 minutes · Overnight: hourly.
+<section><h3>Model status</h3><p>Checkpoint: {_v(state.get('checkpoint_hour'),':00 local')} · Held-out MAE: {_v(None if state.get('model_mae_f') is None else round(state.get('model_mae_f'),2),'°F')} · Daytime refresh: every 15 minutes · Overnight: hourly.</p><div class="mini">Forecast/radar/AFD signals currently affect risk and confidence, not the validated temperature correction. We will only let them alter the predicted high after separate historical validation.</div></section>
 <div class="foot">Research dashboard only. Model probabilities are estimates, not guarantees. Final settlement target remains the official NWS Daily Climate Report high.</div></div></body></html>'''
 
 
