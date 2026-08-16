@@ -9,6 +9,7 @@ import pandas as pd
 
 from .heating_curve import CheckpointConfig, build_daily_heating_table
 from .live_model import load_live_bundle, predict_from_bundle
+from .remaining_heating import predict_remaining_heating_bundle
 from .probabilities import central_range, empirical_integer_probabilities, probability_for_market
 
 LAS_TZ = ZoneInfo("America/Los_Angeles")
@@ -194,24 +195,81 @@ def build_live_state(
     if checkpoint is None:
         return state
 
-    bundle_path = Path(model_dir) / f"h{checkpoint:02d}.joblib"
+    # From 16:00 through 18:00, use the separately validated remaining-heating
+    # models. Earlier checkpoints keep the existing NWS-anchored model.
+    standard_bundle_path = Path(model_dir) / f"h{checkpoint:02d}.joblib"
+    remaining_bundle_path = (
+        Path(model_dir) / f"h{checkpoint:02d}_remaining.joblib"
+    )
+    use_remaining_heating = (
+        checkpoint in {16, 17, 18}
+        and remaining_bundle_path.exists()
+    )
+
+    bundle_path = (
+        remaining_bundle_path
+        if use_remaining_heating
+        else standard_bundle_path
+    )
+    model_method = (
+        "remaining_heating"
+        if use_remaining_heating
+        else "nws_anchored"
+    )
+
     if not bundle_path.exists():
-        state["model_note"] = f"No validated bundle for {checkpoint}:00 yet"
+        state["model_note"] = (
+            f"No validated bundle for {checkpoint}:00 yet"
+        )
         return state
 
     current = build_current_daily(obs, nws_high_f, nws_issued_at)
     bundle = load_live_bundle(bundle_path)
-    pred = predict_from_bundle(bundle, current)
-    model_high = pred["model_predicted_high_f"]
+
+    if use_remaining_heating:
+        pred = predict_remaining_heating_bundle(bundle, current)
+    else:
+        pred = predict_from_bundle(bundle, current)
+
+    model_high = float(pred["model_predicted_high_f"])
+
+    # A live forecast can never be below a temperature already observed today.
+    observed_floor_candidates = [raw_peak]
+    if precise_peak is not None:
+        observed_floor_candidates.append(float(precise_peak))
     if six_max is not None:
-        model_high = max(model_high, float(six_max))
+        observed_floor_candidates.append(float(six_max))
+    observed_floor = max(observed_floor_candidates)
+
+    if use_remaining_heating:
+        model_high = max(model_high, observed_floor)
+        distribution_floor = observed_floor
+        mae = float(bundle.get("test_final_high_mae_f", 99))
+    else:
+        if six_max is not None:
+            model_high = max(model_high, float(six_max))
+        distribution_floor = six_max
+        mae = float(
+            bundle.get("test_metrics", {}).get("mae_f", 99)
+        )
+
     distribution = empirical_integer_probabilities(
         model_high,
         bundle.get("calibration_model_errors_f", []),
-        floor_f=six_max,
+        floor_f=distribution_floor,
     )
     low, high = central_range(distribution, 0.80)
-    mae = float(bundle.get("test_metrics", {}).get("mae_f", 99))
+
+    state["model_method"] = model_method
+    state["model_bundle"] = bundle_path.name
+    state["observed_floor_f"] = observed_floor
+    if use_remaining_heating:
+        state["predicted_remaining_heating_f"] = float(
+            pred["predicted_remaining_heating_f"]
+        )
+        state["pre_checkpoint_peak_f"] = float(
+            pred["pre_checkpoint_peak_f"]
+        )
     if risk == "HIGH":
         confidence = "LOW"
     elif mae <= 0.8 and risk == "LOW":
