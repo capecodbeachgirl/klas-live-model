@@ -58,8 +58,10 @@ def _fmt_pct(value: object) -> str:
 
 def _progression_html(state: dict) -> str:
     rows = state.get("progression") or []
+    rows = [r for r in rows if r.get("checkpoint_hour") is not None]
+
     if not rows:
-        return '<div class="muted">Hourly progression will appear after multiple updates today.</div>'
+        return '<div class="muted">Model progression will appear after the first 8:00 AM checkpoint.</div>'
     body = []
     for r in rows:
         current = r.get("latest_precise_temp_f")
@@ -169,6 +171,7 @@ def render_dashboard(state: dict) -> str:
     next_update = _friendly_time(state.get("next_update_local"))
     metar_status, metar_status_class, metar_age = _metar_freshness(state)
     six_report_time = _friendly_time(state.get("six_hour_max_report_time"))
+    six_report_text = "" if six is None else f"Reported {six_report_time}"
     analogs = state.get("historical_analogs") or {}
     agreement_html = ""
 
@@ -276,7 +279,7 @@ table{{width:100%;border-collapse:collapse}} th,td{{text-align:left;padding:9px;
 <div class="card"><div class="label">NWS Morning High</div><div class="big">{_v(state.get('nws_am_forecast_high_f'),'°F')}</div></div>
 <div class="card"><div class="label">Our Model High</div><div class="big">{_v(model_high,'°F')}</div><div>{correction_text}</div></div>
 <div class="card"><div class="label">80% Model Range</div><div class="big">{likely}</div><div>{escape(str(state.get('confidence','—')))} confidence</div></div>
-<div class="card"><div class="label">Latest 6-Hour Max Report</div><div class="big">{six_display}</div><div class="mini">Reported {six_report_time}</div></div>
+<div class="card"><div class="label">Latest 6-Hour Max Report</div><div class="big">{six_display}</div><div class="mini">{six_report_text}</div></div>
 <div class="card"><div class="label">Precise METAR Peak</div><div class="big">{_v(metar_peak_display,'°F')}</div></div>
 </div>
 <section><h3>Live weather intelligence</h3><div class="intel-grid">

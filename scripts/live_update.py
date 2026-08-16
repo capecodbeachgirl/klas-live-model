@@ -268,6 +268,13 @@ def main() -> None:
         radar=radar,
     )
     state["satellite"] = satellite
+
+    if not state.get("model_available"):
+        if state.get("checkpoint_hour") is None and now.hour < 8:
+            state["research_status"] = "WAITING FOR 8:00 AM MODEL"
+    else:
+        state["research_status"] = "MODEL UNAVAILABLE"
+
     if state.get("model_available"):
         risk = str(state.get("weather_risk") or "UNKNOWN").upper()
         top_gap = state.get("largest_model_ask_gap") or {}
