@@ -9,7 +9,8 @@ import pandas as pd
 import requests
 
 
-API_URL = "https://wethr.net/api/v2/forecasts.php"
+FORECASTS_API_URL = "https://wethr.net/api/v2/forecasts.php"
+OBSERVATIONS_API_URL = "https://wethr.net/api/v2/observations.php"
 
 LAS_TZ = ZoneInfo("America/Los_Angeles")
 
@@ -34,6 +35,47 @@ def _api_key() -> str:
         )
     return key
 
+def fetch_wethr_high(
+    *,
+    timeout: int = 30,
+) -> dict[str, Any]:
+    """Fetch Wethr's current NWS/Kalshi trading-day high for KLAS."""
+
+    response = requests.get(
+        OBSERVATIONS_API_URL,
+        params={
+            "station_code": "KLAS",
+            "mode": "wethr_high",
+            "logic": "nws",
+        },
+        headers={
+            "Authorization": f"Bearer {_api_key()}",
+        },
+        timeout=timeout,
+    )
+
+    response.raise_for_status()
+    data = response.json()
+
+    high = data.get("wethr_high")
+    sources = data.get("wethr_high_sources") or []
+
+    return {
+        "available": high is not None,
+        "wethr_high_f": (
+            float(high)
+            if high is not None
+            else None
+        ),
+        "time_of_high_utc": data.get("time_of_high_utc"),
+        "sources": sources,
+        "source_detail": (
+            data.get("wethr_high_source_detail") or {}
+        ),
+        "omo_informed": "omo" in sources,
+        "data_quality": data.get("data_quality") or {},
+        "source": "Wethr.net Observations API v2",
+    }
 
 def _contract_window(
     now_local: datetime,
@@ -64,7 +106,7 @@ def fetch_latest_model_run(
     """Fetch every available forecast hour from Wethr's latest run."""
 
     response = requests.get(
-        API_URL,
+        FORECASTS_API_URL,
         params={
             "location_name": "KLAS",
             "model": model,

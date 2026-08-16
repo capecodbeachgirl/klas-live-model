@@ -3,6 +3,7 @@ from zoneinfo import ZoneInfo
 
 from klas_model.collectors.wethr import (
     apply_observed_floor,
+    fetch_wethr_high,
     summarize_latest_run,
 )
 
@@ -121,3 +122,44 @@ def test_wethr_observed_floor_recomputes_consensus():
     assert consensus["median_high_f"] == 102.0
     assert consensus["min_high_f"] == 102.0
     assert consensus["max_high_f"] == 102.0
+
+def test_fetch_wethr_high_parses_omo(monkeypatch):
+    class FakeResponse:
+        def raise_for_status(self):
+            pass
+
+        def json(self):
+            return {
+                "wethr_high": 89.0,
+                "time_of_high_utc": "2026-08-16 16:43:00",
+                "wethr_high_sources": ["omo", "hf_metar"],
+                "wethr_high_source_detail": {
+                    "omo": {
+                        "first_confirmed_utc": "2026-08-16 16:29:00",
+                        "count": 15,
+                    }
+                },
+                "data_quality": {
+                    "nws": {
+                        "ok": True,
+                        "warnings": [],
+                    }
+                },
+            }
+
+    def fake_get(*args, **kwargs):
+        return FakeResponse()
+
+    monkeypatch.setenv("WETHR_API_KEY", "test-key")
+    monkeypatch.setattr(
+        "klas_model.collectors.wethr.requests.get",
+        fake_get,
+    )
+
+    result = fetch_wethr_high()
+
+    assert result["available"] is True
+    assert result["wethr_high_f"] == 89.0
+    assert result["omo_informed"] is True
+    assert result["sources"] == ["omo", "hf_metar"]
+    assert result["data_quality"]["nws"]["ok"] is True

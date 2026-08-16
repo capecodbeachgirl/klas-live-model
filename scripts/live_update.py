@@ -16,6 +16,7 @@ from klas_model.collectors.radar import fetch_radar_proximity, radar_export_url
 from klas_model.collectors.satellite import fetch_satellite_cloud_watch
 from klas_model.collectors.wethr import (
     apply_observed_floor,
+    fetch_wethr_high,
     fetch_wethr_snapshot,
 )
 from klas_model.dashboard import save_dashboard
@@ -248,6 +249,16 @@ def main() -> None:
         },
     )
 
+    wethr_high = _safe_fetch(
+    "Wethr observed high",
+    fetch_wethr_high,
+    {
+        "available": False,
+        "wethr_high_f": None,
+        "omo_informed": False,
+    },
+)
+
     wethr = _safe_fetch(
     "Wethr multi-model forecasts",
     lambda: fetch_wethr_snapshot(now_local=now),
@@ -284,10 +295,15 @@ def main() -> None:
     state["satellite"] = satellite
 
     observed_peak_candidates = [
-        state.get("raw_metar_peak_f"),
-        state.get("precise_metar_peak_f"),
-        state.get("six_hour_max_f"),
-    ]
+    state.get("raw_metar_peak_f"),
+    state.get("precise_metar_peak_f"),
+    state.get("six_hour_max_f"),
+    (
+        wethr_high.get("wethr_high_f")
+        if wethr_high.get("available")
+        else None
+    ),
+]
 
     observed_peak_values = [
         float(value)
@@ -305,6 +321,8 @@ def main() -> None:
         wethr,
         observed_floor,
     )
+
+    state["wethr_observed_high"] = wethr_high
 
     if not state.get("model_available"):
         if state.get("checkpoint_hour") is None and now.hour < 8:
