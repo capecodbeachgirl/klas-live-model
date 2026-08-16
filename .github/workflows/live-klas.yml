@@ -41,7 +41,7 @@ jobs:
       - name: Deployment preflight
         run: python scripts/check_deploy_ready.py
 
-       - name: Refresh KLAS dashboard
+      - name: Refresh KLAS dashboard
         env:
           WETHR_API_KEY: ${{ secrets.WETHR_API_KEY }}
         run: python scripts/live_update.py
