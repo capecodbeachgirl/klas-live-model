@@ -7,6 +7,7 @@ from zoneinfo import ZoneInfo
 
 import pandas as pd
 
+from klas_model.collectors.cli import fetch_cli_history
 from klas_model.collectors.afd import fetch_latest_vef_afd
 from klas_model.collectors.asos import fetch_live_asos
 from klas_model.collectors.kalshi import fetch_open_temperature_markets, select_event_markets
@@ -178,6 +179,138 @@ def append_model_history(state: dict, path: Path) -> pd.DataFrame:
     new.to_csv(path, index=False)
 
     return new    
+
+def score_model_history(
+    history: pd.DataFrame,
+    cli: pd.DataFrame,
+) -> pd.DataFrame:
+    """Score archived model forecasts against the official final KLAS CLI high."""
+
+    scored = history.copy()
+
+    score_columns = [
+        "actual_cli_high_f",
+        "signed_error_f",
+        "abs_error_f",
+        "forecast_rounded_f",
+        "exact_hit",
+        "within_1f",
+        "within_2f",
+    ]
+
+    if scored.empty:
+        for col in score_columns:
+            scored[col] = pd.Series(dtype="object")
+        return scored
+
+    # Remove old scoring columns if this file has already been scored before.
+    scored = scored.drop(
+        columns=[col for col in score_columns if col in scored.columns],
+        errors="ignore",
+    )
+
+    if cli.empty:
+        for col in score_columns:
+            scored[col] = pd.NA
+        return scored
+
+    truth = cli.copy()
+
+    # Only final next-morning CLI reports are valid settlement truth.
+    if "cli_is_final" in truth.columns:
+        final_mask = (
+            truth["cli_is_final"]
+            .astype(str)
+            .str.lower()
+            .isin(["true", "1", "yes"])
+        )
+        truth = truth[final_mask].copy()
+
+    if truth.empty:
+        for col in score_columns:
+            scored[col] = pd.NA
+        return scored
+
+    truth["date"] = pd.to_datetime(
+        truth["date"],
+        errors="coerce",
+    ).dt.strftime("%Y-%m-%d")
+
+    truth["actual_cli_high_f"] = pd.to_numeric(
+        truth["actual_cli_high_f"],
+        errors="coerce",
+    )
+
+    truth = (
+        truth[
+            ["date", "actual_cli_high_f"]
+        ]
+        .dropna()
+        .drop_duplicates(subset=["date"], keep="last")
+    )
+
+    scored["date"] = pd.to_datetime(
+        scored["date"],
+        errors="coerce",
+    ).dt.strftime("%Y-%m-%d")
+
+    scored = scored.merge(
+        truth,
+        on="date",
+        how="left",
+        validate="many_to_one",
+    )
+
+    predicted = pd.to_numeric(
+        scored["predicted_high_f"],
+        errors="coerce",
+    )
+
+    actual = pd.to_numeric(
+        scored["actual_cli_high_f"],
+        errors="coerce",
+    )
+
+    eligible = (
+        scored["eligible_for_score"]
+        .astype(str)
+        .str.lower()
+        .isin(["true", "1", "yes"])
+    )
+
+    scorable = eligible & predicted.notna() & actual.notna()
+
+    scored["signed_error_f"] = pd.NA
+    scored["abs_error_f"] = pd.NA
+    scored["forecast_rounded_f"] = pd.NA
+    scored["exact_hit"] = pd.NA
+    scored["within_1f"] = pd.NA
+    scored["within_2f"] = pd.NA
+
+    error = predicted - actual
+    abs_error = error.abs()
+
+    # Temperatures are positive here, so +0.5 then floor gives normal
+    # nearest-integer rounding rather than Python's bankers rounding.
+    rounded = ((predicted + 0.5) // 1).astype("Int64")
+
+    scored.loc[scorable, "signed_error_f"] = error[scorable]
+    scored.loc[scorable, "abs_error_f"] = abs_error[scorable]
+    scored.loc[scorable, "forecast_rounded_f"] = rounded[scorable]
+
+    scored.loc[scorable, "exact_hit"] = (
+        rounded[scorable] == actual[scorable]
+    )
+
+    scored.loc[scorable, "within_1f"] = (
+        abs_error[scorable] <= 1.0
+    )
+
+    scored.loc[scorable, "within_2f"] = (
+        abs_error[scorable] <= 2.0
+    )
+
+    return scored
 
 def progression_rows(history: pd.DataFrame, today: str, limit: int = 8) -> list[dict]:
     if history.empty or "date" not in history:
@@ -471,11 +604,40 @@ def main() -> None:
     state["next_update_local"] = next_scheduled_update(now)
     history = append_history(state, Path(args.history))
 
-    append_model_history(
-        state,
-        Path(args.model_history),
+    model_history = append_model_history(
+    state,
+    Path(args.model_history),
 )
+    # Score archived forecasts only when an official final CLI high exists.
+    history_dates = pd.to_datetime(
+        model_history["date"],
+        errors="coerce",
+    ).dropna()
 
+    yesterday = (now.date() - timedelta(days=1))
+
+    if not history_dates.empty:
+        first_history_date = history_dates.min().date()
+
+        if first_history_date <= yesterday:
+            try:
+                cli_history = fetch_cli_history(
+                    first_history_date.isoformat(),
+                    yesterday.isoformat(),
+                )
+
+                model_history = score_model_history(
+                    model_history,
+                    cli_history,
+                )
+
+                model_history.to_csv(
+                    Path(args.model_history),
+                    index=False,
+                )
+
+            except Exception as exc:
+                print(f"CLI scoring warning: {exc}")
     state["progression"] = progression_rows(history, state["date"])
     save_json(state, args.json)
     save_dashboard(state, args.dashboard)
