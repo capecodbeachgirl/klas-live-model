@@ -14,6 +14,7 @@ from klas_model.collectors.nws_forecast import fetch_nws_live_forecast
 from klas_model.collectors.pfm import fetch_pfm_morning_history
 from klas_model.collectors.radar import fetch_radar_proximity, radar_export_url
 from klas_model.collectors.satellite import fetch_satellite_cloud_watch
+from klas_model.collectors.wethr import fetch_wethr_snapshot
 from klas_model.dashboard import save_dashboard
 from klas_model.live import build_live_state, save_json
 
@@ -244,6 +245,16 @@ def main() -> None:
         },
     )
 
+    wethr = _safe_fetch(
+    "Wethr multi-model forecasts",
+    lambda: fetch_wethr_snapshot(now_local=now),
+    {
+        "available": False,
+        "models": {},
+        "research_only": True,
+    },
+)
+
     print(
         "satellite cloud: "
         f"{satellite.get('risk')} | "
@@ -268,6 +279,7 @@ def main() -> None:
         radar=radar,
     )
     state["satellite"] = satellite
+    state["wethr"] = wethr
 
     if not state.get("model_available"):
         if state.get("checkpoint_hour") is None and now.hour < 8:

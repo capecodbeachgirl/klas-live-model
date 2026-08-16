@@ -4,6 +4,8 @@ from datetime import datetime
 from html import escape
 from pathlib import Path
 
+from klas_model.collectors import wethr
+
 
 def _v(value, suffix=""):
     if value is None:
@@ -117,6 +119,9 @@ def render_dashboard(state: dict) -> str:
     afd = state.get("afd") or {}
     radar = state.get("radar") or {}
     satellite = state.get("satellite") or {}
+    wethr = state.get("wethr") or {}
+    wethr_consensus = wethr.get("consensus") or {}
+    wethr_models = wethr.get("models") or {}
     components = state.get("weather_risk_components") or {}
     pop = nws_live.get("max_pop_pct")
     sky = nws_live.get("max_sky_cover_pct")
@@ -255,6 +260,57 @@ Historical analogs currently use KLAS temperature and the NWS morning forecast f
 '''
     else:
         analog_html = ""
+        if wethr_consensus.get("available"):
+            wethr_models_used = ", ".join(
+                escape(str(name))
+                for name in wethr_consensus.get("models_used", [])
+            )
+
+            wethr_html = f'''
+    <section>
+    <h3>Wethr multi-model consensus</h3>
+
+    <div class="grid">
+
+    <div class="card">
+    <div class="label">Consensus Median</div>
+    <div class="big">{_v(wethr_consensus.get("median_high_f"), "°F")}</div>
+    <div class="mini">Median of usable full-contract model runs</div>
+    </div>
+
+    <div class="card">
+    <div class="label">Consensus Mean</div>
+    <div class="big">{_v(wethr_consensus.get("mean_high_f"), "°F")}</div>
+    <div class="mini">Average of usable model highs</div>
+    </div>
+
+    <div class="card">
+    <div class="label">Model Range</div>
+    <div class="big">{_v(wethr_consensus.get("min_high_f"))}–{_v(wethr_consensus.get("max_high_f"))}°F</div>
+    <div class="mini">Lowest to highest usable model</div>
+    </div>
+
+    <div class="card">
+    <div class="label">Model Spread</div>
+    <div class="big">{_v(wethr_consensus.get("spread_f"), "°F")}</div>
+    <div class="mini">Smaller spread = stronger model agreement</div>
+    </div>
+
+    <div class="card">
+    <div class="label">Usable Models</div>
+    <div class="big">{_v(wethr_consensus.get("model_count"))}</div>
+    <div class="mini">{wethr_models_used}</div>
+    </div>
+
+    </div>
+
+    <div class="mini" style="margin-top:10px">
+    Wethr is currently a research-only cross-check. Incomplete model runs are excluded from the consensus, and Wethr does not yet alter our validated KLAS prediction.
+    </div>
+    </section>
+    '''
+        else:
+            wethr_html = ""
 
     return f'''<!doctype html><html><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
 <title>KLAS Live Model</title>
@@ -316,6 +372,8 @@ Cloud shading risk:
 </div>
 </section>
 </div>
+
+{wethr_html}
 
 <section><h3>Today's progression</h3>{_progression_html(state)}</section>
 <section><h3>Kalshi buckets</h3><table><thead><tr><th>Bucket</th><th>Model</th><th>Bid</th><th>Ask</th><th>Model − ask</th></tr></thead><tbody>{bucket_rows}</tbody></table><div class="mini">{escape(total_text)} · Largest model-vs-ask gap: {top_gap_text}</div></section>

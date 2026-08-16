@@ -1,0 +1,79 @@
+from datetime import datetime
+from zoneinfo import ZoneInfo
+
+from klas_model.collectors.wethr import summarize_latest_run
+
+
+LAS_TZ = ZoneInfo("America/Los_Angeles")
+
+
+def test_wethr_full_contract_run():
+    now = datetime(
+        2026, 8, 16, 10, 0,
+        tzinfo=LAS_TZ,
+    )
+
+    rows = [
+        {
+            "valid_time": "2026-08-16T17:00:00Z",
+            "temperature_f": 95.0,
+            "forecast_hour": 5,
+        },
+        {
+            "valid_time": "2026-08-16T22:00:00Z",
+            "temperature_f": 101.5,
+            "forecast_hour": 10,
+        },
+        {
+            "valid_time": "2026-08-17T08:00:00Z",
+            "temperature_f": 88.0,
+            "forecast_hour": 20,
+        },
+    ]
+
+    result = summarize_latest_run(
+        "TEST",
+        rows,
+        "2026-08-16 12:00:00",
+        now,
+    )
+
+    assert result["available"] is True
+    assert result["covers_rest_of_contract"] is True
+    assert result["remaining_high_f"] == 101.5
+    assert result["max_forecast_hour"] == 20
+    assert (
+        result["remaining_high_time_local"]
+        == "2026-08-16T15:00:00-07:00"
+    )
+
+
+def test_wethr_partial_run_is_flagged():
+    now = datetime(
+        2026, 8, 16, 10, 0,
+        tzinfo=LAS_TZ,
+    )
+
+    rows = [
+        {
+            "valid_time": "2026-08-16T17:00:00Z",
+            "temperature_f": 95.0,
+            "forecast_hour": 5,
+        },
+        {
+            "valid_time": "2026-08-16T19:00:00Z",
+            "temperature_f": 98.0,
+            "forecast_hour": 7,
+        },
+    ]
+
+    result = summarize_latest_run(
+        "TEST",
+        rows,
+        "2026-08-16 12:00:00",
+        now,
+    )
+
+    assert result["available"] is True
+    assert result["covers_rest_of_contract"] is False
+    assert result["remaining_high_f"] == 98.0
