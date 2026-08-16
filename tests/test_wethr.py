@@ -1,7 +1,10 @@
 from datetime import datetime
 from zoneinfo import ZoneInfo
 
-from klas_model.collectors.wethr import summarize_latest_run
+from klas_model.collectors.wethr import (
+    apply_observed_floor,
+    summarize_latest_run,
+)
 
 
 LAS_TZ = ZoneInfo("America/Los_Angeles")
@@ -77,3 +80,44 @@ def test_wethr_partial_run_is_flagged():
     assert result["available"] is True
     assert result["covers_rest_of_contract"] is False
     assert result["remaining_high_f"] == 98.0
+
+def test_wethr_observed_floor_recomputes_consensus():
+    snapshot = {
+        "models": {
+            "RAP": {
+                "available": True,
+                "covers_rest_of_contract": True,
+                "remaining_high_f": 101.0,
+            },
+            "NBM": {
+                "available": True,
+                "covers_rest_of_contract": True,
+                "remaining_high_f": 99.5,
+            },
+            "HRRR": {
+                "available": True,
+                "covers_rest_of_contract": False,
+                "remaining_high_f": 104.0,
+            },
+        },
+        "consensus": {
+            "available": True,
+        },
+    }
+
+    result = apply_observed_floor(
+        snapshot,
+        102.0,
+    )
+
+    assert result["observed_floor_f"] == 102.0
+    assert result["models"]["RAP"]["projected_high_f"] == 102.0
+    assert result["models"]["NBM"]["projected_high_f"] == 102.0
+    assert "projected_high_f" not in result["models"]["HRRR"]
+
+    consensus = result["consensus"]
+
+    assert consensus["model_count"] == 2
+    assert consensus["median_high_f"] == 102.0
+    assert consensus["min_high_f"] == 102.0
+    assert consensus["max_high_f"] == 102.0

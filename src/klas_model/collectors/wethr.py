@@ -276,3 +276,51 @@ def fetch_wethr_snapshot(
         "source": "Wethr.net Forecasts API v2",
         "research_only": True,
     }
+
+def apply_observed_floor(
+    snapshot: dict[str, Any],
+    observed_peak_f: float | None,
+) -> dict[str, Any]:
+    """Prevent projected Wethr highs from falling below the observed KLAS peak."""
+
+    if observed_peak_f is None:
+        return snapshot
+
+    floor = float(observed_peak_f)
+    snapshot["observed_floor_f"] = floor
+
+    projected = {}
+
+    for name, result in snapshot.get("models", {}).items():
+        if (
+            result.get("available")
+            and result.get("covers_rest_of_contract")
+            and result.get("remaining_high_f") is not None
+        ):
+            projected_high = max(
+                floor,
+                float(result["remaining_high_f"]),
+            )
+
+            result["projected_high_f"] = projected_high
+            projected[name] = projected_high
+
+    if projected:
+        highs = list(projected.values())
+
+        snapshot["consensus"] = {
+            "available": True,
+            "model_count": len(highs),
+            "models_used": list(projected.keys()),
+            "median_high_f": round(
+                float(pd.Series(highs).median()), 2
+            ),
+            "mean_high_f": round(
+                float(pd.Series(highs).mean()), 2
+            ),
+            "min_high_f": round(min(highs), 2),
+            "max_high_f": round(max(highs), 2),
+            "spread_f": round(max(highs) - min(highs), 2),
+        }
+
+    return snapshot

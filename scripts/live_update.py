@@ -14,7 +14,10 @@ from klas_model.collectors.nws_forecast import fetch_nws_live_forecast
 from klas_model.collectors.pfm import fetch_pfm_morning_history
 from klas_model.collectors.radar import fetch_radar_proximity, radar_export_url
 from klas_model.collectors.satellite import fetch_satellite_cloud_watch
-from klas_model.collectors.wethr import fetch_wethr_snapshot
+from klas_model.collectors.wethr import (
+    apply_observed_floor,
+    fetch_wethr_snapshot,
+)
 from klas_model.dashboard import save_dashboard
 from klas_model.live import build_live_state, save_json
 
@@ -279,7 +282,29 @@ def main() -> None:
         radar=radar,
     )
     state["satellite"] = satellite
-    state["wethr"] = wethr
+
+    observed_peak_candidates = [
+        state.get("raw_metar_peak_f"),
+        state.get("precise_metar_peak_f"),
+        state.get("six_hour_max_f"),
+    ]
+
+    observed_peak_values = [
+        float(value)
+        for value in observed_peak_candidates
+        if value is not None
+    ]
+
+    observed_floor = (
+        max(observed_peak_values)
+        if observed_peak_values
+        else None
+    )
+
+    state["wethr"] = apply_observed_floor(
+        wethr,
+        observed_floor,
+    )
 
     if not state.get("model_available"):
         if state.get("checkpoint_hour") is None and now.hour < 8:
