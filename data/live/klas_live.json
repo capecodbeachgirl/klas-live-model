@@ -1,24 +1,23 @@
 {
   "date": "2026-08-15",
-  "updated_at_local": "2026-08-15T22:37:11.774507-07:00",
-  "latest_metar_time": "2026-08-15T21:56:00-07:00",
-  "latest_temp_f": 85.0,
-  "latest_precise_temp_f": 84.91999999999999,
-  "latest_dewpoint_f": 58.0,
-  "raw_metar_peak_f": 89.06,
+  "updated_at_local": "2026-08-15T23:54:09.934215-07:00",
+  "latest_metar_time": "2026-08-15T22:56:00-07:00",
+  "latest_temp_f": 84.0,
+  "latest_precise_temp_f": 84.02,
+  "latest_dewpoint_f": 59.0,
+  "raw_metar_peak_f": 89.0,
   "precise_metar_peak_f": 89.06,
-  "six_hour_max_f": 88,
-  "six_hour_max_report_time": "2026-08-15T16:56:00-07:00",
+  "six_hour_max_f": null,
+  "six_hour_max_report_time": "2026-08-15T22:56:00-07:00",
   "nws_am_forecast_high_f": 96.0,
   "nws_am_issued_at": "2026-08-15T03:01:00-07:00",
   "checkpoint_hour": null,
   "weather_risk": "MEDIUM",
   "weather_reasons": [
-    "Some weather disruption risk",
     "Las Vegas NWS discussion contains a convective/monsoon signal"
   ],
   "weather_risk_components": {
-    "observed_risk": "MEDIUM",
+    "observed_risk": "LOW",
     "forecast_risk": "LOW",
     "afd_risk": "MEDIUM",
     "radar_risk": "LOW"
@@ -59,15 +58,10 @@
   },
   "radar": {
     "available": true,
-    "latest_time_utc": "2026-08-16T05:02:56+00:00",
-    "prior_time_utc": "2026-08-16T04:32:56+00:00",
+    "latest_time_utc": "2026-08-16T06:48:55+00:00",
+    "prior_time_utc": "2026-08-16T06:18:55+00:00",
     "current": {
-      "echo_fraction_by_radius": {
-        "0": 0.0,
-        "10": 0.0,
-        "25": 0.0,
-        "50": 0.0
-      },
+      "echo_fraction_by_radius": {},
       "nearest_echo_miles": null
     },
     "prior": {
@@ -89,16 +83,16 @@
   "markets": [],
   "satellite": {
     "available": true,
-    "risk": "MEDIUM",
-    "summary": "Meaningful cloud shading is present or increasing at KLAS",
+    "risk": "LOW",
+    "summary": "Observed KLAS sky cover suggests limited cloud shading",
     "latest_cloud_fraction": 0.25,
-    "mean_cloud_fraction_2h": 0.6666666666666666,
+    "mean_cloud_fraction_2h": 0.4583333333333333,
     "cloud_fraction_trend_2h": -0.625,
     "latest_cloud_fraction_below_20000": 0.25,
-    "geocolor_image_url": "https://cdn.star.nesdis.noaa.gov/WFO/vef/GEOCOLOR/20262280510_GOES18-ABI-vef-GEOCOLOR-600x600.jpg",
-    "geocolor_time_utc": "2026-08-16T05:10:00+00:00",
-    "infrared_image_url": "https://cdn.star.nesdis.noaa.gov/WFO/vef/13/20262280510_GOES18-ABI-vef-13-600x600.jpg",
-    "infrared_time_utc": "2026-08-16T05:10:00+00:00",
+    "geocolor_image_url": "https://cdn.star.nesdis.noaa.gov/WFO/vef/GEOCOLOR/20262280620_GOES18-ABI-vef-GEOCOLOR-600x600.jpg",
+    "geocolor_time_utc": "2026-08-16T06:20:00+00:00",
+    "infrared_image_url": "https://cdn.star.nesdis.noaa.gov/WFO/vef/13/20262280630_GOES18-ABI-vef-13-600x600.jpg",
+    "infrared_time_utc": "2026-08-16T06:30:00+00:00",
     "errors": [],
     "image_note": "GOES images are a visual cross-check in this version. The shading label uses KLAS-observed sky cover and does not alter the validated temperature prediction.",
     "source": "NOAA/NESDIS/STAR GOES imagery + KLAS METAR sky cover"
@@ -106,7 +100,7 @@
   "historical_analogs": {
     "available": false
   },
-  "next_update_local": "2026-08-15T23:05:00-07:00",
+  "next_update_local": "2026-08-16T00:05:00-07:00",
   "progression": [
     {
       "checkpoint_hour": 13.0,
@@ -164,8 +158,8 @@
     },
     {
       "checkpoint_hour": null,
-      "latest_precise_temp_f": 87.08000000000001,
-      "latest_temp_f": 87.0,
+      "latest_precise_temp_f": 84.91999999999999,
+      "latest_temp_f": 85.0,
       "six_hour_max_f": 88,
       "model_predicted_high_f": null,
       "nws_am_forecast_high_f": 96.0,
@@ -173,9 +167,9 @@
     },
     {
       "checkpoint_hour": null,
-      "latest_precise_temp_f": 84.91999999999999,
-      "latest_temp_f": 85.0,
-      "six_hour_max_f": 88,
+      "latest_precise_temp_f": 84.02,
+      "latest_temp_f": 84.0,
+      "six_hour_max_f": null,
       "model_predicted_high_f": null,
       "nws_am_forecast_high_f": 96.0,
       "weather_risk": "MEDIUM"
