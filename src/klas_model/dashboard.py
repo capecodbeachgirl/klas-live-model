@@ -124,6 +124,109 @@ def render_dashboard(state: dict) -> str:
     wethr_models = wethr.get("models") or {}
     wethr_observed = state.get("wethr_observed_high") or {}
     wethr_observed_high = wethr_observed.get("wethr_high_f")
+    model_comparison = []
+
+    if state.get("model_predicted_high_f") is not None:
+        model_comparison.append({
+            "name": "Our KLAS Model",
+            "forecast_f": state.get("model_predicted_high_f"),
+            "raw_f": state.get("model_predicted_high_f"),
+            "status": "Validated model",
+        })
+
+    if state.get("nws_am_forecast_high_f") is not None:
+        model_comparison.append({
+            "name": "NWS Morning",
+            "forecast_f": state.get("nws_am_forecast_high_f"),
+            "raw_f": state.get("nws_am_forecast_high_f"),
+            "status": "Morning forecast",
+        })
+
+    if wethr_consensus.get("available"):
+        model_comparison.append({
+            "name": "Wethr Consensus",
+            "forecast_f": wethr_consensus.get("median_high_f"),
+            "raw_f": wethr_consensus.get("median_high_f"),
+            "status": "Full-run median",
+        })
+
+    for model_name in (
+        "HRRR",
+        "HRRR-EXT",
+        "NBM",
+        "RAP",
+        "GFS-MOS",
+        "LAV-MOS",
+    ):
+        result = wethr_models.get(model_name) or {}
+
+        projected = result.get("projected_high_f")
+        raw = result.get("remaining_high_f")
+
+        if projected is None:
+            projected = raw
+
+        model_comparison.append({
+            "name": model_name,
+            "forecast_f": projected,
+            "raw_f": raw,
+            "status": (
+                "Full run"
+                if result.get("covers_rest_of_contract")
+                else "Partial / unavailable"
+            ),
+        })
+
+    model_comparison_rows = []
+
+    for item in model_comparison:
+        forecast = item.get("forecast_f")
+        raw = item.get("raw_f")
+
+        forecast_text = (
+            "—"
+            if forecast is None
+            else f"{float(forecast):.1f}°F"
+        )
+
+        raw_text = (
+            "—"
+            if raw is None
+            else f"{float(raw):.1f}°F"
+        )
+
+        model_comparison_rows.append(
+            "<tr>"
+            f"<td><strong>{escape(str(item.get('name')))}</strong></td>"
+            f"<td>{forecast_text}</td>"
+            f"<td>{raw_text}</td>"
+            f"<td>{escape(str(item.get('status') or '—'))}</td>"
+            "</tr>"
+        )
+
+    model_comparison_html = f"""
+<section>
+<h3>Today's Model Comparison</h3>
+
+<table>
+<thead>
+<tr>
+<th>Model</th>
+<th>Projected High</th>
+<th>Raw High</th>
+<th>Status</th>
+</tr>
+</thead>
+<tbody>
+{''.join(model_comparison_rows)}
+</tbody>
+</table>
+
+<div class="mini" style="margin-top:10px">
+These are today's live forecasts. Historical accuracy scoring will populate as completed KLAS days accumulate.
+</div>
+</section>
+"""
     components = state.get("weather_risk_components") or {}
     pop = nws_live.get("max_pop_pct")
     sky = nws_live.get("max_sky_cover_pct")
@@ -397,6 +500,8 @@ Cloud shading risk:
 {analog_html}
 
 {wethr_html}
+
+{model_comparison_html}
 
 <section><h3>Today's progression</h3>
 <section><h3>Kalshi buckets</h3><table><thead><tr><th>Bucket</th><th>Model</th><th>Bid</th><th>Ask</th><th>Model − ask</th></tr></thead><tbody>{bucket_rows}</tbody></table><div class="mini">{escape(total_text)} · Largest model-vs-ask gap: {top_gap_text}</div></section>
