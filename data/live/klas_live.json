@@ -1,6 +1,6 @@
 {
   "date": "2026-08-15",
-  "updated_at_local": "2026-08-15T19:07:15.810568-07:00",
+  "updated_at_local": "2026-08-15T19:35:41.605179-07:00",
   "latest_metar_time": "2026-08-15T18:56:00-07:00",
   "latest_temp_f": 89.0,
   "latest_precise_temp_f": 89.06,
@@ -85,8 +85,8 @@
   },
   "radar": {
     "available": true,
-    "latest_time_utc": "2026-08-16T01:54:59+00:00",
-    "prior_time_utc": "2026-08-16T01:24:59+00:00",
+    "latest_time_utc": "2026-08-16T02:22:57+00:00",
+    "prior_time_utc": "2026-08-16T01:52:57+00:00",
     "current": {
       "echo_fraction_by_radius": {
         "0": 0.0,
@@ -121,10 +121,10 @@
     "mean_cloud_fraction_2h": 0.875,
     "cloud_fraction_trend_2h": 0.0,
     "latest_cloud_fraction_below_20000": 0.875,
-    "geocolor_image_url": "https://cdn.star.nesdis.noaa.gov/WFO/vef/GEOCOLOR/20262280140_GOES18-ABI-vef-GEOCOLOR-600x600.jpg",
-    "geocolor_time_utc": "2026-08-16T01:40:00+00:00",
-    "infrared_image_url": "https://cdn.star.nesdis.noaa.gov/WFO/vef/13/20262280140_GOES18-ABI-vef-13-600x600.jpg",
-    "infrared_time_utc": "2026-08-16T01:40:00+00:00",
+    "geocolor_image_url": "https://cdn.star.nesdis.noaa.gov/WFO/vef/GEOCOLOR/20262280210_GOES18-ABI-vef-GEOCOLOR-600x600.jpg",
+    "geocolor_time_utc": "2026-08-16T02:10:00+00:00",
+    "infrared_image_url": "https://cdn.star.nesdis.noaa.gov/WFO/vef/13/20262280210_GOES18-ABI-vef-13-600x600.jpg",
+    "infrared_time_utc": "2026-08-16T02:10:00+00:00",
     "errors": [],
     "image_note": "GOES images are a visual cross-check in this version. The shading label uses KLAS-observed sky cover and does not alter the validated temperature prediction.",
     "source": "NOAA/NESDIS/STAR GOES imagery + KLAS METAR sky cover"
@@ -132,10 +132,10 @@
   "historical_analogs": {
     "available": false
   },
-  "next_update_local": "2026-08-15T19:20:00-07:00",
+  "next_update_local": "2026-08-15T19:50:00-07:00",
   "progression": [
     {
-      "checkpoint_hour": 12,
+      "checkpoint_hour": 12.0,
       "latest_precise_temp_f": 86.0,
       "latest_temp_f": 86.0,
       "six_hour_max_f": 82,
@@ -144,7 +144,7 @@
       "weather_risk": "MEDIUM"
     },
     {
-      "checkpoint_hour": 13,
+      "checkpoint_hour": 13.0,
       "latest_precise_temp_f": 87.08000000000001,
       "latest_temp_f": 87.0,
       "six_hour_max_f": 82,
@@ -153,7 +153,7 @@
       "weather_risk": "MEDIUM"
     },
     {
-      "checkpoint_hour": 14,
+      "checkpoint_hour": 14.0,
       "latest_precise_temp_f": 87.98,
       "latest_temp_f": 88.0,
       "six_hour_max_f": 82,
@@ -162,7 +162,7 @@
       "weather_risk": "MEDIUM"
     },
     {
-      "checkpoint_hour": 15,
+      "checkpoint_hour": 15.0,
       "latest_precise_temp_f": 87.08000000000001,
       "latest_temp_f": 87.0,
       "six_hour_max_f": 82,
@@ -171,7 +171,7 @@
       "weather_risk": "MEDIUM"
     },
     {
-      "checkpoint_hour": 16,
+      "checkpoint_hour": 16.0,
       "latest_precise_temp_f": 87.98,
       "latest_temp_f": 88.0,
       "six_hour_max_f": 82,
@@ -180,7 +180,7 @@
       "weather_risk": "MEDIUM"
     },
     {
-      "checkpoint_hour": 17,
+      "checkpoint_hour": 17.0,
       "latest_precise_temp_f": 87.98,
       "latest_temp_f": 88.0,
       "six_hour_max_f": 88,
@@ -189,7 +189,7 @@
       "weather_risk": "MEDIUM"
     },
     {
-      "checkpoint_hour": 18,
+      "checkpoint_hour": 18.0,
       "latest_precise_temp_f": 87.98,
       "latest_temp_f": 88.0,
       "six_hour_max_f": 88,
