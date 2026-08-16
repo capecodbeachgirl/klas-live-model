@@ -254,7 +254,9 @@ Historical analogs currently use KLAS temperature and the NWS morning forecast f
         analog_html = ""
 
     return f'''<!doctype html><html><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
-<title>KLAS Live Model</title><style>
+<title>KLAS Live Model</title>
+<meta http-equiv="refresh" content="300">
+<style>
 :root{{--bg:#f4f6f8;--card:#fff;--border:#dde2e7;--text:#18212b;--muted:#667085;--good:#16794c;--warn:#a15c00;--bad:#b42318;--accent:#1f4e79}}
 *{{box-sizing:border-box}} body{{font-family:Arial,sans-serif;background:var(--bg);color:var(--text);margin:0}} .wrap{{max-width:1180px;margin:auto;padding:22px}}
 h1{{margin:0 0 4px;font-size:34px}} .sub{{color:var(--muted);margin-bottom:14px}} .status{{background:#142b44;color:#fff;padding:13px 16px;border-radius:12px;margin-bottom:14px;display:flex;justify-content:space-between;gap:12px;align-items:center}} .status strong{{font-size:19px}} .status span{{font-size:13px;opacity:.9}}
@@ -311,7 +313,7 @@ Cloud shading risk:
 </div>
 </section>
 </div>
-{analog_html}
+
 <section><h3>Today's progression</h3>{_progression_html(state)}</section>
 <section><h3>Kalshi buckets</h3><table><thead><tr><th>Bucket</th><th>Model</th><th>Bid</th><th>Ask</th><th>Model − ask</th></tr></thead><tbody>{bucket_rows}</tbody></table><div class="mini">{escape(total_text)} · Largest model-vs-ask gap: {top_gap_text}</div></section>
 <section><h3>Model status</h3><p>Checkpoint: {_v(state.get('checkpoint_hour'),':00 local')} · Held-out MAE: {_v(None if state.get('model_mae_f') is None else round(state.get('model_mae_f'),2),'°F')} · Hourly refresh target: ~:05 after the routine METAR.</p><div class="mini">Forecast/radar/AFD signals currently affect risk and confidence, not the validated temperature correction. We will only let them alter the predicted high after separate historical validation.</div></section>
