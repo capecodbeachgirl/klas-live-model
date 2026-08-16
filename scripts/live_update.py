@@ -60,6 +60,124 @@ def append_history(state: dict, path: Path) -> pd.DataFrame:
     new.to_csv(path, index=False)
     return new
 
+def append_model_history(state: dict, path: Path) -> pd.DataFrame:
+    """Archive every model prediction so it can be scored after the final KLAS high is known."""
+
+    path.parent.mkdir(parents=True, exist_ok=True)
+
+    base = {
+        "date": state.get("date"),
+        "updated_at_local": state.get("updated_at_local"),
+        "checkpoint_hour": state.get("checkpoint_hour"),
+        "wethr_observed_high_f": (
+            state.get("wethr_observed_high") or {}
+        ).get("wethr_high_f"),
+    }
+
+    rows = []
+
+    # Our validated KLAS model
+    our_prediction = state.get("model_predicted_high_f")
+    if our_prediction is not None:
+        rows.append({
+            **base,
+            "model_name": "KLAS_MODEL",
+            "predicted_high_f": float(our_prediction),
+            "raw_forecast_high_f": float(our_prediction),
+            "model_run_time_utc": None,
+            "complete_run": True,
+            "eligible_for_score": True,
+            "model_method": state.get("model_method"),
+        })
+
+    # NWS morning forecast
+    nws_prediction = state.get("nws_am_forecast_high_f")
+    if nws_prediction is not None:
+        rows.append({
+            **base,
+            "model_name": "NWS_MORNING",
+            "predicted_high_f": float(nws_prediction),
+            "raw_forecast_high_f": float(nws_prediction),
+            "model_run_time_utc": state.get("nws_am_issued_at"),
+            "complete_run": True,
+            "eligible_for_score": True,
+            "model_method": "nws_morning",
+        })
+
+    wethr = state.get("wethr") or {}
+    consensus = wethr.get("consensus") or {}
+
+    # Wethr multi-model consensus
+    if consensus.get("available") and consensus.get("median_high_f") is not None:
+        rows.append({
+            **base,
+            "model_name": "WETHR_CONSENSUS",
+            "predicted_high_f": float(consensus["median_high_f"]),
+            "raw_forecast_high_f": float(consensus["median_high_f"]),
+            "model_run_time_utc": None,
+            "complete_run": True,
+            "eligible_for_score": True,
+            "model_method": "median_consensus",
+        })
+
+    # Individual Wethr models
+    for model_name, result in (wethr.get("models") or {}).items():
+        raw_high = result.get("remaining_high_f")
+        projected_high = result.get("projected_high_f")
+
+        if raw_high is None and projected_high is None:
+            rows.append({
+                **base,
+                "model_name": model_name,
+                "predicted_high_f": None,
+                "raw_forecast_high_f": None,
+                "model_run_time_utc": result.get("run_time_utc"),
+                "complete_run": bool(result.get("covers_rest_of_contract")),
+                "eligible_for_score": False,
+                "model_method": "wethr",
+            })
+            continue
+
+        complete = bool(result.get("covers_rest_of_contract"))
+
+        rows.append({
+            **base,
+            "model_name": model_name,
+            "predicted_high_f": (
+                float(projected_high)
+                if projected_high is not None
+                else float(raw_high)
+            ),
+            "raw_forecast_high_f": (
+                float(raw_high)
+                if raw_high is not None
+                else None
+            ),
+            "model_run_time_utc": result.get("run_time_utc"),
+            "complete_run": complete,
+            "eligible_for_score": complete,
+            "model_method": "wethr",
+        })
+
+    new = pd.DataFrame(rows)
+
+    if path.exists():
+        old = pd.read_csv(path)
+        new = pd.concat([old, new], ignore_index=True)
+
+    if not new.empty:
+        new = new.drop_duplicates(
+            subset=[
+                "date",
+                "updated_at_local",
+                "model_name",
+            ],
+            keep="last",
+        )
+
+    new.to_csv(path, index=False)
+
+    return new    
 
 def progression_rows(history: pd.DataFrame, today: str, limit: int = 8) -> list[dict]:
     if history.empty or "date" not in history:
@@ -205,6 +323,10 @@ def main() -> None:
     ap.add_argument("--model-dir", default="data/model")
     ap.add_argument("--json", default="data/live/klas_live.json")
     ap.add_argument("--history", default="data/live/klas_live_history.csv")
+    ap.add_argument(
+    "--model-history",
+    default="data/live/klas_model_history.csv",
+)
     ap.add_argument("--dashboard", default="docs/index.html")
     args = ap.parse_args()
 
@@ -348,6 +470,12 @@ def main() -> None:
     
     state["next_update_local"] = next_scheduled_update(now)
     history = append_history(state, Path(args.history))
+
+    append_model_history(
+        state,
+        Path(args.model_history),
+)
+
     state["progression"] = progression_rows(history, state["date"])
     save_json(state, args.json)
     save_dashboard(state, args.dashboard)
