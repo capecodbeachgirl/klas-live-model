@@ -14,8 +14,8 @@ table{width:100%;border-collapse:collapse} th,td{text-align:left;padding:9px;bor
 .freshness.high{background:#fdecea}
 .radar-box{position:relative;background:#eef1f4;border-radius:10px;overflow:hidden;min-height:260px} .radar-box img{width:100%;height:100%;min-height:260px;object-fit:cover;display:block} .crosshair{position:absolute;left:50%;top:50%;transform:translate(-50%,-50%);font-size:30px;color:#111;text-shadow:0 0 3px #fff} .radar-label{position:absolute;left:calc(50% + 13px);top:calc(50% - 22px);font-size:11px;font-weight:700;background:#fff;padding:2px 4px;border-radius:3px}
 @media(max-width:850px){.two{grid-template-columns:1fr} .intel-grid{grid-template-columns:repeat(2,1fr)}} @media(max-width:650px){.wrap{padding:12px} h1{font-size:28px} th,td{padding:7px 5px;font-size:12px} .big{font-size:26px} .status{align-items:flex-start;flex-direction:column}}
-</style></head><body><div class="wrap"><h1>KLAS Live High Model</h1><div class="sub">Updated 3:01 PM · Latest METAR 2:56 PM <span class="freshness low">METAR CURRENT — 5 min old</span></div>
-<div class="status"><strong>WEATHER WATCH</strong><span>Next scheduled refresh: ~3:05 PM Las Vegas time</span></div>
+</style></head><body><div class="wrap"><h1>KLAS Live High Model</h1><div class="sub">Updated 3:32 PM · Latest METAR 2:56 PM <span class="freshness low">METAR CURRENT — 36 min old</span></div>
+<div class="status"><strong>EDGE WATCH — WEATHER RISK MEDIUM</strong><span>Next scheduled refresh: ~3:35 PM Las Vegas time</span></div>
 <div class="grid">
 <div class="card"><div class="label">Current KLAS</div><div class="big">100.0°F</div><div class="mini">Precise METAR T-group when available</div></div>
 <div class="card"><div class="label">NWS Morning High</div><div class="big">100.0°F</div></div>
@@ -25,7 +25,7 @@ table{width:100%;border-collapse:collapse} th,td{text-align:left;padding:9px;bor
 <div class="card"><div class="label">Precise METAR Peak</div><div class="big">100.0°F</div></div>
 <div class="card">
 <div class="label">Wethr Live High</div>
-<div class="big">100.0°F</div>
+<div class="big">102.0°F</div>
 <div class="mini">
 OMO-informed
 </div>
@@ -51,7 +51,7 @@ No nearby radar echo signal detected by the coarse KLAS ring scan. Center marker
 </div>
 
 <h4>Satellite / cloud shading</h4>
-<div class="radar-box"><img src="https://cdn.star.nesdis.noaa.gov/WFO/vef/GEOCOLOR/20262282140_GOES18-ABI-vef-GEOCOLOR-600x600.jpg" alt="GOES satellite cloud cover around Las Vegas" style="max-height:340px; object-fit:contain;"></div>
+<div class="radar-box"><img src="https://cdn.star.nesdis.noaa.gov/WFO/vef/GEOCOLOR/20262282210_GOES18-ABI-vef-GEOCOLOR-600x600.jpg" alt="GOES satellite cloud cover around Las Vegas" style="max-height:340px; object-fit:contain;"></div>
 
 <div class="risk" style="margin-top:8px">
 Cloud shading risk:
@@ -117,32 +117,32 @@ Historical analogs currently use KLAS temperature and the NWS morning forecast f
 
 <div class="card">
 <div class="label">Consensus Median</div>
-<div class="big">100.47°F</div>
+<div class="big">102.0°F</div>
 <div class="mini">Median of usable full-contract model runs</div>
 </div>
 
 <div class="card">
 <div class="label">Consensus Mean</div>
-<div class="big">100.8°F</div>
+<div class="big">102.0°F</div>
 <div class="mini">Average of usable model highs</div>
 </div>
 
 <div class="card">
 <div class="label">Model Range</div>
-<div class="big">100.04–102.0°F</div>
+<div class="big">102.0–102.0°F</div>
 <div class="mini">Lowest to highest usable model</div>
 </div>
 
 <div class="card">
 <div class="label">Model Spread</div>
-<div class="big">1.96°F</div>
+<div class="big">0.0°F</div>
 <div class="mini">Smaller spread = stronger model agreement</div>
 </div>
 
 <div class="card">
 <div class="label">Usable Models</div>
 <div class="big">5</div>
-<div class="mini">HRRR-EXT, NBM, RAP, GFS-MOS, LAV-MOS</div>
+<div class="mini">HRRR, HRRR-EXT, RAP, GFS-MOS, LAV-MOS</div>
 </div>
 
 </div>
@@ -167,7 +167,7 @@ Wethr is currently a research-only cross-check. Incomplete model runs are exclud
 </tr>
 </thead>
 <tbody>
-<tr><td><strong>Our KLAS Model</strong></td><td>101.5°F</td><td>101.5°F</td><td>Validated model</td></tr><tr><td><strong>NWS Morning</strong></td><td>100.0°F</td><td>100.0°F</td><td>Morning forecast</td></tr><tr><td><strong>Wethr Consensus</strong></td><td>100.5°F</td><td>100.5°F</td><td>Full-run median</td></tr><tr><td><strong>HRRR</strong></td><td>101.8°F</td><td>101.8°F</td><td>Partial / unavailable</td></tr><tr><td><strong>HRRR-EXT</strong></td><td>101.4°F</td><td>101.4°F</td><td>Full run</td></tr><tr><td><strong>NBM</strong></td><td>100.0°F</td><td>98.2°F</td><td>Full run</td></tr><tr><td><strong>RAP</strong></td><td>100.5°F</td><td>100.5°F</td><td>Full run</td></tr><tr><td><strong>GFS-MOS</strong></td><td>102.0°F</td><td>102.0°F</td><td>Full run</td></tr><tr><td><strong>LAV-MOS</strong></td><td>100.0°F</td><td>100.0°F</td><td>Full run</td></tr>
+<tr><td><strong>Our KLAS Model</strong></td><td>101.5°F</td><td>101.5°F</td><td>Validated model</td></tr><tr><td><strong>NWS Morning</strong></td><td>100.0°F</td><td>100.0°F</td><td>Morning forecast</td></tr><tr><td><strong>Wethr Consensus</strong></td><td>102.0°F</td><td>102.0°F</td><td>Full-run median</td></tr><tr><td><strong>HRRR</strong></td><td>102.0°F</td><td>101.8°F</td><td>Full run</td></tr><tr><td><strong>HRRR-EXT</strong></td><td>102.0°F</td><td>101.4°F</td><td>Full run</td></tr><tr><td><strong>NBM</strong></td><td>98.2°F</td><td>98.2°F</td><td>Partial / unavailable</td></tr><tr><td><strong>RAP</strong></td><td>102.0°F</td><td>100.5°F</td><td>Full run</td></tr><tr><td><strong>GFS-MOS</strong></td><td>102.0°F</td><td>101.0°F</td><td>Full run</td></tr><tr><td><strong>LAV-MOS</strong></td><td>102.0°F</td><td>100.0°F</td><td>Full run</td></tr>
 </tbody>
 </table>
 
@@ -178,6 +178,6 @@ These are today's live forecasts. Historical accuracy scoring will populate as c
 
 
 <section><h3>Today's progression</h3>
-<section><h3>Kalshi buckets</h3><table><thead><tr><th>Bucket</th><th>Model</th><th>Bid</th><th>Ask</th><th>Model − ask</th></tr></thead><tbody><tr><td><strong>101° to 102°</strong></td><td>65.0%</td><td>78.0¢</td><td>81.0¢</td><td class='neg'>-16.0 pts</td></tr><tr><td><strong>99° to 100°</strong></td><td>19.7%</td><td>11.0¢</td><td>15.0¢</td><td class='pos'>4.7 pts</td></tr><tr><td><strong>103° to 104°</strong></td><td>9.7%</td><td>6.0¢</td><td>9.0¢</td><td class='pos'>0.7 pts</td></tr><tr><td><strong>97° to 98°</strong></td><td>2.1%</td><td>0.0¢</td><td>1.0¢</td><td class='pos'>1.1 pts</td></tr><tr><td><strong>96° or below</strong></td><td>1.8%</td><td>0.0¢</td><td>1.0¢</td><td class='pos'>0.8 pts</td></tr><tr><td><strong>105° or above</strong></td><td>1.7%</td><td>0.0¢</td><td>2.0¢</td><td class='neg'>-0.3 pts</td></tr></tbody></table><div class="mini">Model bucket total: 100.0% · Largest model-vs-ask gap: 99° to 100° · +4.7 pts</div></section>
+<section><h3>Kalshi buckets</h3><table><thead><tr><th>Bucket</th><th>Model</th><th>Bid</th><th>Ask</th><th>Model − ask</th></tr></thead><tbody><tr><td><strong>101° to 102°</strong></td><td>65.0%</td><td>77.0¢</td><td>80.0¢</td><td class='neg'>-15.0 pts</td></tr><tr><td><strong>99° to 100°</strong></td><td>19.7%</td><td>0.0¢</td><td>1.0¢</td><td class='pos'>18.7 pts</td></tr><tr><td><strong>103° to 104°</strong></td><td>9.7%</td><td>17.0¢</td><td>21.0¢</td><td class='neg'>-11.3 pts</td></tr><tr><td><strong>97° to 98°</strong></td><td>2.1%</td><td>0.0¢</td><td>1.0¢</td><td class='pos'>1.1 pts</td></tr><tr><td><strong>96° or below</strong></td><td>1.8%</td><td>0.0¢</td><td>1.0¢</td><td class='pos'>0.8 pts</td></tr><tr><td><strong>105° or above</strong></td><td>1.7%</td><td>0.0¢</td><td>1.0¢</td><td class='pos'>0.7 pts</td></tr></tbody></table><div class="mini">Model bucket total: 100.0% · Largest model-vs-ask gap: 99° to 100° · +18.7 pts</div></section>
 <section><h3>Model status</h3><p>Checkpoint: 15:00 local · Held-out MAE: 0.66°F · Daytime refresh: every 15 minutes · Overnight: hourly.</p><div class="mini">Forecast/radar/AFD signals currently affect risk and confidence, not the validated temperature correction. We will only let them alter the predicted high after separate historical validation.</div></section>
 <div class="foot">Research dashboard only. Model probabilities are estimates, not guarantees. Final settlement target remains the official NWS Daily Climate Report high.</div></div></body></html>
