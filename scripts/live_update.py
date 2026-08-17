@@ -816,6 +816,21 @@ def main() -> None:
 
             except Exception as exc:
                 print(f"CLI scoring warning: {exc}")
+
+        state["model_accuracy"] = {
+        "7_day": model_accuracy_summary(
+            model_history,
+            days=7,
+        ).to_dict(orient="records"),
+        "30_day": model_accuracy_summary(
+            model_history,
+            days=30,
+        ).to_dict(orient="records"),
+        "all_time": model_accuracy_summary(
+            model_history,
+        ).to_dict(orient="records"),
+    }
+        
     state["progression"] = progression_rows(history, state["date"])
     save_json(state, args.json)
     save_dashboard(state, args.dashboard)
