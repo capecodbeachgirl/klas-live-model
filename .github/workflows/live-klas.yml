@@ -1,15 +1,6 @@
 name: KLAS hourly live update + Pages
 
 on:
-  schedule:
-    # Every 15 minutes from 8:05 AM through 7:50 PM Las Vegas time
-    - cron: "5,20,35,50 8-19 * * *"
-      timezone: "America/Los_Angeles"
-
-    # Hourly overnight
-    - cron: "5 0-7,20-23 * * *"
-      timezone: "America/Los_Angeles"
-
   workflow_dispatch:
 
 # Do not allow two hourly refreshes to write the history file at the same time.
