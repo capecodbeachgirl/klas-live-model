@@ -817,7 +817,7 @@ def main() -> None:
             except Exception as exc:
                 print(f"CLI scoring warning: {exc}")
 
-        state["model_accuracy"] = {
+    state["model_accuracy"] = {
         "7_day": model_accuracy_summary(
             model_history,
             days=7,
