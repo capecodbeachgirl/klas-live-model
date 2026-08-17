@@ -85,6 +85,110 @@ def _progression_html(state: dict) -> str:
     )
 
 
+def _model_accuracy_html(state: dict) -> str:
+    accuracy = state.get("model_accuracy") or {}
+
+    windows = [
+        ("7-Day", accuracy.get("7_day") or []),
+        ("30-Day", accuracy.get("30_day") or []),
+        ("All-Time", accuracy.get("all_time") or []),
+    ]
+
+    sections = []
+
+    display_names = {
+        "KLAS_MODEL": "Our KLAS Model",
+        "NWS_MORNING": "NWS Morning",
+        "WETHR_CONSENSUS": "Wethr Consensus",
+    }
+
+    for label, rows in windows:
+        if not rows:
+            continue
+
+        body = []
+
+        for row in rows:
+            model_name = str(row.get("model_name") or "—")
+            model_display = display_names.get(model_name, model_name)
+
+            mae = row.get("mae_f")
+            bias = row.get("bias_f")
+            forecasts = row.get("forecasts")
+            exact = row.get("exact_pct")
+            within_1 = row.get("within_1f_pct")
+            within_2 = row.get("within_2f_pct")
+            wins = row.get("closest_wins")
+            win_pct = row.get("closest_win_pct")
+
+            mae_text = "—" if mae is None else f"{float(mae):.2f}°F"
+            bias_text = "—" if bias is None else f"{float(bias):+.2f}°F"
+            forecast_text = "—" if forecasts is None else str(int(forecasts))
+            exact_text = "—" if exact is None else f"{float(exact):.0f}%"
+            within_1_text = "—" if within_1 is None else f"{float(within_1):.0f}%"
+            within_2_text = "—" if within_2 is None else f"{float(within_2):.0f}%"
+            wins_text = "—" if wins is None else str(int(wins))
+            win_pct_text = "—" if win_pct is None else f"{float(win_pct):.0f}%"
+
+            body.append(
+                "<tr>"
+                f"<td><strong>{escape(model_display)}</strong></td>"
+                f"<td>{forecast_text}</td>"
+                f"<td>{mae_text}</td>"
+                f"<td>{bias_text}</td>"
+                f"<td>{exact_text}</td>"
+                f"<td>{within_1_text}</td>"
+                f"<td>{within_2_text}</td>"
+                f"<td>{wins_text} ({win_pct_text})</td>"
+                "</tr>"
+            )
+
+        sections.append(
+            f"""
+<h4>{label}</h4>
+<table>
+<thead>
+<tr>
+<th>Model</th>
+<th>Forecasts</th>
+<th>MAE</th>
+<th>Bias</th>
+<th>Exact</th>
+<th>Within 1°F</th>
+<th>Within 2°F</th>
+<th>Closest Wins</th>
+</tr>
+</thead>
+<tbody>
+{''.join(body)}
+</tbody>
+</table>
+"""
+        )
+
+    if not sections:
+        return """
+<section>
+<h3>Historical Model Accuracy</h3>
+<div class="muted">
+No completed KLAS days have been scored yet.
+</div>
+</section>
+"""
+
+    return f"""
+<section>
+<h3>Historical Model Accuracy</h3>
+
+<div class="mini" style="margin-bottom:12px">
+Lower MAE is better. Bias shows whether a model tends to forecast too hot (+) or too cool (−).
+Closest wins compare models at the same date and checkpoint hour.
+</div>
+
+{''.join(sections)}
+</section>
+"""
+
 def render_dashboard(state: dict) -> str:
     model = state.get("model_available")
     markets = state.get("markets", [])[:7]
@@ -502,6 +606,7 @@ Cloud shading risk:
 {wethr_html}
 
 {model_comparison_html}
+{_model_accuracy_html(state)}
 
 <section><h3>Today's progression</h3>
 <section><h3>Kalshi buckets</h3><table><thead><tr><th>Bucket</th><th>Model</th><th>Bid</th><th>Ask</th><th>Model − ask</th></tr></thead><tbody>{bucket_rows}</tbody></table><div class="mini">{escape(total_text)} · Largest model-vs-ask gap: {top_gap_text}</div></section>
