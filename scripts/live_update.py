@@ -389,7 +389,107 @@ def fair_checkpoint_scores(history: pd.DataFrame) -> pd.DataFrame:
     )
 
     return work
+def model_accuracy_summary(
+    history: pd.DataFrame,
+    days: int | None = None,
+) -> pd.DataFrame:
+    """Summarize model accuracy using one fair forecast per checkpoint."""
 
+    fair = fair_checkpoint_scores(history)
+
+    columns = [
+        "model_name",
+        "forecasts",
+        "mae_f",
+        "bias_f",
+        "exact_pct",
+        "within_1f_pct",
+        "within_2f_pct",
+        "closest_wins",
+        "closest_win_pct",
+    ]
+
+    if fair.empty:
+        return pd.DataFrame(columns=columns)
+
+    work = fair.copy()
+
+    work["date"] = pd.to_datetime(
+        work["date"],
+        errors="coerce",
+    )
+
+    work = work[work["date"].notna()].copy()
+
+    if work.empty:
+        return pd.DataFrame(columns=columns)
+
+    if days is not None:
+        latest_date = work["date"].max()
+        cutoff = latest_date - pd.Timedelta(days=days - 1)
+        work = work[work["date"] >= cutoff].copy()
+
+    if work.empty:
+        return pd.DataFrame(columns=columns)
+
+    work["error_f"] = (
+        work["predicted_high_f"]
+        - work["actual_cli_high_f"]
+    )
+
+    work["abs_error_f"] = work["error_f"].abs()
+
+    work["forecast_rounded_f"] = (
+        (work["predicted_high_f"] + 0.5) // 1
+    ).astype("Int64")
+
+    work["exact_hit"] = (
+        work["forecast_rounded_f"]
+        == work["actual_cli_high_f"]
+    )
+
+    work["within_1f"] = work["abs_error_f"] <= 1.0
+    work["within_2f"] = work["abs_error_f"] <= 2.0
+
+    # Find the lowest error among all available models
+    # at the same date/checkpoint. Ties each receive a win.
+    group_min_error = work.groupby(
+        ["date", "checkpoint_hour"]
+    )["abs_error_f"].transform("min")
+
+    work["closest_win"] = (
+        work["abs_error_f"] == group_min_error
+    )
+
+    summary = (
+        work.groupby("model_name", as_index=False)
+        .agg(
+            forecasts=("predicted_high_f", "size"),
+            mae_f=("abs_error_f", "mean"),
+            bias_f=("error_f", "mean"),
+            exact_pct=("exact_hit", "mean"),
+            within_1f_pct=("within_1f", "mean"),
+            within_2f_pct=("within_2f", "mean"),
+            closest_wins=("closest_win", "sum"),
+        )
+    )
+
+    summary["exact_pct"] *= 100.0
+    summary["within_1f_pct"] *= 100.0
+    summary["within_2f_pct"] *= 100.0
+
+    summary["closest_win_pct"] = (
+        summary["closest_wins"]
+        / summary["forecasts"]
+        * 100.0
+    )
+
+    summary = summary.sort_values(
+        ["mae_f", "model_name"],
+        ascending=[True, True],
+    ).reset_index(drop=True)
+
+    return summary[columns]
 def progression_rows(history: pd.DataFrame, today: str, limit: int = 8) -> list[dict]:
     if history.empty or "date" not in history:
         return []
