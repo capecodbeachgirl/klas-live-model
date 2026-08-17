@@ -312,6 +312,84 @@ def score_model_history(
 
     return scored
 
+def fair_checkpoint_scores(history: pd.DataFrame) -> pd.DataFrame:
+    """Keep one fair scored forecast per date, checkpoint hour, and model."""
+
+    if history.empty:
+        return history.copy()
+
+    work = history.copy()
+
+    required = {
+        "date",
+        "checkpoint_hour",
+        "model_name",
+        "updated_at_local",
+        "predicted_high_f",
+        "actual_cli_high_f",
+        "eligible_for_score",
+    }
+
+    if not required.issubset(work.columns):
+        return pd.DataFrame()
+
+    work["checkpoint_hour"] = pd.to_numeric(
+        work["checkpoint_hour"],
+        errors="coerce",
+    )
+
+    work["predicted_high_f"] = pd.to_numeric(
+        work["predicted_high_f"],
+        errors="coerce",
+    )
+
+    work["actual_cli_high_f"] = pd.to_numeric(
+        work["actual_cli_high_f"],
+        errors="coerce",
+    )
+
+    work["_updated"] = pd.to_datetime(
+        work["updated_at_local"],
+        errors="coerce",
+        utc=True,
+    )
+
+    eligible = (
+        work["eligible_for_score"]
+        .astype(str)
+        .str.lower()
+        .isin(["true", "1", "yes"])
+    )
+
+    work = work[
+        eligible
+        & work["checkpoint_hour"].notna()
+        & work["predicted_high_f"].notna()
+        & work["actual_cli_high_f"].notna()
+        & work["_updated"].notna()
+    ].copy()
+
+    if work.empty:
+        return work.drop(columns=["_updated"], errors="ignore")
+
+    # There may be several 15-minute refreshes during one checkpoint hour.
+    # Use only the latest one so no model gets extra weight from extra refreshes.
+    work = (
+        work.sort_values("_updated")
+        .drop_duplicates(
+            subset=[
+                "date",
+                "checkpoint_hour",
+                "model_name",
+            ],
+            keep="last",
+        )
+        .drop(columns=["_updated"])
+        .reset_index(drop=True)
+    )
+
+    return work
+
 def progression_rows(history: pd.DataFrame, today: str, limit: int = 8) -> list[dict]:
     if history.empty or "date" not in history:
         return []
