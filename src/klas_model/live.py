@@ -24,7 +24,11 @@ def latest_checkpoint_hour(obs: pd.DataFrame) -> int | None:
     latest = ts.max()
     rounded = latest.round("h")
     hour = int(rounded.hour)
-    return hour if 8 <= hour <= 18 else None
+    if 8 <= hour <= 18:
+        return hour
+    if hour > 18:
+        return 18
+    return None
 
 
 def latest_six_hour_max(obs: pd.DataFrame) -> tuple[int | None, str | None]:
