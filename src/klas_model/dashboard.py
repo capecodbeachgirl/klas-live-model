@@ -515,7 +515,7 @@ Historical analogs currently use KLAS temperature and the NWS morning forecast f
 </div>
 
 <div class="mini" style="margin-top:10px">
-Wethr is currently a research-only cross-check. Incomplete model runs are excluded from the consensus, and Wethr does not yet alter our validated KLAS prediction.
+Wethr forecast models are a research-only cross-check and do not alter the validated KLAS model estimate. Incomplete model runs are excluded from the consensus. Wethr Live High is used as an observed-temperature floor because the prediction cannot be below a temperature already observed today.
 </div>
 </section>
 '''
