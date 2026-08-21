@@ -153,6 +153,7 @@ def build_live_state(
     nws_live_forecast: dict | None = None,
     afd: dict | None = None,
     radar: dict | None = None,
+    external_observed_high_f: float | None = None,
 ) -> dict:
     checkpoint = latest_checkpoint_hour(obs)
     latest = obs.sort_values("timestamp").iloc[-1]
@@ -239,6 +240,8 @@ def build_live_state(
         observed_floor_candidates.append(float(precise_peak))
     if six_max is not None:
         observed_floor_candidates.append(float(six_max))
+    if external_observed_high_f is not None:
+        observed_floor_candidates.append(float(external_observed_high_f))
     observed_floor = max(observed_floor_candidates)
 
     if use_remaining_heating:
@@ -246,9 +249,8 @@ def build_live_state(
         distribution_floor = observed_floor
         mae = float(bundle.get("test_final_high_mae_f", 99))
     else:
-        if six_max is not None:
-            model_high = max(model_high, float(six_max))
-        distribution_floor = six_max
+        model_high = max(model_high, observed_floor)
+        distribution_floor = observed_floor
         mae = float(
             bundle.get("test_metrics", {}).get("mae_f", 99)
         )
@@ -326,3 +328,4 @@ def save_json(state: dict, path: str | Path) -> Path:
     path.parent.mkdir(parents=True, exist_ok=True)
     path.write_text(json.dumps(state, indent=2, default=str), encoding="utf-8")
     return path
+
