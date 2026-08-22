@@ -1,6 +1,6 @@
 {
   "date": "2026-08-22",
-  "updated_at_local": "2026-08-22T12:51:04.033089-07:00",
+  "updated_at_local": "2026-08-22T12:52:59.151638-07:00",
   "latest_metar_time": "2026-08-22T12:00:00-07:00",
   "latest_temp_f": 104.0,
   "latest_precise_temp_f": 104.0,
@@ -169,15 +169,10 @@
   },
   "radar": {
     "available": true,
-    "latest_time_utc": "2026-08-22T19:32:58+00:00",
-    "prior_time_utc": "2026-08-22T19:02:58+00:00",
+    "latest_time_utc": "2026-08-22T19:46:56+00:00",
+    "prior_time_utc": "2026-08-22T19:16:56+00:00",
     "current": {
-      "echo_fraction_by_radius": {
-        "0": 0.0,
-        "10": 0.0,
-        "25": 0.0,
-        "50": 0.0
-      },
+      "echo_fraction_by_radius": {},
       "nearest_echo_miles": null
     },
     "prior": {
@@ -205,16 +200,16 @@
       "strike_type": "between",
       "floor_strike": 109.0,
       "cap_strike": 110.0,
-      "yes_bid": 0.5,
-      "yes_ask": 0.52,
-      "last_price": 0.54,
-      "market_mid": 0.51,
+      "yes_bid": 0.6,
+      "yes_ask": 0.61,
+      "last_price": 0.6,
+      "market_mid": 0.605,
       "close_time": "2026-08-23T08:00:00Z",
       "occurrence_datetime": "2026-08-23T14:00:00Z",
       "updated_time": "2026-08-21T14:00:01.919412Z",
-      "model_probability": 0.5207933461292387,
-      "edge_vs_ask": 0.0007933461292386479,
-      "difference": 0.010793346129238657
+      "model_probability": 0.5541184479237576,
+      "edge_vs_ask": -0.05588155207624235,
+      "difference": -0.05088155207624234
     },
     {
       "ticker": "KXHIGHTLV-26AUG22-B107.5",
@@ -224,16 +219,16 @@
       "strike_type": "between",
       "floor_strike": 107.0,
       "cap_strike": 108.0,
-      "yes_bid": 0.39,
-      "yes_ask": 0.43,
-      "last_price": 0.47,
-      "market_mid": 0.41000000000000003,
+      "yes_bid": 0.29,
+      "yes_ask": 0.34,
+      "last_price": 0.28,
+      "market_mid": 0.315,
       "close_time": "2026-08-23T08:00:00Z",
       "occurrence_datetime": "2026-08-23T14:00:00Z",
       "updated_time": "2026-08-21T14:00:01.919412Z",
-      "model_probability": 0.32885476647472806,
-      "edge_vs_ask": -0.10114523352527194,
-      "difference": -0.08114523352527198
+      "model_probability": 0.3498978897208986,
+      "edge_vs_ask": 0.009897889720898556,
+      "difference": 0.03489788972089858
     },
     {
       "ticker": "KXHIGHTLV-26AUG22-B111.5",
@@ -245,33 +240,14 @@
       "cap_strike": 112.0,
       "yes_bid": 0.04,
       "yes_ask": 0.05,
-      "last_price": 0.03,
+      "last_price": 0.06,
       "market_mid": 0.045,
       "close_time": "2026-08-23T08:00:00Z",
       "occurrence_datetime": "2026-08-23T14:00:00Z",
       "updated_time": "2026-08-21T14:00:01.919412Z",
-      "model_probability": 0.07293666026871401,
-      "edge_vs_ask": 0.022936660268714007,
-      "difference": 0.02793666026871401
-    },
-    {
-      "ticker": "KXHIGHTLV-26AUG22-B105.5",
-      "event_ticker": "KXHIGHTLV-26AUG22",
-      "title": "Will the maximum temperature be 105-106\u00b0 on Aug 22, 2026?",
-      "subtitle": "105\u00b0 to 106\u00b0",
-      "strike_type": "between",
-      "floor_strike": 105.0,
-      "cap_strike": 106.0,
-      "yes_bid": 0.01,
-      "yes_ask": 0.02,
-      "last_price": 0.01,
-      "market_mid": 0.015,
-      "close_time": "2026-08-23T08:00:00Z",
-      "occurrence_datetime": "2026-08-23T14:00:00Z",
-      "updated_time": "2026-08-21T14:00:01.919412Z",
-      "model_probability": 0.060140754958413305,
-      "edge_vs_ask": 0.04014075495841331,
-      "difference": 0.045140754958413305
+      "model_probability": 0.07760381211708645,
+      "edge_vs_ask": 0.027603812117086443,
+      "difference": 0.03260381211708645
     },
     {
       "ticker": "KXHIGHTLV-26AUG22-T112",
@@ -288,9 +264,28 @@
       "close_time": "2026-08-23T08:00:00Z",
       "occurrence_datetime": "2026-08-23T14:00:00Z",
       "updated_time": "2026-08-21T14:00:01.919412Z",
-      "model_probability": 0.01727447216890595,
-      "edge_vs_ask": 0.007274472168905951,
-      "difference": 0.01227447216890595
+      "model_probability": 0.01837985023825732,
+      "edge_vs_ask": 0.00837985023825732,
+      "difference": 0.013379850238257319
+    },
+    {
+      "ticker": "KXHIGHTLV-26AUG22-B105.5",
+      "event_ticker": "KXHIGHTLV-26AUG22",
+      "title": "Will the maximum temperature be 105-106\u00b0 on Aug 22, 2026?",
+      "subtitle": "105\u00b0 to 106\u00b0",
+      "strike_type": "between",
+      "floor_strike": 105.0,
+      "cap_strike": 106.0,
+      "yes_bid": 0.0,
+      "yes_ask": 0.01,
+      "last_price": 0.01,
+      "market_mid": 0.005,
+      "close_time": "2026-08-23T08:00:00Z",
+      "occurrence_datetime": "2026-08-23T14:00:00Z",
+      "updated_time": "2026-08-21T14:00:01.919412Z",
+      "model_probability": 0,
+      "edge_vs_ask": -0.01,
+      "difference": -0.005
     },
     {
       "ticker": "KXHIGHTLV-26AUG22-T105",
@@ -314,43 +309,41 @@
   ],
   "model_method": "nws_anchored",
   "model_bundle": "h12.joblib",
-  "observed_floor_f": 105.08000000000001,
+  "observed_floor_f": 107.0,
   "model_predicted_high_f": 108.59386716359174,
   "model_correction_f": 0.5938671635917387,
-  "likely_low_f": 107,
+  "likely_low_f": 108,
   "likely_high_f": 110,
   "confidence": "MEDIUM",
   "model_mae_f": 0.9234740730864509,
   "distribution": {
-    "105": 0.030070377479206652,
-    "106": 0.030070377479206652,
-    "107": 0.08125399872040946,
-    "108": 0.2476007677543186,
-    "109": 0.38835572616762637,
-    "110": 0.13243761996161227,
-    "111": 0.05566218809980805,
-    "112": 0.01727447216890595,
-    "113": 0.01727447216890595
+    "107": 0.08645336963921034,
+    "108": 0.2634445200816882,
+    "109": 0.4132062627637849,
+    "110": 0.14091218515997275,
+    "111": 0.059223961878829126,
+    "112": 0.01837985023825732,
+    "113": 0.01837985023825732
   },
   "bucket_probability_total": 1.0,
   "largest_model_ask_gap": {
-    "ticker": "KXHIGHTLV-26AUG22-B105.5",
+    "ticker": "KXHIGHTLV-26AUG22-B111.5",
     "event_ticker": "KXHIGHTLV-26AUG22",
-    "title": "Will the maximum temperature be 105-106\u00b0 on Aug 22, 2026?",
-    "subtitle": "105\u00b0 to 106\u00b0",
+    "title": "Will the maximum temperature be 111-112\u00b0 on Aug 22, 2026?",
+    "subtitle": "111\u00b0 to 112\u00b0",
     "strike_type": "between",
-    "floor_strike": 105.0,
-    "cap_strike": 106.0,
-    "yes_bid": 0.01,
-    "yes_ask": 0.02,
-    "last_price": 0.01,
-    "market_mid": 0.015,
+    "floor_strike": 111.0,
+    "cap_strike": 112.0,
+    "yes_bid": 0.04,
+    "yes_ask": 0.05,
+    "last_price": 0.06,
+    "market_mid": 0.045,
     "close_time": "2026-08-23T08:00:00Z",
     "occurrence_datetime": "2026-08-23T14:00:00Z",
     "updated_time": "2026-08-21T14:00:01.919412Z",
-    "model_probability": 0.060140754958413305,
-    "edge_vs_ask": 0.04014075495841331,
-    "difference": 0.045140754958413305
+    "model_probability": 0.07760381211708645,
+    "edge_vs_ask": 0.027603812117086443,
+    "difference": 0.03260381211708645
   },
   "research_status": "WEATHER WATCH",
   "satellite": {
@@ -371,7 +364,7 @@
   },
   "wethr": {
     "available": true,
-    "collected_at_local": "2026-08-22T12:50:58.665122-07:00",
+    "collected_at_local": "2026-08-22T12:52:52.013219-07:00",
     "models": {
       "HRRR": {
         "available": true,
@@ -416,7 +409,7 @@
         "covers_rest_of_contract": true,
         "remaining_high_f": 106.97,
         "remaining_high_time_local": "2026-08-22T16:00:00-07:00",
-        "projected_high_f": 106.97
+        "projected_high_f": 107.0
       },
       "RAP": {
         "available": true,
@@ -476,35 +469,30 @@
         "LAV-MOS"
       ],
       "median_high_f": 108.1,
-      "mean_high_f": 108.28,
-      "min_high_f": 106.97,
+      "mean_high_f": 108.29,
+      "min_high_f": 107.0,
       "max_high_f": 109.38,
-      "spread_f": 2.41
+      "spread_f": 2.38
     },
     "source": "Wethr.net Forecasts API v2",
     "research_only": true,
-    "observed_floor_f": 105.08000000000001
+    "observed_floor_f": 107.0
   },
   "wethr_observed_high": {
     "available": true,
-    "wethr_high_f": 105.0,
-    "time_of_high_utc": "2026-08-22 19:48:00",
+    "wethr_high_f": 107.0,
+    "time_of_high_utc": "2026-08-22 19:50:00",
     "sources": [
       "omo",
-      "hf_metar",
-      "metar"
+      "hf_metar"
     ],
     "source_detail": {
       "omo": {
-        "first_confirmed_utc": "2026-08-22 18:43:00",
-        "count": 51
+        "first_confirmed_utc": "2026-08-22 19:49:00",
+        "count": 2
       },
       "hf_metar": {
-        "first_confirmed_utc": "2026-08-22 18:45:00",
-        "count": 11
-      },
-      "metar": {
-        "first_confirmed_utc": "2026-08-22 18:56:00",
+        "first_confirmed_utc": "2026-08-22 19:50:00",
         "count": 1
       }
     },
