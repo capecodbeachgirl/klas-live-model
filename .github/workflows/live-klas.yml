@@ -50,6 +50,9 @@ jobs:
           WETHR_API_KEY: ${{ secrets.WETHR_API_KEY }}
         run: python scripts/live_update.py
 
+      - name: Generate h10+50 shadow forecast
+        run: python scripts/generate_h10_50_shadow.py
+
       - name: Score pending h10+50 shadow forecasts
         run: python scripts/score_h10_50_shadow.py
 

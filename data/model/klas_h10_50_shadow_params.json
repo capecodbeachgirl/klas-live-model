@@ -1,0 +1,42 @@
+{
+  "station": "KLAS",
+  "checkpoint_hour": 10,
+  "elapsed_min": 50,
+  "training_years": [
+    2022,
+    2023,
+    2024
+  ],
+  "training_rows": 308,
+  "features": [
+    "checkpoint_temp_f",
+    "model_predicted_high_f",
+    "season_sin",
+    "season_cos"
+  ],
+  "ridge_alpha": 2.0,
+  "scaler_mean": [
+    90.51948051948052,
+    101.69759728096705,
+    -0.47409613117799854,
+    -0.688654001129642
+  ],
+  "scaler_scale": [
+    8.090976839890626,
+    8.22602822979033,
+    0.4546173674609604,
+    0.30710189568456775
+  ],
+  "ridge_coef": [
+    6.956582262514544,
+    1.404019272230787,
+    0.18298523074007783,
+    0.1830322375614976
+  ],
+  "ridge_intercept": 92.67402597402597,
+  "trajectory_coef": 0.2802867063701137,
+  "trajectory_intercept_f": -0.3052293725335153,
+  "selection_date": "2026-08-22",
+  "validation_start_date": "2026-08-22",
+  "production_enabled": false
+}
