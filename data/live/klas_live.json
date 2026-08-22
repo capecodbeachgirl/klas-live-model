@@ -1,6 +1,6 @@
 {
   "date": "2026-08-22",
-  "updated_at_local": "2026-08-22T10:52:16.526158-07:00",
+  "updated_at_local": "2026-08-22T10:56:39.853231-07:00",
   "latest_metar_time": "2026-08-22T09:56:00-07:00",
   "latest_temp_f": 99.0,
   "latest_precise_temp_f": 98.96000000000001,
@@ -229,16 +229,16 @@
       "strike_type": "between",
       "floor_strike": 107.0,
       "cap_strike": 108.0,
-      "yes_bid": 0.38,
-      "yes_ask": 0.4,
+      "yes_bid": 0.39,
+      "yes_ask": 0.41,
       "last_price": 0.41,
-      "market_mid": 0.39,
+      "market_mid": 0.4,
       "close_time": "2026-08-23T08:00:00Z",
       "occurrence_datetime": "2026-08-23T14:00:00Z",
       "updated_time": "2026-08-21T14:00:01.919412Z",
       "model_probability": 0.6255619781631342,
-      "edge_vs_ask": 0.22556197816313417,
-      "difference": 0.23556197816313418
+      "edge_vs_ask": 0.21556197816313422,
+      "difference": 0.22556197816313417
     },
     {
       "ticker": "KXHIGHTLV-26AUG22-B109.5",
@@ -250,7 +250,7 @@
       "cap_strike": 110.0,
       "yes_bid": 0.53,
       "yes_ask": 0.57,
-      "last_price": 0.54,
+      "last_price": 0.57,
       "market_mid": 0.55,
       "close_time": "2026-08-23T08:00:00Z",
       "occurrence_datetime": "2026-08-23T14:00:00Z",
@@ -367,16 +367,16 @@
     "strike_type": "between",
     "floor_strike": 107.0,
     "cap_strike": 108.0,
-    "yes_bid": 0.38,
-    "yes_ask": 0.4,
+    "yes_bid": 0.39,
+    "yes_ask": 0.41,
     "last_price": 0.41,
-    "market_mid": 0.39,
+    "market_mid": 0.4,
     "close_time": "2026-08-23T08:00:00Z",
     "occurrence_datetime": "2026-08-23T14:00:00Z",
     "updated_time": "2026-08-21T14:00:01.919412Z",
     "model_probability": 0.6255619781631342,
-    "edge_vs_ask": 0.22556197816313417,
-    "difference": 0.23556197816313418
+    "edge_vs_ask": 0.21556197816313422,
+    "difference": 0.22556197816313417
   },
   "research_status": "EDGE WATCH \u2014 WEATHER RISK MEDIUM",
   "satellite": {
@@ -397,7 +397,7 @@
   },
   "wethr": {
     "available": true,
-    "collected_at_local": "2026-08-22T10:52:08.384066-07:00",
+    "collected_at_local": "2026-08-22T10:56:33.467265-07:00",
     "models": {
       "HRRR": {
         "available": true,
@@ -514,7 +514,7 @@
   "wethr_observed_high": {
     "available": true,
     "wethr_high_f": 102.0,
-    "time_of_high_utc": "2026-08-22 17:50:00",
+    "time_of_high_utc": "2026-08-22 17:54:00",
     "sources": [
       "omo",
       "hf_metar"
@@ -522,7 +522,7 @@
     "source_detail": {
       "omo": {
         "first_confirmed_utc": "2026-08-22 17:31:00",
-        "count": 19
+        "count": 24
       },
       "hf_metar": {
         "first_confirmed_utc": "2026-08-22 17:35:00",
