@@ -2,8 +2,8 @@ name: KLAS hourly live update + Pages
 
 on:
   schedule:
-    # Every 15 minutes from 8:05 AM through 7:50 PM Las Vegas time
-    - cron: "5,20,35,50 8-19 * * *"
+    # Every 10 minutes from 8:07 AM through 7:57 PM Las Vegas time
+    - cron: "7,17,27,37,47,57 8-19 * * *"
       timezone: "America/Los_Angeles"
 
     # Hourly overnight
