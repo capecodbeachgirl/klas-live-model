@@ -1,6 +1,6 @@
 {
   "date": "2026-08-22",
-  "updated_at_local": "2026-08-22T16:29:23.890959-07:00",
+  "updated_at_local": "2026-08-22T16:33:56.277595-07:00",
   "latest_metar_time": "2026-08-22T15:56:00-07:00",
   "latest_temp_f": 108.0,
   "latest_precise_temp_f": 107.96000000000001,
@@ -120,8 +120,8 @@
   },
   "radar": {
     "available": true,
-    "latest_time_utc": "2026-08-22T23:06:55+00:00",
-    "prior_time_utc": "2026-08-22T22:36:55+00:00",
+    "latest_time_utc": "2026-08-22T23:28:14+00:00",
+    "prior_time_utc": "2026-08-22T22:58:14+00:00",
     "current": {
       "echo_fraction_by_radius": {
         "0": 0.0,
@@ -156,16 +156,16 @@
       "strike_type": "between",
       "floor_strike": 109.0,
       "cap_strike": 110.0,
-      "yes_bid": 0.93,
-      "yes_ask": 0.96,
-      "last_price": 0.96,
-      "market_mid": 0.9450000000000001,
+      "yes_bid": 0.96,
+      "yes_ask": 0.97,
+      "last_price": 0.95,
+      "market_mid": 0.965,
       "close_time": "2026-08-23T08:00:00Z",
       "occurrence_datetime": "2026-08-23T14:00:00Z",
       "updated_time": "2026-08-21T14:00:01.919412Z",
       "model_probability": 0.9873646209386282,
-      "edge_vs_ask": 0.027364620938628237,
-      "difference": 0.04236462093862814
+      "edge_vs_ask": 0.017364620938628228,
+      "difference": 0.022364620938628232
     },
     {
       "ticker": "KXHIGHTLV-26AUG22-B111.5",
@@ -176,15 +176,15 @@
       "floor_strike": 111.0,
       "cap_strike": 112.0,
       "yes_bid": 0.03,
-      "yes_ask": 0.06,
-      "last_price": 0.05,
-      "market_mid": 0.045,
+      "yes_ask": 0.04,
+      "last_price": 0.01,
+      "market_mid": 0.035,
       "close_time": "2026-08-23T08:00:00Z",
       "occurrence_datetime": "2026-08-23T14:00:00Z",
       "updated_time": "2026-08-21T14:00:01.919412Z",
       "model_probability": 0.01263537906137184,
-      "edge_vs_ask": -0.04736462093862816,
-      "difference": -0.03236462093862816
+      "edge_vs_ask": -0.02736462093862816,
+      "difference": -0.022364620938628163
     },
     {
       "ticker": "KXHIGHTLV-26AUG22-B105.5",
@@ -289,16 +289,16 @@
     "strike_type": "between",
     "floor_strike": 109.0,
     "cap_strike": 110.0,
-    "yes_bid": 0.93,
-    "yes_ask": 0.96,
-    "last_price": 0.96,
-    "market_mid": 0.9450000000000001,
+    "yes_bid": 0.96,
+    "yes_ask": 0.97,
+    "last_price": 0.95,
+    "market_mid": 0.965,
     "close_time": "2026-08-23T08:00:00Z",
     "occurrence_datetime": "2026-08-23T14:00:00Z",
     "updated_time": "2026-08-21T14:00:01.919412Z",
     "model_probability": 0.9873646209386282,
-    "edge_vs_ask": 0.027364620938628237,
-    "difference": 0.04236462093862814
+    "edge_vs_ask": 0.017364620938628228,
+    "difference": 0.022364620938628232
   },
   "research_status": "WEATHER WATCH",
   "satellite": {
@@ -309,17 +309,17 @@
     "mean_cloud_fraction_2h": 0.4375,
     "cloud_fraction_trend_2h": -0.25,
     "latest_cloud_fraction_below_20000": 0.25,
-    "geocolor_image_url": "https://cdn.star.nesdis.noaa.gov/WFO/vef/GEOCOLOR/20262342300_GOES18-ABI-vef-GEOCOLOR-600x600.jpg",
-    "geocolor_time_utc": "2026-08-22T23:00:00+00:00",
-    "infrared_image_url": "https://cdn.star.nesdis.noaa.gov/WFO/vef/13/20262342300_GOES18-ABI-vef-13-600x600.jpg",
-    "infrared_time_utc": "2026-08-22T23:00:00+00:00",
+    "geocolor_image_url": "https://cdn.star.nesdis.noaa.gov/WFO/vef/GEOCOLOR/20262342310_GOES18-ABI-vef-GEOCOLOR-600x600.jpg",
+    "geocolor_time_utc": "2026-08-22T23:10:00+00:00",
+    "infrared_image_url": "https://cdn.star.nesdis.noaa.gov/WFO/vef/13/20262342310_GOES18-ABI-vef-13-600x600.jpg",
+    "infrared_time_utc": "2026-08-22T23:10:00+00:00",
     "errors": [],
     "image_note": "GOES images are a visual cross-check in this version. The shading label uses KLAS-observed sky cover and does not alter the validated temperature prediction.",
     "source": "NOAA/NESDIS/STAR GOES imagery + KLAS METAR sky cover"
   },
   "wethr": {
     "available": true,
-    "collected_at_local": "2026-08-22T16:29:19.366304-07:00",
+    "collected_at_local": "2026-08-22T16:33:51.598843-07:00",
     "models": {
       "HRRR": {
         "available": true,
@@ -332,8 +332,8 @@
         "contract_start_local": "2026-08-22T01:00:00-07:00",
         "contract_end_local": "2026-08-23T01:00:00-07:00",
         "covers_rest_of_contract": true,
-        "remaining_high_f": 108.18,
-        "remaining_high_time_local": "2026-08-22T16:30:00-07:00",
+        "remaining_high_f": 107.54,
+        "remaining_high_time_local": "2026-08-22T16:45:00-07:00",
         "projected_high_f": 109.0
       },
       "HRRR-EXT": {
