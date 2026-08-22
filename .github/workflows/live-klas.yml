@@ -50,12 +50,15 @@ jobs:
           WETHR_API_KEY: ${{ secrets.WETHR_API_KEY }}
         run: python scripts/live_update.py
 
+      - name: Score pending h10+50 shadow forecasts
+        run: python scripts/score_h10_50_shadow.py
+
       - name: Persist live history and latest dashboard
         shell: bash
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add docs/index.html data/live/
+          git add docs/index.html data/live/ data/processed/klas_h10_50_shadow_log.csv
           if git diff --cached --quiet; then
             echo "No persisted live-state changes to commit."
           else

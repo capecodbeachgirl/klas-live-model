@@ -1,0 +1,2 @@
+station,checkpoint_hour,elapsed_min,status,selection_date,validation_start_date,production_enabled,reason
+KLAS,10,50,prospective_shadow_only,2026-08-22,2026-08-22,False,h10+50 improved in 2025 validation and Aug15-21 prospective test; requires new unseen prospective sample
