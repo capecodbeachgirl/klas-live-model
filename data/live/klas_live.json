@@ -1,6 +1,6 @@
 {
   "date": "2026-08-23",
-  "updated_at_local": "2026-08-23T12:30:32.451619-07:00",
+  "updated_at_local": "2026-08-23T12:35:08.630936-07:00",
   "latest_metar_time": "2026-08-23T11:56:00-07:00",
   "latest_temp_f": 105.0,
   "latest_precise_temp_f": 105.08000000000001,
@@ -166,8 +166,8 @@
   },
   "radar": {
     "available": true,
-    "latest_time_utc": "2026-08-23T19:16:56+00:00",
-    "prior_time_utc": "2026-08-23T18:46:56+00:00",
+    "latest_time_utc": "2026-08-23T19:22:58+00:00",
+    "prior_time_utc": "2026-08-23T18:52:58+00:00",
     "current": {
       "echo_fraction_by_radius": {
         "0": 0.0,
@@ -202,16 +202,16 @@
       "strike_type": "between",
       "floor_strike": 109.0,
       "cap_strike": 110.0,
-      "yes_bid": 0.76,
-      "yes_ask": 0.77,
+      "yes_bid": 0.78,
+      "yes_ask": 0.81,
       "last_price": 0.75,
-      "market_mid": 0.765,
+      "market_mid": 0.795,
       "close_time": "2026-08-24T08:00:00Z",
       "occurrence_datetime": "2026-08-24T14:00:00Z",
       "updated_time": "2026-08-22T14:00:02.819819Z",
       "model_probability": 0.58203125,
-      "edge_vs_ask": -0.18796875000000002,
-      "difference": -0.18296875
+      "edge_vs_ask": -0.22796875000000005,
+      "difference": -0.21296875000000004
     },
     {
       "ticker": "KXHIGHTLV-26AUG23-B111.5",
@@ -240,16 +240,16 @@
       "strike_type": "between",
       "floor_strike": 107.0,
       "cap_strike": 108.0,
-      "yes_bid": 0.17,
-      "yes_ask": 0.18,
-      "last_price": 0.21,
-      "market_mid": 0.175,
+      "yes_bid": 0.12,
+      "yes_ask": 0.14,
+      "last_price": 0.11,
+      "market_mid": 0.13,
       "close_time": "2026-08-24T08:00:00Z",
       "occurrence_datetime": "2026-08-24T14:00:00Z",
       "updated_time": "2026-08-22T14:00:02.819819Z",
       "model_probability": 0.08723958333333334,
-      "edge_vs_ask": -0.09276041666666665,
-      "difference": -0.08776041666666665
+      "edge_vs_ask": -0.05276041666666667,
+      "difference": -0.04276041666666666
     },
     {
       "ticker": "KXHIGHTLV-26AUG23-T112",
@@ -367,7 +367,7 @@
   },
   "wethr": {
     "available": true,
-    "collected_at_local": "2026-08-23T12:30:23.456585-07:00",
+    "collected_at_local": "2026-08-23T12:34:59.364067-07:00",
     "models": {
       "HRRR": {
         "available": true,
