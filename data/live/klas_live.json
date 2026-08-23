@@ -1,6 +1,6 @@
 {
   "date": "2026-08-23",
-  "updated_at_local": "2026-08-23T15:02:16.208572-07:00",
+  "updated_at_local": "2026-08-23T15:08:07.421824-07:00",
   "latest_metar_time": "2026-08-23T14:56:00-07:00",
   "latest_temp_f": 108.0,
   "latest_precise_temp_f": 107.96000000000001,
@@ -136,7 +136,12 @@
     "latest_time_utc": "2026-08-23T21:56:57+00:00",
     "prior_time_utc": "2026-08-23T21:26:57+00:00",
     "current": {
-      "echo_fraction_by_radius": {},
+      "echo_fraction_by_radius": {
+        "0": 0.0,
+        "10": 0.0,
+        "25": 0.0,
+        "50": 0.0
+      },
       "nearest_echo_miles": null
     },
     "prior": {
@@ -164,16 +169,16 @@
       "strike_type": "between",
       "floor_strike": 109.0,
       "cap_strike": 110.0,
-      "yes_bid": 0.78,
-      "yes_ask": 0.92,
-      "last_price": 0.88,
-      "market_mid": 0.8500000000000001,
+      "yes_bid": 0.88,
+      "yes_ask": 0.91,
+      "last_price": 0.91,
+      "market_mid": 0.895,
       "close_time": "2026-08-24T08:00:00Z",
       "occurrence_datetime": "2026-08-24T14:00:00Z",
       "updated_time": "2026-08-22T14:00:02.819819Z",
       "model_probability": 0.8230508474576272,
-      "edge_vs_ask": -0.0969491525423728,
-      "difference": -0.026949152542372845
+      "edge_vs_ask": -0.08694915254237279,
+      "difference": -0.07194915254237277
     },
     {
       "ticker": "KXHIGHTLV-26AUG23-B111.5",
@@ -184,15 +189,15 @@
       "floor_strike": 111.0,
       "cap_strike": 112.0,
       "yes_bid": 0.1,
-      "yes_ask": 0.12,
-      "last_price": 0.13,
-      "market_mid": 0.11,
+      "yes_ask": 0.11,
+      "last_price": 0.12,
+      "market_mid": 0.10500000000000001,
       "close_time": "2026-08-24T08:00:00Z",
       "occurrence_datetime": "2026-08-24T14:00:00Z",
       "updated_time": "2026-08-22T14:00:02.819819Z",
       "model_probability": 0.15864406779661017,
-      "edge_vs_ask": 0.03864406779661017,
-      "difference": 0.048644067796610166
+      "edge_vs_ask": 0.048644067796610166,
+      "difference": 0.053644067796610156
     },
     {
       "ticker": "KXHIGHTLV-26AUG23-T112",
@@ -297,15 +302,15 @@
     "floor_strike": 111.0,
     "cap_strike": 112.0,
     "yes_bid": 0.1,
-    "yes_ask": 0.12,
-    "last_price": 0.13,
-    "market_mid": 0.11,
+    "yes_ask": 0.11,
+    "last_price": 0.12,
+    "market_mid": 0.10500000000000001,
     "close_time": "2026-08-24T08:00:00Z",
     "occurrence_datetime": "2026-08-24T14:00:00Z",
     "updated_time": "2026-08-22T14:00:02.819819Z",
     "model_probability": 0.15864406779661017,
-    "edge_vs_ask": 0.03864406779661017,
-    "difference": 0.048644067796610166
+    "edge_vs_ask": 0.048644067796610166,
+    "difference": 0.053644067796610156
   },
   "research_status": "WEATHER WATCH",
   "satellite": {
@@ -326,16 +331,16 @@
   },
   "wethr": {
     "available": true,
-    "collected_at_local": "2026-08-23T15:02:10.275677-07:00",
+    "collected_at_local": "2026-08-23T15:08:00.607657-07:00",
     "models": {
       "HRRR": {
         "available": true,
         "model": "HRRR",
         "run_time_utc": "2026-08-23 21:00:00",
-        "rows_received": 13,
-        "max_forecast_hour": 3,
+        "rows_received": 25,
+        "max_forecast_hour": 6,
         "coverage_start_local": "2026-08-23T14:00:00-07:00",
-        "coverage_end_local": "2026-08-23T17:00:00-07:00",
+        "coverage_end_local": "2026-08-23T20:00:00-07:00",
         "contract_start_local": "2026-08-23T01:00:00-07:00",
         "contract_end_local": "2026-08-24T01:00:00-07:00",
         "covers_rest_of_contract": false,
@@ -360,17 +365,16 @@
       "NBM": {
         "available": true,
         "model": "NBM",
-        "run_time_utc": "2026-08-23 19:00:00",
-        "rows_received": 36,
-        "max_forecast_hour": 36,
-        "coverage_start_local": "2026-08-23T13:00:00-07:00",
-        "coverage_end_local": "2026-08-25T00:00:00-07:00",
+        "run_time_utc": "2026-08-23 20:00:00",
+        "rows_received": 5,
+        "max_forecast_hour": 5,
+        "coverage_start_local": "2026-08-23T14:00:00-07:00",
+        "coverage_end_local": "2026-08-23T18:00:00-07:00",
         "contract_start_local": "2026-08-23T01:00:00-07:00",
         "contract_end_local": "2026-08-24T01:00:00-07:00",
-        "covers_rest_of_contract": true,
+        "covers_rest_of_contract": false,
         "remaining_high_f": 107.87,
-        "remaining_high_time_local": "2026-08-23T16:00:00-07:00",
-        "projected_high_f": 109.03999999999999
+        "remaining_high_time_local": "2026-08-23T16:00:00-07:00"
       },
       "RAP": {
         "available": true,
@@ -420,10 +424,9 @@
     },
     "consensus": {
       "available": true,
-      "model_count": 5,
+      "model_count": 4,
       "models_used": [
         "HRRR-EXT",
-        "NBM",
         "RAP",
         "GFS-MOS",
         "LAV-MOS"
@@ -441,7 +444,7 @@
   "wethr_observed_high": {
     "available": true,
     "wethr_high_f": 109.0,
-    "time_of_high_utc": "2026-08-23 21:54:00",
+    "time_of_high_utc": "2026-08-23 22:05:00",
     "sources": [
       "hf_metar",
       "omo",
@@ -450,11 +453,11 @@
     "source_detail": {
       "hf_metar": {
         "first_confirmed_utc": "2026-08-23 20:10:00",
-        "count": 11
+        "count": 13
       },
       "omo": {
         "first_confirmed_utc": "2026-08-23 20:10:00",
-        "count": 58
+        "count": 64
       },
       "metar": {
         "first_confirmed_utc": "2026-08-23 20:56:00",
@@ -480,7 +483,7 @@
     "range_80_high_f": 110.0,
     "median_heating_remaining_f": 2.0
   },
-  "next_update_local": "2026-08-23T15:05:00-07:00",
+  "next_update_local": "2026-08-23T15:20:00-07:00",
   "model_accuracy": {
     "7_day": [
       {
