@@ -1,6 +1,6 @@
 {
   "date": "2026-08-23",
-  "updated_at_local": "2026-08-23T12:49:40.216969-07:00",
+  "updated_at_local": "2026-08-23T12:51:55.637143-07:00",
   "latest_metar_time": "2026-08-23T11:56:00-07:00",
   "latest_temp_f": 105.0,
   "latest_precise_temp_f": 105.08000000000001,
@@ -166,15 +166,10 @@
   },
   "radar": {
     "available": true,
-    "latest_time_utc": "2026-08-23T19:36:11+00:00",
-    "prior_time_utc": "2026-08-23T19:06:11+00:00",
+    "latest_time_utc": "2026-08-23T19:44:58+00:00",
+    "prior_time_utc": "2026-08-23T19:14:58+00:00",
     "current": {
-      "echo_fraction_by_radius": {
-        "0": 0.0,
-        "10": 0.0,
-        "25": 0.0,
-        "50": 0.0
-      },
+      "echo_fraction_by_radius": {},
       "nearest_echo_miles": null
     },
     "prior": {
@@ -202,16 +197,16 @@
       "strike_type": "between",
       "floor_strike": 109.0,
       "cap_strike": 110.0,
-      "yes_bid": 0.79,
-      "yes_ask": 0.82,
+      "yes_bid": 0.77,
+      "yes_ask": 0.8,
       "last_price": 0.8,
-      "market_mid": 0.8049999999999999,
+      "market_mid": 0.785,
       "close_time": "2026-08-24T08:00:00Z",
       "occurrence_datetime": "2026-08-24T14:00:00Z",
       "updated_time": "2026-08-22T14:00:02.819819Z",
       "model_probability": 0.58203125,
-      "edge_vs_ask": -0.23796874999999995,
-      "difference": -0.22296874999999994
+      "edge_vs_ask": -0.21796875000000004,
+      "difference": -0.20296875000000003
     },
     {
       "ticker": "KXHIGHTLV-26AUG23-B111.5",
@@ -241,15 +236,15 @@
       "floor_strike": 107.0,
       "cap_strike": 108.0,
       "yes_bid": 0.12,
-      "yes_ask": 0.15,
+      "yes_ask": 0.14,
       "last_price": 0.1,
-      "market_mid": 0.135,
+      "market_mid": 0.13,
       "close_time": "2026-08-24T08:00:00Z",
       "occurrence_datetime": "2026-08-24T14:00:00Z",
       "updated_time": "2026-08-22T14:00:02.819819Z",
       "model_probability": 0.08723958333333334,
-      "edge_vs_ask": -0.06276041666666665,
-      "difference": -0.047760416666666666
+      "edge_vs_ask": -0.05276041666666667,
+      "difference": -0.04276041666666666
     },
     {
       "ticker": "KXHIGHTLV-26AUG23-T112",
@@ -367,7 +362,7 @@
   },
   "wethr": {
     "available": true,
-    "collected_at_local": "2026-08-23T12:49:33.240174-07:00",
+    "collected_at_local": "2026-08-23T12:51:48.513860-07:00",
     "models": {
       "HRRR": {
         "available": true,
@@ -518,7 +513,7 @@
     "range_80_high_f": 112.0,
     "median_heating_remaining_f": 5.0
   },
-  "next_update_local": "2026-08-23T12:50:00-07:00",
+  "next_update_local": "2026-08-23T13:05:00-07:00",
   "model_accuracy": {
     "7_day": [
       {
