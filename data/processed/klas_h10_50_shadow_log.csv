@@ -1,2 +1,2 @@
 date,checkpoint_hour,elapsed_min,base_forecast_time_local,base_forecast_f,checkpoint_obs_time_local,checkpoint_temp_f,hf_obs_time_local,hf_temp_f,expected_hf_temp_f,trajectory_deviation_f,frozen_coef,frozen_intercept_f,shadow_adjustment_f,shadow_forecast_f,production_enabled,actual_cli_high_f,base_abs_error_f,shadow_abs_error_f,shadow_gain_f,scored
-2026-08-22,10,50,2026-08-22T10:34:48.275222-07:00,108.0,2026-08-22T09:56:00-07:00,99.0,2026-08-22T10:50:00-07:00,102.2,100.953,1.247,0.28,-0.305,0.044,108.044,False,,,,,False
+2026-08-22,10,50,2026-08-22T10:34:48.275222-07:00,108.0,2026-08-22T09:56:00-07:00,99.0,2026-08-22T10:50:00-07:00,102.2,100.953,1.247,0.28,-0.305,0.044,108.044,False,109.0,1.0,0.9560000000000031,0.04399999999999693,True
