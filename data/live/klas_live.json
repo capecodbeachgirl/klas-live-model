@@ -1,6 +1,6 @@
 {
   "date": "2026-08-23",
-  "updated_at_local": "2026-08-23T08:49:41.188493-07:00",
+  "updated_at_local": "2026-08-23T08:52:12.785458-07:00",
   "latest_metar_time": "2026-08-23T07:56:00-07:00",
   "latest_temp_f": 91.0,
   "latest_precise_temp_f": 91.03999999999999,
@@ -214,15 +214,10 @@
   },
   "radar": {
     "available": true,
-    "latest_time_utc": "2026-08-23T15:32:57+00:00",
-    "prior_time_utc": "2026-08-23T15:02:57+00:00",
+    "latest_time_utc": "2026-08-23T15:46:58+00:00",
+    "prior_time_utc": "2026-08-23T15:16:58+00:00",
     "current": {
-      "echo_fraction_by_radius": {
-        "0": 0.0,
-        "10": 0.0,
-        "25": 0.0,
-        "50": 0.0
-      },
+      "echo_fraction_by_radius": {},
       "nearest_echo_miles": null
     },
     "prior": {
@@ -419,15 +414,15 @@
     "latest_cloud_fraction_below_20000": 0.25,
     "geocolor_image_url": "https://cdn.star.nesdis.noaa.gov/WFO/vef/GEOCOLOR/20262351520_GOES18-ABI-vef-GEOCOLOR-600x600.jpg",
     "geocolor_time_utc": "2026-08-23T15:20:00+00:00",
-    "infrared_image_url": "https://cdn.star.nesdis.noaa.gov/WFO/vef/13/20262351520_GOES18-ABI-vef-13-600x600.jpg",
-    "infrared_time_utc": "2026-08-23T15:20:00+00:00",
+    "infrared_image_url": "https://cdn.star.nesdis.noaa.gov/WFO/vef/13/20262351530_GOES18-ABI-vef-13-600x600.jpg",
+    "infrared_time_utc": "2026-08-23T15:30:00+00:00",
     "errors": [],
     "image_note": "GOES images are a visual cross-check in this version. The shading label uses KLAS-observed sky cover and does not alter the validated temperature prediction.",
     "source": "NOAA/NESDIS/STAR GOES imagery + KLAS METAR sky cover"
   },
   "wethr": {
     "available": true,
-    "collected_at_local": "2026-08-23T08:49:36.381749-07:00",
+    "collected_at_local": "2026-08-23T08:52:08.309334-07:00",
     "models": {
       "HRRR": {
         "available": true,
@@ -544,7 +539,7 @@
   "wethr_observed_high": {
     "available": true,
     "wethr_high_f": 95.0,
-    "time_of_high_utc": "2026-08-23 15:47:00",
+    "time_of_high_utc": "2026-08-23 15:49:00",
     "sources": [
       "omo",
       "hf_metar"
@@ -552,7 +547,7 @@
     "source_detail": {
       "omo": {
         "first_confirmed_utc": "2026-08-23 15:31:00",
-        "count": 17
+        "count": 19
       },
       "hf_metar": {
         "first_confirmed_utc": "2026-08-23 15:35:00",
@@ -578,7 +573,7 @@
     "range_80_high_f": 110.0,
     "median_heating_remaining_f": 17.0
   },
-  "next_update_local": "2026-08-23T08:50:00-07:00",
+  "next_update_local": "2026-08-23T09:05:00-07:00",
   "model_accuracy": {
     "7_day": [
       {
