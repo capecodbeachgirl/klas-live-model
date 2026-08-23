@@ -1,6 +1,6 @@
 {
   "date": "2026-08-23",
-  "updated_at_local": "2026-08-23T13:39:24.579763-07:00",
+  "updated_at_local": "2026-08-23T13:58:00.080705-07:00",
   "latest_metar_time": "2026-08-23T13:14:00-07:00",
   "latest_temp_f": 108.0,
   "latest_precise_temp_f": 107.96000000000001,
@@ -137,9 +137,9 @@
   },
   "afd": {
     "available": true,
-    "issued_at": "2026-08-23T17:57:00+00:00",
-    "product_id": "fafb2e4f-96b2-4906-b35d-f7f137fc5ad4",
-    "text": "\n000\nFXUS65 KVEF 231757\nAFDVEF\n\nArea Forecast Discussion\nNational Weather Service Las Vegas NV\n1057 AM PDT Sun Aug 23 2026\n\n.KEY MESSAGES...\n\n* Above normal temperatures continue through next week.\n\n* Isolated storm chances linger into early next week, with best \n  chances in northwestern Arizona and the southern Great Basin.\n\n&&\n\n.DISCUSSION...Through Saturday.\n\nWith a fairly persistent pattern expected, temperatures remain\nabove normal through the forecast period. Ensemble guidance \nkeeps the 500mb ridge anchored in southern NM and southeastern AZ,\nleaving us under south-southwest flow aloft. A subtle cooldown is\nexpected Monday-Tuesday as moisture increases in our southeastern\nareas, but excessive heat quickly returns by mid-week and sticks \naround. Elevated low temperatures will offer little-to-no \novernight relief, especially in the Mojave Desert. Major to \nextreme heatrisk is forecast to return to these areas during the \nsecond half of the week.\n\nThe aforementioned south-southwest flow is just southerly enough\nto let moisture linger but southwesterly enough to keep it \nlimited. These conditions should favor isolated afternoon \nconvection, primarily in northwestern AZ and the southern Great \nBasin where odds are 10-30%. Main concerns with this activity are \ngusty outflow winds and dry lightning, though brief heavy \ndownpours are possible. An influx of moisture on Monday may result\nin an uptick in coverage along/southeast of I-15, but models \nstill disagree on the northwestward extent and magnitude of this \ninflux. During the second half of the week, the flow acquires a \ngreater westerly component, allowing moisture and precipitation \nchances to subside.\n\n&&\n\n.AVIATION...For Harry Reid...For the 18Z Forecast Package...Winds \nfavor a southeasterly direction this morning with sustained speeds \nof less than 10 knots. A few gusts to around 15 knots cannot be \nruled out. In the early afternoon, winds will shift to the southwest \nwith gusts of around 20 knots. Winds will decrease but maintain a \nsouthwesterly direction after sunset. Temperatures exceed 100 \ndegrees until 04Z this evening, then increase to above 100 degrees \nby 18Z tomorrow.\n\nFor the rest of southern Nevada, northwest Arizona and southeast\nCalifornia...For the 18Z Forecast Package...Southerly winds with \ngusts between 20 and 25 knots develop this afternoon in the Las \nVegas Valley, Colorado River Valley, and Owens Valley, weakening \nafter sunset. Gusty westerly winds pick up after sunset at KDAG, \nlasting into the early morning hours. Thunderstorms will continue to \ndrift through Mohave County this afternoon, and additional storm \ndevelopment cannot be ruled out over high terrain in southern Nevada \nas well. Gusty outflow winds may cause sudden wind direction changes \nin the Las Vegas Valley and Colorado River Valley. \n\n&&\n\n.SPOTTER INFORMATION STATEMENT...Spotters are encouraged to report\nany significant weather or impacts according to standard operating\nprocedures.\n\n&&\n\n$$\n\nDISCUSSION...Woods\nAVIATION...Meltzer\n\nFor more forecast information...see us on our webpage:\nhttps://weather.gov/lasvegas or follow us on Facebook and Twitter\n",
+    "issued_at": "2026-08-23T20:53:00+00:00",
+    "product_id": "1b57bcb9-8f40-4fea-bbb7-14e097da4e00",
+    "text": "\n000\nFXUS65 KVEF 232053\nAFDVEF\n\nArea Forecast Discussion\nNational Weather Service Las Vegas NV\n153 PM PDT Sun Aug 23 2026\n\n.KEY MESSAGES...\n\n* Hotter than normal temperatures will continue through the week.\n\n* Chances for isolated showers and thunderstorms will linger through \n  Monday for portions of our forecast area. \n\n&&\n\n.DISCUSSION...through Saturday.\n\nPersistent ridging across the Desert Southwest will keep \ntemperatures above normal through the week. Monday will be the \n\"coolest\" day of the week, with afternoon high temperatures topping \nout around 2 top 5 degrees above normal. Temperatures across the\nregion will increase on Tuesday and Wednesday as we dry out. \nAcross the Mojave Desert, temperatures will be around 4 to 7 \ndegrees above normal through the second half of the week, with \ntemperatures around 2 to 4 degrees above normal across the \nsouthern Great Basin and in the Owens Valley. The long duration of\nthese anomalous temperatures will result in widespread Major-to- \nExtreme Heat Risk across the Mojave Desert during the latter half \nof the week with widespread Moderate Heat Risk across the southern\nGreat Basin and Owens Valley.\n\nCurrent radar and satellite imagery show isolated showers and \nthunderstorms moving southwest to northeast through Mohave County \nand across the southern Great Basin. Storms will continue to develop \non the higher terrain across northwestern Arizona and the southern \nGreat Basin this afternoon, with the potential for isolated \nconvection to pop up in the higher terrain of Clark County an the \nMojave Preserve. Gusty outflow winds, localized downpours, and \nlightning are the main threats with today's storms. Overnight, \nmoisture will increase across our southern and eastern zones. This\nadditional moisture will help to fuel another round of afternoon \nshowers and thunderstorms for areas south and east of the I-15 \ncorridor tomorrow. Beyond Monday, dry southwesterly flow aloft \nwill cause moisture to decrease across the region through the end \nof the week.\n\n&&\n\n.AVIATION...For Harry Reid...For the 18Z Forecast Package...Winds \nfavor a southeasterly direction this morning with sustained speeds \nof less than 10 knots. A few gusts to around 15 knots cannot be \nruled out. In the early afternoon, winds will shift to the southwest \nwith gusts of around 20 knots. Winds will decrease but maintain a \nsouthwesterly direction after sunset. Temperatures exceed 100 \ndegrees until 04Z this evening, then increase to above 100 degrees \nby 18Z tomorrow.\n\nFor the rest of southern Nevada, northwest Arizona and southeast\nCalifornia...For the 18Z Forecast Package...Southerly winds with \ngusts between 20 and 25 knots develop this afternoon in the Las \nVegas Valley, Colorado River Valley, and Owens Valley, weakening \nafter sunset. Gusty westerly winds pick up after sunset at KDAG, \nlasting into the early morning hours. Thunderstorms will continue to \ndrift through Mohave County this afternoon, and additional storm \ndevelopment cannot be ruled out over high terrain in southern Nevada \nas well. Gusty outflow winds may cause sudden wind direction changes \nin the Las Vegas Valley and Colorado River Valley. \n\n&&\n\n.SPOTTER INFORMATION STATEMENT...Spotters are encouraged to report\nany significant weather or impacts according to standard operating\nprocedures.\n\n&&\n\n$$\n\nDISCUSSION...Stessman\nAVIATION...Meltzer\n\nFor more forecast information...see us on our webpage:\nhttps://weather.gov/lasvegas or follow us on Facebook and Twitter\n",
     "risk": "HIGH",
     "high_terms": [
       "outflow"
@@ -147,16 +147,18 @@
     "convective_terms": [
       "thunderstorm",
       "convection",
-      "lightning"
+      "lightning",
+      "showers",
+      "shower"
     ],
     "negative_signals": 0,
-    "snippet": "These conditions should favor isolated afternoon convection, primarily in northwestern AZ and the southern Great Basin where odds are 10-30%. Main concerns with this activity are gusty outflow winds and dry lightning, though brief heavy downpours are possible.",
+    "snippet": "* Chances for isolated showers and thunderstorms will linger through Monday for portions of our forecast area. Current radar and satellite imagery show isolated showers and thunderstorms moving southwest to northeast through Mohave County and across the southern Great Basin.",
     "source": "NWS Las Vegas Area Forecast Discussion"
   },
   "radar": {
     "available": true,
-    "latest_time_utc": "2026-08-23T20:26:58+00:00",
-    "prior_time_utc": "2026-08-23T19:56:58+00:00",
+    "latest_time_utc": "2026-08-23T20:46:57+00:00",
+    "prior_time_utc": "2026-08-23T20:16:57+00:00",
     "current": {
       "echo_fraction_by_radius": {
         "0": 0.0,
@@ -191,16 +193,16 @@
       "strike_type": "between",
       "floor_strike": 109.0,
       "cap_strike": 110.0,
-      "yes_bid": 0.84,
-      "yes_ask": 0.86,
-      "last_price": 0.87,
-      "market_mid": 0.85,
+      "yes_bid": 0.86,
+      "yes_ask": 0.9,
+      "last_price": 0.86,
+      "market_mid": 0.88,
       "close_time": "2026-08-24T08:00:00Z",
       "occurrence_datetime": "2026-08-24T14:00:00Z",
       "updated_time": "2026-08-22T14:00:02.819819Z",
       "model_probability": 0.9094170403587445,
-      "edge_vs_ask": 0.0494170403587445,
-      "difference": 0.05941704035874451
+      "edge_vs_ask": 0.009417040358744466,
+      "difference": 0.029417040358744484
     },
     {
       "ticker": "KXHIGHTLV-26AUG23-B111.5",
@@ -210,16 +212,16 @@
       "strike_type": "between",
       "floor_strike": 111.0,
       "cap_strike": 112.0,
-      "yes_bid": 0.13,
-      "yes_ask": 0.18,
-      "last_price": 0.18,
-      "market_mid": 0.155,
+      "yes_bid": 0.11,
+      "yes_ask": 0.13,
+      "last_price": 0.17,
+      "market_mid": 0.12,
       "close_time": "2026-08-24T08:00:00Z",
       "occurrence_datetime": "2026-08-24T14:00:00Z",
       "updated_time": "2026-08-22T14:00:02.819819Z",
       "model_probability": 0.0484304932735426,
-      "edge_vs_ask": -0.1315695067264574,
-      "difference": -0.1065695067264574
+      "edge_vs_ask": -0.08156950672645741,
+      "difference": -0.0715695067264574
     },
     {
       "ticker": "KXHIGHTLV-26AUG23-T112",
@@ -316,23 +318,23 @@
   },
   "bucket_probability_total": 1.0,
   "largest_model_ask_gap": {
-    "ticker": "KXHIGHTLV-26AUG23-B109.5",
+    "ticker": "KXHIGHTLV-26AUG23-T112",
     "event_ticker": "KXHIGHTLV-26AUG23",
-    "title": "Will the maximum temperature be 109-110\u00b0 on Aug 23, 2026?",
-    "subtitle": "109\u00b0 to 110\u00b0",
-    "strike_type": "between",
-    "floor_strike": 109.0,
-    "cap_strike": 110.0,
-    "yes_bid": 0.84,
-    "yes_ask": 0.86,
-    "last_price": 0.87,
-    "market_mid": 0.85,
+    "title": "Will the maximum temperature be >112\u00b0 on Aug 23, 2026?",
+    "subtitle": "113\u00b0 or above",
+    "strike_type": "greater",
+    "floor_strike": 112.0,
+    "cap_strike": null,
+    "yes_bid": 0.0,
+    "yes_ask": 0.01,
+    "last_price": 0.01,
+    "market_mid": 0.005,
     "close_time": "2026-08-24T08:00:00Z",
     "occurrence_datetime": "2026-08-24T14:00:00Z",
     "updated_time": "2026-08-22T14:00:02.819819Z",
-    "model_probability": 0.9094170403587445,
-    "edge_vs_ask": 0.0494170403587445,
-    "difference": 0.05941704035874451
+    "model_probability": 0.042152466367713005,
+    "edge_vs_ask": 0.032152466367713003,
+    "difference": 0.03715246636771301
   },
   "research_status": "WEATHER WATCH",
   "satellite": {
@@ -343,17 +345,17 @@
     "mean_cloud_fraction_2h": 0.25,
     "cloud_fraction_trend_2h": 0.0,
     "latest_cloud_fraction_below_20000": 0.25,
-    "geocolor_image_url": "https://cdn.star.nesdis.noaa.gov/WFO/vef/GEOCOLOR/20262352010_GOES18-ABI-vef-GEOCOLOR-600x600.jpg",
-    "geocolor_time_utc": "2026-08-23T20:10:00+00:00",
-    "infrared_image_url": "https://cdn.star.nesdis.noaa.gov/WFO/vef/13/20262352020_GOES18-ABI-vef-13-600x600.jpg",
-    "infrared_time_utc": "2026-08-23T20:20:00+00:00",
+    "geocolor_image_url": "https://cdn.star.nesdis.noaa.gov/WFO/vef/GEOCOLOR/20262352030_GOES18-ABI-vef-GEOCOLOR-600x600.jpg",
+    "geocolor_time_utc": "2026-08-23T20:30:00+00:00",
+    "infrared_image_url": "https://cdn.star.nesdis.noaa.gov/WFO/vef/13/20262352040_GOES18-ABI-vef-13-600x600.jpg",
+    "infrared_time_utc": "2026-08-23T20:40:00+00:00",
     "errors": [],
     "image_note": "GOES images are a visual cross-check in this version. The shading label uses KLAS-observed sky cover and does not alter the validated temperature prediction.",
     "source": "NOAA/NESDIS/STAR GOES imagery + KLAS METAR sky cover"
   },
   "wethr": {
     "available": true,
-    "collected_at_local": "2026-08-23T13:39:15.693158-07:00",
+    "collected_at_local": "2026-08-23T13:57:55.772249-07:00",
     "models": {
       "HRRR": {
         "available": true,
@@ -403,15 +405,15 @@
       "RAP": {
         "available": true,
         "model": "RAP",
-        "run_time_utc": "2026-08-23 18:00:00",
+        "run_time_utc": "2026-08-23 19:00:00",
         "rows_received": 22,
         "max_forecast_hour": 21,
-        "coverage_start_local": "2026-08-23T11:00:00-07:00",
-        "coverage_end_local": "2026-08-24T08:00:00-07:00",
+        "coverage_start_local": "2026-08-23T12:00:00-07:00",
+        "coverage_end_local": "2026-08-24T09:00:00-07:00",
         "contract_start_local": "2026-08-23T01:00:00-07:00",
         "contract_end_local": "2026-08-24T01:00:00-07:00",
         "covers_rest_of_contract": true,
-        "remaining_high_f": 108.75,
+        "remaining_high_f": 108.39,
         "remaining_high_time_local": "2026-08-23T14:00:00-07:00",
         "projected_high_f": 109.0
       },
@@ -470,7 +472,7 @@
   "wethr_observed_high": {
     "available": true,
     "wethr_high_f": 109.0,
-    "time_of_high_utc": "2026-08-23 20:36:00",
+    "time_of_high_utc": "2026-08-23 20:48:00",
     "sources": [
       "hf_metar",
       "omo"
@@ -478,11 +480,11 @@
     "source_detail": {
       "hf_metar": {
         "first_confirmed_utc": "2026-08-23 20:10:00",
-        "count": 2
+        "count": 4
       },
       "omo": {
         "first_confirmed_utc": "2026-08-23 20:10:00",
-        "count": 8
+        "count": 20
       }
     },
     "omo_informed": true,
@@ -504,7 +506,7 @@
     "range_80_high_f": 112.0,
     "median_heating_remaining_f": 3.0
   },
-  "next_update_local": "2026-08-23T13:50:00-07:00",
+  "next_update_local": "2026-08-23T14:05:00-07:00",
   "model_accuracy": {
     "7_day": [
       {
