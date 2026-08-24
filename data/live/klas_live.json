@@ -1,6 +1,6 @@
 {
   "date": "2026-08-24",
-  "updated_at_local": "2026-08-24T12:23:22.792054-07:00",
+  "updated_at_local": "2026-08-24T12:35:11.489690-07:00",
   "latest_metar_time": "2026-08-24T11:56:00-07:00",
   "latest_temp_f": 103.0,
   "latest_precise_temp_f": 102.91999999999999,
@@ -14,12 +14,11 @@
   "checkpoint_hour": 12,
   "weather_risk": "MEDIUM",
   "weather_reasons": [
-    "NWS hourly forecast includes thunderstorm potential",
     "Las Vegas NWS discussion contains a convective/monsoon signal"
   ],
   "weather_risk_components": {
     "observed_risk": "LOW",
-    "forecast_risk": "MEDIUM",
+    "forecast_risk": "LOW",
     "afd_risk": "MEDIUM",
     "radar_risk": "LOW"
   },
@@ -28,81 +27,81 @@
     "hours": [
       {
         "time": "2026-08-24T12:00:00-07:00",
-        "temp_f": 102.0,
-        "pop_pct": 5.0,
+        "temp_f": 103.0,
+        "pop_pct": 1.0,
         "short_forecast": "Sunny",
-        "wind_speed": "8 mph",
-        "wind_direction": "SSE"
+        "wind_speed": "9 mph",
+        "wind_direction": "S"
       },
       {
         "time": "2026-08-24T13:00:00-07:00",
         "temp_f": 104.0,
-        "pop_pct": 4.0,
-        "short_forecast": "Mostly Sunny",
-        "wind_speed": "9 mph",
+        "pop_pct": 1.0,
+        "short_forecast": "Sunny",
+        "wind_speed": "10 mph",
         "wind_direction": "S"
       },
       {
         "time": "2026-08-24T14:00:00-07:00",
         "temp_f": 105.0,
-        "pop_pct": 12.0,
-        "short_forecast": "Isolated Showers And Thunderstorms",
-        "wind_speed": "10 mph",
-        "wind_direction": "S"
-      },
-      {
-        "time": "2026-08-24T15:00:00-07:00",
-        "temp_f": 105.0,
-        "pop_pct": 11.0,
-        "short_forecast": "Isolated Showers And Thunderstorms",
+        "pop_pct": 7.0,
+        "short_forecast": "Sunny",
         "wind_speed": "10 mph",
         "wind_direction": "SSW"
       },
       {
+        "time": "2026-08-24T15:00:00-07:00",
+        "temp_f": 105.0,
+        "pop_pct": 6.0,
+        "short_forecast": "Sunny",
+        "wind_speed": "10 mph",
+        "wind_direction": "S"
+      },
+      {
         "time": "2026-08-24T16:00:00-07:00",
-        "temp_f": 106.0,
-        "pop_pct": 8.0,
-        "short_forecast": "Mostly Sunny",
+        "temp_f": 105.0,
+        "pop_pct": 5.0,
+        "short_forecast": "Sunny",
         "wind_speed": "10 mph",
         "wind_direction": "S"
       },
       {
         "time": "2026-08-24T17:00:00-07:00",
-        "temp_f": 104.0,
-        "pop_pct": 7.0,
-        "short_forecast": "Mostly Sunny",
+        "temp_f": 106.0,
+        "pop_pct": 2.0,
+        "short_forecast": "Sunny",
         "wind_speed": "10 mph",
-        "wind_direction": "SSE"
+        "wind_direction": "S"
       },
       {
         "time": "2026-08-24T18:00:00-07:00",
         "temp_f": 103.0,
-        "pop_pct": 3.0,
-        "short_forecast": "Partly Cloudy",
+        "pop_pct": 2.0,
+        "short_forecast": "Clear",
         "wind_speed": "10 mph",
-        "wind_direction": "SSE"
+        "wind_direction": "S"
       },
       {
         "time": "2026-08-24T19:00:00-07:00",
         "temp_f": 101.0,
-        "pop_pct": 3.0,
-        "short_forecast": "Partly Cloudy",
-        "wind_speed": "9 mph",
-        "wind_direction": "SSE"
+        "pop_pct": 2.0,
+        "short_forecast": "Mostly Clear",
+        "wind_speed": "8 mph",
+        "wind_direction": "SSW"
       },
       {
         "time": "2026-08-24T20:00:00-07:00",
-        "temp_f": 98.0,
-        "pop_pct": 2.0,
+        "temp_f": 100.0,
+        "pop_pct": 1.0,
         "short_forecast": "Partly Cloudy",
         "wind_speed": "8 mph",
         "wind_direction": "S"
       }
     ],
-    "max_pop_pct": 12.0,
-    "thunder_possible": true,
-    "rain_possible": true,
-    "summary": "NWS hourly forecast includes thunderstorms",
+    "max_pop_pct": 7.0,
+    "thunder_possible": false,
+    "rain_possible": false,
+    "summary": "No meaningful rain/thunder signal in the remaining NWS hourly forecast",
     "max_sky_cover_pct": 36.0,
     "sky_hours": [
       {
@@ -206,7 +205,7 @@
       "cap_strike": 108.0,
       "yes_bid": 0.6,
       "yes_ask": 0.61,
-      "last_price": 0.61,
+      "last_price": 0.66,
       "market_mid": 0.605,
       "close_time": "2026-08-25T08:00:00Z",
       "occurrence_datetime": "2026-08-25T14:00:00Z",
@@ -223,16 +222,16 @@
       "strike_type": "between",
       "floor_strike": 105.0,
       "cap_strike": 106.0,
-      "yes_bid": 0.27,
-      "yes_ask": 0.3,
-      "last_price": 0.29,
-      "market_mid": 0.28500000000000003,
+      "yes_bid": 0.28,
+      "yes_ask": 0.31,
+      "last_price": 0.27,
+      "market_mid": 0.29500000000000004,
       "close_time": "2026-08-25T08:00:00Z",
       "occurrence_datetime": "2026-08-25T14:00:00Z",
       "updated_time": "2026-08-23T14:00:02.972411Z",
       "model_probability": 0.24348958333333331,
-      "edge_vs_ask": -0.056510416666666674,
-      "difference": -0.041510416666666716
+      "edge_vs_ask": -0.06651041666666668,
+      "difference": -0.051510416666666725
     },
     {
       "ticker": "KXHIGHTLV-26AUG24-B109.5",
@@ -242,16 +241,16 @@
       "strike_type": "between",
       "floor_strike": 109.0,
       "cap_strike": 110.0,
-      "yes_bid": 0.06,
+      "yes_bid": 0.07,
       "yes_ask": 0.08,
-      "last_price": 0.08,
-      "market_mid": 0.07,
+      "last_price": 0.06,
+      "market_mid": 0.07500000000000001,
       "close_time": "2026-08-25T08:00:00Z",
       "occurrence_datetime": "2026-08-25T14:00:00Z",
       "updated_time": "2026-08-23T14:00:02.972411Z",
       "model_probability": 0.07421875,
       "edge_vs_ask": -0.005781250000000002,
-      "difference": 0.004218749999999993
+      "difference": -0.0007812500000000111
     },
     {
       "ticker": "KXHIGHTLV-26AUG24-B103.5",
@@ -359,17 +358,17 @@
     "mean_cloud_fraction_2h": 0.625,
     "cloud_fraction_trend_2h": -0.375,
     "latest_cloud_fraction_below_20000": 0.25,
-    "geocolor_image_url": "https://cdn.star.nesdis.noaa.gov/WFO/vef/GEOCOLOR/20262361850_GOES18-ABI-vef-GEOCOLOR-600x600.jpg",
-    "geocolor_time_utc": "2026-08-24T18:50:00+00:00",
-    "infrared_image_url": "https://cdn.star.nesdis.noaa.gov/WFO/vef/13/20262361900_GOES18-ABI-vef-13-600x600.jpg",
-    "infrared_time_utc": "2026-08-24T19:00:00+00:00",
+    "geocolor_image_url": "https://cdn.star.nesdis.noaa.gov/WFO/vef/GEOCOLOR/20262361910_GOES18-ABI-vef-GEOCOLOR-600x600.jpg",
+    "geocolor_time_utc": "2026-08-24T19:10:00+00:00",
+    "infrared_image_url": "https://cdn.star.nesdis.noaa.gov/WFO/vef/13/20262361910_GOES18-ABI-vef-13-600x600.jpg",
+    "infrared_time_utc": "2026-08-24T19:10:00+00:00",
     "errors": [],
     "image_note": "GOES images are a visual cross-check in this version. The shading label uses KLAS-observed sky cover and does not alter the validated temperature prediction.",
     "source": "NOAA/NESDIS/STAR GOES imagery + KLAS METAR sky cover"
   },
   "wethr": {
     "available": true,
-    "collected_at_local": "2026-08-24T12:23:15.939151-07:00",
+    "collected_at_local": "2026-08-24T12:34:59.610907-07:00",
     "models": {
       "HRRR": {
         "available": true,
@@ -390,10 +389,10 @@
         "available": true,
         "model": "HRRR-EXT",
         "run_time_utc": "2026-08-24 18:00:00",
-        "rows_received": 25,
-        "max_forecast_hour": 24,
+        "rows_received": 34,
+        "max_forecast_hour": 33,
         "coverage_start_local": "2026-08-24T11:00:00-07:00",
-        "coverage_end_local": "2026-08-25T11:00:00-07:00",
+        "coverage_end_local": "2026-08-25T20:00:00-07:00",
         "contract_start_local": "2026-08-24T01:00:00-07:00",
         "contract_end_local": "2026-08-25T01:00:00-07:00",
         "covers_rest_of_contract": true,
@@ -486,7 +485,7 @@
   "wethr_observed_high": {
     "available": true,
     "wethr_high_f": 104.0,
-    "time_of_high_utc": "2026-08-24 19:10:00",
+    "time_of_high_utc": "2026-08-24 19:32:00",
     "sources": [
       "omo",
       "hf_metar"
@@ -494,11 +493,11 @@
     "source_detail": {
       "omo": {
         "first_confirmed_utc": "2026-08-24 18:58:00",
-        "count": 13
+        "count": 25
       },
       "hf_metar": {
         "first_confirmed_utc": "2026-08-24 19:00:00",
-        "count": 3
+        "count": 5
       }
     },
     "omo_informed": true,
