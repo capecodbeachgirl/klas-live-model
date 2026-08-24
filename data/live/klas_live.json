@@ -1,6 +1,6 @@
 {
   "date": "2026-08-24",
-  "updated_at_local": "2026-08-24T09:18:52.912857-07:00",
+  "updated_at_local": "2026-08-24T09:20:35.200045-07:00",
   "latest_metar_time": "2026-08-24T08:56:00-07:00",
   "latest_temp_f": 95.0,
   "latest_precise_temp_f": 95.0,
@@ -204,8 +204,8 @@
   },
   "radar": {
     "available": true,
-    "latest_time_utc": "2026-08-24T15:52:57+00:00",
-    "prior_time_utc": "2026-08-24T15:22:57+00:00",
+    "latest_time_utc": "2026-08-24T15:58:55+00:00",
+    "prior_time_utc": "2026-08-24T15:28:55+00:00",
     "current": {
       "echo_fraction_by_radius": {
         "0": 0.0,
@@ -260,15 +260,15 @@
       "floor_strike": 105.0,
       "cap_strike": 106.0,
       "yes_bid": 0.25,
-      "yes_ask": 0.26,
+      "yes_ask": 0.28,
       "last_price": 0.26,
-      "market_mid": 0.255,
+      "market_mid": 0.265,
       "close_time": "2026-08-25T08:00:00Z",
       "occurrence_datetime": "2026-08-25T14:00:00Z",
       "updated_time": "2026-08-23T14:00:02.972411Z",
       "model_probability": 0.22138836772983114,
-      "edge_vs_ask": -0.038611632270168866,
-      "difference": -0.03361163227016886
+      "edge_vs_ask": -0.058611632270168884,
+      "difference": -0.04361163227016887
     },
     {
       "ticker": "KXHIGHTLV-26AUG24-B109.5",
@@ -404,26 +404,26 @@
     "mean_cloud_fraction_2h": 0.5,
     "cloud_fraction_trend_2h": 0.0,
     "latest_cloud_fraction_below_20000": 0.25,
-    "geocolor_image_url": "https://cdn.star.nesdis.noaa.gov/WFO/vef/GEOCOLOR/20262361550_GOES18-ABI-vef-GEOCOLOR-600x600.jpg",
-    "geocolor_time_utc": "2026-08-24T15:50:00+00:00",
-    "infrared_image_url": "https://cdn.star.nesdis.noaa.gov/WFO/vef/13/20262361540_GOES18-ABI-vef-13-600x600.jpg",
-    "infrared_time_utc": "2026-08-24T15:40:00+00:00",
+    "geocolor_image_url": "https://cdn.star.nesdis.noaa.gov/WFO/vef/GEOCOLOR/20262361600_GOES18-ABI-vef-GEOCOLOR-600x600.jpg",
+    "geocolor_time_utc": "2026-08-24T16:00:00+00:00",
+    "infrared_image_url": "https://cdn.star.nesdis.noaa.gov/WFO/vef/13/20262361600_GOES18-ABI-vef-13-600x600.jpg",
+    "infrared_time_utc": "2026-08-24T16:00:00+00:00",
     "errors": [],
     "image_note": "GOES images are a visual cross-check in this version. The shading label uses KLAS-observed sky cover and does not alter the validated temperature prediction.",
     "source": "NOAA/NESDIS/STAR GOES imagery + KLAS METAR sky cover"
   },
   "wethr": {
     "available": true,
-    "collected_at_local": "2026-08-24T09:18:43.480508-07:00",
+    "collected_at_local": "2026-08-24T09:20:27.375313-07:00",
     "models": {
       "HRRR": {
         "available": true,
         "model": "HRRR",
         "run_time_utc": "2026-08-24 15:00:00",
-        "rows_received": 45,
-        "max_forecast_hour": 11,
+        "rows_received": 57,
+        "max_forecast_hour": 14,
         "coverage_start_local": "2026-08-24T08:00:00-07:00",
-        "coverage_end_local": "2026-08-24T19:00:00-07:00",
+        "coverage_end_local": "2026-08-24T22:00:00-07:00",
         "contract_start_local": "2026-08-24T01:00:00-07:00",
         "contract_end_local": "2026-08-25T01:00:00-07:00",
         "covers_rest_of_contract": false,
@@ -529,7 +529,7 @@
   "wethr_observed_high": {
     "available": true,
     "wethr_high_f": 95.0,
-    "time_of_high_utc": "2026-08-24 16:16:00",
+    "time_of_high_utc": "2026-08-24 16:17:00",
     "sources": [
       "hf_metar",
       "omo",
@@ -542,7 +542,7 @@
       },
       "omo": {
         "first_confirmed_utc": "2026-08-24 08:00:00",
-        "count": 70
+        "count": 71
       },
       "metar": {
         "first_confirmed_utc": "2026-08-24 08:56:00",
@@ -568,7 +568,7 @@
     "range_80_high_f": 110.0,
     "median_heating_remaining_f": 13.0
   },
-  "next_update_local": "2026-08-24T09:20:00-07:00",
+  "next_update_local": "2026-08-24T09:35:00-07:00",
   "model_accuracy": {
     "7_day": [
       {
