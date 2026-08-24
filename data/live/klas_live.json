@@ -1,6 +1,6 @@
 {
   "date": "2026-08-24",
-  "updated_at_local": "2026-08-24T11:55:03.090946-07:00",
+  "updated_at_local": "2026-08-24T11:57:50.226945-07:00",
   "latest_metar_time": "2026-08-24T10:56:00-07:00",
   "latest_temp_f": 100.0,
   "latest_precise_temp_f": 100.03999999999999,
@@ -216,16 +216,16 @@
       "strike_type": "between",
       "floor_strike": 107.0,
       "cap_strike": 108.0,
-      "yes_bid": 0.59,
-      "yes_ask": 0.63,
-      "last_price": 0.62,
-      "market_mid": 0.61,
+      "yes_bid": 0.6,
+      "yes_ask": 0.64,
+      "last_price": 0.63,
+      "market_mid": 0.62,
       "close_time": "2026-08-25T08:00:00Z",
       "occurrence_datetime": "2026-08-25T14:00:00Z",
       "updated_time": "2026-08-23T14:00:02.972411Z",
       "model_probability": 0.5509677419354839,
-      "edge_vs_ask": -0.07903225806451608,
-      "difference": -0.05903225806451606
+      "edge_vs_ask": -0.08903225806451609,
+      "difference": -0.06903225806451607
     },
     {
       "ticker": "KXHIGHTLV-26AUG24-B105.5",
@@ -236,15 +236,15 @@
       "floor_strike": 105.0,
       "cap_strike": 106.0,
       "yes_bid": 0.32,
-      "yes_ask": 0.33,
+      "yes_ask": 0.35,
       "last_price": 0.36,
-      "market_mid": 0.325,
+      "market_mid": 0.33499999999999996,
       "close_time": "2026-08-25T08:00:00Z",
       "occurrence_datetime": "2026-08-25T14:00:00Z",
       "updated_time": "2026-08-23T14:00:02.972411Z",
       "model_probability": 0.2541935483870968,
-      "edge_vs_ask": -0.07580645161290323,
-      "difference": -0.07080645161290322
+      "edge_vs_ask": -0.09580645161290319,
+      "difference": -0.08080645161290317
     },
     {
       "ticker": "KXHIGHTLV-26AUG24-B109.5",
@@ -373,8 +373,8 @@
     "mean_cloud_fraction_2h": 0.625,
     "cloud_fraction_trend_2h": 0.0,
     "latest_cloud_fraction_below_20000": 0.25,
-    "geocolor_image_url": "https://cdn.star.nesdis.noaa.gov/WFO/vef/GEOCOLOR/20262361820_GOES18-ABI-vef-GEOCOLOR-600x600.jpg",
-    "geocolor_time_utc": "2026-08-24T18:20:00+00:00",
+    "geocolor_image_url": "https://cdn.star.nesdis.noaa.gov/WFO/vef/GEOCOLOR/20262361830_GOES18-ABI-vef-GEOCOLOR-600x600.jpg",
+    "geocolor_time_utc": "2026-08-24T18:30:00+00:00",
     "infrared_image_url": "https://cdn.star.nesdis.noaa.gov/WFO/vef/13/20262361830_GOES18-ABI-vef-13-600x600.jpg",
     "infrared_time_utc": "2026-08-24T18:30:00+00:00",
     "errors": [],
@@ -383,7 +383,7 @@
   },
   "wethr": {
     "available": true,
-    "collected_at_local": "2026-08-24T11:54:55.635051-07:00",
+    "collected_at_local": "2026-08-24T11:57:43.186994-07:00",
     "models": {
       "HRRR": {
         "available": true,
@@ -500,19 +500,24 @@
   "wethr_observed_high": {
     "available": true,
     "wethr_high_f": 102.0,
-    "time_of_high_utc": "2026-08-24 18:52:00",
+    "time_of_high_utc": "2026-08-24 18:56:00",
     "sources": [
       "omo",
-      "hf_metar"
+      "hf_metar",
+      "metar8"
     ],
     "source_detail": {
       "omo": {
         "first_confirmed_utc": "2026-08-24 18:19:00",
-        "count": 32
+        "count": 35
       },
       "hf_metar": {
         "first_confirmed_utc": "2026-08-24 18:20:00",
-        "count": 7
+        "count": 8
+      },
+      "metar8": {
+        "first_confirmed_utc": "2026-08-24 18:56:00",
+        "count": 1
       }
     },
     "omo_informed": true,
