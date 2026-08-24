@@ -1,11 +1,11 @@
 {
   "date": "2026-08-24",
-  "updated_at_local": "2026-08-24T10:00:59.016314-07:00",
+  "updated_at_local": "2026-08-24T10:02:09.217527-07:00",
   "latest_metar_time": "2026-08-24T09:56:00-07:00",
-  "latest_temp_f": 96.98,
+  "latest_temp_f": 97.0,
   "latest_precise_temp_f": 96.98,
-  "latest_dewpoint_f": 48.92,
-  "raw_metar_peak_f": 96.98,
+  "latest_dewpoint_f": 49.0,
+  "raw_metar_peak_f": 97.0,
   "precise_metar_peak_f": 96.98,
   "six_hour_max_f": null,
   "six_hour_max_report_time": "2026-08-24T04:56:00-07:00",
@@ -192,8 +192,8 @@
   },
   "radar": {
     "available": true,
-    "latest_time_utc": "2026-08-24T16:40:59+00:00",
-    "prior_time_utc": "2026-08-24T16:10:59+00:00",
+    "latest_time_utc": "2026-08-24T16:54:05+00:00",
+    "prior_time_utc": "2026-08-24T16:24:05+00:00",
     "current": {
       "echo_fraction_by_radius": {
         "0": 0.0,
@@ -228,16 +228,16 @@
       "strike_type": "between",
       "floor_strike": 107.0,
       "cap_strike": 108.0,
-      "yes_bid": 0.65,
-      "yes_ask": 0.68,
+      "yes_bid": 0.64,
+      "yes_ask": 0.66,
       "last_price": 0.66,
-      "market_mid": 0.665,
+      "market_mid": 0.65,
       "close_time": "2026-08-25T08:00:00Z",
       "occurrence_datetime": "2026-08-25T14:00:00Z",
       "updated_time": "2026-08-23T14:00:02.972411Z",
       "model_probability": 0.5261829652996846,
-      "edge_vs_ask": -0.1538170347003155,
-      "difference": -0.13881703470031548
+      "edge_vs_ask": -0.13381703470031547,
+      "difference": -0.12381703470031546
     },
     {
       "ticker": "KXHIGHTLV-26AUG24-B105.5",
@@ -268,7 +268,7 @@
       "cap_strike": 110.0,
       "yes_bid": 0.07,
       "yes_ask": 0.08,
-      "last_price": 0.08,
+      "last_price": 0.1,
       "market_mid": 0.07500000000000001,
       "close_time": "2026-08-25T08:00:00Z",
       "occurrence_datetime": "2026-08-25T14:00:00Z",
@@ -372,7 +372,7 @@
     "cap_strike": 110.0,
     "yes_bid": 0.07,
     "yes_ask": 0.08,
-    "last_price": 0.08,
+    "last_price": 0.1,
     "market_mid": 0.07500000000000001,
     "close_time": "2026-08-25T08:00:00Z",
     "occurrence_datetime": "2026-08-25T14:00:00Z",
@@ -400,7 +400,7 @@
   },
   "wethr": {
     "available": true,
-    "collected_at_local": "2026-08-24T10:00:51.644038-07:00",
+    "collected_at_local": "2026-08-24T10:01:57.971457-07:00",
     "models": {
       "HRRR": {
         "available": true,
@@ -881,7 +881,7 @@
     {
       "checkpoint_hour": 10.0,
       "latest_precise_temp_f": 96.98,
-      "latest_temp_f": 96.98,
+      "latest_temp_f": 97.0,
       "six_hour_max_f": null,
       "model_predicted_high_f": 107.0,
       "nws_am_forecast_high_f": 107.0,
