@@ -1,6 +1,6 @@
 {
   "date": "2026-08-24",
-  "updated_at_local": "2026-08-24T16:51:48.905239-07:00",
+  "updated_at_local": "2026-08-24T16:57:09.401044-07:00",
   "latest_metar_time": "2026-08-24T16:00:00-07:00",
   "latest_temp_f": 107.0,
   "latest_precise_temp_f": 107.06,
@@ -156,15 +156,15 @@
       "floor_strike": 109.0,
       "cap_strike": 110.0,
       "yes_bid": 0.0,
-      "yes_ask": 0.02,
+      "yes_ask": 0.01,
       "last_price": 0.01,
-      "market_mid": 0.01,
+      "market_mid": 0.005,
       "close_time": "2026-08-25T08:00:00Z",
       "occurrence_datetime": "2026-08-25T14:00:00Z",
       "updated_time": "2026-08-23T14:00:02.972411Z",
       "model_probability": 0.691638795986622,
-      "edge_vs_ask": 0.671638795986622,
-      "difference": 0.681638795986622
+      "edge_vs_ask": 0.681638795986622,
+      "difference": 0.686638795986622
     },
     {
       "ticker": "KXHIGHTLV-26AUG24-B107.5",
@@ -174,16 +174,16 @@
       "strike_type": "between",
       "floor_strike": 107.0,
       "cap_strike": 108.0,
-      "yes_bid": 0.98,
+      "yes_bid": 0.99,
       "yes_ask": 1.0,
       "last_price": 0.99,
-      "market_mid": 0.99,
+      "market_mid": 0.995,
       "close_time": "2026-08-25T08:00:00Z",
       "occurrence_datetime": "2026-08-25T14:00:00Z",
       "updated_time": "2026-08-23T14:00:02.972411Z",
       "model_probability": 0.29899665551839466,
       "edge_vs_ask": -0.7010033444816053,
-      "difference": -0.6910033444816053
+      "difference": -0.6960033444816054
     },
     {
       "ticker": "KXHIGHTLV-26AUG24-T110",
@@ -290,15 +290,15 @@
     "floor_strike": 109.0,
     "cap_strike": 110.0,
     "yes_bid": 0.0,
-    "yes_ask": 0.02,
+    "yes_ask": 0.01,
     "last_price": 0.01,
-    "market_mid": 0.01,
+    "market_mid": 0.005,
     "close_time": "2026-08-25T08:00:00Z",
     "occurrence_datetime": "2026-08-25T14:00:00Z",
     "updated_time": "2026-08-23T14:00:02.972411Z",
     "model_probability": 0.691638795986622,
-    "edge_vs_ask": 0.671638795986622,
-    "difference": 0.681638795986622
+    "edge_vs_ask": 0.681638795986622,
+    "difference": 0.686638795986622
   },
   "research_status": "EDGE WATCH \u2014 WEATHER RISK MEDIUM",
   "satellite": {
@@ -319,7 +319,7 @@
   },
   "wethr": {
     "available": true,
-    "collected_at_local": "2026-08-24T16:51:41.792418-07:00",
+    "collected_at_local": "2026-08-24T16:57:02.407033-07:00",
     "models": {
       "HRRR": {
         "available": true,
