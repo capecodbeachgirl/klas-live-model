@@ -1,6 +1,6 @@
 {
   "date": "2026-08-24",
-  "updated_at_local": "2026-08-24T15:39:21.549565-07:00",
+  "updated_at_local": "2026-08-24T15:45:56.042962-07:00",
   "latest_metar_time": "2026-08-24T14:56:00-07:00",
   "latest_temp_f": 108.0,
   "latest_precise_temp_f": 107.96000000000001,
@@ -131,8 +131,8 @@
   },
   "radar": {
     "available": true,
-    "latest_time_utc": "2026-08-24T22:24:11+00:00",
-    "prior_time_utc": "2026-08-24T21:54:11+00:00",
+    "latest_time_utc": "2026-08-24T22:30:56+00:00",
+    "prior_time_utc": "2026-08-24T22:00:56+00:00",
     "current": {
       "echo_fraction_by_radius": {
         "0": 0.0,
@@ -167,16 +167,16 @@
       "strike_type": "between",
       "floor_strike": 107.0,
       "cap_strike": 108.0,
-      "yes_bid": 0.71,
-      "yes_ask": 0.74,
-      "last_price": 0.75,
-      "market_mid": 0.725,
+      "yes_bid": 0.7,
+      "yes_ask": 0.72,
+      "last_price": 0.69,
+      "market_mid": 0.71,
       "close_time": "2026-08-25T08:00:00Z",
       "occurrence_datetime": "2026-08-25T14:00:00Z",
       "updated_time": "2026-08-23T14:00:02.972411Z",
       "model_probability": 0.6477366255144034,
-      "edge_vs_ask": -0.09226337448559663,
-      "difference": -0.07726337448559661
+      "edge_vs_ask": -0.07226337448559661,
+      "difference": -0.0622633744855966
     },
     {
       "ticker": "KXHIGHTLV-26AUG24-B109.5",
@@ -187,15 +187,15 @@
       "floor_strike": 109.0,
       "cap_strike": 110.0,
       "yes_bid": 0.28,
-      "yes_ask": 0.29,
-      "last_price": 0.29,
-      "market_mid": 0.28500000000000003,
+      "yes_ask": 0.3,
+      "last_price": 0.3,
+      "market_mid": 0.29000000000000004,
       "close_time": "2026-08-25T08:00:00Z",
       "occurrence_datetime": "2026-08-25T14:00:00Z",
       "updated_time": "2026-08-23T14:00:02.972411Z",
       "model_probability": 0.30781893004115224,
-      "edge_vs_ask": 0.01781893004115226,
-      "difference": 0.022818930041152208
+      "edge_vs_ask": 0.00781893004115225,
+      "difference": 0.017818930041152203
     },
     {
       "ticker": "KXHIGHTLV-26AUG24-T110",
@@ -319,17 +319,17 @@
     "mean_cloud_fraction_2h": 0.4166666666666667,
     "cloud_fraction_trend_2h": 0.0,
     "latest_cloud_fraction_below_20000": 0.5,
-    "geocolor_image_url": "https://cdn.star.nesdis.noaa.gov/WFO/vef/GEOCOLOR/20262362210_GOES18-ABI-vef-GEOCOLOR-600x600.jpg",
-    "geocolor_time_utc": "2026-08-24T22:10:00+00:00",
-    "infrared_image_url": "https://cdn.star.nesdis.noaa.gov/WFO/vef/13/20262362210_GOES18-ABI-vef-13-600x600.jpg",
-    "infrared_time_utc": "2026-08-24T22:10:00+00:00",
+    "geocolor_image_url": "https://cdn.star.nesdis.noaa.gov/WFO/vef/GEOCOLOR/20262362220_GOES18-ABI-vef-GEOCOLOR-600x600.jpg",
+    "geocolor_time_utc": "2026-08-24T22:20:00+00:00",
+    "infrared_image_url": "https://cdn.star.nesdis.noaa.gov/WFO/vef/13/20262362230_GOES18-ABI-vef-13-600x600.jpg",
+    "infrared_time_utc": "2026-08-24T22:30:00+00:00",
     "errors": [],
     "image_note": "GOES images are a visual cross-check in this version. The shading label uses KLAS-observed sky cover and does not alter the validated temperature prediction.",
     "source": "NOAA/NESDIS/STAR GOES imagery + KLAS METAR sky cover"
   },
   "wethr": {
     "available": true,
-    "collected_at_local": "2026-08-24T15:39:11.897908-07:00",
+    "collected_at_local": "2026-08-24T15:45:48.369635-07:00",
     "models": {
       "HRRR": {
         "available": true,
@@ -379,15 +379,15 @@
       "RAP": {
         "available": true,
         "model": "RAP",
-        "run_time_utc": "2026-08-24 20:00:00",
-        "rows_received": 22,
-        "max_forecast_hour": 21,
-        "coverage_start_local": "2026-08-24T13:00:00-07:00",
-        "coverage_end_local": "2026-08-25T10:00:00-07:00",
+        "run_time_utc": "2026-08-24 21:00:00",
+        "rows_received": 49,
+        "max_forecast_hour": 48,
+        "coverage_start_local": "2026-08-24T14:00:00-07:00",
+        "coverage_end_local": "2026-08-26T14:00:00-07:00",
         "contract_start_local": "2026-08-24T01:00:00-07:00",
         "contract_end_local": "2026-08-25T01:00:00-07:00",
         "covers_rest_of_contract": true,
-        "remaining_high_f": 106.41,
+        "remaining_high_f": 105.51,
         "remaining_high_time_local": "2026-08-24T16:00:00-07:00",
         "projected_high_f": 108.0
       },
