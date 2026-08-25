@@ -1,6 +1,6 @@
 {
   "date": "2026-08-25",
-  "updated_at_local": "2026-08-25T13:11:59.401405-07:00",
+  "updated_at_local": "2026-08-25T13:13:18.100495-07:00",
   "latest_metar_time": "2026-08-25T12:56:00-07:00",
   "latest_temp_f": 102.0,
   "latest_precise_temp_f": 102.02,
@@ -358,7 +358,7 @@
   },
   "wethr": {
     "available": true,
-    "collected_at_local": "2026-08-25T13:11:51.079903-07:00",
+    "collected_at_local": "2026-08-25T13:13:07.037669-07:00",
     "models": {
       "HRRR": {
         "available": true,
@@ -393,10 +393,10 @@
         "available": true,
         "model": "NBM",
         "run_time_utc": "2026-08-25 18:00:00",
-        "rows_received": 28,
-        "max_forecast_hour": 28,
+        "rows_received": 35,
+        "max_forecast_hour": 35,
         "coverage_start_local": "2026-08-25T12:00:00-07:00",
-        "coverage_end_local": "2026-08-26T15:00:00-07:00",
+        "coverage_end_local": "2026-08-26T22:00:00-07:00",
         "contract_start_local": "2026-08-25T01:00:00-07:00",
         "contract_end_local": "2026-08-26T01:00:00-07:00",
         "covers_rest_of_contract": true,
@@ -473,7 +473,7 @@
   "wethr_observed_high": {
     "available": true,
     "wethr_high_f": 102.0,
-    "time_of_high_utc": "2026-08-25 20:09:00",
+    "time_of_high_utc": "2026-08-25 20:10:00",
     "sources": [
       "omo",
       "hf_metar",
@@ -482,11 +482,11 @@
     "source_detail": {
       "omo": {
         "first_confirmed_utc": "2026-08-25 19:41:00",
-        "count": 28
+        "count": 30
       },
       "hf_metar": {
         "first_confirmed_utc": "2026-08-25 19:45:00",
-        "count": 5
+        "count": 6
       },
       "metar": {
         "first_confirmed_utc": "2026-08-25 19:56:00",
