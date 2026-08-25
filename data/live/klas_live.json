@@ -1,6 +1,6 @@
 {
   "date": "2026-08-25",
-  "updated_at_local": "2026-08-25T09:21:37.441075-07:00",
+  "updated_at_local": "2026-08-25T09:24:22.960874-07:00",
   "latest_metar_time": "2026-08-25T08:56:00-07:00",
   "latest_temp_f": 93.0,
   "latest_precise_temp_f": 93.02,
@@ -251,15 +251,15 @@
       "floor_strike": 108.0,
       "cap_strike": 109.0,
       "yes_bid": 0.37,
-      "yes_ask": 0.38,
-      "last_price": 0.38,
-      "market_mid": 0.375,
+      "yes_ask": 0.39,
+      "last_price": 0.39,
+      "market_mid": 0.38,
       "close_time": "2026-08-26T08:00:00Z",
       "occurrence_datetime": "2026-08-26T14:00:00Z",
       "updated_time": "2026-08-24T14:00:01.671201Z",
       "model_probability": 0.25666460012399256,
-      "edge_vs_ask": -0.12333539987600745,
-      "difference": -0.11833539987600744
+      "edge_vs_ask": -0.13333539987600745,
+      "difference": -0.12333539987600745
     },
     {
       "ticker": "KXHIGHTLV-26AUG25-T104",
@@ -407,7 +407,7 @@
   },
   "wethr": {
     "available": true,
-    "collected_at_local": "2026-08-25T09:21:25.105988-07:00",
+    "collected_at_local": "2026-08-25T09:24:09.270508-07:00",
     "models": {
       "HRRR": {
         "available": true,
@@ -522,7 +522,7 @@
   "wethr_observed_high": {
     "available": true,
     "wethr_high_f": 93.0,
-    "time_of_high_utc": "2026-08-25 16:19:00",
+    "time_of_high_utc": "2026-08-25 16:20:00",
     "sources": [
       "omo",
       "hf_metar",
@@ -531,11 +531,11 @@
     "source_detail": {
       "omo": {
         "first_confirmed_utc": "2026-08-25 15:49:00",
-        "count": 31
+        "count": 32
       },
       "hf_metar": {
         "first_confirmed_utc": "2026-08-25 15:50:00",
-        "count": 6
+        "count": 7
       },
       "metar": {
         "first_confirmed_utc": "2026-08-25 15:56:00",
