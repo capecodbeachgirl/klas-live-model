@@ -1,6 +1,6 @@
 {
   "date": "2026-08-25",
-  "updated_at_local": "2026-08-25T10:40:26.836089-07:00",
+  "updated_at_local": "2026-08-25T10:46:05.589892-07:00",
   "latest_metar_time": "2026-08-25T09:56:00-07:00",
   "latest_temp_f": 95.0,
   "latest_precise_temp_f": 95.0,
@@ -188,8 +188,8 @@
   },
   "radar": {
     "available": true,
-    "latest_time_utc": "2026-08-25T17:22:59+00:00",
-    "prior_time_utc": "2026-08-25T16:52:59+00:00",
+    "latest_time_utc": "2026-08-25T17:30:59+00:00",
+    "prior_time_utc": "2026-08-25T17:00:59+00:00",
     "current": {
       "echo_fraction_by_radius": {
         "0": 0.0,
@@ -244,15 +244,15 @@
       "floor_strike": 108.0,
       "cap_strike": 109.0,
       "yes_bid": 0.44,
-      "yes_ask": 0.45,
+      "yes_ask": 0.46,
       "last_price": 0.46,
-      "market_mid": 0.445,
+      "market_mid": 0.45,
       "close_time": "2026-08-26T08:00:00Z",
       "occurrence_datetime": "2026-08-26T14:00:00Z",
       "updated_time": "2026-08-24T14:00:01.671201Z",
       "model_probability": 0.23492462311557788,
-      "edge_vs_ask": -0.21507537688442213,
-      "difference": -0.21007537688442213
+      "edge_vs_ask": -0.22507537688442214,
+      "difference": -0.21507537688442213
     },
     {
       "ticker": "KXHIGHTLV-26AUG25-T104",
@@ -387,17 +387,17 @@
     "mean_cloud_fraction_2h": 0.25,
     "cloud_fraction_trend_2h": 0.0,
     "latest_cloud_fraction_below_20000": 0.25,
-    "geocolor_image_url": "https://cdn.star.nesdis.noaa.gov/WFO/vef/GEOCOLOR/20262371710_GOES18-ABI-vef-GEOCOLOR-600x600.jpg",
-    "geocolor_time_utc": "2026-08-25T17:10:00+00:00",
-    "infrared_image_url": "https://cdn.star.nesdis.noaa.gov/WFO/vef/13/20262371720_GOES18-ABI-vef-13-600x600.jpg",
-    "infrared_time_utc": "2026-08-25T17:20:00+00:00",
+    "geocolor_image_url": "https://cdn.star.nesdis.noaa.gov/WFO/vef/GEOCOLOR/20262371720_GOES18-ABI-vef-GEOCOLOR-600x600.jpg",
+    "geocolor_time_utc": "2026-08-25T17:20:00+00:00",
+    "infrared_image_url": "https://cdn.star.nesdis.noaa.gov/WFO/vef/13/20262371730_GOES18-ABI-vef-13-600x600.jpg",
+    "infrared_time_utc": "2026-08-25T17:30:00+00:00",
     "errors": [],
     "image_note": "GOES images are a visual cross-check in this version. The shading label uses KLAS-observed sky cover and does not alter the validated temperature prediction.",
     "source": "NOAA/NESDIS/STAR GOES imagery + KLAS METAR sky cover"
   },
   "wethr": {
     "available": true,
-    "collected_at_local": "2026-08-25T10:40:18.828570-07:00",
+    "collected_at_local": "2026-08-25T10:45:58.857572-07:00",
     "models": {
       "HRRR": {
         "available": true,
@@ -514,7 +514,7 @@
   "wethr_observed_high": {
     "available": true,
     "wethr_high_f": 96.0,
-    "time_of_high_utc": "2026-08-25 17:38:00",
+    "time_of_high_utc": "2026-08-25 17:43:00",
     "sources": [
       "hf_metar",
       "omo"
@@ -522,11 +522,11 @@
     "source_detail": {
       "hf_metar": {
         "first_confirmed_utc": "2026-08-25 17:10:00",
-        "count": 5
+        "count": 6
       },
       "omo": {
         "first_confirmed_utc": "2026-08-25 17:10:00",
-        "count": 28
+        "count": 33
       }
     },
     "omo_informed": true,
