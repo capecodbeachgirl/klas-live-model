@@ -1,6 +1,6 @@
 {
   "date": "2026-08-24",
-  "updated_at_local": "2026-08-24T20:36:23.047794-07:00",
+  "updated_at_local": "2026-08-24T20:55:48.965309-07:00",
   "latest_metar_time": "2026-08-24T19:56:00-07:00",
   "latest_temp_f": 100.0,
   "latest_precise_temp_f": 100.03999999999999,
@@ -53,17 +53,16 @@
   },
   "afd": {
     "available": true,
-    "issued_at": "2026-08-24T23:30:00+00:00",
-    "product_id": "7fe130da-feb4-4542-ba26-c282c1015674",
-    "text": "\n000\nFXUS65 KVEF 242330\nAFDVEF\n\nArea Forecast Discussion\nNational Weather Service Las Vegas NV\n430 PM PDT Mon Aug 24 2026\n\n.KEY MESSAGES...\n\n* Hotter than normal temperatures will continue through the week.\n\n* Best chance of storms is along and south of I-15 today, with \n  diminishing odds afterwards.\n\n&&\n\n.DISCUSSION...Through the weekend.\n\nThe primary weather concern this week is extreme heat. An upper \nlevel ridge centered over Arizona will strengthen throughout the \nworkweek. Surface temperatures increase in response to rising \nheights aloft, peaking on Thursday with afternoon highs and morning \nlows about 5 to 10 degrees above normal for late August. This means \nhighs in the upper 100s to mid 110s and lows in the mid 80s to low \n90s in the valleys across the Mojave Desert including Las Vegas. \nThese temperatures yield widespread swaths of Major (Level 3 of 4) \nto Extreme (Level 4 of 4) Heat Risk today through Friday and an \nExtreme Heat Warning remains in effect. Numerous daily high records \nand warm minimum temperature records are in jeopardy - see the \nCLIMATE section below for details. Temperatures fall back to near \nnormal values by the weekend as a trough pushes east into the ridge \nand heights aloft decrease. \n\nMeanwhile, an increase in moisture fueled by outflows from last \nnight's storm activity in Arizona has already started to spur \nconvection in Mohave County this afternoon. Mesoanalysis shows 500 \nto 1000 J/kg CAPE and 1 to 1.5 inches of PWAT in areas along and \nsoutheast of Interstate 15. Some storms may be capable of producing \ngusty outflow winds and downpours which may lead to flash flooding. \nHigh resolution guidance suggests additional isolated convection \nover high terrain across much of the area tomorrow, but rising \nheights aloft from the intruding ridge should help suppress storm \ndevelopment. Moisture will gradually decrease later in the week with \ndry southwesterly flow, reducing precipitation potential even \nfurther. \n\n&&\n\n.AVIATION...For Harry Reid...For the 00Z Forecast Package...Winds \nwill become less gusty and fall to less than 10 knots after sunset, \nbut maintain a southwesterly direction into the evening. Any \nconvection in the region should also end around this time. For \ntomorrow, winds develop a southeasterly direction by late morning, \nshifting to the southwest in the evening. Temperatures remain over \n100 degrees until around 03Z and increase to at least 100 degrees by \n19Z.\n\nFor the rest of southern Nevada, northwest Arizona and southeast\nCalifornia...For the 00Z Forecast Package...Thunderstorms should \nweaken after sunset, although outflow boundaries from decaying \nstorms may cause sudden changes in wind direction and speed in \nnorthwestern Arizona. Outside of convective influence, winds \nshould weaken at most locations overnight. Tomorrow's winds will \nfollow typical daily directional patterns. FEW to SCT mid and high\nclouds continue to drift through the region.\n\n&&\n\n.CLIMATE...Numerous climate locations have a forecast high\ntemperature and/or forecast warm low temperature within 3 degrees of \nthe daily record.\n\nThe table below shows the daily record maximum temperature and the \nyear the record was last set. An asterisk (*) denotes which records \nare in jeopardy (within 3 degrees of the forecast).\n\nMAX           MON, AUG 24 TUE, AUG 25 WED, AUG 26 THU, AUG 27\n              Record(Yr)  Record(Yr)  Record(Yr)  Record (Yr)\n\nLas Vegas     112(2021)   111(2011)   109(2001)*  110(2017)* \nBishop        102(2022)*  103(2020)   103(2019)*  103(2019)* \nNeedles       118(2011)   119(1924)   122(1924)   120(1891) \nDaggett       111(1985)   111(1985)   111(2011)*  111(2017)* \nKingman       107(2011)   106(2020)   106(2020)*  107(2017)* \nDesert Rock   106(2011)   107(1985)   106(2001)*  107(2017) \nDeath Valley  124(1926)   123(2011)   122(2017)*  124(1924)\n\nThe table below shows the daily record warm minimum temperature and \nthe year the record was last set. An asterisk (*) denotes which \nrecords are in jeopardy (within 3 degrees of the forecast).\n\nWARM MIN      TUE, AUG 25 WED, AUG 26 THU, AUG 27 FRI, AUG 28\n              Record(Yr)  Record(Yr)  Record(Yr)  Record (Yr)\n\nLas Vegas     87(2020)    88(2020)*   87(2011)*   86(2019)* \nBishop        65(1988)    66(1988)    67(1970)    62(1970) \nNeedles       92(2020)    93(2011)    93(2011)    94(2017) \nDaggett       81(2003)*   82(1981)*   81(2011)*   82(2017)* \nKingman       78(2011)    79(1945)*   79(2020)*   75(2019)* \nDesert Rock   78(1998)*   78(1985)*   78(1995)*   77(2011)* \nDeath Valley  98(1991)*   98(1991)*   95(2011)*  100(2019)* \n\n&&\n\n.SPOTTER INFORMATION STATEMENT...Spotters are encouraged to report\nany significant weather or impacts according to standard operating\nprocedures.\n\n&&\n\n$$\n\nDISCUSSION/AVIATION/CLIMATE...Meltzer\n\n\nFor more forecast information...see us on our webpage:\nhttps://weather.gov/lasvegas or follow us on Facebook and Twitter\n",
+    "issued_at": "2026-08-25T03:40:00+00:00",
+    "product_id": "66b131cf-ebc4-42a0-a07d-08d13ce4d48a",
+    "text": "\n000\nFXUS65 KVEF 250340\nAFDVEF\n\nArea Forecast Discussion\nNational Weather Service Las Vegas NV\n840 PM PDT Mon Aug 24 2026\n\n.KEY MESSAGES...\n\n* Hotter than normal temperatures will continue through the week.\n\n* Best chance of storms is along and south of I-15 today, with \n  diminishing odds afterwards.\n\n&&\n\n.DISCUSSION...Through the weekend.\n\nThe primary weather concern this week is extreme heat. An upper \nlevel ridge centered over Arizona will strengthen throughout the \nworkweek. Surface temperatures increase in response to rising \nheights aloft, peaking on Thursday with afternoon highs and morning \nlows about 5 to 10 degrees above normal for late August. This means \nhighs in the upper 100s to mid 110s and lows in the mid 80s to low \n90s in the valleys across the Mojave Desert including Las Vegas. \nThese temperatures yield widespread swaths of Major (Level 3 of 4) \nto Extreme (Level 4 of 4) Heat Risk today through Friday and an \nExtreme Heat Warning remains in effect. Numerous daily high records \nand warm minimum temperature records are in jeopardy - see the \nCLIMATE section below for details. Temperatures fall back to near \nnormal values by the weekend as a trough pushes east into the ridge \nand heights aloft decrease. \n\nMeanwhile, an increase in moisture fueled by outflows from last \nnight's storm activity in Arizona has already started to spur \nconvection in Mohave County this afternoon. Mesoanalysis shows 500 \nto 1000 J/kg CAPE and 1 to 1.5 inches of PWAT in areas along and \nsoutheast of Interstate 15. Some storms may be capable of producing \ngusty outflow winds and downpours which may lead to flash flooding. \nHigh resolution guidance suggests additional isolated convection \nover high terrain across much of the area tomorrow, but rising \nheights aloft from the intruding ridge should help suppress storm \ndevelopment. Moisture will gradually decrease later in the week with \ndry southwesterly flow, reducing precipitation potential even \nfurther. \n\n&&\n\n.AVIATION...For Harry Reid...For the 06Z Forecast \nPackage...Generally light winds are expected for the remainder of \nthe evening and overnight, favoring southerly directions.  For \ntomorrow, winds develop a southeasterly direction by late morning, \nshifting to the southwest in the evening. Temperatures remain over \n100 degrees until around 03Z and increase to at least 100 degrees by \n19Z through 3z tomorrow evening. A few high based cloud build ups \nare again possible along the high terrain tomorrow afternoon, but \noverall chances for shower activity are slim.\n\nFor the rest of southern Nevada, northwest Arizona and southeast \nCalifornia...For the 06Z Forecast Package...Winds through the TAF \nperiod will follow typical daily directional patterns. FEW to SCT \nmid and high clouds continue to drift through the region.\n\n&&\n\n.CLIMATE...Numerous climate locations have a forecast high\ntemperature and/or forecast warm low temperature within 3 degrees of \nthe daily record.\n\nThe table below shows the daily record maximum temperature and the \nyear the record was last set. An asterisk (*) denotes which records \nare in jeopardy (within 3 degrees of the forecast).\n\nMAX           MON, AUG 24 TUE, AUG 25 WED, AUG 26 THU, AUG 27\n              Record(Yr)  Record(Yr)  Record(Yr)  Record (Yr)\n\nLas Vegas     112(2021)   111(2011)   109(2001)*  110(2017)* \nBishop        102(2022)*  103(2020)   103(2019)*  103(2019)* \nNeedles       118(2011)   119(1924)   122(1924)   120(1891) \nDaggett       111(1985)   111(1985)   111(2011)*  111(2017)* \nKingman       107(2011)   106(2020)   106(2020)*  107(2017)* \nDesert Rock   106(2011)   107(1985)   106(2001)*  107(2017) \nDeath Valley  124(1926)   123(2011)   122(2017)*  124(1924)\n\nThe table below shows the daily record warm minimum temperature and \nthe year the record was last set. An asterisk (*) denotes which \nrecords are in jeopardy (within 3 degrees of the forecast).\n\nWARM MIN      TUE, AUG 25 WED, AUG 26 THU, AUG 27 FRI, AUG 28\n              Record(Yr)  Record(Yr)  Record(Yr)  Record (Yr)\n\nLas Vegas     87(2020)    88(2020)*   87(2011)*   86(2019)* \nBishop        65(1988)    66(1988)    67(1970)    62(1970) \nNeedles       92(2020)    93(2011)    93(2011)    94(2017) \nDaggett       81(2003)*   82(1981)*   81(2011)*   82(2017)* \nKingman       78(2011)    79(1945)*   79(2020)*   75(2019)* \nDesert Rock   78(1998)*   78(1985)*   78(1995)*   77(2011)* \nDeath Valley  98(1991)*   98(1991)*   95(2011)*  100(2019)* \n\n&&\n\n.SPOTTER INFORMATION STATEMENT...Spotters are encouraged to report\nany significant weather or impacts according to standard operating\nprocedures.\n\n&&\n\n$$\n\nDISCUSSION/AVIATION/CLIMATE...Meltzer/CO\n\n\nFor more forecast information...see us on our webpage:\nhttps://weather.gov/lasvegas or follow us on Facebook and Twitter\n",
     "risk": "HIGH",
     "high_terms": [
       "outflow"
     ],
     "convective_terms": [
-      "thunderstorm",
       "convection",
-      "convective"
+      "shower"
     ],
     "negative_signals": 0,
     "snippet": "Meanwhile, an increase in moisture fueled by outflows from last night's storm activity in Arizona has already started to spur convection in Mohave County this afternoon. Some storms may be capable of producing gusty outflow winds and downpours which may lead to flash flooding.",
@@ -71,10 +70,15 @@
   },
   "radar": {
     "available": true,
-    "latest_time_utc": "2026-08-25T03:24:58+00:00",
-    "prior_time_utc": "2026-08-25T02:54:58+00:00",
+    "latest_time_utc": "2026-08-25T03:46:13+00:00",
+    "prior_time_utc": "2026-08-25T03:16:13+00:00",
     "current": {
-      "echo_fraction_by_radius": {},
+      "echo_fraction_by_radius": {
+        "0": 0.0,
+        "10": 0.0,
+        "25": 0.0,
+        "50": 0.0
+      },
       "nearest_echo_miles": null
     },
     "prior": {
@@ -256,17 +260,17 @@
     "mean_cloud_fraction_2h": 0.5,
     "cloud_fraction_trend_2h": 0.0,
     "latest_cloud_fraction_below_20000": 0.5,
-    "geocolor_image_url": "https://cdn.star.nesdis.noaa.gov/WFO/vef/GEOCOLOR/20262370310_GOES18-ABI-vef-GEOCOLOR-600x600.jpg",
-    "geocolor_time_utc": "2026-08-25T03:10:00+00:00",
-    "infrared_image_url": "https://cdn.star.nesdis.noaa.gov/WFO/vef/13/20262370310_GOES18-ABI-vef-13-600x600.jpg",
-    "infrared_time_utc": "2026-08-25T03:10:00+00:00",
+    "geocolor_image_url": "https://cdn.star.nesdis.noaa.gov/WFO/vef/GEOCOLOR/20262370330_GOES18-ABI-vef-GEOCOLOR-600x600.jpg",
+    "geocolor_time_utc": "2026-08-25T03:30:00+00:00",
+    "infrared_image_url": "https://cdn.star.nesdis.noaa.gov/WFO/vef/13/20262370340_GOES18-ABI-vef-13-600x600.jpg",
+    "infrared_time_utc": "2026-08-25T03:40:00+00:00",
     "errors": [],
     "image_note": "GOES images are a visual cross-check in this version. The shading label uses KLAS-observed sky cover and does not alter the validated temperature prediction.",
     "source": "NOAA/NESDIS/STAR GOES imagery + KLAS METAR sky cover"
   },
   "wethr": {
     "available": true,
-    "collected_at_local": "2026-08-24T20:36:15.070041-07:00",
+    "collected_at_local": "2026-08-24T20:55:43.710769-07:00",
     "models": {
       "HRRR": {
         "available": true,
@@ -279,8 +283,8 @@
         "contract_start_local": "2026-08-24T01:00:00-07:00",
         "contract_end_local": "2026-08-25T01:00:00-07:00",
         "covers_rest_of_contract": true,
-        "remaining_high_f": 94.89,
-        "remaining_high_time_local": "2026-08-24T20:45:00-07:00",
+        "remaining_high_f": 94.36,
+        "remaining_high_time_local": "2026-08-24T21:00:00-07:00",
         "projected_high_f": 108.0
       },
       "HRRR-EXT": {
@@ -316,15 +320,15 @@
       "RAP": {
         "available": true,
         "model": "RAP",
-        "run_time_utc": "2026-08-25 01:00:00",
+        "run_time_utc": "2026-08-25 02:00:00",
         "rows_received": 22,
         "max_forecast_hour": 21,
-        "coverage_start_local": "2026-08-24T18:00:00-07:00",
-        "coverage_end_local": "2026-08-25T15:00:00-07:00",
+        "coverage_start_local": "2026-08-24T19:00:00-07:00",
+        "coverage_end_local": "2026-08-25T16:00:00-07:00",
         "contract_start_local": "2026-08-24T01:00:00-07:00",
         "contract_end_local": "2026-08-25T01:00:00-07:00",
         "covers_rest_of_contract": true,
-        "remaining_high_f": 92.01,
+        "remaining_high_f": 95.79,
         "remaining_high_time_local": "2026-08-24T21:00:00-07:00",
         "projected_high_f": 108.0
       },
@@ -346,11 +350,11 @@
       "LAV-MOS": {
         "available": true,
         "model": "LAV-MOS",
-        "run_time_utc": "2026-08-25 02:00:00",
+        "run_time_utc": "2026-08-25 03:00:00",
         "rows_received": 38,
         "max_forecast_hour": 38,
-        "coverage_start_local": "2026-08-24T20:00:00-07:00",
-        "coverage_end_local": "2026-08-26T09:00:00-07:00",
+        "coverage_start_local": "2026-08-24T21:00:00-07:00",
+        "coverage_end_local": "2026-08-26T10:00:00-07:00",
         "contract_start_local": "2026-08-24T01:00:00-07:00",
         "contract_end_local": "2026-08-25T01:00:00-07:00",
         "covers_rest_of_contract": true,
