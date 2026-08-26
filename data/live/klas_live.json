@@ -1,6 +1,6 @@
 {
   "date": "2026-08-26",
-  "updated_at_local": "2026-08-26T09:22:40.440959-07:00",
+  "updated_at_local": "2026-08-26T09:25:33.024345-07:00",
   "latest_metar_time": "2026-08-26T08:56:00-07:00",
   "latest_temp_f": 95.0,
   "latest_precise_temp_f": 95.0,
@@ -260,7 +260,7 @@
       "cap_strike": 112.0,
       "yes_bid": 0.57,
       "yes_ask": 0.6,
-      "last_price": 0.58,
+      "last_price": 0.6,
       "market_mid": 0.585,
       "close_time": "2026-08-27T08:00:00Z",
       "occurrence_datetime": "2026-08-27T14:00:00Z",
@@ -415,7 +415,7 @@
   },
   "wethr": {
     "available": true,
-    "collected_at_local": "2026-08-26T09:22:33.605389-07:00",
+    "collected_at_local": "2026-08-26T09:25:26.601227-07:00",
     "models": {
       "HRRR": {
         "available": true,
@@ -530,7 +530,7 @@
   "wethr_observed_high": {
     "available": true,
     "wethr_high_f": 96.0,
-    "time_of_high_utc": "2026-08-26 16:20:00",
+    "time_of_high_utc": "2026-08-26 16:22:00",
     "sources": [
       "hf_metar",
       "omo"
@@ -542,7 +542,7 @@
       },
       "omo": {
         "first_confirmed_utc": "2026-08-26 15:40:00",
-        "count": 22
+        "count": 24
       }
     },
     "omo_informed": true,
