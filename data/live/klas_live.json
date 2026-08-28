@@ -1,20 +1,21 @@
 {
   "date": "2026-08-28",
-  "updated_at_local": "2026-08-28T16:58:28.212417-07:00",
-  "latest_metar_time": "2026-08-28T15:56:00-07:00",
-  "latest_temp_f": 104.0,
-  "latest_precise_temp_f": 104.0,
-  "latest_dewpoint_f": 49.0,
-  "raw_metar_peak_f": 105.0,
+  "updated_at_local": "2026-08-28T16:59:53.288762-07:00",
+  "latest_metar_time": "2026-08-28T16:56:00-07:00",
+  "latest_temp_f": 105.08000000000001,
+  "latest_precise_temp_f": 105.08000000000001,
+  "latest_dewpoint_f": 46.04,
+  "raw_metar_peak_f": 105.08000000000001,
   "precise_metar_peak_f": 105.08000000000001,
-  "six_hour_max_f": 101,
-  "six_hour_max_report_time": "2026-08-28T10:56:00-07:00",
+  "six_hour_max_f": 107,
+  "six_hour_max_report_time": "2026-08-28T16:56:00-07:00",
   "nws_am_forecast_high_f": 108.0,
   "nws_am_issued_at": "2026-08-28T04:27:00-07:00",
-  "checkpoint_hour": 16,
+  "checkpoint_hour": 17,
   "weather_risk": "MEDIUM",
   "weather_reasons": [
     "Heavy recent cloud cover",
+    "Strong gusts up to 27 kt",
     "Las Vegas NWS discussion contains a convective/monsoon signal"
   ],
   "weather_risk_components": {
@@ -157,16 +158,16 @@
       "strike_type": "between",
       "floor_strike": 106.0,
       "cap_strike": 107.0,
-      "yes_bid": 0.82,
-      "yes_ask": 0.98,
-      "last_price": 0.98,
-      "market_mid": 0.8999999999999999,
+      "yes_bid": 0.99,
+      "yes_ask": 1.0,
+      "last_price": 0.99,
+      "market_mid": 0.995,
       "close_time": "2026-08-29T08:00:00Z",
       "occurrence_datetime": "2026-08-29T14:00:00Z",
       "updated_time": "2026-08-27T14:00:01.891987Z",
-      "model_probability": 0.7824909747292419,
-      "edge_vs_ask": -0.1975090252707581,
-      "difference": -0.11750902527075802
+      "model_probability": 0.8272900763358779,
+      "edge_vs_ask": -0.17270992366412208,
+      "difference": -0.16770992366412207
     },
     {
       "ticker": "KXHIGHTLV-26AUG28-B108.5",
@@ -176,16 +177,16 @@
       "strike_type": "between",
       "floor_strike": 108.0,
       "cap_strike": 109.0,
-      "yes_bid": 0.01,
-      "yes_ask": 0.05,
+      "yes_bid": 0.0,
+      "yes_ask": 0.01,
       "last_price": 0.01,
-      "market_mid": 0.030000000000000002,
+      "market_mid": 0.005,
       "close_time": "2026-08-29T08:00:00Z",
       "occurrence_datetime": "2026-08-29T14:00:00Z",
       "updated_time": "2026-08-27T14:00:01.891987Z",
-      "model_probability": 0.2111913357400722,
-      "edge_vs_ask": 0.16119133574007222,
-      "difference": 0.1811913357400722
+      "model_probability": 0.16603053435114504,
+      "edge_vs_ask": 0.15603053435114503,
+      "difference": 0.16103053435114503
     },
     {
       "ticker": "KXHIGHTLV-26AUG28-B110.5",
@@ -202,9 +203,9 @@
       "close_time": "2026-08-29T08:00:00Z",
       "occurrence_datetime": "2026-08-29T14:00:00Z",
       "updated_time": "2026-08-27T14:00:01.891987Z",
-      "model_probability": 0.00631768953068592,
-      "edge_vs_ask": -0.00368231046931408,
-      "difference": 0.00131768953068592
+      "model_probability": 0.006679389312977099,
+      "edge_vs_ask": -0.003320610687022901,
+      "difference": 0.001679389312977099
     },
     {
       "ticker": "KXHIGHTLV-26AUG28-B104.5",
@@ -265,21 +266,21 @@
     }
   ],
   "model_method": "remaining_heating",
-  "model_bundle": "h16_remaining.joblib",
+  "model_bundle": "h17_remaining.joblib",
   "observed_floor_f": 107.0,
-  "predicted_remaining_heating_f": 0.8754863677988678,
-  "pre_checkpoint_peak_f": 105.0,
+  "predicted_remaining_heating_f": 1.108435157474534,
+  "pre_checkpoint_peak_f": 105.08000000000001,
   "model_predicted_high_f": 107.0,
   "model_correction_f": -1.0,
   "likely_low_f": 107,
   "likely_high_f": 108,
   "confidence": "MEDIUM",
-  "model_mae_f": 0.4495189722064723,
+  "model_mae_f": 0.4473460776640661,
   "distribution": {
-    "107": 0.7824909747292419,
-    "108": 0.20487364620938628,
-    "109": 0.00631768953068592,
-    "110": 0.00631768953068592
+    "107": 0.8272900763358779,
+    "108": 0.15935114503816794,
+    "109": 0.006679389312977099,
+    "110": 0.006679389312977099
   },
   "bucket_probability_total": 1.0,
   "largest_model_ask_gap": {
@@ -290,16 +291,16 @@
     "strike_type": "between",
     "floor_strike": 108.0,
     "cap_strike": 109.0,
-    "yes_bid": 0.01,
-    "yes_ask": 0.05,
+    "yes_bid": 0.0,
+    "yes_ask": 0.01,
     "last_price": 0.01,
-    "market_mid": 0.030000000000000002,
+    "market_mid": 0.005,
     "close_time": "2026-08-29T08:00:00Z",
     "occurrence_datetime": "2026-08-29T14:00:00Z",
     "updated_time": "2026-08-27T14:00:01.891987Z",
-    "model_probability": 0.2111913357400722,
-    "edge_vs_ask": 0.16119133574007222,
-    "difference": 0.1811913357400722
+    "model_probability": 0.16603053435114504,
+    "edge_vs_ask": 0.15603053435114503,
+    "difference": 0.16103053435114503
   },
   "research_status": "EDGE WATCH \u2014 WEATHER RISK MEDIUM",
   "satellite": {
@@ -320,7 +321,7 @@
   },
   "wethr": {
     "available": true,
-    "collected_at_local": "2026-08-28T16:58:22.219760-07:00",
+    "collected_at_local": "2026-08-28T16:59:47.646945-07:00",
     "models": {
       "HRRR": {
         "available": true,
@@ -439,12 +440,17 @@
     "wethr_high_f": 107.0,
     "time_of_high_utc": "2026-08-28 22:24:00",
     "sources": [
-      "omo"
+      "omo",
+      "six_hour_high"
     ],
     "source_detail": {
       "omo": {
         "first_confirmed_utc": "2026-08-28 22:23:00",
         "count": 2
+      },
+      "six_hour_high": {
+        "first_confirmed_utc": "2026-08-28 23:56:00",
+        "count": 1
       }
     },
     "omo_informed": true,
@@ -459,11 +465,11 @@
   "historical_analogs": {
     "available": true,
     "count": 40,
-    "checkpoint_hour": 16,
-    "current_temp_f": 104.0,
-    "median_final_high_f": 106.0,
-    "range_80_low_f": 104.9,
-    "range_80_high_f": 107.1,
+    "checkpoint_hour": 17,
+    "current_temp_f": 105.1,
+    "median_final_high_f": 107.0,
+    "range_80_low_f": 106.0,
+    "range_80_high_f": 108.0,
     "median_heating_remaining_f": 1.0
   },
   "next_update_local": "2026-08-28T17:05:00-07:00",
@@ -796,6 +802,15 @@
       "latest_precise_temp_f": 104.0,
       "latest_temp_f": 104.0,
       "six_hour_max_f": 101.0,
+      "model_predicted_high_f": 107.0,
+      "nws_am_forecast_high_f": 108.0,
+      "weather_risk": "MEDIUM"
+    },
+    {
+      "checkpoint_hour": 17.0,
+      "latest_precise_temp_f": 105.08000000000001,
+      "latest_temp_f": 105.08000000000001,
+      "six_hour_max_f": 107.0,
       "model_predicted_high_f": 107.0,
       "nws_am_forecast_high_f": 108.0,
       "weather_risk": "MEDIUM"
