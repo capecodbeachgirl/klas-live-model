@@ -1,6 +1,6 @@
 {
   "date": "2026-08-29",
-  "updated_at_local": "2026-08-29T11:15:17.590022-07:00",
+  "updated_at_local": "2026-08-29T11:21:33.257348-07:00",
   "latest_metar_time": "2026-08-29T10:56:00-07:00",
   "latest_temp_f": 100.0,
   "latest_precise_temp_f": 100.03999999999999,
@@ -181,8 +181,8 @@
   },
   "radar": {
     "available": true,
-    "latest_time_utc": "2026-08-29T18:02:55+00:00",
-    "prior_time_utc": "2026-08-29T17:32:55+00:00",
+    "latest_time_utc": "2026-08-29T18:08:57+00:00",
+    "prior_time_utc": "2026-08-29T17:38:57+00:00",
     "current": {
       "echo_fraction_by_radius": {},
       "nearest_echo_miles": null
@@ -252,7 +252,7 @@
       "cap_strike": 106.0,
       "yes_bid": 0.6,
       "yes_ask": 0.65,
-      "last_price": 0.65,
+      "last_price": 0.6,
       "market_mid": 0.625,
       "close_time": "2026-08-30T08:00:00Z",
       "occurrence_datetime": "2026-08-30T14:00:00Z",
@@ -368,29 +368,30 @@
     "latest_cloud_fraction_below_20000": 0.25,
     "geocolor_image_url": "https://cdn.star.nesdis.noaa.gov/WFO/vef/GEOCOLOR/20262411750_GOES18-ABI-vef-GEOCOLOR-600x600.jpg",
     "geocolor_time_utc": "2026-08-29T17:50:00+00:00",
-    "infrared_image_url": "https://cdn.star.nesdis.noaa.gov/WFO/vef/13/20262411740_GOES18-ABI-vef-13-600x600.jpg",
-    "infrared_time_utc": "2026-08-29T17:40:00+00:00",
+    "infrared_image_url": "https://cdn.star.nesdis.noaa.gov/WFO/vef/13/20262411800_GOES18-ABI-vef-13-600x600.jpg",
+    "infrared_time_utc": "2026-08-29T18:00:00+00:00",
     "errors": [],
     "image_note": "GOES images are a visual cross-check in this version. The shading label uses KLAS-observed sky cover and does not alter the validated temperature prediction.",
     "source": "NOAA/NESDIS/STAR GOES imagery + KLAS METAR sky cover"
   },
   "wethr": {
     "available": true,
-    "collected_at_local": "2026-08-29T11:15:11.232536-07:00",
+    "collected_at_local": "2026-08-29T11:21:28.320040-07:00",
     "models": {
       "HRRR": {
         "available": true,
         "model": "HRRR",
         "run_time_utc": "2026-08-29 17:00:00",
-        "rows_received": 25,
-        "max_forecast_hour": 6,
+        "rows_received": 61,
+        "max_forecast_hour": 15,
         "coverage_start_local": "2026-08-29T10:00:00-07:00",
-        "coverage_end_local": "2026-08-29T16:00:00-07:00",
+        "coverage_end_local": "2026-08-30T01:00:00-07:00",
         "contract_start_local": "2026-08-29T01:00:00-07:00",
         "contract_end_local": "2026-08-30T01:00:00-07:00",
-        "covers_rest_of_contract": false,
+        "covers_rest_of_contract": true,
         "remaining_high_f": 104.42,
-        "remaining_high_time_local": "2026-08-29T14:30:00-07:00"
+        "remaining_high_time_local": "2026-08-29T14:30:00-07:00",
+        "projected_high_f": 104.42
       },
       "HRRR-EXT": {
         "available": true,
@@ -411,10 +412,10 @@
         "available": true,
         "model": "NBM",
         "run_time_utc": "2026-08-29 16:00:00",
-        "rows_received": 48,
-        "max_forecast_hour": 48,
+        "rows_received": 56,
+        "max_forecast_hour": 71,
         "coverage_start_local": "2026-08-29T10:00:00-07:00",
-        "coverage_end_local": "2026-08-31T09:00:00-07:00",
+        "coverage_end_local": "2026-09-01T08:00:00-07:00",
         "contract_start_local": "2026-08-29T01:00:00-07:00",
         "contract_end_local": "2026-08-30T01:00:00-07:00",
         "covers_rest_of_contract": true,
@@ -470,16 +471,17 @@
     },
     "consensus": {
       "available": true,
-      "model_count": 5,
+      "model_count": 6,
       "models_used": [
+        "HRRR",
         "HRRR-EXT",
         "NBM",
         "RAP",
         "GFS-MOS",
         "LAV-MOS"
       ],
-      "median_high_f": 104.0,
-      "mean_high_f": 104.01,
+      "median_high_f": 104.21,
+      "mean_high_f": 104.08,
       "min_high_f": 102.65,
       "max_high_f": 105.0,
       "spread_f": 2.35
@@ -520,7 +522,7 @@
     "range_80_high_f": 108.0,
     "median_heating_remaining_f": 7.0
   },
-  "next_update_local": "2026-08-29T11:20:00-07:00",
+  "next_update_local": "2026-08-29T11:35:00-07:00",
   "model_accuracy": {
     "7_day": [
       {
