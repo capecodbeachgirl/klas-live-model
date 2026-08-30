@@ -1,23 +1,24 @@
 {
   "date": "2026-08-30",
-  "updated_at_local": "2026-08-30T02:09:12.460269-07:00",
-  "latest_metar_time": "2026-08-30T01:56:00-07:00",
-  "latest_temp_f": 90.0,
-  "latest_precise_temp_f": 89.96000000000001,
-  "latest_dewpoint_f": 49.0,
-  "raw_metar_peak_f": 91.0,
+  "updated_at_local": "2026-08-30T07:49:40.622053-07:00",
+  "latest_metar_time": "2026-08-30T06:56:00-07:00",
+  "latest_temp_f": 86.0,
+  "latest_precise_temp_f": 86.0,
+  "latest_dewpoint_f": 44.0,
+  "raw_metar_peak_f": 91.03999999999999,
   "precise_metar_peak_f": 91.03999999999999,
   "six_hour_max_f": null,
-  "six_hour_max_report_time": null,
+  "six_hour_max_report_time": "2026-08-30T04:56:00-07:00",
   "nws_am_forecast_high_f": 101.0,
-  "nws_am_issued_at": "2026-08-29T23:32:00-07:00",
+  "nws_am_issued_at": "2026-08-30T03:02:00-07:00",
   "checkpoint_hour": null,
   "weather_risk": "MEDIUM",
   "weather_reasons": [
+    "Strong gusts up to 29 kt",
     "Las Vegas NWS discussion contains a convective/monsoon signal"
   ],
   "weather_risk_components": {
-    "observed_risk": "LOW",
+    "observed_risk": "MEDIUM",
     "forecast_risk": "LOW",
     "afd_risk": "MEDIUM",
     "radar_risk": "LOW"
@@ -25,46 +26,6 @@
   "nws_live_forecast": {
     "available": true,
     "hours": [
-      {
-        "time": "2026-08-30T02:00:00-07:00",
-        "temp_f": 90.0,
-        "pop_pct": 1.0,
-        "short_forecast": "Mostly Clear",
-        "wind_speed": "10 mph",
-        "wind_direction": "SSW"
-      },
-      {
-        "time": "2026-08-30T03:00:00-07:00",
-        "temp_f": 89.0,
-        "pop_pct": 2.0,
-        "short_forecast": "Mostly Clear",
-        "wind_speed": "10 mph",
-        "wind_direction": "SSW"
-      },
-      {
-        "time": "2026-08-30T04:00:00-07:00",
-        "temp_f": 87.0,
-        "pop_pct": 2.0,
-        "short_forecast": "Mostly Clear",
-        "wind_speed": "12 mph",
-        "wind_direction": "SSW"
-      },
-      {
-        "time": "2026-08-30T05:00:00-07:00",
-        "temp_f": 86.0,
-        "pop_pct": 1.0,
-        "short_forecast": "Mostly Clear",
-        "wind_speed": "12 mph",
-        "wind_direction": "SSW"
-      },
-      {
-        "time": "2026-08-30T06:00:00-07:00",
-        "temp_f": 85.0,
-        "pop_pct": 1.0,
-        "short_forecast": "Sunny",
-        "wind_speed": "13 mph",
-        "wind_direction": "SSW"
-      },
       {
         "time": "2026-08-30T07:00:00-07:00",
         "temp_f": 84.0,
@@ -178,32 +139,12 @@
         "wind_direction": "SW"
       }
     ],
-    "max_pop_pct": 2.0,
+    "max_pop_pct": 1.0,
     "thunder_possible": false,
     "rain_possible": false,
     "summary": "No meaningful rain/thunder signal in the remaining NWS hourly forecast",
     "max_sky_cover_pct": 41.0,
     "sky_hours": [
-      {
-        "time": "2026-08-30T02:00:00-07:00",
-        "sky_cover_pct": 23.0
-      },
-      {
-        "time": "2026-08-30T03:00:00-07:00",
-        "sky_cover_pct": 8.0
-      },
-      {
-        "time": "2026-08-30T04:00:00-07:00",
-        "sky_cover_pct": 6.0
-      },
-      {
-        "time": "2026-08-30T05:00:00-07:00",
-        "sky_cover_pct": 6.0
-      },
-      {
-        "time": "2026-08-30T06:00:00-07:00",
-        "sky_cover_pct": 6.0
-      },
       {
         "time": "2026-08-30T07:00:00-07:00",
         "sky_cover_pct": 9.0
@@ -268,9 +209,9 @@
   },
   "afd": {
     "available": true,
-    "issued_at": "2026-08-30T05:47:00+00:00",
-    "product_id": "56dc428e-eb7a-4fb8-8115-7b9d13d7742a",
-    "text": "\n000\nFXUS65 KVEF 300547\nAFDVEF\n\nArea Forecast Discussion\nNational Weather Service Las Vegas NV\n1047 PM PDT Sat Aug 29 2026\n\n.KEY MESSAGES...\n\n* Chances for isolated to scattered storms linger, primarily in \n  northwestern Arizona and the southern Great Basin.\n\n* Elsewhere, cooling temperatures and gusty southwest winds will be \n  the main story.\n\n&&\n\n.DISCUSSION...through Saturday.\n\nHigh pressure remains centered over New Mexico while a positively \ntilted trough sits over the Pacific coast. This pattern will \nmaintain dry conditions for most of the forecast area. Enough \nmoisture remains over some of the far eastern sections of the area \nto keep 15 to 30 percent POPs in the forecast over high terrain in \nnorthwestern Arizona and the southern Great Basin. Thunderstorm \nactivity picks up on Monday as a shortwave tracks east through \nCalifornia and Nevada with decent moisture ahead of it. The current \ntiming of this feature should limit precipitation to northwestern \nArizona and Lincoln County, but if the feature slows down, chances \nmay spread further west. Forecast confidence decreases towards the \nmiddle of the week. The GEFS solution still has the Pacific trough \ntapping into moisture from tropical storm Karina, then drawing the \nmoisture towards the southwestern United States. Meanwhile, the \nECMWF still shows a drier solution. Even if the atmospheric moisture \nmakes it to the forecast area, much of it may stay elevated, \nfavoring high clouds rather than widespread precipitation. Will \ncontinue to watch over the next few days. \n\nThe cooling trend continues as heights aloft lower with the incoming \ntrough. Today's highs will be near normal for this time of year, \nwith highs in the low to mid 100s across the Mojave Desert valleys. \nTemperatures bottom out midweek around 5 degrees below normal, which \nmeans highs in the mid 90s to low 100s and lows in the 70s for many \nlocations. Breezy southwesterly winds will continue with support \nfrom enhanced 850 winds between 30 and 40 knots. Surface wind gusts \nreach 35 to 40 mph across much of the Mojave Desert, especially high \nterrain in San Bernardino, Clark, and Mohave counties. \n\n&&\n\n.AVIATION...For Harry Reid...For the 06Z Forecast Package...\nExpect southwesterly winds through the night and the morning with \ngusts around 17kts possible. before weakening and becoming light and \nvariable by the early morning. Winds turn slightly more southerly in \nthe mid to late morning with gusts over 20kts expected along with \nbuilding high clouds. Gusts cut off after sunset while prevailing \nwinds become more moderate. By early Monday, winds become light. \nTemperatures look to break 100 degrees shortly after 20z and cool \nbelow 100 shortly before 00z. \n\nFor the rest of southern Nevada, northwest Arizona and southeast \nCalifornia...For the 06Z Forecast Package... Gusts have eased for \nall but KDAG, which remains gusty through the late night before \ngusts cut off. Winds will stay moderate through the early morning, \nbut gusts and breezes begin to build in the mid to late morning with \nstronger gusts arriving into the afternoon. Winds look to ease for \nsome of the TAF sites into Sunday night, but KIFP, KEED, KDAG will \nkeep gusts into the late night..\n\n&&\n\n.SPOTTER INFORMATION STATEMENT...Spotters are encouraged to report\nany significant weather or impacts according to standard operating\nprocedures.\n\n&&\n\n$$\n\nDISCUSSION...Meltzer\nAVIATION...Murdock\n\nFor more forecast information...see us on our webpage:\nhttps://weather.gov/lasvegas or follow us on Facebook and Twitter\n",
+    "issued_at": "2026-08-30T11:15:00+00:00",
+    "product_id": "83f0c70a-7ef2-4697-974c-11177d534656",
+    "text": "\n000\nFXUS65 KVEF 301115\nAFDVEF\n\nArea Forecast Discussion\nNational Weather Service Las Vegas NV\n415 AM PDT Sun Aug 30 2026\n\n.KEY MESSAGES...\n\n* Chances for isolated to scattered storms linger, primarily in \n  northwestern Arizona and the southern Great Basin.\n\n* Elsewhere, cooling temperatures and gusty southwest winds will be \n  the main story.\n\n&&\n\n.DISCUSSION...through Saturday.\n\nHigh pressure remains centered over New Mexico while a positively \ntilted trough sits over the Pacific coast. This pattern will \nmaintain dry conditions for most of the forecast area. Enough \nmoisture remains over some of the far eastern sections of the area \nto keep 15 to 30 percent POPs in the forecast over high terrain in \nnorthwestern Arizona and the southern Great Basin. Thunderstorm \nactivity picks up on Monday as a shortwave tracks east through \nCalifornia and Nevada with decent moisture ahead of it. The current \ntiming of this feature should limit precipitation to northwestern \nArizona and Lincoln County, but if the feature slows down, chances \nmay spread further west. Forecast confidence decreases towards the \nmiddle of the week. The GEFS solution still has the Pacific trough \ntapping into moisture from tropical storm Karina, then drawing the \nmoisture towards the southwestern United States. Meanwhile, the \nECMWF still shows a drier solution. Even if the atmospheric moisture \nmakes it to the forecast area, much of it may stay elevated, \nfavoring high clouds rather than widespread precipitation. Will \ncontinue to watch over the next few days. \n\nThe cooling trend continues as heights aloft lower with the incoming \ntrough. Today's highs will be near normal for this time of year, \nwith highs in the low to mid 100s across the Mojave Desert valleys. \nTemperatures bottom out midweek around 5 degrees below normal, which \nmeans highs in the mid 90s to low 100s and lows in the 70s for many \nlocations. Breezy southwesterly winds will continue with support \nfrom enhanced 850 winds between 30 and 40 knots. Surface wind gusts \nreach 35 to 40 mph across much of the Mojave Desert, especially high \nterrain in San Bernardino, Clark, and Mohave counties. \n\n&&\n\n.AVIATION...For Harry Reid...For the 12Z Forecast \nPackage...Breezy southwesterly winds will continue through mid- \nmorning when winds will pickup from the south-southwest. 20 to 30 \nknot southerly-to- southwesterly winds will continue through the \nafternoon and into the early evening hours. Wind gusts will drop \noff after sunset, with winds continuing to maintain a \nsouthwesterly direction through the overnight hours. VFR \nconditions will persist through the TAF period with FEW to SCT \nhigh clouds AOA 10 kft filtering through the area today. \nTemperatures look to briefly touch 100 degrees this afternoon \nbetween 19 and 22Z. \n\nFor the rest of southern Nevada, northwest Arizona and southeast\nCalifornia...For the 12Z Forecast Package...With the exception of\nthe western Mojave Desert, where winds will favor a more westerly\ndirection through the TAF period, southerly to southwesterly \nwinds will pick up across the region around mit-to- late morning. \n20 to 30 knot wind gusts will continue through the afternoon and \ninto the early evening hours before decreasing after sunset with a\nfew exceptions. Winds across the western Mojave Desert, including\nKDAG, will continue to gust into the early morning hours. \nMeanwhile, in the Colorado River Valley, breezy southerly winds \nwill continue through the overnight period. VFR conditions will \npersist through the TAF period with FEW to SCT high clouds AOA \nfiltering through the area today.\n\n&&\n\n.SPOTTER INFORMATION STATEMENT...Spotters are encouraged to report\nany significant weather or impacts according to standard operating\nprocedures.\n\n&&\n\n$$\n\nDISCUSSION...Meltzer\nAVIATION...Stessman\n\nFor more forecast information...see us on our webpage:\nhttps://weather.gov/lasvegas or follow us on Facebook and Twitter\n",
     "risk": "MEDIUM",
     "high_terms": [],
     "convective_terms": [
@@ -282,8 +223,8 @@
   },
   "radar": {
     "available": true,
-    "latest_time_utc": "2026-08-30T08:50:59+00:00",
-    "prior_time_utc": "2026-08-30T08:20:59+00:00",
+    "latest_time_utc": "2026-08-30T14:32:57+00:00",
+    "prior_time_utc": "2026-08-30T14:02:57+00:00",
     "current": {
       "echo_fraction_by_radius": {
         "0": 0.0,
@@ -312,125 +253,129 @@
   "markets": [],
   "satellite": {
     "available": true,
-    "risk": "LOW",
-    "summary": "Observed KLAS sky cover suggests limited cloud shading",
-    "latest_cloud_fraction": 0.0,
-    "mean_cloud_fraction_2h": 0.25,
-    "cloud_fraction_trend_2h": -0.5,
-    "latest_cloud_fraction_below_20000": 0.0,
-    "geocolor_image_url": "https://cdn.star.nesdis.noaa.gov/WFO/vef/GEOCOLOR/20262420840_GOES18-ABI-vef-GEOCOLOR-600x600.jpg",
-    "geocolor_time_utc": "2026-08-30T08:40:00+00:00",
-    "infrared_image_url": "https://cdn.star.nesdis.noaa.gov/WFO/vef/13/20262420840_GOES18-ABI-vef-13-600x600.jpg",
-    "infrared_time_utc": "2026-08-30T08:40:00+00:00",
+    "risk": "HIGH",
+    "summary": "Heavy observed cloud cover may be suppressing solar heating at KLAS",
+    "latest_cloud_fraction": 0.875,
+    "mean_cloud_fraction_2h": 0.625,
+    "cloud_fraction_trend_2h": 0.375,
+    "latest_cloud_fraction_below_20000": 0.5,
+    "geocolor_image_url": "https://cdn.star.nesdis.noaa.gov/WFO/vef/GEOCOLOR/20262421420_GOES18-ABI-vef-GEOCOLOR-600x600.jpg",
+    "geocolor_time_utc": "2026-08-30T14:20:00+00:00",
+    "infrared_image_url": "https://cdn.star.nesdis.noaa.gov/WFO/vef/13/20262421430_GOES18-ABI-vef-13-600x600.jpg",
+    "infrared_time_utc": "2026-08-30T14:30:00+00:00",
     "errors": [],
     "image_note": "GOES images are a visual cross-check in this version. The shading label uses KLAS-observed sky cover and does not alter the validated temperature prediction.",
     "source": "NOAA/NESDIS/STAR GOES imagery + KLAS METAR sky cover"
   },
   "wethr": {
     "available": true,
-    "collected_at_local": "2026-08-30T02:09:07.528304-07:00",
+    "collected_at_local": "2026-08-30T07:49:34.885250-07:00",
     "models": {
       "HRRR": {
         "available": true,
         "model": "HRRR",
-        "run_time_utc": "2026-08-30 08:00:00",
-        "rows_received": 33,
-        "max_forecast_hour": 8,
-        "coverage_start_local": "2026-08-30T01:00:00-07:00",
-        "coverage_end_local": "2026-08-30T09:00:00-07:00",
+        "run_time_utc": "2026-08-30 13:00:00",
+        "rows_received": 73,
+        "max_forecast_hour": 18,
+        "coverage_start_local": "2026-08-30T06:00:00-07:00",
+        "coverage_end_local": "2026-08-31T00:00:00-07:00",
         "contract_start_local": "2026-08-30T01:00:00-07:00",
         "contract_end_local": "2026-08-31T01:00:00-07:00",
         "covers_rest_of_contract": false,
-        "remaining_high_f": 92.52,
-        "remaining_high_time_local": "2026-08-30T09:00:00-07:00"
+        "remaining_high_f": 101.4,
+        "remaining_high_time_local": "2026-08-30T16:15:00-07:00"
       },
       "HRRR-EXT": {
         "available": true,
         "model": "HRRR-EXT",
-        "run_time_utc": "2026-08-30 06:00:00",
+        "run_time_utc": "2026-08-30 12:00:00",
         "rows_received": 49,
         "max_forecast_hour": 48,
-        "coverage_start_local": "2026-08-29T23:00:00-07:00",
-        "coverage_end_local": "2026-08-31T23:00:00-07:00",
+        "coverage_start_local": "2026-08-30T05:00:00-07:00",
+        "coverage_end_local": "2026-09-01T05:00:00-07:00",
         "contract_start_local": "2026-08-30T01:00:00-07:00",
         "contract_end_local": "2026-08-31T01:00:00-07:00",
         "covers_rest_of_contract": true,
-        "remaining_high_f": 101.8,
-        "remaining_high_time_local": "2026-08-30T15:00:00-07:00",
-        "projected_high_f": 101.8
+        "remaining_high_f": 101.48,
+        "remaining_high_time_local": "2026-08-30T16:00:00-07:00",
+        "projected_high_f": 101.48
       },
       "NBM": {
         "available": true,
         "model": "NBM",
-        "run_time_utc": "2026-08-30 07:00:00",
-        "rows_received": 11,
-        "max_forecast_hour": 11,
-        "coverage_start_local": "2026-08-30T01:00:00-07:00",
-        "coverage_end_local": "2026-08-30T11:00:00-07:00",
+        "run_time_utc": "2026-08-30 12:00:00",
+        "rows_received": 56,
+        "max_forecast_hour": 72,
+        "coverage_start_local": "2026-08-30T06:00:00-07:00",
+        "coverage_end_local": "2026-09-02T05:00:00-07:00",
         "contract_start_local": "2026-08-30T01:00:00-07:00",
         "contract_end_local": "2026-08-31T01:00:00-07:00",
-        "covers_rest_of_contract": false,
-        "remaining_high_f": 96.53,
-        "remaining_high_time_local": "2026-08-30T11:00:00-07:00"
+        "covers_rest_of_contract": true,
+        "remaining_high_f": 99.05,
+        "remaining_high_time_local": "2026-08-30T13:00:00-07:00",
+        "projected_high_f": 99.05
       },
       "RAP": {
         "available": true,
         "model": "RAP",
-        "run_time_utc": "2026-08-30 07:00:00",
+        "run_time_utc": "2026-08-30 13:00:00",
         "rows_received": 22,
         "max_forecast_hour": 21,
-        "coverage_start_local": "2026-08-30T00:00:00-07:00",
-        "coverage_end_local": "2026-08-30T21:00:00-07:00",
+        "coverage_start_local": "2026-08-30T06:00:00-07:00",
+        "coverage_end_local": "2026-08-31T03:00:00-07:00",
         "contract_start_local": "2026-08-30T01:00:00-07:00",
         "contract_end_local": "2026-08-31T01:00:00-07:00",
-        "covers_rest_of_contract": false,
+        "covers_rest_of_contract": true,
         "remaining_high_f": 100.11,
-        "remaining_high_time_local": "2026-08-30T14:00:00-07:00"
+        "remaining_high_time_local": "2026-08-30T15:00:00-07:00",
+        "projected_high_f": 100.11
       },
       "GFS-MOS": {
         "available": true,
         "model": "GFS-MOS",
-        "run_time_utc": "2026-08-30 00:00:00",
+        "run_time_utc": "2026-08-30 06:00:00",
         "rows_received": 21,
         "max_forecast_hour": 72,
-        "coverage_start_local": "2026-08-29T23:00:00-07:00",
-        "coverage_end_local": "2026-09-01T17:00:00-07:00",
-        "contract_start_local": "2026-08-30T01:00:00-07:00",
-        "contract_end_local": "2026-08-31T01:00:00-07:00",
-        "covers_rest_of_contract": true,
-        "remaining_high_f": 101.0,
-        "remaining_high_time_local": "2026-08-30T14:00:00-07:00",
-        "projected_high_f": 101.0
-      },
-      "LAV-MOS": {
-        "available": true,
-        "model": "LAV-MOS",
-        "run_time_utc": "2026-08-30 08:00:00",
-        "rows_received": 38,
-        "max_forecast_hour": 38,
-        "coverage_start_local": "2026-08-30T02:00:00-07:00",
-        "coverage_end_local": "2026-08-31T15:00:00-07:00",
+        "coverage_start_local": "2026-08-30T05:00:00-07:00",
+        "coverage_end_local": "2026-09-01T23:00:00-07:00",
         "contract_start_local": "2026-08-30T01:00:00-07:00",
         "contract_end_local": "2026-08-31T01:00:00-07:00",
         "covers_rest_of_contract": true,
         "remaining_high_f": 100.0,
         "remaining_high_time_local": "2026-08-30T14:00:00-07:00",
         "projected_high_f": 100.0
+      },
+      "LAV-MOS": {
+        "available": true,
+        "model": "LAV-MOS",
+        "run_time_utc": "2026-08-30 14:00:00",
+        "rows_received": 38,
+        "max_forecast_hour": 38,
+        "coverage_start_local": "2026-08-30T08:00:00-07:00",
+        "coverage_end_local": "2026-08-31T21:00:00-07:00",
+        "contract_start_local": "2026-08-30T01:00:00-07:00",
+        "contract_end_local": "2026-08-31T01:00:00-07:00",
+        "covers_rest_of_contract": true,
+        "remaining_high_f": 100.0,
+        "remaining_high_time_local": "2026-08-30T16:00:00-07:00",
+        "projected_high_f": 100.0
       }
     },
     "consensus": {
       "available": true,
-      "model_count": 3,
+      "model_count": 5,
       "models_used": [
         "HRRR-EXT",
+        "NBM",
+        "RAP",
         "GFS-MOS",
         "LAV-MOS"
       ],
-      "median_high_f": 101.0,
-      "mean_high_f": 100.93,
-      "min_high_f": 100.0,
-      "max_high_f": 101.8,
-      "spread_f": 1.8
+      "median_high_f": 100.0,
+      "mean_high_f": 100.13,
+      "min_high_f": 99.05,
+      "max_high_f": 101.48,
+      "spread_f": 2.43
     },
     "source": "Wethr.net Forecasts API v2",
     "research_only": true,
@@ -467,7 +412,7 @@
   "historical_analogs": {
     "available": false
   },
-  "next_update_local": "2026-08-30T03:05:00-07:00",
+  "next_update_local": "2026-08-30T08:05:00-07:00",
   "model_accuracy": {
     "7_day": [
       {
@@ -778,6 +723,15 @@
       "checkpoint_hour": null,
       "latest_precise_temp_f": 89.96000000000001,
       "latest_temp_f": 90.0,
+      "six_hour_max_f": null,
+      "model_predicted_high_f": null,
+      "nws_am_forecast_high_f": 101.0,
+      "weather_risk": "MEDIUM"
+    },
+    {
+      "checkpoint_hour": null,
+      "latest_precise_temp_f": 86.0,
+      "latest_temp_f": 86.0,
       "six_hour_max_f": null,
       "model_predicted_high_f": null,
       "nws_am_forecast_high_f": 101.0,
