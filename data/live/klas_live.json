@@ -1,6 +1,6 @@
 {
   "date": "2026-08-30",
-  "updated_at_local": "2026-08-30T14:28:55.114946-07:00",
+  "updated_at_local": "2026-08-30T14:29:44.896603-07:00",
   "latest_metar_time": "2026-08-30T13:56:00-07:00",
   "latest_temp_f": 99.0,
   "latest_precise_temp_f": 98.96000000000001,
@@ -182,15 +182,15 @@
       "floor_strike": 99.0,
       "cap_strike": 100.0,
       "yes_bid": 0.14,
-      "yes_ask": 0.22,
+      "yes_ask": 0.21,
       "last_price": 0.22,
-      "market_mid": 0.18,
+      "market_mid": 0.175,
       "close_time": "2026-08-31T08:00:00Z",
       "occurrence_datetime": "2026-08-31T14:00:00Z",
       "updated_time": "2026-08-29T14:00:01.831258Z",
       "model_probability": 0.652017937219731,
-      "edge_vs_ask": 0.43201793721973103,
-      "difference": 0.472017937219731
+      "edge_vs_ask": 0.44201793721973104,
+      "difference": 0.477017937219731
     },
     {
       "ticker": "KXHIGHTLV-26AUG30-B101.5",
@@ -314,15 +314,15 @@
     "floor_strike": 99.0,
     "cap_strike": 100.0,
     "yes_bid": 0.14,
-    "yes_ask": 0.22,
+    "yes_ask": 0.21,
     "last_price": 0.22,
-    "market_mid": 0.18,
+    "market_mid": 0.175,
     "close_time": "2026-08-31T08:00:00Z",
     "occurrence_datetime": "2026-08-31T14:00:00Z",
     "updated_time": "2026-08-29T14:00:01.831258Z",
     "model_probability": 0.652017937219731,
-    "edge_vs_ask": 0.43201793721973103,
-    "difference": 0.472017937219731
+    "edge_vs_ask": 0.44201793721973104,
+    "difference": 0.477017937219731
   },
   "research_status": "EDGE WATCH \u2014 WEATHER RISK MEDIUM",
   "satellite": {
@@ -343,7 +343,7 @@
   },
   "wethr": {
     "available": true,
-    "collected_at_local": "2026-08-30T14:28:51.001886-07:00",
+    "collected_at_local": "2026-08-30T14:29:40.435961-07:00",
     "models": {
       "HRRR": {
         "available": true,
