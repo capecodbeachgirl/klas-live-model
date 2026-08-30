@@ -1,6 +1,6 @@
 {
   "date": "2026-08-30",
-  "updated_at_local": "2026-08-30T11:32:00.343697-07:00",
+  "updated_at_local": "2026-08-30T11:34:04.711224-07:00",
   "latest_metar_time": "2026-08-30T10:56:00-07:00",
   "latest_temp_f": 95.0,
   "latest_precise_temp_f": 95.0,
@@ -176,15 +176,10 @@
   },
   "radar": {
     "available": true,
-    "latest_time_utc": "2026-08-30T18:08:59+00:00",
-    "prior_time_utc": "2026-08-30T17:38:59+00:00",
+    "latest_time_utc": "2026-08-30T18:22:58+00:00",
+    "prior_time_utc": "2026-08-30T17:52:58+00:00",
     "current": {
-      "echo_fraction_by_radius": {
-        "0": 0.0,
-        "10": 0.0,
-        "25": 0.0,
-        "50": 0.0
-      },
+      "echo_fraction_by_radius": {},
       "nearest_echo_miles": null
     },
     "prior": {
@@ -213,15 +208,15 @@
       "floor_strike": 99.0,
       "cap_strike": 100.0,
       "yes_bid": 0.1,
-      "yes_ask": 0.12,
+      "yes_ask": 0.11,
       "last_price": 0.12,
-      "market_mid": 0.11,
+      "market_mid": 0.10500000000000001,
       "close_time": "2026-08-31T08:00:00Z",
       "occurrence_datetime": "2026-08-31T14:00:00Z",
       "updated_time": "2026-08-29T14:00:01.831258Z",
       "model_probability": 0.5948103792415169,
-      "edge_vs_ask": 0.4748103792415169,
-      "difference": 0.48481037924151693
+      "edge_vs_ask": 0.48481037924151693,
+      "difference": 0.48981037924151694
     },
     {
       "ticker": "KXHIGHTLV-26AUG30-B101.5",
@@ -231,16 +226,16 @@
       "strike_type": "between",
       "floor_strike": 101.0,
       "cap_strike": 102.0,
-      "yes_bid": 0.73,
+      "yes_bid": 0.81,
       "yes_ask": 0.82,
       "last_price": 0.74,
-      "market_mid": 0.7749999999999999,
+      "market_mid": 0.815,
       "close_time": "2026-08-31T08:00:00Z",
       "occurrence_datetime": "2026-08-31T14:00:00Z",
       "updated_time": "2026-08-29T14:00:01.831258Z",
       "model_probability": 0.27544910179640714,
       "edge_vs_ask": -0.5445508982035928,
-      "difference": -0.4995508982035928
+      "difference": -0.5395508982035928
     },
     {
       "ticker": "KXHIGHTLV-26AUG30-B97.5",
@@ -270,15 +265,15 @@
       "floor_strike": 103.0,
       "cap_strike": 104.0,
       "yes_bid": 0.05,
-      "yes_ask": 0.09,
+      "yes_ask": 0.08,
       "last_price": 0.05,
-      "market_mid": 0.07,
+      "market_mid": 0.065,
       "close_time": "2026-08-31T08:00:00Z",
       "occurrence_datetime": "2026-08-31T14:00:00Z",
       "updated_time": "2026-08-29T14:00:01.831258Z",
       "model_probability": 0.04923486360612109,
-      "edge_vs_ask": -0.04076513639387891,
-      "difference": -0.02076513639387892
+      "edge_vs_ask": -0.030765136393878914,
+      "difference": -0.015765136393878915
     },
     {
       "ticker": "KXHIGHTLV-26AUG30-T97",
@@ -349,15 +344,15 @@
     "floor_strike": 99.0,
     "cap_strike": 100.0,
     "yes_bid": 0.1,
-    "yes_ask": 0.12,
+    "yes_ask": 0.11,
     "last_price": 0.12,
-    "market_mid": 0.11,
+    "market_mid": 0.10500000000000001,
     "close_time": "2026-08-31T08:00:00Z",
     "occurrence_datetime": "2026-08-31T14:00:00Z",
     "updated_time": "2026-08-29T14:00:01.831258Z",
     "model_probability": 0.5948103792415169,
-    "edge_vs_ask": 0.4748103792415169,
-    "difference": 0.48481037924151693
+    "edge_vs_ask": 0.48481037924151693,
+    "difference": 0.48981037924151694
   },
   "research_status": "EDGE WATCH \u2014 WEATHER RISK MEDIUM",
   "satellite": {
@@ -378,7 +373,7 @@
   },
   "wethr": {
     "available": true,
-    "collected_at_local": "2026-08-30T11:31:52.410483-07:00",
+    "collected_at_local": "2026-08-30T11:34:00.033197-07:00",
     "models": {
       "HRRR": {
         "available": true,
@@ -495,7 +490,7 @@
   "wethr_observed_high": {
     "available": true,
     "wethr_high_f": 96.0,
-    "time_of_high_utc": "2026-08-30 18:29:00",
+    "time_of_high_utc": "2026-08-30 18:30:00",
     "sources": [
       "omo",
       "hf_metar"
@@ -503,11 +498,11 @@
     "source_detail": {
       "omo": {
         "first_confirmed_utc": "2026-08-30 18:11:00",
-        "count": 8
+        "count": 9
       },
       "hf_metar": {
         "first_confirmed_utc": "2026-08-30 18:25:00",
-        "count": 1
+        "count": 2
       }
     },
     "omo_informed": true,
