@@ -1,6 +1,6 @@
 {
   "date": "2026-08-29",
-  "updated_at_local": "2026-08-29T18:16:17.392399-07:00",
+  "updated_at_local": "2026-08-29T18:19:44.015787-07:00",
   "latest_metar_time": "2026-08-29T17:56:00-07:00",
   "latest_temp_f": 102.0,
   "latest_precise_temp_f": 102.02,
@@ -97,8 +97,8 @@
   },
   "radar": {
     "available": true,
-    "latest_time_utc": "2026-08-30T01:00:57+00:00",
-    "prior_time_utc": "2026-08-30T00:30:57+00:00",
+    "latest_time_utc": "2026-08-30T00:54:12+00:00",
+    "prior_time_utc": "2026-08-30T00:24:12+00:00",
     "current": {
       "echo_fraction_by_radius": {
         "0": 0.0,
@@ -296,7 +296,7 @@
   },
   "wethr": {
     "available": true,
-    "collected_at_local": "2026-08-29T18:16:12.193568-07:00",
+    "collected_at_local": "2026-08-29T18:19:36.592750-07:00",
     "models": {
       "HRRR": {
         "available": true,
@@ -317,24 +317,25 @@
         "available": true,
         "model": "HRRR-EXT",
         "run_time_utc": "2026-08-30 00:00:00",
-        "rows_received": 4,
-        "max_forecast_hour": 3,
+        "rows_received": 15,
+        "max_forecast_hour": 14,
         "coverage_start_local": "2026-08-29T17:00:00-07:00",
-        "coverage_end_local": "2026-08-29T20:00:00-07:00",
+        "coverage_end_local": "2026-08-30T07:00:00-07:00",
         "contract_start_local": "2026-08-29T01:00:00-07:00",
         "contract_end_local": "2026-08-30T01:00:00-07:00",
-        "covers_rest_of_contract": false,
+        "covers_rest_of_contract": true,
         "remaining_high_f": 97.4,
-        "remaining_high_time_local": "2026-08-29T19:00:00-07:00"
+        "remaining_high_time_local": "2026-08-29T19:00:00-07:00",
+        "projected_high_f": 105.0
       },
       "NBM": {
         "available": true,
         "model": "NBM",
         "run_time_utc": "2026-08-29 23:00:00",
-        "rows_received": 50,
-        "max_forecast_hour": 52,
+        "rows_received": 56,
+        "max_forecast_hour": 70,
         "coverage_start_local": "2026-08-29T17:00:00-07:00",
-        "coverage_end_local": "2026-08-31T20:00:00-07:00",
+        "coverage_end_local": "2026-09-01T14:00:00-07:00",
         "contract_start_local": "2026-08-29T01:00:00-07:00",
         "contract_end_local": "2026-08-30T01:00:00-07:00",
         "covers_rest_of_contract": true,
@@ -390,9 +391,10 @@
     },
     "consensus": {
       "available": true,
-      "model_count": 5,
+      "model_count": 6,
       "models_used": [
         "HRRR",
+        "HRRR-EXT",
         "NBM",
         "RAP",
         "GFS-MOS",
