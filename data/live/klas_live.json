@@ -1,6 +1,6 @@
 {
   "date": "2026-09-01",
-  "updated_at_local": "2026-09-01T14:08:50.502918-07:00",
+  "updated_at_local": "2026-09-01T14:10:10.208342-07:00",
   "latest_metar_time": "2026-09-01T13:56:00-07:00",
   "latest_temp_f": 96.0,
   "latest_precise_temp_f": 96.08000000000001,
@@ -141,8 +141,8 @@
   },
   "radar": {
     "available": true,
-    "latest_time_utc": "2026-09-01T20:52:59+00:00",
-    "prior_time_utc": "2026-09-01T20:22:59+00:00",
+    "latest_time_utc": "2026-09-01T20:44:12+00:00",
+    "prior_time_utc": "2026-09-01T20:14:12+00:00",
     "current": {
       "echo_fraction_by_radius": {
         "0": 0.0,
@@ -177,16 +177,16 @@
       "strike_type": "between",
       "floor_strike": 96.0,
       "cap_strike": 97.0,
-      "yes_bid": 0.74,
-      "yes_ask": 0.79,
-      "last_price": 0.74,
-      "market_mid": 0.765,
+      "yes_bid": 0.81,
+      "yes_ask": 0.86,
+      "last_price": 0.81,
+      "market_mid": 0.835,
       "close_time": "2026-09-02T08:00:00Z",
       "occurrence_datetime": "2026-09-02T14:00:00Z",
       "updated_time": "2026-08-31T14:00:01.698966Z",
       "model_probability": 0.734610123119015,
-      "edge_vs_ask": -0.05538987688098507,
-      "difference": -0.030389876880985045
+      "edge_vs_ask": -0.12538987688098502,
+      "difference": -0.100389876880985
     },
     {
       "ticker": "KXHIGHTLV-26SEP01-B98.5",
@@ -196,16 +196,16 @@
       "strike_type": "between",
       "floor_strike": 98.0,
       "cap_strike": 99.0,
-      "yes_bid": 0.18,
-      "yes_ask": 0.27,
-      "last_price": 0.28,
-      "market_mid": 0.225,
+      "yes_bid": 0.15,
+      "yes_ask": 0.21,
+      "last_price": 0.18,
+      "market_mid": 0.18,
       "close_time": "2026-09-02T08:00:00Z",
       "occurrence_datetime": "2026-09-02T14:00:00Z",
       "updated_time": "2026-08-31T14:00:01.698966Z",
       "model_probability": 0.22845417236662105,
-      "edge_vs_ask": -0.04154582763337897,
-      "difference": 0.0034541723666210444
+      "edge_vs_ask": 0.018454172366621058,
+      "difference": 0.04845417236662106
     },
     {
       "ticker": "KXHIGHTLV-26SEP01-T99",
@@ -330,8 +330,8 @@
     "mean_cloud_fraction_2h": 0.25,
     "cloud_fraction_trend_2h": 0.0,
     "latest_cloud_fraction_below_20000": 0.25,
-    "geocolor_image_url": "https://cdn.star.nesdis.noaa.gov/WFO/vef/GEOCOLOR/20262442040_GOES18-ABI-vef-GEOCOLOR-600x600.jpg",
-    "geocolor_time_utc": "2026-09-01T20:40:00+00:00",
+    "geocolor_image_url": "https://cdn.star.nesdis.noaa.gov/WFO/vef/GEOCOLOR/20262442050_GOES18-ABI-vef-GEOCOLOR-600x600.jpg",
+    "geocolor_time_utc": "2026-09-01T20:50:00+00:00",
     "infrared_image_url": "https://cdn.star.nesdis.noaa.gov/WFO/vef/13/20262442040_GOES18-ABI-vef-13-600x600.jpg",
     "infrared_time_utc": "2026-09-01T20:40:00+00:00",
     "errors": [],
@@ -340,7 +340,7 @@
   },
   "wethr": {
     "available": true,
-    "collected_at_local": "2026-09-01T14:08:45.978768-07:00",
+    "collected_at_local": "2026-09-01T14:10:02.722546-07:00",
     "models": {
       "HRRR": {
         "available": true,
@@ -375,15 +375,16 @@
         "available": true,
         "model": "NBM",
         "run_time_utc": "2026-09-01 19:00:00",
-        "rows_received": 8,
-        "max_forecast_hour": 8,
+        "rows_received": 13,
+        "max_forecast_hour": 13,
         "coverage_start_local": "2026-09-01T13:00:00-07:00",
-        "coverage_end_local": "2026-09-01T20:00:00-07:00",
+        "coverage_end_local": "2026-09-02T01:00:00-07:00",
         "contract_start_local": "2026-09-01T01:00:00-07:00",
         "contract_end_local": "2026-09-02T01:00:00-07:00",
-        "covers_rest_of_contract": false,
+        "covers_rest_of_contract": true,
         "remaining_high_f": 93.83,
-        "remaining_high_time_local": "2026-09-01T15:00:00-07:00"
+        "remaining_high_time_local": "2026-09-01T15:00:00-07:00",
+        "projected_high_f": 96.08000000000001
       },
       "RAP": {
         "available": true,
@@ -433,15 +434,16 @@
     },
     "consensus": {
       "available": true,
-      "model_count": 4,
+      "model_count": 5,
       "models_used": [
         "HRRR-EXT",
+        "NBM",
         "RAP",
         "GFS-MOS",
         "LAV-MOS"
       ],
       "median_high_f": 96.08,
-      "mean_high_f": 96.18,
+      "mean_high_f": 96.16,
       "min_high_f": 96.08,
       "max_high_f": 96.49,
       "spread_f": 0.41
