@@ -1,6 +1,6 @@
 {
   "date": "2026-09-02",
-  "updated_at_local": "2026-09-02T14:13:55.429018-07:00",
+  "updated_at_local": "2026-09-02T14:15:00.171243-07:00",
   "latest_metar_time": "2026-09-02T13:56:00-07:00",
   "latest_temp_f": 94.0,
   "latest_precise_temp_f": 93.91999999999999,
@@ -168,16 +168,16 @@
       "strike_type": "between",
       "floor_strike": 95.0,
       "cap_strike": 96.0,
-      "yes_bid": 0.84,
+      "yes_bid": 0.82,
       "yes_ask": 0.89,
-      "last_price": 0.85,
-      "market_mid": 0.865,
+      "last_price": 0.84,
+      "market_mid": 0.855,
       "close_time": "2026-09-03T08:00:00Z",
       "occurrence_datetime": "2026-09-03T14:00:00Z",
       "updated_time": "2026-09-01T14:00:01.284819Z",
       "model_probability": 0.707250341997264,
       "edge_vs_ask": -0.18274965800273602,
-      "difference": -0.157749658002736
+      "difference": -0.14774965800273598
     },
     {
       "ticker": "KXHIGHTLV-26SEP02-B93.5",
@@ -208,7 +208,7 @@
       "cap_strike": 98.0,
       "yes_bid": 0.02,
       "yes_ask": 0.04,
-      "last_price": 0.07,
+      "last_price": 0.04,
       "market_mid": 0.03,
       "close_time": "2026-09-03T08:00:00Z",
       "occurrence_datetime": "2026-09-03T14:00:00Z",
@@ -331,7 +331,7 @@
   },
   "wethr": {
     "available": true,
-    "collected_at_local": "2026-09-02T14:13:48.042213-07:00",
+    "collected_at_local": "2026-09-02T14:14:54.477861-07:00",
     "models": {
       "HRRR": {
         "available": true,
@@ -366,10 +366,10 @@
         "available": true,
         "model": "NBM",
         "run_time_utc": "2026-09-02 19:00:00",
-        "rows_received": 31,
-        "max_forecast_hour": 31,
+        "rows_received": 37,
+        "max_forecast_hour": 37,
         "coverage_start_local": "2026-09-02T13:00:00-07:00",
-        "coverage_end_local": "2026-09-03T19:00:00-07:00",
+        "coverage_end_local": "2026-09-04T01:00:00-07:00",
         "contract_start_local": "2026-09-02T01:00:00-07:00",
         "contract_end_local": "2026-09-03T01:00:00-07:00",
         "covers_rest_of_contract": true,
