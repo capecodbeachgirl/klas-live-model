@@ -14,20 +14,20 @@ table{width:100%;border-collapse:collapse} th,td{text-align:left;padding:9px;bor
 .freshness.high{background:#fdecea}
 .radar-box{position:relative;background:#eef1f4;border-radius:10px;overflow:hidden;min-height:260px} .radar-box img{width:100%;height:100%;min-height:260px;object-fit:cover;display:block} .crosshair{position:absolute;left:50%;top:50%;transform:translate(-50%,-50%);font-size:30px;color:#111;text-shadow:0 0 3px #fff} .radar-label{position:absolute;left:calc(50% + 13px);top:calc(50% - 22px);font-size:11px;font-weight:700;background:#fff;padding:2px 4px;border-radius:3px}
 @media(max-width:850px){.two{grid-template-columns:1fr} .intel-grid{grid-template-columns:repeat(2,1fr)}} @media(max-width:650px){.wrap{padding:12px} h1{font-size:28px} th,td{padding:7px 5px;font-size:12px} .big{font-size:26px} .status{align-items:flex-start;flex-direction:column}}
-</style></head><body><div class="wrap"><h1>KLAS Live High Model</h1><div class="sub">Updated 10:50 PM · Latest METAR 9:56 PM <span class="freshness low">METAR CURRENT — 54 min old</span></div>
-<div class="status"><strong>EDGE WATCH — WEATHER RISK MEDIUM</strong><span>Next scheduled refresh: ~11:05 PM Las Vegas time</span></div>
+</style></head><body><div class="wrap"><h1>KLAS Live High Model</h1><div class="sub">Updated 5:44 AM · Latest METAR 4:56 AM <span class="freshness low">METAR CURRENT — 48 min old</span></div>
+<div class="status"><strong>WAITING FOR 8:00 AM MODEL</strong><span>Next scheduled refresh: ~6:05 AM Las Vegas time</span></div>
 <div class="grid">
-<div class="card"><div class="label">Current KLAS</div><div class="big">87.1°F</div><div class="mini">Precise METAR T-group when available</div></div>
-<div class="card"><div class="label">NWS Morning High</div><div class="big">97.0°F</div></div>
-<div class="card"><div class="label">Our Model High</div><div class="big">97.0°F</div><div>+0.0°F vs NWS</div></div>
-<div class="card"><div class="label">80% Model Range</div><div class="big">97–98°F</div><div>MEDIUM confidence</div></div>
-<div class="card"><div class="label">Latest 6-Hour Max Report</div><div class="big">97°F</div><div class="mini">Reported 4:56 PM</div></div>
-<div class="card"><div class="label">Precise METAR Peak</div><div class="big">96.1°F</div></div>
+<div class="card"><div class="label">Current KLAS</div><div class="big">77.0°F</div><div class="mini">Precise METAR T-group when available</div></div>
+<div class="card"><div class="label">NWS Morning High</div><div class="big">95.0°F</div></div>
+<div class="card"><div class="label">Our Model High</div><div class="big">—</div><div>—</div></div>
+<div class="card"><div class="label">80% Model Range</div><div class="big">—</div><div>— confidence</div></div>
+<div class="card"><div class="label">Latest 6-Hour Max Report</div><div class="big">Not reported yet</div><div class="mini"></div></div>
+<div class="card"><div class="label">Precise METAR Peak</div><div class="big">82.0°F</div></div>
 <div class="card">
 <div class="label">Wethr Live High</div>
-<div class="big">97.0°F</div>
+<div class="big">80.0°F</div>
 <div class="mini">
-Source: CLI, DSM, SIX_HOUR_HIGH
+OMO-informed
 </div>
 </div>
 </div>
@@ -38,10 +38,10 @@ Source: CLI, DSM, SIX_HOUR_HIGH
 <div class="pill"><div class="k">Radar</div><div class="v low">LOW</div></div>
 </div>
 <div class="risk">Overall weather risk: <span class="med">MEDIUM</span></div><ul><li>Some weather disruption risk</li><li>Las Vegas NWS discussion contains a convective/monsoon signal</li></ul>
-<div class="why"><strong>Why model is here:</strong> Current KLAS behavior does not justify moving far from the NWS morning forecast. Forward-looking weather risk lowers confidence; it does not automatically change the validated temperature correction.</div></section>
+<div class="why"><strong>Why model is here:</strong> Model not available at this checkpoint yet. Forward-looking weather risk lowers confidence; it does not automatically change the validated temperature correction.</div></section>
 <div class="two"><section><h3>Forecast rain / convection</h3>
-<p><strong>Thunder forecast:</strong> No &nbsp; · &nbsp; <strong>Max rain chance:</strong> — &nbsp; · &nbsp; <strong>Max sky cover:</strong> —</p>
-<div class="mini">NWS hourly forecast unavailable</div><h4>NWS Las Vegas discussion</h4><div class="mini">Attention turns to a potential moisture surge this weekend caused by the influence of Tropical Storm Marie.</div></section>
+<p><strong>Thunder forecast:</strong> No &nbsp; · &nbsp; <strong>Max rain chance:</strong> 0% &nbsp; · &nbsp; <strong>Max sky cover:</strong> 9%</p>
+<div class="mini">No meaningful rain/thunder signal in the remaining NWS hourly forecast</div><h4>NWS Las Vegas discussion</h4><div class="mini">Attention turns to a potential moisture surge this weekend caused by the influence of Tropical Storm Marie.</div></section>
 <section>
 <h3>Radar around KLAS</h3>
 <div class="radar-box"><img src="https://mapservices.weather.noaa.gov/eventdriven/rest/services/radar/radar_base_reflectivity_time/ImageServer/exportImage?bbox=-115.8522%2C35.3801%2C-114.4522%2C36.7801&amp;bboxSR=4326&amp;imageSR=4326&amp;size=720%2C520&amp;format=png32&amp;transparent=true&amp;f=image" alt="NWS MRMS radar around KLAS"><div class="crosshair">✚</div><div class="radar-label">KLAS</div></div>
@@ -51,7 +51,7 @@ No nearby radar echo signal detected by the coarse KLAS ring scan. Center marker
 </div>
 
 <h4>Satellite / cloud shading</h4>
-<div class="radar-box"><img src="https://cdn.star.nesdis.noaa.gov/WFO/vef/GEOCOLOR/20262450520_GOES18-ABI-vef-GEOCOLOR-600x600.jpg" alt="GOES satellite cloud cover around Las Vegas" style="max-height:340px; object-fit:contain;"></div>
+<div class="radar-box"><img src="https://cdn.star.nesdis.noaa.gov/WFO/vef/GEOCOLOR/20262451210_GOES18-ABI-vef-GEOCOLOR-600x600.jpg" alt="GOES satellite cloud cover around Las Vegas" style="max-height:340px; object-fit:contain;"></div>
 
 <div class="risk" style="margin-top:8px">
 Cloud shading risk:
@@ -67,47 +67,6 @@ Observed KLAS sky cover suggests limited cloud shading. GOES GeoColor is current
 </div>
 
 
-<section>
-<h3>Historical analogs</h3>
-
-<div class="why">
-<strong class="low">MODEL + HISTORY AGREE</strong> ·
-Model 97.0°F vs historical median 94.0°F ·
-model is 3.0°F warmer than the analog median.
-</div>
-
-<div class="grid">
-
-<div class="card">
-<div class="label">Similar Past Days</div>
-<div class="big">12</div>
-<div class="mini">Matched at the current hourly checkpoint</div>
-</div>
-
-<div class="card">
-<div class="label">Typical Final High</div>
-<div class="big">94.0°F</div>
-<div class="mini">Median official CLI high</div>
-</div>
-
-<div class="card">
-<div class="label">Historical 80% Range</div>
-<div class="big">89.1–97.0°F</div>
-<div class="mini">Middle 80% of comparable days</div>
-</div>
-
-<div class="card">
-<div class="label">Typical Heating Left</div>
-<div class="big">+5.0°F</div>
-<div class="mini">Median additional heating after this hour</div>
-</div>
-
-</div>
-<div class="mini" style="margin-top:10px">
-Historical analogs currently use KLAS temperature and the NWS morning forecast for matching. They are a cross-check and do not yet alter the validated model prediction.
-</div>
-</section>
-
 
 
 <section>
@@ -117,32 +76,32 @@ Historical analogs currently use KLAS temperature and the NWS morning forecast f
 
 <div class="card">
 <div class="label">Consensus Median</div>
-<div class="big">97.0°F</div>
+<div class="big">93.76°F</div>
 <div class="mini">Median of usable full-contract model runs</div>
 </div>
 
 <div class="card">
 <div class="label">Consensus Mean</div>
-<div class="big">97.0°F</div>
+<div class="big">93.63°F</div>
 <div class="mini">Average of usable model highs</div>
 </div>
 
 <div class="card">
 <div class="label">Model Range</div>
-<div class="big">97.0–97.0°F</div>
+<div class="big">93.09–94.0°F</div>
 <div class="mini">Lowest to highest usable model</div>
 </div>
 
 <div class="card">
 <div class="label">Model Spread</div>
-<div class="big">0.0°F</div>
+<div class="big">0.91°F</div>
 <div class="mini">Smaller spread = stronger model agreement</div>
 </div>
 
 <div class="card">
 <div class="label">Usable Models</div>
-<div class="big">6</div>
-<div class="mini">HRRR, HRRR-EXT, NBM, RAP, GFS-MOS, LAV-MOS</div>
+<div class="big">5</div>
+<div class="mini">HRRR-EXT, NBM, RAP, GFS-MOS, LAV-MOS</div>
 </div>
 
 </div>
@@ -167,7 +126,7 @@ Wethr forecast models are a research-only cross-check and do not alter the valid
 </tr>
 </thead>
 <tbody>
-<tr><td><strong>Our KLAS Model</strong></td><td>97.0°F</td><td>97.0°F</td><td>Validated model</td></tr><tr><td><strong>NWS Morning</strong></td><td>97.0°F</td><td>97.0°F</td><td>Morning forecast</td></tr><tr><td><strong>Wethr Consensus</strong></td><td>97.0°F</td><td>97.0°F</td><td>Full-run median</td></tr><tr><td><strong>HRRR</strong></td><td>97.0°F</td><td>81.2°F</td><td>Full run</td></tr><tr><td><strong>HRRR-EXT</strong></td><td>97.0°F</td><td>77.6°F</td><td>Full run</td></tr><tr><td><strong>NBM</strong></td><td>97.0°F</td><td>82.3°F</td><td>Full run</td></tr><tr><td><strong>RAP</strong></td><td>97.0°F</td><td>80.1°F</td><td>Full run</td></tr><tr><td><strong>GFS-MOS</strong></td><td>97.0°F</td><td>83.0°F</td><td>Full run</td></tr><tr><td><strong>LAV-MOS</strong></td><td>97.0°F</td><td>85.0°F</td><td>Full run</td></tr>
+<tr><td><strong>NWS Morning</strong></td><td>95.0°F</td><td>95.0°F</td><td>Morning forecast</td></tr><tr><td><strong>Wethr Consensus</strong></td><td>93.8°F</td><td>93.8°F</td><td>Full-run median</td></tr><tr><td><strong>HRRR</strong></td><td>94.2°F</td><td>94.2°F</td><td>Partial / unavailable</td></tr><tr><td><strong>HRRR-EXT</strong></td><td>93.8°F</td><td>93.8°F</td><td>Full run</td></tr><tr><td><strong>NBM</strong></td><td>93.3°F</td><td>93.3°F</td><td>Full run</td></tr><tr><td><strong>RAP</strong></td><td>93.1°F</td><td>93.1°F</td><td>Full run</td></tr><tr><td><strong>GFS-MOS</strong></td><td>94.0°F</td><td>94.0°F</td><td>Full run</td></tr><tr><td><strong>LAV-MOS</strong></td><td>94.0°F</td><td>94.0°F</td><td>Full run</td></tr>
 </tbody>
 </table>
 
@@ -201,7 +160,7 @@ Closest wins compare models at the same date and checkpoint hour.
 </tr>
 </thead>
 <tbody>
-<tr><td><strong>HRRR</strong></td><td>26</td><td>0.26°F</td><td>-0.20°F</td><td>77%</td><td>100%</td><td>100%</td><td>19 (73%)</td></tr><tr><td><strong>HRRR-EXT</strong></td><td>35</td><td>0.44°F</td><td>-0.09°F</td><td>69%</td><td>89%</td><td>100%</td><td>17 (49%)</td></tr><tr><td><strong>Our KLAS Model</strong></td><td>35</td><td>0.60°F</td><td>-0.40°F</td><td>46%</td><td>91%</td><td>100%</td><td>15 (43%)</td></tr><tr><td><strong>GFS-MOS</strong></td><td>34</td><td>0.62°F</td><td>-0.61°F</td><td>47%</td><td>91%</td><td>100%</td><td>17 (50%)</td></tr><tr><td><strong>RAP</strong></td><td>35</td><td>0.70°F</td><td>-0.70°F</td><td>43%</td><td>69%</td><td>100%</td><td>14 (40%)</td></tr><tr><td><strong>Wethr Consensus</strong></td><td>35</td><td>0.70°F</td><td>-0.70°F</td><td>40%</td><td>74%</td><td>100%</td><td>14 (40%)</td></tr><tr><td><strong>LAV-MOS</strong></td><td>35</td><td>0.89°F</td><td>-0.88°F</td><td>37%</td><td>74%</td><td>100%</td><td>14 (40%)</td></tr><tr><td><strong>NWS Morning</strong></td><td>35</td><td>1.03°F</td><td>-0.80°F</td><td>26%</td><td>83%</td><td>89%</td><td>10 (29%)</td></tr><tr><td><strong>NBM</strong></td><td>35</td><td>1.16°F</td><td>-1.16°F</td><td>37%</td><td>66%</td><td>71%</td><td>14 (40%)</td></tr>
+<tr><td><strong>HRRR</strong></td><td>17</td><td>0.16°F</td><td>-0.16°F</td><td>82%</td><td>100%</td><td>100%</td><td>12 (71%)</td></tr><tr><td><strong>HRRR-EXT</strong></td><td>28</td><td>0.44°F</td><td>-0.01°F</td><td>57%</td><td>86%</td><td>100%</td><td>14 (50%)</td></tr><tr><td><strong>Our KLAS Model</strong></td><td>28</td><td>0.48°F</td><td>-0.23°F</td><td>61%</td><td>89%</td><td>100%</td><td>13 (46%)</td></tr><tr><td><strong>GFS-MOS</strong></td><td>27</td><td>0.55°F</td><td>-0.55°F</td><td>56%</td><td>89%</td><td>100%</td><td>15 (56%)</td></tr><tr><td><strong>RAP</strong></td><td>28</td><td>0.56°F</td><td>-0.55°F</td><td>50%</td><td>79%</td><td>100%</td><td>12 (43%)</td></tr><tr><td><strong>Wethr Consensus</strong></td><td>28</td><td>0.62°F</td><td>-0.61°F</td><td>46%</td><td>86%</td><td>100%</td><td>12 (43%)</td></tr><tr><td><strong>LAV-MOS</strong></td><td>28</td><td>0.71°F</td><td>-0.70°F</td><td>43%</td><td>86%</td><td>100%</td><td>12 (43%)</td></tr><tr><td><strong>NWS Morning</strong></td><td>28</td><td>0.89°F</td><td>-0.61°F</td><td>46%</td><td>79%</td><td>86%</td><td>13 (46%)</td></tr><tr><td><strong>NBM</strong></td><td>28</td><td>0.99°F</td><td>-0.98°F</td><td>43%</td><td>75%</td><td>82%</td><td>12 (43%)</td></tr>
 </tbody>
 </table>
 
@@ -220,7 +179,7 @@ Closest wins compare models at the same date and checkpoint hour.
 </tr>
 </thead>
 <tbody>
-<tr><td><strong>HRRR</strong></td><td>78</td><td>0.41°F</td><td>-0.04°F</td><td>65%</td><td>88%</td><td>100%</td><td>45 (58%)</td></tr><tr><td><strong>HRRR-EXT</strong></td><td>91</td><td>0.48°F</td><td>-0.06°F</td><td>62%</td><td>88%</td><td>96%</td><td>47 (52%)</td></tr><tr><td><strong>Our KLAS Model</strong></td><td>91</td><td>0.66°F</td><td>-0.53°F</td><td>46%</td><td>92%</td><td>97%</td><td>35 (38%)</td></tr><tr><td><strong>RAP</strong></td><td>91</td><td>0.78°F</td><td>-0.78°F</td><td>36%</td><td>66%</td><td>98%</td><td>34 (37%)</td></tr><tr><td><strong>Wethr Consensus</strong></td><td>91</td><td>0.83°F</td><td>-0.83°F</td><td>36%</td><td>71%</td><td>95%</td><td>32 (35%)</td></tr><tr><td><strong>GFS-MOS</strong></td><td>90</td><td>0.86°F</td><td>-0.86°F</td><td>42%</td><td>80%</td><td>94%</td><td>40 (44%)</td></tr><tr><td><strong>LAV-MOS</strong></td><td>91</td><td>1.07°F</td><td>-1.06°F</td><td>34%</td><td>69%</td><td>92%</td><td>32 (35%)</td></tr><tr><td><strong>NWS Morning</strong></td><td>91</td><td>1.16°F</td><td>-1.08°F</td><td>12%</td><td>82%</td><td>92%</td><td>13 (14%)</td></tr><tr><td><strong>NBM</strong></td><td>90</td><td>1.44°F</td><td>-1.44°F</td><td>34%</td><td>54%</td><td>61%</td><td>32 (36%)</td></tr>
+<tr><td><strong>HRRR</strong></td><td>79</td><td>0.40°F</td><td>-0.04°F</td><td>66%</td><td>89%</td><td>100%</td><td>46 (58%)</td></tr><tr><td><strong>HRRR-EXT</strong></td><td>95</td><td>0.48°F</td><td>-0.08°F</td><td>60%</td><td>88%</td><td>96%</td><td>48 (51%)</td></tr><tr><td><strong>Our KLAS Model</strong></td><td>95</td><td>0.64°F</td><td>-0.51°F</td><td>48%</td><td>93%</td><td>97%</td><td>38 (40%)</td></tr><tr><td><strong>RAP</strong></td><td>95</td><td>0.78°F</td><td>-0.78°F</td><td>36%</td><td>66%</td><td>98%</td><td>35 (37%)</td></tr><tr><td><strong>Wethr Consensus</strong></td><td>95</td><td>0.83°F</td><td>-0.83°F</td><td>36%</td><td>72%</td><td>95%</td><td>33 (35%)</td></tr><tr><td><strong>GFS-MOS</strong></td><td>94</td><td>0.87°F</td><td>-0.87°F</td><td>41%</td><td>80%</td><td>95%</td><td>41 (44%)</td></tr><tr><td><strong>LAV-MOS</strong></td><td>95</td><td>1.06°F</td><td>-1.06°F</td><td>34%</td><td>69%</td><td>93%</td><td>33 (35%)</td></tr><tr><td><strong>NWS Morning</strong></td><td>95</td><td>1.12°F</td><td>-1.03°F</td><td>16%</td><td>83%</td><td>93%</td><td>17 (18%)</td></tr><tr><td><strong>NBM</strong></td><td>94</td><td>1.43°F</td><td>-1.43°F</td><td>34%</td><td>55%</td><td>62%</td><td>33 (35%)</td></tr>
 </tbody>
 </table>
 
@@ -239,7 +198,7 @@ Closest wins compare models at the same date and checkpoint hour.
 </tr>
 </thead>
 <tbody>
-<tr><td><strong>HRRR</strong></td><td>78</td><td>0.41°F</td><td>-0.04°F</td><td>65%</td><td>88%</td><td>100%</td><td>45 (58%)</td></tr><tr><td><strong>HRRR-EXT</strong></td><td>91</td><td>0.48°F</td><td>-0.06°F</td><td>62%</td><td>88%</td><td>96%</td><td>47 (52%)</td></tr><tr><td><strong>Our KLAS Model</strong></td><td>91</td><td>0.66°F</td><td>-0.53°F</td><td>46%</td><td>92%</td><td>97%</td><td>35 (38%)</td></tr><tr><td><strong>RAP</strong></td><td>91</td><td>0.78°F</td><td>-0.78°F</td><td>36%</td><td>66%</td><td>98%</td><td>34 (37%)</td></tr><tr><td><strong>Wethr Consensus</strong></td><td>91</td><td>0.83°F</td><td>-0.83°F</td><td>36%</td><td>71%</td><td>95%</td><td>32 (35%)</td></tr><tr><td><strong>GFS-MOS</strong></td><td>90</td><td>0.86°F</td><td>-0.86°F</td><td>42%</td><td>80%</td><td>94%</td><td>40 (44%)</td></tr><tr><td><strong>LAV-MOS</strong></td><td>91</td><td>1.07°F</td><td>-1.06°F</td><td>34%</td><td>69%</td><td>92%</td><td>32 (35%)</td></tr><tr><td><strong>NWS Morning</strong></td><td>91</td><td>1.16°F</td><td>-1.08°F</td><td>12%</td><td>82%</td><td>92%</td><td>13 (14%)</td></tr><tr><td><strong>NBM</strong></td><td>90</td><td>1.44°F</td><td>-1.44°F</td><td>34%</td><td>54%</td><td>61%</td><td>32 (36%)</td></tr>
+<tr><td><strong>HRRR</strong></td><td>79</td><td>0.40°F</td><td>-0.04°F</td><td>66%</td><td>89%</td><td>100%</td><td>46 (58%)</td></tr><tr><td><strong>HRRR-EXT</strong></td><td>95</td><td>0.48°F</td><td>-0.08°F</td><td>60%</td><td>88%</td><td>96%</td><td>48 (51%)</td></tr><tr><td><strong>Our KLAS Model</strong></td><td>95</td><td>0.64°F</td><td>-0.51°F</td><td>48%</td><td>93%</td><td>97%</td><td>38 (40%)</td></tr><tr><td><strong>RAP</strong></td><td>95</td><td>0.78°F</td><td>-0.78°F</td><td>36%</td><td>66%</td><td>98%</td><td>35 (37%)</td></tr><tr><td><strong>Wethr Consensus</strong></td><td>95</td><td>0.83°F</td><td>-0.83°F</td><td>36%</td><td>72%</td><td>95%</td><td>33 (35%)</td></tr><tr><td><strong>GFS-MOS</strong></td><td>94</td><td>0.87°F</td><td>-0.87°F</td><td>41%</td><td>80%</td><td>95%</td><td>41 (44%)</td></tr><tr><td><strong>LAV-MOS</strong></td><td>95</td><td>1.06°F</td><td>-1.06°F</td><td>34%</td><td>69%</td><td>93%</td><td>33 (35%)</td></tr><tr><td><strong>NWS Morning</strong></td><td>95</td><td>1.12°F</td><td>-1.03°F</td><td>16%</td><td>83%</td><td>93%</td><td>17 (18%)</td></tr><tr><td><strong>NBM</strong></td><td>94</td><td>1.43°F</td><td>-1.43°F</td><td>34%</td><td>55%</td><td>62%</td><td>33 (35%)</td></tr>
 </tbody>
 </table>
 
@@ -247,6 +206,6 @@ Closest wins compare models at the same date and checkpoint hour.
 
 
 <section><h3>Today's progression</h3>
-<section><h3>Kalshi buckets</h3><table><thead><tr><th>Bucket</th><th>Model</th><th>Bid</th><th>Ask</th><th>Model − ask</th></tr></thead><tbody><tr><td><strong>96° to 97°</strong></td><td>89.1%</td><td>99.0¢</td><td>100.0¢</td><td class='neg'>-10.9 pts</td></tr><tr><td><strong>98° to 99°</strong></td><td>10.3%</td><td>0.0¢</td><td>1.0¢</td><td class='pos'>9.3 pts</td></tr><tr><td><strong>100° or above</strong></td><td>0.6%</td><td>0.0¢</td><td>1.0¢</td><td class='neg'>-0.4 pts</td></tr><tr><td><strong>92° to 93°</strong></td><td>0%</td><td>0.0¢</td><td>1.0¢</td><td class='neg'>-1.0 pts</td></tr><tr><td><strong>94° to 95°</strong></td><td>0%</td><td>0.0¢</td><td>1.0¢</td><td class='neg'>-1.0 pts</td></tr><tr><td><strong>91° or below</strong></td><td>0%</td><td>0.0¢</td><td>1.0¢</td><td class='neg'>-1.0 pts</td></tr></tbody></table><div class="mini">Model bucket total: 100.0% · Largest model-vs-ask gap: 98° to 99° · +9.3 pts</div></section>
-<section><h3>Model status</h3><p>Checkpoint: 18:00 local · Held-out MAE: 0.42°F · Daytime refresh: every 15 minutes · Overnight: hourly.</p><div class="mini">Forecast/radar/AFD signals currently affect risk and confidence, not the validated temperature correction. We will only let them alter the predicted high after separate historical validation.</div></section>
+<section><h3>Kalshi buckets</h3><table><thead><tr><th>Bucket</th><th>Model</th><th>Bid</th><th>Ask</th><th>Model − ask</th></tr></thead><tbody><tr><td colspan="5">Kalshi market data not available yet.</td></tr></tbody></table><div class="mini"> · Largest model-vs-ask gap: —</div></section>
+<section><h3>Model status</h3><p>Checkpoint: — · Held-out MAE: — · Daytime refresh: every 15 minutes · Overnight: hourly.</p><div class="mini">Forecast/radar/AFD signals currently affect risk and confidence, not the validated temperature correction. We will only let them alter the predicted high after separate historical validation.</div></section>
 <div class="foot">Research dashboard only. Model probabilities are estimates, not guarantees. Final settlement target remains the official NWS Daily Climate Report high.</div></div></body></html>
