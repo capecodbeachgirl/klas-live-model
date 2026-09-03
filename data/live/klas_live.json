@@ -1,6 +1,6 @@
 {
   "date": "2026-09-03",
-  "updated_at_local": "2026-09-03T16:19:42.520549-07:00",
+  "updated_at_local": "2026-09-03T16:20:44.775976-07:00",
   "latest_metar_time": "2026-09-03T15:56:00-07:00",
   "latest_temp_f": 95.0,
   "latest_precise_temp_f": 95.0,
@@ -309,8 +309,8 @@
     "mean_cloud_fraction_2h": 0.0,
     "cloud_fraction_trend_2h": 0.0,
     "latest_cloud_fraction_below_20000": 0.0,
-    "geocolor_image_url": "https://cdn.star.nesdis.noaa.gov/WFO/vef/GEOCOLOR/20262462250_GOES18-ABI-vef-GEOCOLOR-600x600.jpg",
-    "geocolor_time_utc": "2026-09-03T22:50:00+00:00",
+    "geocolor_image_url": "https://cdn.star.nesdis.noaa.gov/WFO/vef/GEOCOLOR/20262462300_GOES18-ABI-vef-GEOCOLOR-600x600.jpg",
+    "geocolor_time_utc": "2026-09-03T23:00:00+00:00",
     "infrared_image_url": "https://cdn.star.nesdis.noaa.gov/WFO/vef/13/20262462300_GOES18-ABI-vef-13-600x600.jpg",
     "infrared_time_utc": "2026-09-03T23:00:00+00:00",
     "errors": [],
@@ -319,21 +319,22 @@
   },
   "wethr": {
     "available": true,
-    "collected_at_local": "2026-09-03T16:19:33.921855-07:00",
+    "collected_at_local": "2026-09-03T16:20:37.061491-07:00",
     "models": {
       "HRRR": {
         "available": true,
         "model": "HRRR",
         "run_time_utc": "2026-09-03 22:00:00",
-        "rows_received": 21,
-        "max_forecast_hour": 5,
+        "rows_received": 41,
+        "max_forecast_hour": 10,
         "coverage_start_local": "2026-09-03T15:00:00-07:00",
-        "coverage_end_local": "2026-09-03T20:00:00-07:00",
+        "coverage_end_local": "2026-09-04T01:00:00-07:00",
         "contract_start_local": "2026-09-03T01:00:00-07:00",
         "contract_end_local": "2026-09-04T01:00:00-07:00",
-        "covers_rest_of_contract": false,
+        "covers_rest_of_contract": true,
         "remaining_high_f": 94.82,
-        "remaining_high_time_local": "2026-09-03T16:30:00-07:00"
+        "remaining_high_time_local": "2026-09-03T16:30:00-07:00",
+        "projected_high_f": 96.0
       },
       "HRRR-EXT": {
         "available": true,
@@ -413,8 +414,9 @@
     },
     "consensus": {
       "available": true,
-      "model_count": 5,
+      "model_count": 6,
       "models_used": [
+        "HRRR",
         "HRRR-EXT",
         "NBM",
         "RAP",
@@ -463,7 +465,7 @@
     "range_80_high_f": 97.1,
     "median_heating_remaining_f": 1.0
   },
-  "next_update_local": "2026-09-03T16:20:00-07:00",
+  "next_update_local": "2026-09-03T16:35:00-07:00",
   "model_accuracy": {
     "7_day": [
       {
