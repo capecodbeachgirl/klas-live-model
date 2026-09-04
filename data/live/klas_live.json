@@ -1,6 +1,6 @@
 {
   "date": "2026-09-04",
-  "updated_at_local": "2026-09-04T15:28:50.813672-07:00",
+  "updated_at_local": "2026-09-04T15:35:35.608241-07:00",
   "latest_metar_time": "2026-09-04T14:56:00-07:00",
   "latest_temp_f": 96.0,
   "latest_precise_temp_f": 96.08000000000001,
@@ -320,17 +320,17 @@
     "mean_cloud_fraction_2h": 0.0,
     "cloud_fraction_trend_2h": 0.0,
     "latest_cloud_fraction_below_20000": 0.0,
-    "geocolor_image_url": "https://cdn.star.nesdis.noaa.gov/WFO/vef/GEOCOLOR/20262472200_GOES18-ABI-vef-GEOCOLOR-600x600.jpg",
-    "geocolor_time_utc": "2026-09-04T22:00:00+00:00",
-    "infrared_image_url": "https://cdn.star.nesdis.noaa.gov/WFO/vef/13/20262472210_GOES18-ABI-vef-13-600x600.jpg",
-    "infrared_time_utc": "2026-09-04T22:10:00+00:00",
+    "geocolor_image_url": "https://cdn.star.nesdis.noaa.gov/WFO/vef/GEOCOLOR/20262472210_GOES18-ABI-vef-GEOCOLOR-600x600.jpg",
+    "geocolor_time_utc": "2026-09-04T22:10:00+00:00",
+    "infrared_image_url": "https://cdn.star.nesdis.noaa.gov/WFO/vef/13/20262472220_GOES18-ABI-vef-13-600x600.jpg",
+    "infrared_time_utc": "2026-09-04T22:20:00+00:00",
     "errors": [],
     "image_note": "GOES images are a visual cross-check in this version. The shading label uses KLAS-observed sky cover and does not alter the validated temperature prediction.",
     "source": "NOAA/NESDIS/STAR GOES imagery + KLAS METAR sky cover"
   },
   "wethr": {
     "available": true,
-    "collected_at_local": "2026-09-04T15:28:42.896046-07:00",
+    "collected_at_local": "2026-09-04T15:35:30.831812-07:00",
     "models": {
       "HRRR": {
         "available": true,
@@ -343,8 +343,8 @@
         "contract_start_local": "2026-09-04T01:00:00-07:00",
         "contract_end_local": "2026-09-05T01:00:00-07:00",
         "covers_rest_of_contract": true,
-        "remaining_high_f": 95.58,
-        "remaining_high_time_local": "2026-09-04T15:30:00-07:00",
+        "remaining_high_f": 95.48,
+        "remaining_high_time_local": "2026-09-04T15:45:00-07:00",
         "projected_high_f": 96.08000000000001
       },
       "HRRR-EXT": {
@@ -447,7 +447,7 @@
   "wethr_observed_high": {
     "available": true,
     "wethr_high_f": 96.0,
-    "time_of_high_utc": "2026-09-04 22:26:00",
+    "time_of_high_utc": "2026-09-04 22:32:00",
     "sources": [
       "omo",
       "hf_metar",
@@ -456,11 +456,11 @@
     "source_detail": {
       "omo": {
         "first_confirmed_utc": "2026-09-04 21:08:00",
-        "count": 60
+        "count": 66
       },
       "hf_metar": {
         "first_confirmed_utc": "2026-09-04 21:20:00",
-        "count": 12
+        "count": 13
       },
       "metar": {
         "first_confirmed_utc": "2026-09-04 21:56:00",
@@ -486,7 +486,7 @@
     "range_80_high_f": 99.1,
     "median_heating_remaining_f": 2.0
   },
-  "next_update_local": "2026-09-04T15:35:00-07:00",
+  "next_update_local": "2026-09-04T15:50:00-07:00",
   "model_accuracy": {
     "7_day": [
       {
