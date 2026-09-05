@@ -1,6 +1,6 @@
 {
   "date": "2026-09-05",
-  "updated_at_local": "2026-09-05T10:14:32.991788-07:00",
+  "updated_at_local": "2026-09-05T10:15:51.320072-07:00",
   "latest_metar_time": "2026-09-05T09:56:00-07:00",
   "latest_temp_f": 85.0,
   "latest_precise_temp_f": 84.91999999999999,
@@ -299,16 +299,16 @@
       "strike_type": "between",
       "floor_strike": 95.0,
       "cap_strike": 96.0,
-      "yes_bid": 0.14,
+      "yes_bid": 0.13,
       "yes_ask": 0.17,
       "last_price": 0.16,
-      "market_mid": 0.15500000000000003,
+      "market_mid": 0.15000000000000002,
       "close_time": "2026-09-06T08:00:00Z",
       "occurrence_datetime": "2026-09-06T14:00:00Z",
       "updated_time": "2026-09-04T14:00:01.252403Z",
       "model_probability": 0.03377110694183865,
       "edge_vs_ask": -0.13622889305816135,
-      "difference": -0.12122889305816137
+      "difference": -0.11622889305816136
     },
     {
       "ticker": "KXHIGHTLV-26SEP05-T93",
@@ -387,17 +387,17 @@
     "mean_cloud_fraction_2h": 0.0,
     "cloud_fraction_trend_2h": null,
     "latest_cloud_fraction_below_20000": 0.0,
-    "geocolor_image_url": "https://cdn.star.nesdis.noaa.gov/WFO/vef/GEOCOLOR/20262481640_GOES18-ABI-vef-GEOCOLOR-600x600.jpg",
-    "geocolor_time_utc": "2026-09-05T16:40:00+00:00",
-    "infrared_image_url": "https://cdn.star.nesdis.noaa.gov/WFO/vef/13/20262481640_GOES18-ABI-vef-13-600x600.jpg",
-    "infrared_time_utc": "2026-09-05T16:40:00+00:00",
+    "geocolor_image_url": "https://cdn.star.nesdis.noaa.gov/WFO/vef/GEOCOLOR/20262481650_GOES18-ABI-vef-GEOCOLOR-600x600.jpg",
+    "geocolor_time_utc": "2026-09-05T16:50:00+00:00",
+    "infrared_image_url": "https://cdn.star.nesdis.noaa.gov/WFO/vef/13/20262481700_GOES18-ABI-vef-13-600x600.jpg",
+    "infrared_time_utc": "2026-09-05T17:00:00+00:00",
     "errors": [],
     "image_note": "GOES images are a visual cross-check in this version. The shading label uses KLAS-observed sky cover and does not alter the validated temperature prediction.",
     "source": "NOAA/NESDIS/STAR GOES imagery + KLAS METAR sky cover"
   },
   "wethr": {
     "available": true,
-    "collected_at_local": "2026-09-05T10:14:25.772770-07:00",
+    "collected_at_local": "2026-09-05T10:15:46.362274-07:00",
     "models": {
       "HRRR": {
         "available": true,
@@ -432,10 +432,10 @@
         "available": true,
         "model": "NBM",
         "run_time_utc": "2026-09-05 15:00:00",
-        "rows_received": 32,
-        "max_forecast_hour": 32,
+        "rows_received": 38,
+        "max_forecast_hour": 38,
         "coverage_start_local": "2026-09-05T09:00:00-07:00",
-        "coverage_end_local": "2026-09-06T16:00:00-07:00",
+        "coverage_end_local": "2026-09-06T22:00:00-07:00",
         "contract_start_local": "2026-09-05T01:00:00-07:00",
         "contract_end_local": "2026-09-06T01:00:00-07:00",
         "covers_rest_of_contract": true,
@@ -512,7 +512,7 @@
   "wethr_observed_high": {
     "available": true,
     "wethr_high_f": 86.0,
-    "time_of_high_utc": "2026-09-05 17:12:00",
+    "time_of_high_utc": "2026-09-05 17:13:00",
     "sources": [
       "omo",
       "hf_metar"
@@ -520,7 +520,7 @@
     "source_detail": {
       "omo": {
         "first_confirmed_utc": "2026-09-05 16:54:00",
-        "count": 9
+        "count": 10
       },
       "hf_metar": {
         "first_confirmed_utc": "2026-09-05 16:55:00",
