@@ -1,6 +1,6 @@
 {
   "date": "2026-09-06",
-  "updated_at_local": "2026-09-06T12:28:30.667141-07:00",
+  "updated_at_local": "2026-09-06T12:30:08.228435-07:00",
   "latest_metar_time": "2026-09-06T11:56:00-07:00",
   "latest_temp_f": 77.0,
   "latest_precise_temp_f": 77.0,
@@ -171,8 +171,8 @@
   },
   "radar": {
     "available": true,
-    "latest_time_utc": "2026-09-06T19:06:58+00:00",
-    "prior_time_utc": "2026-09-06T18:36:58+00:00",
+    "latest_time_utc": "2026-09-06T19:12:57+00:00",
+    "prior_time_utc": "2026-09-06T18:42:57+00:00",
     "current": {
       "echo_fraction_by_radius": {
         "0": 0.0,
@@ -369,7 +369,7 @@
   },
   "wethr": {
     "available": true,
-    "collected_at_local": "2026-09-06T12:28:24.991005-07:00",
+    "collected_at_local": "2026-09-06T12:30:01.014262-07:00",
     "models": {
       "HRRR": {
         "available": true,
@@ -390,10 +390,10 @@
         "available": true,
         "model": "HRRR-EXT",
         "run_time_utc": "2026-09-06 18:00:00",
-        "rows_received": 24,
-        "max_forecast_hour": 23,
+        "rows_received": 30,
+        "max_forecast_hour": 29,
         "coverage_start_local": "2026-09-06T11:00:00-07:00",
-        "coverage_end_local": "2026-09-07T10:00:00-07:00",
+        "coverage_end_local": "2026-09-07T16:00:00-07:00",
         "contract_start_local": "2026-09-06T01:00:00-07:00",
         "contract_end_local": "2026-09-07T01:00:00-07:00",
         "covers_rest_of_contract": true,
