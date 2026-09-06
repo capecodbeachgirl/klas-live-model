@@ -1,6 +1,6 @@
 {
   "date": "2026-09-06",
-  "updated_at_local": "2026-09-06T10:34:18.187268-07:00",
+  "updated_at_local": "2026-09-06T10:35:42.483695-07:00",
   "latest_metar_time": "2026-09-06T09:56:00-07:00",
   "latest_temp_f": 78.0,
   "latest_precise_temp_f": 78.08,
@@ -194,15 +194,10 @@
   },
   "radar": {
     "available": true,
-    "latest_time_utc": "2026-09-06T17:14:59+00:00",
-    "prior_time_utc": "2026-09-06T16:44:59+00:00",
+    "latest_time_utc": "2026-09-06T17:28:54+00:00",
+    "prior_time_utc": "2026-09-06T16:58:54+00:00",
     "current": {
-      "echo_fraction_by_radius": {
-        "0": 0.0,
-        "10": 0.0,
-        "25": 0.0,
-        "50": 0.0
-      },
+      "echo_fraction_by_radius": {},
       "nearest_echo_miles": null
     },
     "prior": {
@@ -230,16 +225,16 @@
       "strike_type": "between",
       "floor_strike": 84.0,
       "cap_strike": 85.0,
-      "yes_bid": 0.56,
+      "yes_bid": 0.55,
       "yes_ask": 0.6,
       "last_price": 0.6,
-      "market_mid": 0.5800000000000001,
+      "market_mid": 0.575,
       "close_time": "2026-09-07T08:00:00Z",
       "occurrence_datetime": "2026-09-07T14:00:00Z",
       "updated_time": "2026-09-05T14:00:01.68601Z",
       "model_probability": 0.7905213270142181,
       "edge_vs_ask": 0.1905213270142181,
-      "difference": 0.210521327014218
+      "difference": 0.2155213270142181
     },
     {
       "ticker": "KXHIGHTLV-26SEP06-B86.5",
@@ -249,16 +244,16 @@
       "strike_type": "between",
       "floor_strike": 86.0,
       "cap_strike": 87.0,
-      "yes_bid": 0.32,
+      "yes_bid": 0.31,
       "yes_ask": 0.37,
       "last_price": 0.38,
-      "market_mid": 0.345,
+      "market_mid": 0.33999999999999997,
       "close_time": "2026-09-07T08:00:00Z",
       "occurrence_datetime": "2026-09-07T14:00:00Z",
       "updated_time": "2026-09-05T14:00:01.68601Z",
       "model_probability": 0.18388625592417063,
       "edge_vs_ask": -0.18611374407582937,
-      "difference": -0.16111374407582935
+      "difference": -0.15611374407582934
     },
     {
       "ticker": "KXHIGHTLV-26SEP06-T87",
@@ -268,16 +263,16 @@
       "strike_type": "greater",
       "floor_strike": 87.0,
       "cap_strike": null,
-      "yes_bid": 0.06,
+      "yes_bid": 0.07,
       "yes_ask": 0.12,
       "last_price": 0.06,
-      "market_mid": 0.09,
+      "market_mid": 0.095,
       "close_time": "2026-09-07T08:00:00Z",
       "occurrence_datetime": "2026-09-07T14:00:00Z",
       "updated_time": "2026-09-05T14:00:01.68601Z",
       "model_probability": 0.025592417061611375,
       "edge_vs_ask": -0.09440758293838862,
-      "difference": -0.06440758293838862
+      "difference": -0.06940758293838863
     },
     {
       "ticker": "KXHIGHTLV-26SEP06-B80.5",
@@ -362,16 +357,16 @@
     "strike_type": "between",
     "floor_strike": 84.0,
     "cap_strike": 85.0,
-    "yes_bid": 0.56,
+    "yes_bid": 0.55,
     "yes_ask": 0.6,
     "last_price": 0.6,
-    "market_mid": 0.5800000000000001,
+    "market_mid": 0.575,
     "close_time": "2026-09-07T08:00:00Z",
     "occurrence_datetime": "2026-09-07T14:00:00Z",
     "updated_time": "2026-09-05T14:00:01.68601Z",
     "model_probability": 0.7905213270142181,
     "edge_vs_ask": 0.1905213270142181,
-    "difference": 0.210521327014218
+    "difference": 0.2155213270142181
   },
   "research_status": "WEATHER RISK \u2014 WAIT",
   "satellite": {
@@ -384,15 +379,15 @@
     "latest_cloud_fraction_below_20000": 0.875,
     "geocolor_image_url": "https://cdn.star.nesdis.noaa.gov/WFO/vef/GEOCOLOR/20262491710_GOES18-ABI-vef-GEOCOLOR-600x600.jpg",
     "geocolor_time_utc": "2026-09-06T17:10:00+00:00",
-    "infrared_image_url": "https://cdn.star.nesdis.noaa.gov/WFO/vef/13/20262491710_GOES18-ABI-vef-13-600x600.jpg",
-    "infrared_time_utc": "2026-09-06T17:10:00+00:00",
+    "infrared_image_url": "https://cdn.star.nesdis.noaa.gov/WFO/vef/13/20262491720_GOES18-ABI-vef-13-600x600.jpg",
+    "infrared_time_utc": "2026-09-06T17:20:00+00:00",
     "errors": [],
     "image_note": "GOES images are a visual cross-check in this version. The shading label uses KLAS-observed sky cover and does not alter the validated temperature prediction.",
     "source": "NOAA/NESDIS/STAR GOES imagery + KLAS METAR sky cover"
   },
   "wethr": {
     "available": true,
-    "collected_at_local": "2026-09-06T10:34:13.674246-07:00",
+    "collected_at_local": "2026-09-06T10:35:36.996685-07:00",
     "models": {
       "HRRR": {
         "available": true,
@@ -548,7 +543,7 @@
     "range_80_high_f": 92.0,
     "median_heating_remaining_f": 11.0
   },
-  "next_update_local": "2026-09-06T10:35:00-07:00",
+  "next_update_local": "2026-09-06T10:50:00-07:00",
   "model_accuracy": {
     "7_day": [
       {
