@@ -1,6 +1,6 @@
 {
   "date": "2026-09-09",
-  "updated_at_local": "2026-09-09T11:26:06.144322-07:00",
+  "updated_at_local": "2026-09-09T11:30:12.736475-07:00",
   "latest_metar_time": "2026-09-09T10:56:00-07:00",
   "latest_temp_f": 96.0,
   "latest_precise_temp_f": 96.08000000000001,
@@ -212,15 +212,15 @@
       "floor_strike": 105.0,
       "cap_strike": 106.0,
       "yes_bid": 0.61,
-      "yes_ask": 0.62,
+      "yes_ask": 0.63,
       "last_price": 0.62,
-      "market_mid": 0.615,
+      "market_mid": 0.62,
       "close_time": "2026-09-10T08:00:00Z",
       "occurrence_datetime": "2026-09-10T14:00:00Z",
       "updated_time": "2026-09-08T14:00:01.38149Z",
       "model_probability": 0.541191381495564,
-      "edge_vs_ask": -0.07880861850443599,
-      "difference": -0.07380861850443599
+      "edge_vs_ask": -0.088808618504436,
+      "difference": -0.07880861850443599
     },
     {
       "ticker": "KXHIGHTLV-26SEP09-B103.5",
@@ -231,15 +231,15 @@
       "floor_strike": 103.0,
       "cap_strike": 104.0,
       "yes_bid": 0.32,
-      "yes_ask": 0.35,
+      "yes_ask": 0.36,
       "last_price": 0.33,
-      "market_mid": 0.33499999999999996,
+      "market_mid": 0.33999999999999997,
       "close_time": "2026-09-10T08:00:00Z",
       "occurrence_datetime": "2026-09-10T14:00:00Z",
       "updated_time": "2026-09-08T14:00:01.38149Z",
       "model_probability": 0.24968314321926488,
-      "edge_vs_ask": -0.1003168567807351,
-      "difference": -0.08531685678073508
+      "edge_vs_ask": -0.1103168567807351,
+      "difference": -0.09031685678073509
     },
     {
       "ticker": "KXHIGHTLV-26SEP09-B107.5",
@@ -382,7 +382,7 @@
   },
   "wethr": {
     "available": true,
-    "collected_at_local": "2026-09-09T11:25:06.116582-07:00",
+    "collected_at_local": "2026-09-09T11:29:59.912469-07:00",
     "models": {
       "HRRR": {
         "available": true,
@@ -499,7 +499,7 @@
   "wethr_observed_high": {
     "available": true,
     "wethr_high_f": 96.0,
-    "time_of_high_utc": "2026-09-09 18:23:00",
+    "time_of_high_utc": "2026-09-09 18:27:00",
     "sources": [
       "omo",
       "metar",
@@ -509,7 +509,7 @@
     "source_detail": {
       "omo": {
         "first_confirmed_utc": "2026-09-09 17:56:00",
-        "count": 28
+        "count": 32
       },
       "metar": {
         "first_confirmed_utc": "2026-09-09 17:56:00",
@@ -521,7 +521,7 @@
       },
       "hf_metar": {
         "first_confirmed_utc": "2026-09-09 18:00:00",
-        "count": 5
+        "count": 6
       }
     },
     "omo_informed": true,
