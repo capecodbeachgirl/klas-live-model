@@ -1,6 +1,6 @@
 {
   "date": "2026-09-11",
-  "updated_at_local": "2026-09-11T18:07:31.816876-07:00",
+  "updated_at_local": "2026-09-11T18:14:28.272149-07:00",
   "latest_metar_time": "2026-09-11T17:56:00-07:00",
   "latest_temp_f": 103.0,
   "latest_precise_temp_f": 102.91999999999999,
@@ -91,8 +91,8 @@
   },
   "radar": {
     "available": true,
-    "latest_time_utc": "2026-09-12T00:56:59+00:00",
-    "prior_time_utc": "2026-09-12T00:26:59+00:00",
+    "latest_time_utc": "2026-09-12T01:08:14+00:00",
+    "prior_time_utc": "2026-09-12T00:38:14+00:00",
     "current": {
       "echo_fraction_by_radius": {
         "0": 0.0,
@@ -280,8 +280,8 @@
     "mean_cloud_fraction_2h": 0.25,
     "cloud_fraction_trend_2h": 0.0,
     "latest_cloud_fraction_below_20000": 0.25,
-    "geocolor_image_url": "https://cdn.star.nesdis.noaa.gov/WFO/vef/GEOCOLOR/20262550040_GOES18-ABI-vef-GEOCOLOR-600x600.jpg",
-    "geocolor_time_utc": "2026-09-12T00:40:00+00:00",
+    "geocolor_image_url": "https://cdn.star.nesdis.noaa.gov/WFO/vef/GEOCOLOR/20262550050_GOES18-ABI-vef-GEOCOLOR-600x600.jpg",
+    "geocolor_time_utc": "2026-09-12T00:50:00+00:00",
     "infrared_image_url": "https://cdn.star.nesdis.noaa.gov/WFO/vef/13/20262550040_GOES18-ABI-vef-13-600x600.jpg",
     "infrared_time_utc": "2026-09-12T00:40:00+00:00",
     "errors": [],
@@ -290,7 +290,7 @@
   },
   "wethr": {
     "available": true,
-    "collected_at_local": "2026-09-11T18:07:25.516646-07:00",
+    "collected_at_local": "2026-09-11T18:14:22.102007-07:00",
     "models": {
       "HRRR": {
         "available": true,
@@ -325,15 +325,16 @@
         "available": true,
         "model": "NBM",
         "run_time_utc": "2026-09-11 23:00:00",
-        "rows_received": 2,
-        "max_forecast_hour": 2,
+        "rows_received": 39,
+        "max_forecast_hour": 39,
         "coverage_start_local": "2026-09-11T17:00:00-07:00",
-        "coverage_end_local": "2026-09-11T18:00:00-07:00",
+        "coverage_end_local": "2026-09-13T07:00:00-07:00",
         "contract_start_local": "2026-09-11T01:00:00-07:00",
         "contract_end_local": "2026-09-12T01:00:00-07:00",
-        "covers_rest_of_contract": false,
-        "remaining_high_f": null,
-        "remaining_high_time_local": null
+        "covers_rest_of_contract": true,
+        "remaining_high_f": 99.41,
+        "remaining_high_time_local": "2026-09-11T19:00:00-07:00",
+        "projected_high_f": 107.0
       },
       "RAP": {
         "available": true,
@@ -383,9 +384,10 @@
     },
     "consensus": {
       "available": true,
-      "model_count": 4,
+      "model_count": 5,
       "models_used": [
         "HRRR",
+        "NBM",
         "RAP",
         "GFS-MOS",
         "LAV-MOS"
