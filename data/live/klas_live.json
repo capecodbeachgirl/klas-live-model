@@ -1,6 +1,6 @@
 {
   "date": "2026-09-13",
-  "updated_at_local": "2026-09-13T13:42:17.172882-07:00",
+  "updated_at_local": "2026-09-13T13:43:16.556790-07:00",
   "latest_metar_time": "2026-09-13T12:56:00-07:00",
   "latest_temp_f": 99.0,
   "latest_precise_temp_f": 98.96000000000001,
@@ -185,15 +185,15 @@
       "floor_strike": 102.0,
       "cap_strike": 103.0,
       "yes_bid": 0.59,
-      "yes_ask": 0.65,
+      "yes_ask": 0.66,
       "last_price": 0.63,
-      "market_mid": 0.62,
+      "market_mid": 0.625,
       "close_time": "2026-09-14T08:00:00Z",
       "occurrence_datetime": "2026-09-14T14:00:00Z",
       "updated_time": "2026-09-12T14:00:01.146695Z",
       "model_probability": 0.6719681908548708,
-      "edge_vs_ask": 0.021968190854870784,
-      "difference": 0.05196819085487081
+      "edge_vs_ask": 0.011968190854870775,
+      "difference": 0.046968190854870806
     },
     {
       "ticker": "KXHIGHTLV-26SEP13-B100.5",
@@ -204,15 +204,15 @@
       "floor_strike": 100.0,
       "cap_strike": 101.0,
       "yes_bid": 0.33,
-      "yes_ask": 0.4,
+      "yes_ask": 0.39,
       "last_price": 0.39,
-      "market_mid": 0.365,
+      "market_mid": 0.36,
       "close_time": "2026-09-14T08:00:00Z",
       "occurrence_datetime": "2026-09-14T14:00:00Z",
       "updated_time": "2026-09-12T14:00:01.146695Z",
       "model_probability": 0.26110006626905236,
-      "edge_vs_ask": -0.13889993373094767,
-      "difference": -0.10389993373094764
+      "edge_vs_ask": -0.12889993373094766,
+      "difference": -0.09889993373094763
     },
     {
       "ticker": "KXHIGHTLV-26SEP13-B104.5",
@@ -311,23 +311,23 @@
   },
   "bucket_probability_total": 1.0,
   "largest_model_ask_gap": {
-    "ticker": "KXHIGHTLV-26SEP13-B102.5",
+    "ticker": "KXHIGHTLV-26SEP13-T105",
     "event_ticker": "KXHIGHTLV-26SEP13",
-    "title": "Will the maximum temperature be 102-103\u00b0 on Sep 13, 2026?",
-    "subtitle": "102\u00b0 to 103\u00b0",
-    "strike_type": "between",
-    "floor_strike": 102.0,
-    "cap_strike": 103.0,
-    "yes_bid": 0.59,
-    "yes_ask": 0.65,
-    "last_price": 0.63,
-    "market_mid": 0.62,
+    "title": "Will the maximum temperature be >105\u00b0 on Sep 13, 2026?",
+    "subtitle": "106\u00b0 or above",
+    "strike_type": "greater",
+    "floor_strike": 105.0,
+    "cap_strike": null,
+    "yes_bid": 0.0,
+    "yes_ask": 0.01,
+    "last_price": 0.01,
+    "market_mid": 0.005,
     "close_time": "2026-09-14T08:00:00Z",
     "occurrence_datetime": "2026-09-14T14:00:00Z",
     "updated_time": "2026-09-12T14:00:01.146695Z",
-    "model_probability": 0.6719681908548708,
-    "edge_vs_ask": 0.021968190854870784,
-    "difference": 0.05196819085487081
+    "model_probability": 0.031146454605699137,
+    "edge_vs_ask": 0.02114645460569914,
+    "difference": 0.026146454605699136
   },
   "research_status": "WEATHER WATCH",
   "satellite": {
@@ -348,7 +348,7 @@
   },
   "wethr": {
     "available": true,
-    "collected_at_local": "2026-09-13T13:42:11.781215-07:00",
+    "collected_at_local": "2026-09-13T13:43:12.038730-07:00",
     "models": {
       "HRRR": {
         "available": true,
@@ -473,7 +473,7 @@
     "source_detail": {
       "omo": {
         "first_confirmed_utc": "2026-09-13 20:29:00",
-        "count": 11
+        "count": 12
       },
       "hf_metar": {
         "first_confirmed_utc": "2026-09-13 20:30:00",
