@@ -1,6 +1,6 @@
 {
   "date": "2026-09-13",
-  "updated_at_local": "2026-09-13T15:38:16.179736-07:00",
+  "updated_at_local": "2026-09-13T15:39:09.632769-07:00",
   "latest_metar_time": "2026-09-13T14:56:00-07:00",
   "latest_temp_f": 101.0,
   "latest_precise_temp_f": 100.94,
@@ -170,7 +170,7 @@
       "cap_strike": 103.0,
       "yes_bid": 0.88,
       "yes_ask": 0.93,
-      "last_price": 0.88,
+      "last_price": 0.93,
       "market_mid": 0.905,
       "close_time": "2026-09-14T08:00:00Z",
       "occurrence_datetime": "2026-09-14T14:00:00Z",
@@ -188,15 +188,15 @@
       "floor_strike": 104.0,
       "cap_strike": 105.0,
       "yes_bid": 0.05,
-      "yes_ask": 0.11,
+      "yes_ask": 0.13,
       "last_price": 0.14,
-      "market_mid": 0.08,
+      "market_mid": 0.09,
       "close_time": "2026-09-14T08:00:00Z",
       "occurrence_datetime": "2026-09-14T14:00:00Z",
       "updated_time": "2026-09-12T14:00:01.146695Z",
       "model_probability": 0.09930313588850176,
-      "edge_vs_ask": -0.010696864111498242,
-      "difference": 0.019303135888501757
+      "edge_vs_ask": -0.030696864111498245,
+      "difference": 0.009303135888501762
     },
     {
       "ticker": "KXHIGHTLV-26SEP13-B98.5",
@@ -227,7 +227,7 @@
       "cap_strike": 101.0,
       "yes_bid": 0.0,
       "yes_ask": 0.03,
-      "last_price": 0.01,
+      "last_price": 0.04,
       "market_mid": 0.015,
       "close_time": "2026-09-14T08:00:00Z",
       "occurrence_datetime": "2026-09-14T14:00:00Z",
@@ -329,7 +329,7 @@
   },
   "wethr": {
     "available": true,
-    "collected_at_local": "2026-09-13T15:38:10.700864-07:00",
+    "collected_at_local": "2026-09-13T15:39:02.595840-07:00",
     "models": {
       "HRRR": {
         "available": true,
@@ -446,7 +446,7 @@
   "wethr_observed_high": {
     "available": true,
     "wethr_high_f": 102.0,
-    "time_of_high_utc": "2026-09-13 22:35:00",
+    "time_of_high_utc": "2026-09-13 22:36:00",
     "sources": [
       "omo",
       "hf_metar"
@@ -454,7 +454,7 @@
     "source_detail": {
       "omo": {
         "first_confirmed_utc": "2026-09-13 21:06:00",
-        "count": 23
+        "count": 24
       },
       "hf_metar": {
         "first_confirmed_utc": "2026-09-13 21:30:00",
