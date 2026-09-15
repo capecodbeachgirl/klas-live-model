@@ -1,6 +1,6 @@
 {
   "date": "2026-09-15",
-  "updated_at_local": "2026-09-15T11:50:02.773111-07:00",
+  "updated_at_local": "2026-09-15T11:54:47.837523-07:00",
   "latest_metar_time": "2026-09-15T10:56:00-07:00",
   "latest_temp_f": 91.0,
   "latest_precise_temp_f": 91.03999999999999,
@@ -177,15 +177,10 @@
   },
   "radar": {
     "available": true,
-    "latest_time_utc": "2026-09-15T18:38:58+00:00",
-    "prior_time_utc": "2026-09-15T18:08:58+00:00",
+    "latest_time_utc": "2026-09-15T18:44:57+00:00",
+    "prior_time_utc": "2026-09-15T18:14:57+00:00",
     "current": {
-      "echo_fraction_by_radius": {
-        "0": 0.0,
-        "10": 0.0,
-        "25": 0.0,
-        "50": 0.0
-      },
+      "echo_fraction_by_radius": {},
       "nearest_echo_miles": null
     },
     "prior": {
@@ -215,7 +210,7 @@
       "cap_strike": 99.0,
       "yes_bid": 0.63,
       "yes_ask": 0.66,
-      "last_price": 0.64,
+      "last_price": 0.63,
       "market_mid": 0.645,
       "close_time": "2026-09-16T08:00:00Z",
       "occurrence_datetime": "2026-09-16T14:00:00Z",
@@ -383,7 +378,7 @@
   },
   "wethr": {
     "available": true,
-    "collected_at_local": "2026-09-15T11:49:26.345927-07:00",
+    "collected_at_local": "2026-09-15T11:53:54.464796-07:00",
     "models": {
       "HRRR": {
         "available": true,
@@ -534,7 +529,7 @@
     "range_80_high_f": 101.1,
     "median_heating_remaining_f": 9.0
   },
-  "next_update_local": "2026-09-15T11:50:00-07:00",
+  "next_update_local": "2026-09-15T12:05:00-07:00",
   "model_accuracy": {
     "7_day": [
       {
