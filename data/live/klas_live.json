@@ -1,6 +1,6 @@
 {
   "date": "2026-09-16",
-  "updated_at_local": "2026-09-16T11:47:22.245063-07:00",
+  "updated_at_local": "2026-09-16T11:50:11.330326-07:00",
   "latest_metar_time": "2026-09-16T10:56:00-07:00",
   "latest_temp_f": 90.0,
   "latest_precise_temp_f": 89.96000000000001,
@@ -186,7 +186,12 @@
     "latest_time_utc": "2026-09-16T18:38:57+00:00",
     "prior_time_utc": "2026-09-16T18:08:57+00:00",
     "current": {
-      "echo_fraction_by_radius": {},
+      "echo_fraction_by_radius": {
+        "0": 0.0,
+        "10": 0.0,
+        "25": 0.0,
+        "50": 0.0
+      },
       "nearest_echo_miles": null
     },
     "prior": {
@@ -214,16 +219,16 @@
       "strike_type": "between",
       "floor_strike": 96.0,
       "cap_strike": 97.0,
-      "yes_bid": 0.45,
+      "yes_bid": 0.39,
       "yes_ask": 0.46,
       "last_price": 0.4,
-      "market_mid": 0.455,
+      "market_mid": 0.42500000000000004,
       "close_time": "2026-09-17T08:00:00Z",
       "occurrence_datetime": "2026-09-17T14:00:00Z",
       "updated_time": "2026-09-15T14:00:01.16203Z",
       "model_probability": 0.5785907859078591,
       "edge_vs_ask": 0.11859078590785904,
-      "difference": 0.12359078590785905
+      "difference": 0.15359078590785902
     },
     {
       "ticker": "KXHIGHTLV-26SEP16-B94.5",
@@ -253,15 +258,15 @@
       "floor_strike": 98.0,
       "cap_strike": 99.0,
       "yes_bid": 0.53,
-      "yes_ask": 0.54,
+      "yes_ask": 0.63,
       "last_price": 0.62,
-      "market_mid": 0.535,
+      "market_mid": 0.5800000000000001,
       "close_time": "2026-09-17T08:00:00Z",
       "occurrence_datetime": "2026-09-17T14:00:00Z",
       "updated_time": "2026-09-15T14:00:01.16203Z",
       "model_probability": 0.11788617886178862,
-      "edge_vs_ask": -0.4221138211382114,
-      "difference": -0.4171138211382114
+      "edge_vs_ask": -0.5121138211382114,
+      "difference": -0.4621138211382114
     },
     {
       "ticker": "KXHIGHTLV-26SEP16-B100.5",
@@ -271,16 +276,16 @@
       "strike_type": "between",
       "floor_strike": 100.0,
       "cap_strike": 101.0,
-      "yes_bid": 0.02,
-      "yes_ask": 0.03,
+      "yes_bid": 0.0,
+      "yes_ask": 0.01,
       "last_price": 0.01,
-      "market_mid": 0.025,
+      "market_mid": 0.005,
       "close_time": "2026-09-17T08:00:00Z",
       "occurrence_datetime": "2026-09-17T14:00:00Z",
       "updated_time": "2026-09-15T14:00:01.16203Z",
       "model_probability": 0.01829268292682927,
-      "edge_vs_ask": -0.011707317073170728,
-      "difference": -0.006707317073170731
+      "edge_vs_ask": 0.00829268292682927,
+      "difference": 0.01329268292682927
     },
     {
       "ticker": "KXHIGHTLV-26SEP16-T94",
@@ -379,7 +384,7 @@
   },
   "wethr": {
     "available": true,
-    "collected_at_local": "2026-09-16T11:46:59.356341-07:00",
+    "collected_at_local": "2026-09-16T11:50:00.157185-07:00",
     "models": {
       "HRRR": {
         "available": true,
@@ -459,16 +464,16 @@
       "LAV-MOS": {
         "available": true,
         "model": "LAV-MOS",
-        "run_time_utc": "2026-09-16 17:00:00",
+        "run_time_utc": "2026-09-16 18:00:00",
         "rows_received": 38,
         "max_forecast_hour": 38,
-        "coverage_start_local": "2026-09-16T11:00:00-07:00",
-        "coverage_end_local": "2026-09-18T00:00:00-07:00",
+        "coverage_start_local": "2026-09-16T12:00:00-07:00",
+        "coverage_end_local": "2026-09-18T01:00:00-07:00",
         "contract_start_local": "2026-09-16T01:00:00-07:00",
         "contract_end_local": "2026-09-17T01:00:00-07:00",
         "covers_rest_of_contract": true,
         "remaining_high_f": 96.0,
-        "remaining_high_time_local": "2026-09-16T15:00:00-07:00",
+        "remaining_high_time_local": "2026-09-16T14:00:00-07:00",
         "projected_high_f": 96.0
       }
     },
@@ -530,7 +535,7 @@
     "range_80_high_f": 99.1,
     "median_heating_remaining_f": 7.5
   },
-  "next_update_local": "2026-09-16T11:50:00-07:00",
+  "next_update_local": "2026-09-16T12:05:00-07:00",
   "model_accuracy": {
     "7_day": [
       {
