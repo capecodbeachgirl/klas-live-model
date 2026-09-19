@@ -1,16 +1,16 @@
 {
   "date": "2026-09-19",
-  "updated_at_local": "2026-09-19T00:59:08.597147-07:00",
-  "latest_metar_time": "2026-09-19T00:56:00-07:00",
-  "latest_temp_f": 77.0,
-  "latest_precise_temp_f": 77.0,
-  "latest_dewpoint_f": 21.92,
+  "updated_at_local": "2026-09-19T05:27:35.093431-07:00",
+  "latest_metar_time": "2026-09-19T04:56:00-07:00",
+  "latest_temp_f": 71.0,
+  "latest_precise_temp_f": 71.06,
+  "latest_dewpoint_f": 22.0,
   "raw_metar_peak_f": 77.0,
   "precise_metar_peak_f": 77.0,
   "six_hour_max_f": null,
-  "six_hour_max_report_time": null,
+  "six_hour_max_report_time": "2026-09-19T04:56:00-07:00",
   "nws_am_forecast_high_f": 95.0,
-  "nws_am_issued_at": "2026-09-18T23:32:00-07:00",
+  "nws_am_issued_at": "2026-09-19T03:01:00-07:00",
   "checkpoint_hour": null,
   "weather_risk": "MEDIUM",
   "weather_reasons": [
@@ -25,46 +25,6 @@
   "nws_live_forecast": {
     "available": true,
     "hours": [
-      {
-        "time": "2026-09-19T00:00:00-07:00",
-        "temp_f": 79.0,
-        "pop_pct": 0.0,
-        "short_forecast": "Clear",
-        "wind_speed": "7 mph",
-        "wind_direction": "SW"
-      },
-      {
-        "time": "2026-09-19T01:00:00-07:00",
-        "temp_f": 77.0,
-        "pop_pct": 0.0,
-        "short_forecast": "Clear",
-        "wind_speed": "7 mph",
-        "wind_direction": "SW"
-      },
-      {
-        "time": "2026-09-19T02:00:00-07:00",
-        "temp_f": 76.0,
-        "pop_pct": 0.0,
-        "short_forecast": "Clear",
-        "wind_speed": "6 mph",
-        "wind_direction": "SW"
-      },
-      {
-        "time": "2026-09-19T03:00:00-07:00",
-        "temp_f": 74.0,
-        "pop_pct": 0.0,
-        "short_forecast": "Clear",
-        "wind_speed": "6 mph",
-        "wind_direction": "SW"
-      },
-      {
-        "time": "2026-09-19T04:00:00-07:00",
-        "temp_f": 74.0,
-        "pop_pct": 0.0,
-        "short_forecast": "Clear",
-        "wind_speed": "6 mph",
-        "wind_direction": "SW"
-      },
       {
         "time": "2026-09-19T05:00:00-07:00",
         "temp_f": 73.0,
@@ -201,26 +161,6 @@
     "max_sky_cover_pct": 5.0,
     "sky_hours": [
       {
-        "time": "2026-09-19T00:00:00-07:00",
-        "sky_cover_pct": 3.0
-      },
-      {
-        "time": "2026-09-19T01:00:00-07:00",
-        "sky_cover_pct": 4.0
-      },
-      {
-        "time": "2026-09-19T02:00:00-07:00",
-        "sky_cover_pct": 2.0
-      },
-      {
-        "time": "2026-09-19T03:00:00-07:00",
-        "sky_cover_pct": 4.0
-      },
-      {
-        "time": "2026-09-19T04:00:00-07:00",
-        "sky_cover_pct": 4.0
-      },
-      {
         "time": "2026-09-19T05:00:00-07:00",
         "sky_cover_pct": 5.0
       },
@@ -292,9 +232,9 @@
   },
   "afd": {
     "available": true,
-    "issued_at": "2026-09-19T04:29:00+00:00",
-    "product_id": "6766a96d-c95d-4420-8357-aa461a659c8c",
-    "text": "\n000\nFXUS65 KVEF 190429\nAFDVEF\n\nArea Forecast Discussion\nNational Weather Service Las Vegas NV\n929 PM PDT Fri Sep 18 2026\n\n.KEY MESSAGES...\n\n* Dry conditions through the weekend with around average \n  high temperatures\n\n* Chances of precipitation return Monday and Tuesday\n\n* Slight warming expected after the rain chances followed by cooling \n  in the late work week.\n  \n\n&&\n\n.DISCUSSION...Through Thursday.\n\nSpotty showers and storms in Lincoln Co look to dissipate by early \nSaturday morning as a ridging pattern focuses over the region. This \nchange in pattern will lead to drying conditions and reduce winds \nthrough the weekend. Highs look to stay right around average (mid \n90s to low 100s) with low temps closer to 5 degrees above average \n(in the mid 70s to low 80s.)\n\nThe ridging pattern looks to quickly switch to a troughing pattern \ninto early Monday bringing breezier winds and chances for showers \nand possibly a few storms. Rain chances become more widespread \nthrough Monday afternoon and evening, but the overall feed of \nmoisture looks to be on the modest side as the trough axis only \nbriefly interacts with the coast before pulling into our area. This \nmeans that while our chances for rain look to be good, it looks to \nnot offer much in rainfall amounts. Rain chances look to last \nthrough Monday night and into Tuesday morning before pushing \nnortheast.\n\nThe upper-level pattern turns more neutral by the mid week, with some \nslight ridging that could help temperatures increase by only a few \ndegrees. A deeper tough forms along the west coast and begins to \napproach the region by the late week, offering a slight cool down. \nThis trough looks to break before it can center over Nevada, \npreventing any chances for rain crossing into the area at the end of \nthe forecast period.\n\n\n&&\n\n.AVIATION...For Harry Reid...For the 06Z Forecast Package...Expect \nclear skies and winds under 10 knots throughout the forecast period. \nSouthwesterly winds become light and variable early Saturday \nmorning, followed by light northeasterly winds in the late morning, \nshifting to the southeast in the afternoon. Tomorrow evening, \nsouthwesterly winds will return.  \n\n\nFor the rest of southern Nevada, northwest Arizona and southeast \nCalifornia...For the 06Z Forecast Package...Gusty westerly winds at \nKDAG and gusty northwesterly winds at KVGT start to weaken during \nthe early morning hours. Afterwards, winds follow typical daily \ndirectional patterns with sustained speeds below 10 knots for most \nlocations throughout the forecast period. Moderate gusts to \naround 15 knots out of the north may develop at KIFP in the late \nmorning. Skies will be mostly clear. \n\n&&\n\n.SPOTTER INFORMATION STATEMENT...Spotters are encouraged to report\nany significant weather or impacts according to standard operating\nprocedures.\n\n&&\n\n$$\n\nDISCUSSION...Murdock\nAVIATION...Meltzer\n\nFor more forecast information...see us on our webpage:\nhttps://weather.gov/lasvegas or follow us on Facebook and Twitter\n",
+    "issued_at": "2026-09-19T10:26:00+00:00",
+    "product_id": "f9fbf41a-dcdf-4570-b34f-f5d151700dc1",
+    "text": "\n000\nFXUS65 KVEF 191026\nAFDVEF\n\nArea Forecast Discussion\nNational Weather Service Las Vegas NV\n326 AM PDT Sat Sep 19 2026\n\n.KEY MESSAGES...\n\n* Dry conditions through the weekend with around average \n  high temperatures\n\n* Chances of precipitation return Monday and Tuesday\n\n* Slight warming expected after the rain chances followed by cooling \n  in the late work week.\n  \n\n&&\n\n.DISCUSSION...Through Thursday.\n\nSpotty showers and storms in Lincoln Co look to dissipate by early \nSaturday morning as a ridging pattern focuses over the region. This \nchange in pattern will lead to drying conditions and reduce winds \nthrough the weekend. Highs look to stay right around average (mid \n90s to low 100s) with low temps closer to 5 degrees above average \n(in the mid 70s to low 80s.)\n\nThe ridging pattern looks to quickly switch to a troughing pattern \ninto early Monday bringing breezier winds and chances for showers \nand possibly a few storms. Rain chances become more widespread \nthrough Monday afternoon and evening, but the overall feed of \nmoisture looks to be on the modest side as the trough axis only \nbriefly interacts with the coast before pulling into our area. This \nmeans that while our chances for rain look to be good, it looks to \nnot offer much in rainfall amounts. Rain chances look to last \nthrough Monday night and into Tuesday morning before pushing \nnortheast.\n\nThe upper-level pattern turns more neutral by the mid week, with some \nslight ridging that could help temperatures increase by only a few \ndegrees. A deeper tough forms along the west coast and begins to \napproach the region by the late week, offering a slight cool down. \nThis trough looks to break before it can center over Nevada, \npreventing any chances for rain crossing into the area at the end of \nthe forecast period.\n\n&&\n\n.AVIATION...For Harry Reid...For the 12Z Forecast Package...Winds\nwill remain relatively light, sustained speeds of 10 knots or \nless, and will follow typical, daily directional trends. There is \na low chance (10%) of the occasional gust to around 15 knots this \nafternoon; should the terminal see gusts, they will be short lived\nand are not expected to be prevailing. VFR conditions will \nprevail through the TAF period with increasing high cloud cover \nearly Sunday morning. \n\nFor the rest of southern Nevada, northwest Arizona and southeast\nCalifornia...For the 12Z Forecast Package...Winds across the \nregion will remain relatively light, sustained speeds of 12 knots \nor less, and will favor typical, daily directional trends through \nthe TAF period. The one exception is down the Colorado River \nValley, around KIFP, where northerly wind gusts to around 15 knots\nare expected to briefly develop this morning before decreasing \nduring the afternoon. VFR conditions will prevail through the TAF \nperiod with high clouds increasing from west to east overnight \ninto Sunday morning.\n\n&&\n\n.SPOTTER INFORMATION STATEMENT...Spotters are encouraged to report\nany significant weather or impacts according to standard operating\nprocedures.\n\n&&\n\n$$\n\nDISCUSSION...Murdock\nAVIATION...Stessman\n\nFor more forecast information...see us on our webpage:\nhttps://weather.gov/lasvegas or follow us on Facebook and Twitter\n",
     "risk": "MEDIUM",
     "high_terms": [],
     "convective_terms": [
@@ -307,8 +247,8 @@
   },
   "radar": {
     "available": true,
-    "latest_time_utc": "2026-09-19T07:28:58+00:00",
-    "prior_time_utc": "2026-09-19T06:58:58+00:00",
+    "latest_time_utc": "2026-09-19T12:16:57+00:00",
+    "prior_time_utc": "2026-09-19T11:46:57+00:00",
     "current": {
       "echo_fraction_by_radius": {
         "0": 0.0,
@@ -337,37 +277,37 @@
   "markets": [],
   "satellite": {
     "available": true,
-    "risk": "UNKNOWN",
-    "summary": "GOES imagery available; KLAS sky-cover fraction unavailable",
-    "latest_cloud_fraction": null,
-    "mean_cloud_fraction_2h": null,
-    "cloud_fraction_trend_2h": null,
+    "risk": "LOW",
+    "summary": "Observed KLAS sky cover suggests limited cloud shading",
+    "latest_cloud_fraction": 0.0,
+    "mean_cloud_fraction_2h": 0.0,
+    "cloud_fraction_trend_2h": 0.0,
     "latest_cloud_fraction_below_20000": 0.0,
-    "geocolor_image_url": "https://cdn.star.nesdis.noaa.gov/WFO/vef/GEOCOLOR/20262620730_GOES18-ABI-vef-GEOCOLOR-600x600.jpg",
-    "geocolor_time_utc": "2026-09-19T07:30:00+00:00",
-    "infrared_image_url": "https://cdn.star.nesdis.noaa.gov/WFO/vef/13/20262620740_GOES18-ABI-vef-13-600x600.jpg",
-    "infrared_time_utc": "2026-09-19T07:40:00+00:00",
+    "geocolor_image_url": "https://cdn.star.nesdis.noaa.gov/WFO/vef/GEOCOLOR/20262621200_GOES18-ABI-vef-GEOCOLOR-600x600.jpg",
+    "geocolor_time_utc": "2026-09-19T12:00:00+00:00",
+    "infrared_image_url": "https://cdn.star.nesdis.noaa.gov/WFO/vef/13/20262621200_GOES18-ABI-vef-13-600x600.jpg",
+    "infrared_time_utc": "2026-09-19T12:00:00+00:00",
     "errors": [],
     "image_note": "GOES images are a visual cross-check in this version. The shading label uses KLAS-observed sky cover and does not alter the validated temperature prediction.",
     "source": "NOAA/NESDIS/STAR GOES imagery + KLAS METAR sky cover"
   },
   "wethr": {
     "available": true,
-    "collected_at_local": "2026-09-19T00:59:03.333586-07:00",
+    "collected_at_local": "2026-09-19T05:27:28.943651-07:00",
     "models": {
       "HRRR": {
         "available": true,
         "model": "HRRR",
-        "run_time_utc": "2026-09-19 06:00:00",
-        "rows_received": 73,
-        "max_forecast_hour": 18,
-        "coverage_start_local": "2026-09-18T23:00:00-07:00",
-        "coverage_end_local": "2026-09-19T17:00:00-07:00",
-        "contract_start_local": "2026-09-18T01:00:00-07:00",
-        "contract_end_local": "2026-09-19T01:00:00-07:00",
-        "covers_rest_of_contract": true,
-        "remaining_high_f": null,
-        "remaining_high_time_local": null
+        "run_time_utc": "2026-09-19 11:00:00",
+        "rows_received": 69,
+        "max_forecast_hour": 17,
+        "coverage_start_local": "2026-09-19T04:00:00-07:00",
+        "coverage_end_local": "2026-09-19T21:00:00-07:00",
+        "contract_start_local": "2026-09-19T01:00:00-07:00",
+        "contract_end_local": "2026-09-20T01:00:00-07:00",
+        "covers_rest_of_contract": false,
+        "remaining_high_f": 96.11,
+        "remaining_high_time_local": "2026-09-19T16:15:00-07:00"
       },
       "HRRR-EXT": {
         "available": true,
@@ -377,114 +317,110 @@
         "max_forecast_hour": 48,
         "coverage_start_local": "2026-09-18T23:00:00-07:00",
         "coverage_end_local": "2026-09-20T23:00:00-07:00",
-        "contract_start_local": "2026-09-18T01:00:00-07:00",
-        "contract_end_local": "2026-09-19T01:00:00-07:00",
+        "contract_start_local": "2026-09-19T01:00:00-07:00",
+        "contract_end_local": "2026-09-20T01:00:00-07:00",
         "covers_rest_of_contract": true,
-        "remaining_high_f": null,
-        "remaining_high_time_local": null
+        "remaining_high_f": 96.52,
+        "remaining_high_time_local": "2026-09-19T16:00:00-07:00",
+        "projected_high_f": 96.52
       },
       "NBM": {
         "available": true,
         "model": "NBM",
-        "run_time_utc": "2026-09-19 05:00:00",
+        "run_time_utc": "2026-09-19 10:00:00",
         "rows_received": 56,
-        "max_forecast_hour": 70,
-        "coverage_start_local": "2026-09-18T23:00:00-07:00",
-        "coverage_end_local": "2026-09-21T20:00:00-07:00",
-        "contract_start_local": "2026-09-18T01:00:00-07:00",
-        "contract_end_local": "2026-09-19T01:00:00-07:00",
+        "max_forecast_hour": 71,
+        "coverage_start_local": "2026-09-19T04:00:00-07:00",
+        "coverage_end_local": "2026-09-22T02:00:00-07:00",
+        "contract_start_local": "2026-09-19T01:00:00-07:00",
+        "contract_end_local": "2026-09-20T01:00:00-07:00",
         "covers_rest_of_contract": true,
-        "remaining_high_f": null,
-        "remaining_high_time_local": null
+        "remaining_high_f": 92.75,
+        "remaining_high_time_local": "2026-09-19T16:00:00-07:00",
+        "projected_high_f": 92.75
       },
       "RAP": {
         "available": true,
         "model": "RAP",
-        "run_time_utc": "2026-09-19 05:00:00",
-        "rows_received": 22,
-        "max_forecast_hour": 21,
-        "coverage_start_local": "2026-09-18T22:00:00-07:00",
-        "coverage_end_local": "2026-09-19T19:00:00-07:00",
-        "contract_start_local": "2026-09-18T01:00:00-07:00",
-        "contract_end_local": "2026-09-19T01:00:00-07:00",
+        "run_time_utc": "2026-09-19 09:00:00",
+        "rows_received": 52,
+        "max_forecast_hour": 51,
+        "coverage_start_local": "2026-09-19T02:00:00-07:00",
+        "coverage_end_local": "2026-09-21T05:00:00-07:00",
+        "contract_start_local": "2026-09-19T01:00:00-07:00",
+        "contract_end_local": "2026-09-20T01:00:00-07:00",
         "covers_rest_of_contract": true,
-        "remaining_high_f": null,
-        "remaining_high_time_local": null
+        "remaining_high_f": 95.43,
+        "remaining_high_time_local": "2026-09-19T16:00:00-07:00",
+        "projected_high_f": 95.43
       },
       "GFS-MOS": {
         "available": true,
         "model": "GFS-MOS",
-        "run_time_utc": "2026-09-19 00:00:00",
+        "run_time_utc": "2026-09-19 06:00:00",
         "rows_received": 21,
         "max_forecast_hour": 72,
-        "coverage_start_local": "2026-09-18T23:00:00-07:00",
-        "coverage_end_local": "2026-09-21T17:00:00-07:00",
-        "contract_start_local": "2026-09-18T01:00:00-07:00",
-        "contract_end_local": "2026-09-19T01:00:00-07:00",
+        "coverage_start_local": "2026-09-19T05:00:00-07:00",
+        "coverage_end_local": "2026-09-21T23:00:00-07:00",
+        "contract_start_local": "2026-09-19T01:00:00-07:00",
+        "contract_end_local": "2026-09-20T01:00:00-07:00",
         "covers_rest_of_contract": true,
-        "remaining_high_f": null,
-        "remaining_high_time_local": null
+        "remaining_high_f": 94.0,
+        "remaining_high_time_local": "2026-09-19T17:00:00-07:00",
+        "projected_high_f": 94.0
       },
       "LAV-MOS": {
         "available": true,
         "model": "LAV-MOS",
-        "run_time_utc": "2026-09-19 07:00:00",
+        "run_time_utc": "2026-09-19 11:00:00",
         "rows_received": 38,
         "max_forecast_hour": 38,
-        "coverage_start_local": "2026-09-19T01:00:00-07:00",
-        "coverage_end_local": "2026-09-20T14:00:00-07:00",
-        "contract_start_local": "2026-09-18T01:00:00-07:00",
-        "contract_end_local": "2026-09-19T01:00:00-07:00",
+        "coverage_start_local": "2026-09-19T05:00:00-07:00",
+        "coverage_end_local": "2026-09-20T18:00:00-07:00",
+        "contract_start_local": "2026-09-19T01:00:00-07:00",
+        "contract_end_local": "2026-09-20T01:00:00-07:00",
         "covers_rest_of_contract": true,
-        "remaining_high_f": null,
-        "remaining_high_time_local": null
+        "remaining_high_f": 94.0,
+        "remaining_high_time_local": "2026-09-19T16:00:00-07:00",
+        "projected_high_f": 94.0
       }
     },
     "consensus": {
-      "available": false,
-      "model_count": 0,
-      "models_used": []
+      "available": true,
+      "model_count": 5,
+      "models_used": [
+        "HRRR-EXT",
+        "NBM",
+        "RAP",
+        "GFS-MOS",
+        "LAV-MOS"
+      ],
+      "median_high_f": 94.0,
+      "mean_high_f": 94.54,
+      "min_high_f": 92.75,
+      "max_high_f": 96.52,
+      "spread_f": 3.77
     },
     "source": "Wethr.net Forecasts API v2",
     "research_only": true,
-    "observed_floor_f": 95.0
+    "observed_floor_f": 77.0
   },
   "wethr_observed_high": {
     "available": true,
-    "wethr_high_f": 95.0,
-    "time_of_high_utc": "2026-09-18 23:23:00",
+    "wethr_high_f": 77.0,
+    "time_of_high_utc": "2026-09-19 08:48:00",
     "sources": [
       "omo",
-      "hf_metar",
-      "metar",
-      "cli",
-      "dsm",
-      "six_hour_high"
+      "hf_metar"
     ],
     "source_detail": {
       "omo": {
-        "first_confirmed_utc": "2026-09-18 20:57:00",
-        "count": 65
+        "first_confirmed_utc": "2026-09-19 08:28:00",
+        "count": 14
       },
       "hf_metar": {
-        "first_confirmed_utc": "2026-09-18 21:45:00",
-        "count": 13
-      },
-      "metar": {
-        "first_confirmed_utc": "2026-09-18 21:56:00",
-        "count": 1
-      },
-      "cli": {
-        "first_confirmed_utc": "2026-09-18 23:23:00",
-        "count": 1
-      },
-      "dsm": {
-        "first_confirmed_utc": "2026-09-18 23:23:00",
-        "count": 1
-      },
-      "six_hour_high": {
-        "first_confirmed_utc": "2026-09-18 23:56:00",
-        "count": 1
+        "first_confirmed_utc": "2026-09-19 08:30:00",
+        "count": 3
       }
     },
     "omo_informed": true,
@@ -500,71 +436,60 @@
   "historical_analogs": {
     "available": false
   },
-  "next_update_local": "2026-09-19T01:05:00-07:00",
+  "next_update_local": "2026-09-19T06:05:00-07:00",
   "model_accuracy": {
     "7_day": [
       {
         "model_name": "HRRR",
-        "forecasts": 29,
-        "mae_f": 0.24137931034482857,
-        "bias_f": -0.03034482758620674,
-        "exact_pct": 82.75862068965517,
-        "within_1f_pct": 93.10344827586206,
+        "forecasts": 30,
+        "mae_f": 0.26166666666666744,
+        "bias_f": -0.001000000000000038,
+        "exact_pct": 80.0,
+        "within_1f_pct": 93.33333333333333,
         "within_2f_pct": 100.0,
         "closest_wins": 17,
-        "closest_win_pct": 58.620689655172406
+        "closest_win_pct": 56.666666666666664
       },
       {
         "model_name": "HRRR-EXT",
         "forecasts": 37,
-        "mae_f": 0.31810810810810874,
-        "bias_f": -0.09486486486486423,
-        "exact_pct": 72.97297297297297,
-        "within_1f_pct": 89.1891891891892,
+        "mae_f": 0.2902702702702709,
+        "bias_f": 0.016756756756758032,
+        "exact_pct": 78.37837837837837,
+        "within_1f_pct": 91.8918918918919,
         "within_2f_pct": 100.0,
-        "closest_wins": 21,
-        "closest_win_pct": 56.75675675675676
-      },
-      {
-        "model_name": "KLAS_MODEL",
-        "forecasts": 37,
-        "mae_f": 0.5096745684319857,
-        "bias_f": 0.22101844707838791,
-        "exact_pct": 48.64864864864865,
-        "within_1f_pct": 94.5945945945946,
-        "within_2f_pct": 100.0,
-        "closest_wins": 17,
-        "closest_win_pct": 45.94594594594595
+        "closest_wins": 19,
+        "closest_win_pct": 51.35135135135135
       },
       {
         "model_name": "RAP",
         "forecasts": 37,
-        "mae_f": 0.5629729729729737,
-        "bias_f": -0.5456756756756752,
-        "exact_pct": 62.16216216216216,
-        "within_1f_pct": 75.67567567567568,
-        "within_2f_pct": 97.2972972972973,
-        "closest_wins": 18,
-        "closest_win_pct": 48.64864864864865
+        "mae_f": 0.42675675675675767,
+        "bias_f": -0.4094594594594592,
+        "exact_pct": 70.27027027027027,
+        "within_1f_pct": 83.78378378378379,
+        "within_2f_pct": 100.0,
+        "closest_wins": 19,
+        "closest_win_pct": 51.35135135135135
+      },
+      {
+        "model_name": "KLAS_MODEL",
+        "forecasts": 37,
+        "mae_f": 0.48781346150901234,
+        "bias_f": 0.36131950231757676,
+        "exact_pct": 48.64864864864865,
+        "within_1f_pct": 94.5945945945946,
+        "within_2f_pct": 100.0,
+        "closest_wins": 16,
+        "closest_win_pct": 43.24324324324324
       },
       {
         "model_name": "WETHR_CONSENSUS",
         "forecasts": 37,
-        "mae_f": 0.6762162162162169,
-        "bias_f": -0.6589189189189184,
-        "exact_pct": 59.45945945945946,
-        "within_1f_pct": 67.56756756756756,
-        "within_2f_pct": 97.2972972972973,
-        "closest_wins": 18,
-        "closest_win_pct": 48.64864864864865
-      },
-      {
-        "model_name": "LAV-MOS",
-        "forecasts": 37,
-        "mae_f": 0.7610810810810817,
-        "bias_f": -0.7437837837837833,
-        "exact_pct": 56.75675675675676,
-        "within_1f_pct": 67.56756756756756,
+        "mae_f": 0.5740540540540543,
+        "bias_f": -0.5567567567567558,
+        "exact_pct": 62.16216216216216,
+        "within_1f_pct": 72.97297297297297,
         "within_2f_pct": 100.0,
         "closest_wins": 19,
         "closest_win_pct": 51.35135135135135
@@ -572,237 +497,248 @@
       {
         "model_name": "NWS_MORNING",
         "forecasts": 37,
-        "mae_f": 0.8108108108108109,
-        "bias_f": 0.10810810810810811,
-        "exact_pct": 29.72972972972973,
+        "mae_f": 0.6756756756756757,
+        "bias_f": 0.24324324324324326,
+        "exact_pct": 43.24324324324324,
         "within_1f_pct": 89.1891891891892,
         "within_2f_pct": 100.0,
-        "closest_wins": 12,
-        "closest_win_pct": 32.432432432432435
+        "closest_wins": 16,
+        "closest_win_pct": 43.24324324324324
+      },
+      {
+        "model_name": "LAV-MOS",
+        "forecasts": 37,
+        "mae_f": 0.7362162162162168,
+        "bias_f": -0.7189189189189183,
+        "exact_pct": 59.45945945945946,
+        "within_1f_pct": 70.27027027027027,
+        "within_2f_pct": 97.2972972972973,
+        "closest_wins": 20,
+        "closest_win_pct": 54.054054054054056
       },
       {
         "model_name": "NBM",
         "forecasts": 37,
-        "mae_f": 0.958378378378379,
-        "bias_f": -0.9410810810810805,
-        "exact_pct": 54.054054054054056,
-        "within_1f_pct": 64.86486486486487,
-        "within_2f_pct": 81.08108108108108,
-        "closest_wins": 18,
-        "closest_win_pct": 48.64864864864865
+        "mae_f": 0.8124324324324325,
+        "bias_f": -0.795135135135134,
+        "exact_pct": 56.75675675675676,
+        "within_1f_pct": 67.56756756756756,
+        "within_2f_pct": 86.48648648648648,
+        "closest_wins": 19,
+        "closest_win_pct": 51.35135135135135
       },
       {
         "model_name": "GFS-MOS",
         "forecasts": 37,
-        "mae_f": 0.977297297297298,
-        "bias_f": -0.9599999999999995,
-        "exact_pct": 56.75675675675676,
-        "within_1f_pct": 64.86486486486487,
+        "mae_f": 0.9794594594594601,
+        "bias_f": -0.9621621621621617,
+        "exact_pct": 59.45945945945946,
+        "within_1f_pct": 67.56756756756756,
         "within_2f_pct": 81.08108108108108,
-        "closest_wins": 19,
-        "closest_win_pct": 51.35135135135135
+        "closest_wins": 20,
+        "closest_win_pct": 54.054054054054056
       }
     ],
     "30_day": [
       {
         "model_name": "HRRR",
-        "forecasts": 129,
-        "mae_f": 0.41550387596899274,
-        "bias_f": 0.11348837209302348,
-        "exact_pct": 72.09302325581395,
-        "within_1f_pct": 89.14728682170544,
-        "within_2f_pct": 98.44961240310077,
-        "closest_wins": 74,
-        "closest_win_pct": 57.36434108527132
+        "forecasts": 131,
+        "mae_f": 0.4156488549618325,
+        "bias_f": 0.11824427480916049,
+        "exact_pct": 71.7557251908397,
+        "within_1f_pct": 89.31297709923665,
+        "within_2f_pct": 98.47328244274809,
+        "closest_wins": 75,
+        "closest_win_pct": 57.25190839694656
       },
       {
         "model_name": "KLAS_MODEL",
-        "forecasts": 173,
-        "mae_f": 0.5064836951813202,
-        "bias_f": -0.17249193673821173,
-        "exact_pct": 53.75722543352601,
-        "within_1f_pct": 94.79768786127167,
-        "within_2f_pct": 98.84393063583815,
-        "closest_wins": 81,
-        "closest_win_pct": 46.82080924855491
+        "forecasts": 178,
+        "mae_f": 0.5045663950012268,
+        "bias_f": -0.15533688770708226,
+        "exact_pct": 53.37078651685393,
+        "within_1f_pct": 94.9438202247191,
+        "within_2f_pct": 98.87640449438202,
+        "closest_wins": 83,
+        "closest_win_pct": 46.62921348314607
       },
       {
         "model_name": "HRRR-EXT",
-        "forecasts": 169,
-        "mae_f": 0.5374556213017754,
-        "bias_f": 0.06301775147929015,
-        "exact_pct": 62.721893491124256,
-        "within_1f_pct": 85.79881656804734,
-        "within_2f_pct": 95.26627218934911,
-        "closest_wins": 84,
-        "closest_win_pct": 49.70414201183432
-      },
-      {
-        "model_name": "RAP",
-        "forecasts": 172,
-        "mae_f": 0.7888372093023259,
-        "bias_f": -0.5374418604651163,
-        "exact_pct": 44.76744186046512,
-        "within_1f_pct": 68.02325581395348,
-        "within_2f_pct": 94.18604651162791,
-        "closest_wins": 70,
-        "closest_win_pct": 40.69767441860465
+        "forecasts": 174,
+        "mae_f": 0.5309195402298854,
+        "bias_f": 0.07011494252873589,
+        "exact_pct": 63.2183908045977,
+        "within_1f_pct": 86.20689655172413,
+        "within_2f_pct": 95.40229885057471,
+        "closest_wins": 86,
+        "closest_win_pct": 49.42528735632184
       },
       {
         "model_name": "NWS_MORNING",
-        "forecasts": 173,
-        "mae_f": 0.791907514450867,
-        "bias_f": -0.42196531791907516,
-        "exact_pct": 28.901734104046245,
-        "within_1f_pct": 94.21965317919076,
-        "within_2f_pct": 97.6878612716763,
-        "closest_wins": 54,
-        "closest_win_pct": 31.213872832369944
+        "forecasts": 178,
+        "mae_f": 0.7696629213483146,
+        "bias_f": -0.4101123595505618,
+        "exact_pct": 30.89887640449438,
+        "within_1f_pct": 94.3820224719101,
+        "within_2f_pct": 97.75280898876404,
+        "closest_wins": 59,
+        "closest_win_pct": 33.146067415730336
+      },
+      {
+        "model_name": "RAP",
+        "forecasts": 177,
+        "mae_f": 0.7698305084745769,
+        "bias_f": -0.5255367231638419,
+        "exact_pct": 46.32768361581921,
+        "within_1f_pct": 68.92655367231639,
+        "within_2f_pct": 94.35028248587571,
+        "closest_wins": 73,
+        "closest_win_pct": 41.24293785310734
       },
       {
         "model_name": "WETHR_CONSENSUS",
-        "forecasts": 172,
-        "mae_f": 0.8359883720930237,
-        "bias_f": -0.689127906976744,
-        "exact_pct": 43.604651162790695,
-        "within_1f_pct": 70.34883720930233,
-        "within_2f_pct": 94.76744186046511,
-        "closest_wins": 66,
-        "closest_win_pct": 38.372093023255815
+        "forecasts": 177,
+        "mae_f": 0.8246327683615823,
+        "bias_f": -0.681920903954802,
+        "exact_pct": 44.06779661016949,
+        "within_1f_pct": 70.62146892655367,
+        "within_2f_pct": 94.91525423728814,
+        "closest_wins": 69,
+        "closest_win_pct": 38.983050847457626
       },
       {
         "model_name": "GFS-MOS",
-        "forecasts": 171,
-        "mae_f": 0.9122807017543859,
-        "bias_f": -0.8928654970760231,
-        "exact_pct": 46.198830409356724,
-        "within_1f_pct": 73.09941520467837,
-        "within_2f_pct": 91.22807017543859,
-        "closest_wins": 77,
-        "closest_win_pct": 45.02923976608187
+        "forecasts": 176,
+        "mae_f": 0.9318181818181818,
+        "bias_f": -0.9129545454545451,
+        "exact_pct": 46.590909090909086,
+        "within_1f_pct": 72.72727272727273,
+        "within_2f_pct": 90.3409090909091,
+        "closest_wins": 80,
+        "closest_win_pct": 45.45454545454545
       },
       {
         "model_name": "LAV-MOS",
-        "forecasts": 171,
-        "mae_f": 0.9359064327485381,
-        "bias_f": -0.8350877192982453,
-        "exact_pct": 41.52046783625731,
-        "within_1f_pct": 71.9298245614035,
-        "within_2f_pct": 95.32163742690058,
-        "closest_wins": 68,
-        "closest_win_pct": 39.76608187134503
+        "forecasts": 176,
+        "mae_f": 0.9377272727272729,
+        "bias_f": -0.839772727272727,
+        "exact_pct": 42.04545454545455,
+        "within_1f_pct": 71.5909090909091,
+        "within_2f_pct": 94.88636363636364,
+        "closest_wins": 71,
+        "closest_win_pct": 40.340909090909086
       },
       {
         "model_name": "NBM",
-        "forecasts": 169,
-        "mae_f": 1.1883431952662722,
-        "bias_f": -1.180532544378698,
-        "exact_pct": 42.60355029585799,
-        "within_1f_pct": 59.76331360946746,
-        "within_2f_pct": 69.23076923076923,
-        "closest_wins": 70,
-        "closest_win_pct": 41.42011834319527
+        "forecasts": 174,
+        "mae_f": 1.1697126436781609,
+        "bias_f": -1.1621264367816089,
+        "exact_pct": 43.103448275862064,
+        "within_1f_pct": 59.77011494252874,
+        "within_2f_pct": 70.11494252873564,
+        "closest_wins": 73,
+        "closest_win_pct": 41.95402298850575
       }
     ],
     "all_time": [
       {
         "model_name": "HRRR",
-        "forecasts": 138,
-        "mae_f": 0.4342028985507251,
-        "bias_f": 0.08318840579710168,
-        "exact_pct": 69.56521739130434,
-        "within_1f_pct": 87.68115942028986,
-        "within_2f_pct": 98.55072463768117,
-        "closest_wins": 77,
-        "closest_win_pct": 55.79710144927537
+        "forecasts": 140,
+        "mae_f": 0.43407142857142894,
+        "bias_f": 0.08807142857142876,
+        "exact_pct": 69.28571428571428,
+        "within_1f_pct": 87.85714285714286,
+        "within_2f_pct": 98.57142857142858,
+        "closest_wins": 78,
+        "closest_win_pct": 55.714285714285715
       },
       {
         "model_name": "HRRR-EXT",
-        "forecasts": 179,
-        "mae_f": 0.5317877094972069,
-        "bias_f": 0.04128491620111756,
-        "exact_pct": 62.56983240223464,
-        "within_1f_pct": 84.91620111731844,
-        "within_2f_pct": 95.53072625698324,
-        "closest_wins": 89,
-        "closest_win_pct": 49.72067039106145
+        "forecasts": 184,
+        "mae_f": 0.5257608695652176,
+        "bias_f": 0.04858695652173943,
+        "exact_pct": 63.04347826086957,
+        "within_1f_pct": 85.32608695652173,
+        "within_2f_pct": 95.65217391304348,
+        "closest_wins": 91,
+        "closest_win_pct": 49.45652173913043
       },
       {
         "model_name": "KLAS_MODEL",
-        "forecasts": 183,
-        "mae_f": 0.5580321704270531,
-        "bias_f": -0.2385224115639166,
-        "exact_pct": 51.91256830601093,
-        "within_1f_pct": 92.89617486338798,
-        "within_2f_pct": 97.26775956284153,
-        "closest_wins": 81,
-        "closest_win_pct": 44.26229508196721
+        "forecasts": 188,
+        "mae_f": 0.5548458842127697,
+        "bias_f": -0.22052373549120613,
+        "exact_pct": 51.59574468085106,
+        "within_1f_pct": 93.08510638297872,
+        "within_2f_pct": 97.3404255319149,
+        "closest_wins": 83,
+        "closest_win_pct": 44.148936170212764
       },
       {
         "model_name": "RAP",
-        "forecasts": 182,
-        "mae_f": 0.8063186813186817,
-        "bias_f": -0.5687362637362637,
-        "exact_pct": 43.956043956043956,
-        "within_1f_pct": 67.03296703296702,
-        "within_2f_pct": 93.95604395604396,
-        "closest_wins": 73,
-        "closest_win_pct": 40.10989010989011
+        "forecasts": 187,
+        "mae_f": 0.7878609625668452,
+        "bias_f": -0.5566310160427808,
+        "exact_pct": 45.45454545454545,
+        "within_1f_pct": 67.9144385026738,
+        "within_2f_pct": 94.11764705882352,
+        "closest_wins": 76,
+        "closest_win_pct": 40.64171122994652
       },
       {
         "model_name": "WETHR_CONSENSUS",
-        "forecasts": 182,
-        "mae_f": 0.8407692307692312,
-        "bias_f": -0.7019780219780217,
-        "exact_pct": 43.40659340659341,
-        "within_1f_pct": 69.78021978021978,
-        "within_2f_pct": 94.5054945054945,
-        "closest_wins": 69,
-        "closest_win_pct": 37.91208791208791
+        "forecasts": 187,
+        "mae_f": 0.8298930481283425,
+        "bias_f": -0.6948128342245986,
+        "exact_pct": 43.85026737967914,
+        "within_1f_pct": 70.05347593582889,
+        "within_2f_pct": 94.6524064171123,
+        "closest_wins": 72,
+        "closest_win_pct": 38.50267379679144
       },
       {
         "model_name": "NWS_MORNING",
-        "forecasts": 183,
-        "mae_f": 0.8907103825136612,
-        "bias_f": -0.5409836065573771,
-        "exact_pct": 27.322404371584703,
-        "within_1f_pct": 89.07103825136612,
-        "within_2f_pct": 96.17486338797814,
-        "closest_wins": 54,
-        "closest_win_pct": 29.508196721311474
+        "forecasts": 188,
+        "mae_f": 0.8670212765957447,
+        "bias_f": -0.526595744680851,
+        "exact_pct": 29.25531914893617,
+        "within_1f_pct": 89.36170212765957,
+        "within_2f_pct": 96.27659574468085,
+        "closest_wins": 59,
+        "closest_win_pct": 31.382978723404253
       },
       {
         "model_name": "GFS-MOS",
-        "forecasts": 181,
-        "mae_f": 0.8950276243093923,
-        "bias_f": -0.8766850828729279,
-        "exact_pct": 47.51381215469613,
-        "within_1f_pct": 72.92817679558011,
-        "within_2f_pct": 91.71270718232044,
-        "closest_wins": 84,
-        "closest_win_pct": 46.408839779005525
+        "forecasts": 186,
+        "mae_f": 0.9139784946236559,
+        "bias_f": -0.8961290322580643,
+        "exact_pct": 47.8494623655914,
+        "within_1f_pct": 72.58064516129032,
+        "within_2f_pct": 90.86021505376344,
+        "closest_wins": 87,
+        "closest_win_pct": 46.774193548387096
       },
       {
         "model_name": "LAV-MOS",
-        "forecasts": 181,
-        "mae_f": 0.972596685082873,
-        "bias_f": -0.8773480662983423,
-        "exact_pct": 40.88397790055249,
-        "within_1f_pct": 69.61325966850829,
-        "within_2f_pct": 94.47513812154696,
-        "closest_wins": 71,
-        "closest_win_pct": 39.226519337016576
+        "forecasts": 186,
+        "mae_f": 0.9733333333333335,
+        "bias_f": -0.8806451612903223,
+        "exact_pct": 41.39784946236559,
+        "within_1f_pct": 69.35483870967742,
+        "within_2f_pct": 94.08602150537635,
+        "closest_wins": 74,
+        "closest_win_pct": 39.784946236559136
       },
       {
         "model_name": "NBM",
-        "forecasts": 178,
-        "mae_f": 1.2387640449438202,
-        "bias_f": -1.2313483146067412,
-        "exact_pct": 42.13483146067416,
-        "within_1f_pct": 58.42696629213483,
-        "within_2f_pct": 68.53932584269663,
-        "closest_wins": 73,
-        "closest_win_pct": 41.01123595505618
+        "forecasts": 183,
+        "mae_f": 1.219672131147541,
+        "bias_f": -1.2124590163934423,
+        "exact_pct": 42.62295081967213,
+        "within_1f_pct": 58.46994535519126,
+        "within_2f_pct": 69.39890710382514,
+        "closest_wins": 76,
+        "closest_win_pct": 41.53005464480874
       }
     ]
   },
@@ -811,6 +747,15 @@
       "checkpoint_hour": null,
       "latest_precise_temp_f": 77.0,
       "latest_temp_f": 77.0,
+      "six_hour_max_f": null,
+      "model_predicted_high_f": null,
+      "nws_am_forecast_high_f": 95.0,
+      "weather_risk": "MEDIUM"
+    },
+    {
+      "checkpoint_hour": null,
+      "latest_precise_temp_f": 71.06,
+      "latest_temp_f": 71.0,
       "six_hour_max_f": null,
       "model_predicted_high_f": null,
       "nws_am_forecast_high_f": 95.0,

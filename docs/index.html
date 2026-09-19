@@ -14,10 +14,10 @@ table{width:100%;border-collapse:collapse} th,td{text-align:left;padding:9px;bor
 .freshness.high{background:#fdecea}
 .radar-box{position:relative;background:#eef1f4;border-radius:10px;overflow:hidden;min-height:260px} .radar-box img{width:100%;height:100%;min-height:260px;object-fit:cover;display:block} .crosshair{position:absolute;left:50%;top:50%;transform:translate(-50%,-50%);font-size:30px;color:#111;text-shadow:0 0 3px #fff} .radar-label{position:absolute;left:calc(50% + 13px);top:calc(50% - 22px);font-size:11px;font-weight:700;background:#fff;padding:2px 4px;border-radius:3px}
 @media(max-width:850px){.two{grid-template-columns:1fr} .intel-grid{grid-template-columns:repeat(2,1fr)}} @media(max-width:650px){.wrap{padding:12px} h1{font-size:28px} th,td{padding:7px 5px;font-size:12px} .big{font-size:26px} .status{align-items:flex-start;flex-direction:column}}
-</style></head><body><div class="wrap"><h1>KLAS Live High Model</h1><div class="sub">Updated 12:59 AM · Latest METAR 12:56 AM <span class="freshness low">METAR CURRENT — 3 min old</span></div>
-<div class="status"><strong>WAITING FOR 8:00 AM MODEL</strong><span>Next scheduled refresh: ~1:05 AM Las Vegas time</span></div>
+</style></head><body><div class="wrap"><h1>KLAS Live High Model</h1><div class="sub">Updated 5:27 AM · Latest METAR 4:56 AM <span class="freshness low">METAR CURRENT — 31 min old</span></div>
+<div class="status"><strong>WAITING FOR 8:00 AM MODEL</strong><span>Next scheduled refresh: ~6:05 AM Las Vegas time</span></div>
 <div class="grid">
-<div class="card"><div class="label">Current KLAS</div><div class="big">77.0°F</div><div class="mini">Precise METAR T-group when available</div></div>
+<div class="card"><div class="label">Current KLAS</div><div class="big">71.1°F</div><div class="mini">Precise METAR T-group when available</div></div>
 <div class="card"><div class="label">NWS Morning High</div><div class="big">95.0°F</div></div>
 <div class="card"><div class="label">Our Model High</div><div class="big">—</div><div>—</div></div>
 <div class="card"><div class="label">80% Model Range</div><div class="big">—</div><div>— confidence</div></div>
@@ -25,7 +25,7 @@ table{width:100%;border-collapse:collapse} th,td{text-align:left;padding:9px;bor
 <div class="card"><div class="label">Precise METAR Peak</div><div class="big">77.0°F</div></div>
 <div class="card">
 <div class="label">Wethr Live High</div>
-<div class="big">95.0°F</div>
+<div class="big">77.0°F</div>
 <div class="mini">
 OMO-informed
 </div>
@@ -51,23 +51,65 @@ No nearby radar echo signal detected by the coarse KLAS ring scan. Center marker
 </div>
 
 <h4>Satellite / cloud shading</h4>
-<div class="radar-box"><img src="https://cdn.star.nesdis.noaa.gov/WFO/vef/GEOCOLOR/20262620730_GOES18-ABI-vef-GEOCOLOR-600x600.jpg" alt="GOES satellite cloud cover around Las Vegas" style="max-height:340px; object-fit:contain;"></div>
+<div class="radar-box"><img src="https://cdn.star.nesdis.noaa.gov/WFO/vef/GEOCOLOR/20262621200_GOES18-ABI-vef-GEOCOLOR-600x600.jpg" alt="GOES satellite cloud cover around Las Vegas" style="max-height:340px; object-fit:contain;"></div>
 
 <div class="risk" style="margin-top:8px">
 Cloud shading risk:
-<span class="neutral">
-UNKNOWN
+<span class="low">
+LOW
 </span>
 </div>
 
 <div class="mini" style="margin-top:6px">
-GOES imagery available; KLAS sky-cover fraction unavailable. GOES GeoColor is currently a visual cross-check; the shading risk is based on observed KLAS cloud cover.
+Observed KLAS sky cover suggests limited cloud shading. GOES GeoColor is currently a visual cross-check; the shading risk is based on observed KLAS cloud cover.
 </div>
 </section>
 </div>
 
 
 
+
+<section>
+<h3>Wethr multi-model consensus</h3>
+
+<div class="grid">
+
+<div class="card">
+<div class="label">Consensus Median</div>
+<div class="big">94.0°F</div>
+<div class="mini">Median of usable full-contract model runs</div>
+</div>
+
+<div class="card">
+<div class="label">Consensus Mean</div>
+<div class="big">94.54°F</div>
+<div class="mini">Average of usable model highs</div>
+</div>
+
+<div class="card">
+<div class="label">Model Range</div>
+<div class="big">92.75–96.52°F</div>
+<div class="mini">Lowest to highest usable model</div>
+</div>
+
+<div class="card">
+<div class="label">Model Spread</div>
+<div class="big">3.77°F</div>
+<div class="mini">Smaller spread = stronger model agreement</div>
+</div>
+
+<div class="card">
+<div class="label">Usable Models</div>
+<div class="big">5</div>
+<div class="mini">HRRR-EXT, NBM, RAP, GFS-MOS, LAV-MOS</div>
+</div>
+
+</div>
+
+<div class="mini" style="margin-top:10px">
+Wethr forecast models are a research-only cross-check and do not alter the validated KLAS model estimate. Incomplete model runs are excluded from the consensus. Wethr Live High is used as an observed-temperature floor because the prediction cannot be below a temperature already observed today.
+</div>
+</section>
 
 
 
@@ -84,7 +126,7 @@ GOES imagery available; KLAS sky-cover fraction unavailable. GOES GeoColor is cu
 </tr>
 </thead>
 <tbody>
-<tr><td><strong>NWS Morning</strong></td><td>95.0°F</td><td>95.0°F</td><td>Morning forecast</td></tr><tr><td><strong>HRRR</strong></td><td>—</td><td>—</td><td>Full run</td></tr><tr><td><strong>HRRR-EXT</strong></td><td>—</td><td>—</td><td>Full run</td></tr><tr><td><strong>NBM</strong></td><td>—</td><td>—</td><td>Full run</td></tr><tr><td><strong>RAP</strong></td><td>—</td><td>—</td><td>Full run</td></tr><tr><td><strong>GFS-MOS</strong></td><td>—</td><td>—</td><td>Full run</td></tr><tr><td><strong>LAV-MOS</strong></td><td>—</td><td>—</td><td>Full run</td></tr>
+<tr><td><strong>NWS Morning</strong></td><td>95.0°F</td><td>95.0°F</td><td>Morning forecast</td></tr><tr><td><strong>Wethr Consensus</strong></td><td>94.0°F</td><td>94.0°F</td><td>Full-run median</td></tr><tr><td><strong>HRRR</strong></td><td>96.1°F</td><td>96.1°F</td><td>Partial / unavailable</td></tr><tr><td><strong>HRRR-EXT</strong></td><td>96.5°F</td><td>96.5°F</td><td>Full run</td></tr><tr><td><strong>NBM</strong></td><td>92.8°F</td><td>92.8°F</td><td>Full run</td></tr><tr><td><strong>RAP</strong></td><td>95.4°F</td><td>95.4°F</td><td>Full run</td></tr><tr><td><strong>GFS-MOS</strong></td><td>94.0°F</td><td>94.0°F</td><td>Full run</td></tr><tr><td><strong>LAV-MOS</strong></td><td>94.0°F</td><td>94.0°F</td><td>Full run</td></tr>
 </tbody>
 </table>
 
@@ -118,7 +160,7 @@ Closest wins compare models at the same date and checkpoint hour.
 </tr>
 </thead>
 <tbody>
-<tr><td><strong>HRRR</strong></td><td>29</td><td>0.24°F</td><td>-0.03°F</td><td>83%</td><td>93%</td><td>100%</td><td>17 (59%)</td></tr><tr><td><strong>HRRR-EXT</strong></td><td>37</td><td>0.32°F</td><td>-0.09°F</td><td>73%</td><td>89%</td><td>100%</td><td>21 (57%)</td></tr><tr><td><strong>Our KLAS Model</strong></td><td>37</td><td>0.51°F</td><td>+0.22°F</td><td>49%</td><td>95%</td><td>100%</td><td>17 (46%)</td></tr><tr><td><strong>RAP</strong></td><td>37</td><td>0.56°F</td><td>-0.55°F</td><td>62%</td><td>76%</td><td>97%</td><td>18 (49%)</td></tr><tr><td><strong>Wethr Consensus</strong></td><td>37</td><td>0.68°F</td><td>-0.66°F</td><td>59%</td><td>68%</td><td>97%</td><td>18 (49%)</td></tr><tr><td><strong>LAV-MOS</strong></td><td>37</td><td>0.76°F</td><td>-0.74°F</td><td>57%</td><td>68%</td><td>100%</td><td>19 (51%)</td></tr><tr><td><strong>NWS Morning</strong></td><td>37</td><td>0.81°F</td><td>+0.11°F</td><td>30%</td><td>89%</td><td>100%</td><td>12 (32%)</td></tr><tr><td><strong>NBM</strong></td><td>37</td><td>0.96°F</td><td>-0.94°F</td><td>54%</td><td>65%</td><td>81%</td><td>18 (49%)</td></tr><tr><td><strong>GFS-MOS</strong></td><td>37</td><td>0.98°F</td><td>-0.96°F</td><td>57%</td><td>65%</td><td>81%</td><td>19 (51%)</td></tr>
+<tr><td><strong>HRRR</strong></td><td>30</td><td>0.26°F</td><td>-0.00°F</td><td>80%</td><td>93%</td><td>100%</td><td>17 (57%)</td></tr><tr><td><strong>HRRR-EXT</strong></td><td>37</td><td>0.29°F</td><td>+0.02°F</td><td>78%</td><td>92%</td><td>100%</td><td>19 (51%)</td></tr><tr><td><strong>RAP</strong></td><td>37</td><td>0.43°F</td><td>-0.41°F</td><td>70%</td><td>84%</td><td>100%</td><td>19 (51%)</td></tr><tr><td><strong>Our KLAS Model</strong></td><td>37</td><td>0.49°F</td><td>+0.36°F</td><td>49%</td><td>95%</td><td>100%</td><td>16 (43%)</td></tr><tr><td><strong>Wethr Consensus</strong></td><td>37</td><td>0.57°F</td><td>-0.56°F</td><td>62%</td><td>73%</td><td>100%</td><td>19 (51%)</td></tr><tr><td><strong>NWS Morning</strong></td><td>37</td><td>0.68°F</td><td>+0.24°F</td><td>43%</td><td>89%</td><td>100%</td><td>16 (43%)</td></tr><tr><td><strong>LAV-MOS</strong></td><td>37</td><td>0.74°F</td><td>-0.72°F</td><td>59%</td><td>70%</td><td>97%</td><td>20 (54%)</td></tr><tr><td><strong>NBM</strong></td><td>37</td><td>0.81°F</td><td>-0.80°F</td><td>57%</td><td>68%</td><td>86%</td><td>19 (51%)</td></tr><tr><td><strong>GFS-MOS</strong></td><td>37</td><td>0.98°F</td><td>-0.96°F</td><td>59%</td><td>68%</td><td>81%</td><td>20 (54%)</td></tr>
 </tbody>
 </table>
 
@@ -137,7 +179,7 @@ Closest wins compare models at the same date and checkpoint hour.
 </tr>
 </thead>
 <tbody>
-<tr><td><strong>HRRR</strong></td><td>129</td><td>0.42°F</td><td>+0.11°F</td><td>72%</td><td>89%</td><td>98%</td><td>74 (57%)</td></tr><tr><td><strong>Our KLAS Model</strong></td><td>173</td><td>0.51°F</td><td>-0.17°F</td><td>54%</td><td>95%</td><td>99%</td><td>81 (47%)</td></tr><tr><td><strong>HRRR-EXT</strong></td><td>169</td><td>0.54°F</td><td>+0.06°F</td><td>63%</td><td>86%</td><td>95%</td><td>84 (50%)</td></tr><tr><td><strong>RAP</strong></td><td>172</td><td>0.79°F</td><td>-0.54°F</td><td>45%</td><td>68%</td><td>94%</td><td>70 (41%)</td></tr><tr><td><strong>NWS Morning</strong></td><td>173</td><td>0.79°F</td><td>-0.42°F</td><td>29%</td><td>94%</td><td>98%</td><td>54 (31%)</td></tr><tr><td><strong>Wethr Consensus</strong></td><td>172</td><td>0.84°F</td><td>-0.69°F</td><td>44%</td><td>70%</td><td>95%</td><td>66 (38%)</td></tr><tr><td><strong>GFS-MOS</strong></td><td>171</td><td>0.91°F</td><td>-0.89°F</td><td>46%</td><td>73%</td><td>91%</td><td>77 (45%)</td></tr><tr><td><strong>LAV-MOS</strong></td><td>171</td><td>0.94°F</td><td>-0.84°F</td><td>42%</td><td>72%</td><td>95%</td><td>68 (40%)</td></tr><tr><td><strong>NBM</strong></td><td>169</td><td>1.19°F</td><td>-1.18°F</td><td>43%</td><td>60%</td><td>69%</td><td>70 (41%)</td></tr>
+<tr><td><strong>HRRR</strong></td><td>131</td><td>0.42°F</td><td>+0.12°F</td><td>72%</td><td>89%</td><td>98%</td><td>75 (57%)</td></tr><tr><td><strong>Our KLAS Model</strong></td><td>178</td><td>0.50°F</td><td>-0.16°F</td><td>53%</td><td>95%</td><td>99%</td><td>83 (47%)</td></tr><tr><td><strong>HRRR-EXT</strong></td><td>174</td><td>0.53°F</td><td>+0.07°F</td><td>63%</td><td>86%</td><td>95%</td><td>86 (49%)</td></tr><tr><td><strong>NWS Morning</strong></td><td>178</td><td>0.77°F</td><td>-0.41°F</td><td>31%</td><td>94%</td><td>98%</td><td>59 (33%)</td></tr><tr><td><strong>RAP</strong></td><td>177</td><td>0.77°F</td><td>-0.53°F</td><td>46%</td><td>69%</td><td>94%</td><td>73 (41%)</td></tr><tr><td><strong>Wethr Consensus</strong></td><td>177</td><td>0.82°F</td><td>-0.68°F</td><td>44%</td><td>71%</td><td>95%</td><td>69 (39%)</td></tr><tr><td><strong>GFS-MOS</strong></td><td>176</td><td>0.93°F</td><td>-0.91°F</td><td>47%</td><td>73%</td><td>90%</td><td>80 (45%)</td></tr><tr><td><strong>LAV-MOS</strong></td><td>176</td><td>0.94°F</td><td>-0.84°F</td><td>42%</td><td>72%</td><td>95%</td><td>71 (40%)</td></tr><tr><td><strong>NBM</strong></td><td>174</td><td>1.17°F</td><td>-1.16°F</td><td>43%</td><td>60%</td><td>70%</td><td>73 (42%)</td></tr>
 </tbody>
 </table>
 
@@ -156,7 +198,7 @@ Closest wins compare models at the same date and checkpoint hour.
 </tr>
 </thead>
 <tbody>
-<tr><td><strong>HRRR</strong></td><td>138</td><td>0.43°F</td><td>+0.08°F</td><td>70%</td><td>88%</td><td>99%</td><td>77 (56%)</td></tr><tr><td><strong>HRRR-EXT</strong></td><td>179</td><td>0.53°F</td><td>+0.04°F</td><td>63%</td><td>85%</td><td>96%</td><td>89 (50%)</td></tr><tr><td><strong>Our KLAS Model</strong></td><td>183</td><td>0.56°F</td><td>-0.24°F</td><td>52%</td><td>93%</td><td>97%</td><td>81 (44%)</td></tr><tr><td><strong>RAP</strong></td><td>182</td><td>0.81°F</td><td>-0.57°F</td><td>44%</td><td>67%</td><td>94%</td><td>73 (40%)</td></tr><tr><td><strong>Wethr Consensus</strong></td><td>182</td><td>0.84°F</td><td>-0.70°F</td><td>43%</td><td>70%</td><td>95%</td><td>69 (38%)</td></tr><tr><td><strong>NWS Morning</strong></td><td>183</td><td>0.89°F</td><td>-0.54°F</td><td>27%</td><td>89%</td><td>96%</td><td>54 (30%)</td></tr><tr><td><strong>GFS-MOS</strong></td><td>181</td><td>0.90°F</td><td>-0.88°F</td><td>48%</td><td>73%</td><td>92%</td><td>84 (46%)</td></tr><tr><td><strong>LAV-MOS</strong></td><td>181</td><td>0.97°F</td><td>-0.88°F</td><td>41%</td><td>70%</td><td>94%</td><td>71 (39%)</td></tr><tr><td><strong>NBM</strong></td><td>178</td><td>1.24°F</td><td>-1.23°F</td><td>42%</td><td>58%</td><td>69%</td><td>73 (41%)</td></tr>
+<tr><td><strong>HRRR</strong></td><td>140</td><td>0.43°F</td><td>+0.09°F</td><td>69%</td><td>88%</td><td>99%</td><td>78 (56%)</td></tr><tr><td><strong>HRRR-EXT</strong></td><td>184</td><td>0.53°F</td><td>+0.05°F</td><td>63%</td><td>85%</td><td>96%</td><td>91 (49%)</td></tr><tr><td><strong>Our KLAS Model</strong></td><td>188</td><td>0.55°F</td><td>-0.22°F</td><td>52%</td><td>93%</td><td>97%</td><td>83 (44%)</td></tr><tr><td><strong>RAP</strong></td><td>187</td><td>0.79°F</td><td>-0.56°F</td><td>45%</td><td>68%</td><td>94%</td><td>76 (41%)</td></tr><tr><td><strong>Wethr Consensus</strong></td><td>187</td><td>0.83°F</td><td>-0.69°F</td><td>44%</td><td>70%</td><td>95%</td><td>72 (39%)</td></tr><tr><td><strong>NWS Morning</strong></td><td>188</td><td>0.87°F</td><td>-0.53°F</td><td>29%</td><td>89%</td><td>96%</td><td>59 (31%)</td></tr><tr><td><strong>GFS-MOS</strong></td><td>186</td><td>0.91°F</td><td>-0.90°F</td><td>48%</td><td>73%</td><td>91%</td><td>87 (47%)</td></tr><tr><td><strong>LAV-MOS</strong></td><td>186</td><td>0.97°F</td><td>-0.88°F</td><td>41%</td><td>69%</td><td>94%</td><td>74 (40%)</td></tr><tr><td><strong>NBM</strong></td><td>183</td><td>1.22°F</td><td>-1.21°F</td><td>43%</td><td>58%</td><td>69%</td><td>76 (42%)</td></tr>
 </tbody>
 </table>
 
