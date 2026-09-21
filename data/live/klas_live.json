@@ -1,6 +1,6 @@
 {
   "date": "2026-09-21",
-  "updated_at_local": "2026-09-21T12:55:56.398315-07:00",
+  "updated_at_local": "2026-09-21T12:57:14.895276-07:00",
   "latest_metar_time": "2026-09-21T11:56:00-07:00",
   "latest_temp_f": 87.0,
   "latest_precise_temp_f": 87.08000000000001,
@@ -208,16 +208,16 @@
       "strike_type": "between",
       "floor_strike": 92.0,
       "cap_strike": 93.0,
-      "yes_bid": 0.62,
-      "yes_ask": 0.68,
-      "last_price": 0.62,
-      "market_mid": 0.65,
+      "yes_bid": 0.5,
+      "yes_ask": 0.66,
+      "last_price": 0.55,
+      "market_mid": 0.5800000000000001,
       "close_time": "2026-09-22T08:00:00Z",
       "occurrence_datetime": "2026-09-22T14:00:00Z",
       "updated_time": "2026-09-20T14:00:02.268615Z",
       "model_probability": 0.6080729166666667,
-      "edge_vs_ask": -0.07192708333333331,
-      "difference": -0.04192708333333328
+      "edge_vs_ask": -0.05192708333333329,
+      "difference": 0.02807291666666667
     },
     {
       "ticker": "KXHIGHTLV-26SEP21-B90.5",
@@ -227,16 +227,16 @@
       "strike_type": "between",
       "floor_strike": 90.0,
       "cap_strike": 91.0,
-      "yes_bid": 0.15,
-      "yes_ask": 0.24,
+      "yes_bid": 0.18,
+      "yes_ask": 0.31,
       "last_price": 0.25,
-      "market_mid": 0.195,
+      "market_mid": 0.245,
       "close_time": "2026-09-22T08:00:00Z",
       "occurrence_datetime": "2026-09-22T14:00:00Z",
       "updated_time": "2026-09-20T14:00:02.268615Z",
       "model_probability": 0.23046875,
-      "edge_vs_ask": -0.009531249999999991,
-      "difference": 0.03546874999999999
+      "edge_vs_ask": -0.07953125,
+      "difference": -0.014531249999999996
     },
     {
       "ticker": "KXHIGHTLV-26SEP21-B94.5",
@@ -373,7 +373,7 @@
   },
   "wethr": {
     "available": true,
-    "collected_at_local": "2026-09-21T12:55:34.095308-07:00",
+    "collected_at_local": "2026-09-21T12:57:00.288461-07:00",
     "models": {
       "HRRR": {
         "available": true,
@@ -490,19 +490,24 @@
   "wethr_observed_high": {
     "available": true,
     "wethr_high_f": 89.0,
-    "time_of_high_utc": "2026-09-21 19:52:00",
+    "time_of_high_utc": "2026-09-21 19:56:00",
     "sources": [
       "omo",
-      "hf_metar"
+      "hf_metar",
+      "metar8"
     ],
     "source_detail": {
       "omo": {
         "first_confirmed_utc": "2026-09-21 19:23:00",
-        "count": 25
+        "count": 27
       },
       "hf_metar": {
         "first_confirmed_utc": "2026-09-21 19:25:00",
         "count": 5
+      },
+      "metar8": {
+        "first_confirmed_utc": "2026-09-21 19:56:00",
+        "count": 1
       }
     },
     "omo_informed": true,
