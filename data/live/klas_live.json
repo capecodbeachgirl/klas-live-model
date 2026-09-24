@@ -1,17 +1,17 @@
 {
   "date": "2026-09-23",
-  "updated_at_local": "2026-09-23T17:31:31.815368-07:00",
-  "latest_metar_time": "2026-09-23T16:56:00-07:00",
-  "latest_temp_f": 92.0,
-  "latest_precise_temp_f": 91.94,
-  "latest_dewpoint_f": 41.0,
+  "updated_at_local": "2026-09-23T22:16:37.936311-07:00",
+  "latest_metar_time": "2026-09-23T21:56:00-07:00",
+  "latest_temp_f": 83.0,
+  "latest_precise_temp_f": 82.94,
+  "latest_dewpoint_f": 43.0,
   "raw_metar_peak_f": 92.0,
   "precise_metar_peak_f": 91.94,
   "six_hour_max_f": 93,
   "six_hour_max_report_time": "2026-09-23T16:56:00-07:00",
   "nws_am_forecast_high_f": 93.0,
   "nws_am_issued_at": "2026-09-23T03:02:00-07:00",
-  "checkpoint_hour": 17,
+  "checkpoint_hour": 18,
   "weather_risk": "MEDIUM",
   "weather_reasons": [
     "Las Vegas NWS discussion contains a convective/monsoon signal"
@@ -23,64 +23,14 @@
     "radar_risk": "LOW"
   },
   "nws_live_forecast": {
-    "available": true,
-    "hours": [
-      {
-        "time": "2026-09-23T17:00:00-07:00",
-        "temp_f": 93.0,
-        "pop_pct": 0.0,
-        "short_forecast": "Sunny",
-        "wind_speed": "5 mph",
-        "wind_direction": "E"
-      },
-      {
-        "time": "2026-09-23T18:00:00-07:00",
-        "temp_f": 91.0,
-        "pop_pct": 0.0,
-        "short_forecast": "Clear",
-        "wind_speed": "3 mph",
-        "wind_direction": "E"
-      },
-      {
-        "time": "2026-09-23T19:00:00-07:00",
-        "temp_f": 89.0,
-        "pop_pct": 0.0,
-        "short_forecast": "Mostly Clear",
-        "wind_speed": "2 mph",
-        "wind_direction": "E"
-      },
-      {
-        "time": "2026-09-23T20:00:00-07:00",
-        "temp_f": 87.0,
-        "pop_pct": 0.0,
-        "short_forecast": "Mostly Clear",
-        "wind_speed": "2 mph",
-        "wind_direction": "SSE"
-      }
-    ],
-    "max_pop_pct": 0.0,
+    "available": false,
+    "hours": [],
+    "max_pop_pct": null,
     "thunder_possible": false,
     "rain_possible": false,
-    "summary": "No meaningful rain/thunder signal in the remaining NWS hourly forecast",
-    "max_sky_cover_pct": 7.0,
-    "sky_hours": [
-      {
-        "time": "2026-09-23T17:00:00-07:00",
-        "sky_cover_pct": 3.0
-      },
-      {
-        "time": "2026-09-23T18:00:00-07:00",
-        "sky_cover_pct": 2.0
-      },
-      {
-        "time": "2026-09-23T19:00:00-07:00",
-        "sky_cover_pct": 7.0
-      },
-      {
-        "time": "2026-09-23T20:00:00-07:00",
-        "sky_cover_pct": 7.0
-      }
-    ],
+    "summary": "NWS hourly forecast unavailable",
+    "max_sky_cover_pct": null,
+    "sky_hours": [],
     "office": "VEF",
     "grid_x": 122,
     "grid_y": 94,
@@ -88,12 +38,11 @@
   },
   "afd": {
     "available": true,
-    "issued_at": "2026-09-23T21:40:00+00:00",
-    "product_id": "5e1afc8b-4f87-400e-98c9-51d075f0f4a9",
-    "text": "\n000\nFXUS65 KVEF 232140\nAFDVEF\n\nArea Forecast Discussion\nNational Weather Service Las Vegas NV\n240 PM PDT Wed Sep 23 2026\n\n.KEY MESSAGES...\n\n* A warming trend will continue through Saturday, with\n  temperatures reaching 3 to 6 degrees above normal by the end \n  of the work week.\n\n* Isolated thunderstorms are possible this afternoon and Thursday \n  afternoon for portions of the area, particularly Mohave County \n  and portions of San Bernardino County on Thursday.\n\n* A pattern shift is expected late weekend through early next\n  week, bringing breezy conditions, cooler temperatures, and \n  another round of precipitation chances to the area. \n\n&&\n\n.DISCUSSION...\n\nThe cooldown we experienced yesterday was short-lived, with a  \nwarming trend underway that will allow for temperatures this \nafternoon to top out pretty close to normal for late September.\nThis warming trend continues through the end of the week as \nthicknesses increase over the region, with highs topping out \naround 3 to 6 degrees above normal both Friday and Saturday. \nDespite the above normal temperatures expected, HeatRisk will \nremain Minor for most locations, with localized pockets of \nModerate HeatRisk, mainly through Death Valley and the Colorado \nRiver Valley later this week into the start of the weekend.\n\nWhile most locations stay dry the next several days, an exception \nexists this afternoon for southern Mohave County, mainly along and \nsouth of I-40. Precipitable water values in this area remain \naround 1 inch, and while instability is fairly weak, diurnal \nheating over higher terrain is expected to result in a few \nisolated showers and thunderstorms this afternoon through sunset. \nDCAPE values around 1500 J/kg this afternoon will lend to a \ndamaging wind threat with convection that develops, along with \nlocalized blowing dust concerns. Tonight and Thursday, a shortwave\ncurrently located near the California/Baja coast will dampen and \ntranslate northeastward before becoming absorbed into the mean \nsouthwesterly flow aloft. While this feature isn't exceptionally \npotent, associated ascent will result in scattered thunderstorms \non Thursday afternoon, primarily south and east of I-15. More \ncoverage is expected Thursday than today, especially across Mohave\nCounty, where a marginal risk of excessive rainfall has been \nintroduced for far eastern and northeastern parts of the county. \nPrecipitable water values do decrease slightly from today (down to\naround 0.85 inch), however, increased instability, a slight \nuptick in shear, and DCAPE still around 1200-1500 J/kg will yield \npotential for a few stronger storms Thursday afternoon. Any \nconvection that develops will weaken quickly after sunset with the\nloss of heating and increasing subsidence in the wake of the \ndeparting/weakening wave.\n\nFriday and Saturday look to be dry days region-wide, and focus \nwill turn to a deepening trough progged to take shape over the \nWest Coast this weekend before moving eastward through early next\nweek. Cluster analyses and ensemble guidance remain in good \nagreement that this pattern shift will occur, however, \ndiscrepancies in timing, depth, and trajectory result in high \nuncertainty in impacts several days out. Despite the uncertainty, \nbreezy to gusty southerly and southwesterly winds look to return \nover the weekend ahead of this feature due to a tightening \npressure gradient, and as the trough translates inland, falling \nheights will result in a cooling trend starting Sunday that will \ncarry through early next week. Additionally, increasing ascent \nwill bring rain chances back to the region late this weekend and \nearly next week, however, there is still substantial uncertainty \nin timing and location, as well as whether any tropical moisture \nwill be routed northward ahead of the approaching system. Details \nwill be ironed out in coming days.\n\n&&\n\n.AVIATION...For Harry Reid...For the 00Z Forecast Package...Winds \nwill follow typical daily directional patterns with some \nvariability, with speeds remaining around 8KT or less. Isolated \nthunderstorms are expected south and southeast of the terminal, \nand currently, no impacts are expected. The most likely impact \nwould be an outflow-induced wind shift toward the end of the \nperiod, which introduces some uncertainty, but confidence in this\noccurring is very low. VFR conditions prevail with FEW-SCT clouds\nwith bases at or above 12kft.\n\n\n\nFor the rest of southern Nevada, northwest Arizona and southeast\nCalifornia...For the 00Z Forecast Package...Winds across the\nregion will generally remain around 10KT or less and follow \ntypical daily directional patterns with some variability the next \n24 hours. Isolated showers and thunderstorms are expected across \nnorthwestern New Mexico through sunset this evening, with no \nimpacts expected at area terminals. Another round of isolated to \nscattered thunderstorms on Thursday is expected over northwestern \nArizona and portions of southeastern California, however, \nconfidence in direct impacts at area terminals is too low to \ninclude mention. However, gusty outflow winds, especially along \nthe Colorado River Valley terminals (KIFP and KEED) will be \npossible. VFR conditions will otherwise prevail with FEW-SCT \nclouds at or above 12kft, possibly lower in the vicinity of \nconvection\n\n&&\n\n.SPOTTER INFORMATION STATEMENT...Spotters are encouraged to report\nany significant weather or impacts according to standard operating\nprocedures.\n\n&&\n\n$$\n\nDISCUSSION/AVIATION...Phillipson\n\n\nFor more forecast information...see us on our webpage:\nhttps://weather.gov/lasvegas or follow us on Facebook and Twitter\n",
+    "issued_at": "2026-09-24T04:55:00+00:00",
+    "product_id": "47938559-ab68-4233-84fb-3c222dc8fcec",
+    "text": "\n000\nFXUS65 KVEF 240455\nAFDVEF\n\nArea Forecast Discussion\nNational Weather Service Las Vegas NV\n955 PM PDT Wed Sep 23 2026\n\n.KEY MESSAGES...\n\n* A warming trend will continue through Saturday, with\n  temperatures reaching 3 to 6 degrees above normal by the end \n  of the work week.\n\n* Isolated thunderstorms are possible this afternoon and Thursday \n  afternoon for portions of the area, particularly Mohave County \n  and portions of San Bernardino County on Thursday.\n\n* A pattern shift is expected late weekend through early next\n  week, bringing breezy conditions, cooler temperatures, and \n  another round of precipitation chances to the area. \n\n&&\n\n.DISCUSSION...\n\nThe cooldown we experienced yesterday was short-lived, with a  \nwarming trend underway that will allow for temperatures this \nafternoon to top out pretty close to normal for late September.\nThis warming trend continues through the end of the week as \nthicknesses increase over the region, with highs topping out \naround 3 to 6 degrees above normal both Friday and Saturday. \nDespite the above normal temperatures expected, HeatRisk will \nremain Minor for most locations, with localized pockets of \nModerate HeatRisk, mainly through Death Valley and the Colorado \nRiver Valley later this week into the start of the weekend.\n\nWhile most locations stay dry the next several days, an exception \nexists this afternoon for southern Mohave County, mainly along and \nsouth of I-40. Precipitable water values in this area remain \naround 1 inch, and while instability is fairly weak, diurnal \nheating over higher terrain is expected to result in a few \nisolated showers and thunderstorms this afternoon through sunset. \nDCAPE values around 1500 J/kg this afternoon will lend to a \ndamaging wind threat with convection that develops, along with \nlocalized blowing dust concerns. Tonight and Thursday, a shortwave\ncurrently located near the California/Baja coast will dampen and \ntranslate northeastward before becoming absorbed into the mean \nsouthwesterly flow aloft. While this feature isn't exceptionally \npotent, associated ascent will result in scattered thunderstorms \non Thursday afternoon, primarily south and east of I-15. More \ncoverage is expected Thursday than today, especially across Mohave\nCounty, where a marginal risk of excessive rainfall has been \nintroduced for far eastern and northeastern parts of the county. \nPrecipitable water values do decrease slightly from today (down to\naround 0.85 inch), however, increased instability, a slight \nuptick in shear, and DCAPE still around 1200-1500 J/kg will yield \npotential for a few stronger storms Thursday afternoon. Any \nconvection that develops will weaken quickly after sunset with the\nloss of heating and increasing subsidence in the wake of the \ndeparting/weakening wave.\n\nFriday and Saturday look to be dry days region-wide, and focus \nwill turn to a deepening trough progged to take shape over the \nWest Coast this weekend before moving eastward through early next\nweek. Cluster analyses and ensemble guidance remain in good \nagreement that this pattern shift will occur, however, \ndiscrepancies in timing, depth, and trajectory result in high \nuncertainty in impacts several days out. Despite the uncertainty, \nbreezy to gusty southerly and southwesterly winds look to return \nover the weekend ahead of this feature due to a tightening \npressure gradient, and as the trough translates inland, falling \nheights will result in a cooling trend starting Sunday that will \ncarry through early next week. Additionally, increasing ascent \nwill bring rain chances back to the region late this weekend and \nearly next week, however, there is still substantial uncertainty \nin timing and location, as well as whether any tropical moisture \nwill be routed northward ahead of the approaching system. Details \nwill be ironed out in coming days.\n\n&&\n\n.AVIATION...For Harry Reid...For the 06Z Forecast Package...Light \nwinds continue to affect the terminal through the TAF period. Expect \nwesterly winds to last through the late morning before becoming \neasterly. These winds will reduce slightly into the late evening and \nbecome more variable. Infrequent breezes from the southeast will be \npossible in the late afternoon and into the evening from distant \nstorm activity. Winds continue to stay light into Thursday night but \nturn westerly. Mostly clear skies are expected through the TAF \nperiod.\n\nFor the rest of southern Nevada, northwest Arizona and southeast \nCalifornia...For the 06Z Forecast Package...Mostly light winds are \nexpected across the region through the TAF period as peak prevailing \nwinds stay under 10 kts. Wind directions look to be mostly \ninfluenced by local effects and not by larger scale weather \npatterns, meaning that there is the potential for a good amount of \nvariability in directions particularly with areas seeing very light \nwinds. KEED and KIFP will see some storm spotty storm activity into \nthe late afternoon through the early night, leading to some \npotential for infrequent, erratic gusts.\n\n&&\n\n.SPOTTER INFORMATION STATEMENT...Spotters are encouraged to report\nany significant weather or impacts according to standard operating\nprocedures.\n\n&&\n\n$$\n\nDISCUSSION...Phillipson\nAVIATION...Murdock\n\nFor more forecast information...see us on our webpage:\nhttps://weather.gov/lasvegas or follow us on Facebook and Twitter\n",
     "risk": "HIGH",
     "high_terms": [
-      "outflow",
       "dcape",
       "damaging wind"
     ],
@@ -109,8 +58,8 @@
   },
   "radar": {
     "available": true,
-    "latest_time_utc": "2026-09-24T00:18:57+00:00",
-    "prior_time_utc": "2026-09-23T23:48:57+00:00",
+    "latest_time_utc": "2026-09-24T05:04:59+00:00",
+    "prior_time_utc": "2026-09-24T04:34:59+00:00",
     "current": {
       "echo_fraction_by_radius": {
         "0": 0.0,
@@ -152,9 +101,9 @@
       "close_time": "2026-09-24T08:00:00Z",
       "occurrence_datetime": "2026-09-24T14:00:00Z",
       "updated_time": "2026-09-22T14:00:01.790383Z",
-      "model_probability": 0.9866412213740459,
-      "edge_vs_ask": -0.013358778625954137,
-      "difference": -0.008358778625954133
+      "model_probability": 0.9873646209386282,
+      "edge_vs_ask": -0.012635379061371799,
+      "difference": -0.007635379061371794
     },
     {
       "ticker": "KXHIGHTLV-26SEP23-B95.5",
@@ -171,9 +120,9 @@
       "close_time": "2026-09-24T08:00:00Z",
       "occurrence_datetime": "2026-09-24T14:00:00Z",
       "updated_time": "2026-09-22T14:00:01.790383Z",
-      "model_probability": 0.013358778625954198,
-      "edge_vs_ask": 0.003358778625954198,
-      "difference": 0.008358778625954199
+      "model_probability": 0.01263537906137184,
+      "edge_vs_ask": 0.00263537906137184,
+      "difference": 0.00763537906137184
     },
     {
       "ticker": "KXHIGHTLV-26SEP23-B91.5",
@@ -253,21 +202,21 @@
     }
   ],
   "model_method": "remaining_heating",
-  "model_bundle": "h17_remaining.joblib",
+  "model_bundle": "h18_remaining.joblib",
   "observed_floor_f": 93.0,
-  "predicted_remaining_heating_f": 0.8362433310798242,
+  "predicted_remaining_heating_f": 0.5519890364689269,
   "pre_checkpoint_peak_f": 92.0,
   "model_predicted_high_f": 93.0,
   "model_correction_f": 0.0,
   "likely_low_f": 93,
   "likely_high_f": 94,
   "confidence": "MEDIUM",
-  "model_mae_f": 0.4473460776640661,
+  "model_mae_f": 0.4206937872400014,
   "distribution": {
-    "93": 0.8272900763358779,
-    "94": 0.15935114503816794,
-    "95": 0.006679389312977099,
-    "96": 0.006679389312977099
+    "93": 0.8907942238267148,
+    "94": 0.09657039711191336,
+    "95": 0.00631768953068592,
+    "96": 0.00631768953068592
   },
   "bucket_probability_total": 1.0,
   "largest_model_ask_gap": {
@@ -285,119 +234,119 @@
     "close_time": "2026-09-24T08:00:00Z",
     "occurrence_datetime": "2026-09-24T14:00:00Z",
     "updated_time": "2026-09-22T14:00:01.790383Z",
-    "model_probability": 0.013358778625954198,
-    "edge_vs_ask": 0.003358778625954198,
-    "difference": 0.008358778625954199
+    "model_probability": 0.01263537906137184,
+    "edge_vs_ask": 0.00263537906137184,
+    "difference": 0.00763537906137184
   },
   "research_status": "WEATHER WATCH",
   "satellite": {
     "available": true,
     "risk": "LOW",
     "summary": "Observed KLAS sky cover suggests limited cloud shading",
-    "latest_cloud_fraction": 0.25,
-    "mean_cloud_fraction_2h": 0.25,
-    "cloud_fraction_trend_2h": 0.0,
-    "latest_cloud_fraction_below_20000": 0.25,
-    "geocolor_image_url": "https://cdn.star.nesdis.noaa.gov/WFO/vef/GEOCOLOR/20262670010_GOES18-ABI-vef-GEOCOLOR-600x600.jpg",
-    "geocolor_time_utc": "2026-09-24T00:10:00+00:00",
-    "infrared_image_url": "https://cdn.star.nesdis.noaa.gov/WFO/vef/13/20262670010_GOES18-ABI-vef-13-600x600.jpg",
-    "infrared_time_utc": "2026-09-24T00:10:00+00:00",
+    "latest_cloud_fraction": 0.0,
+    "mean_cloud_fraction_2h": 0.0,
+    "cloud_fraction_trend_2h": null,
+    "latest_cloud_fraction_below_20000": 0.0,
+    "geocolor_image_url": "https://cdn.star.nesdis.noaa.gov/WFO/vef/GEOCOLOR/20262670450_GOES18-ABI-vef-GEOCOLOR-600x600.jpg",
+    "geocolor_time_utc": "2026-09-24T04:50:00+00:00",
+    "infrared_image_url": "https://cdn.star.nesdis.noaa.gov/WFO/vef/13/20262670440_GOES18-ABI-vef-13-600x600.jpg",
+    "infrared_time_utc": "2026-09-24T04:40:00+00:00",
     "errors": [],
     "image_note": "GOES images are a visual cross-check in this version. The shading label uses KLAS-observed sky cover and does not alter the validated temperature prediction.",
     "source": "NOAA/NESDIS/STAR GOES imagery + KLAS METAR sky cover"
   },
   "wethr": {
     "available": true,
-    "collected_at_local": "2026-09-23T17:31:04.740251-07:00",
+    "collected_at_local": "2026-09-23T22:16:31.142265-07:00",
     "models": {
       "HRRR": {
         "available": true,
         "model": "HRRR",
-        "run_time_utc": "2026-09-23 23:00:00",
-        "rows_received": 73,
-        "max_forecast_hour": 18,
-        "coverage_start_local": "2026-09-23T16:00:00-07:00",
-        "coverage_end_local": "2026-09-24T10:00:00-07:00",
+        "run_time_utc": "2026-09-24 04:00:00",
+        "rows_received": 29,
+        "max_forecast_hour": 7,
+        "coverage_start_local": "2026-09-23T21:00:00-07:00",
+        "coverage_end_local": "2026-09-24T04:00:00-07:00",
         "contract_start_local": "2026-09-23T01:00:00-07:00",
         "contract_end_local": "2026-09-24T01:00:00-07:00",
         "covers_rest_of_contract": true,
-        "remaining_high_f": 90.0,
-        "remaining_high_time_local": "2026-09-23T17:45:00-07:00",
+        "remaining_high_f": 78.59,
+        "remaining_high_time_local": "2026-09-23T22:30:00-07:00",
         "projected_high_f": 93.0
       },
       "HRRR-EXT": {
         "available": true,
         "model": "HRRR-EXT",
-        "run_time_utc": "2026-09-23 18:00:00",
+        "run_time_utc": "2026-09-24 00:00:00",
         "rows_received": 49,
         "max_forecast_hour": 48,
-        "coverage_start_local": "2026-09-23T11:00:00-07:00",
-        "coverage_end_local": "2026-09-25T11:00:00-07:00",
+        "coverage_start_local": "2026-09-23T17:00:00-07:00",
+        "coverage_end_local": "2026-09-25T17:00:00-07:00",
         "contract_start_local": "2026-09-23T01:00:00-07:00",
         "contract_end_local": "2026-09-24T01:00:00-07:00",
         "covers_rest_of_contract": true,
-        "remaining_high_f": 90.2,
-        "remaining_high_time_local": "2026-09-23T18:00:00-07:00",
+        "remaining_high_f": 73.61,
+        "remaining_high_time_local": "2026-09-23T23:00:00-07:00",
         "projected_high_f": 93.0
       },
       "NBM": {
         "available": true,
         "model": "NBM",
-        "run_time_utc": "2026-09-23 22:00:00",
+        "run_time_utc": "2026-09-24 03:00:00",
         "rows_received": 56,
-        "max_forecast_hour": 71,
-        "coverage_start_local": "2026-09-23T16:00:00-07:00",
-        "coverage_end_local": "2026-09-26T14:00:00-07:00",
+        "max_forecast_hour": 72,
+        "coverage_start_local": "2026-09-23T21:00:00-07:00",
+        "coverage_end_local": "2026-09-26T20:00:00-07:00",
         "contract_start_local": "2026-09-23T01:00:00-07:00",
         "contract_end_local": "2026-09-24T01:00:00-07:00",
         "covers_rest_of_contract": true,
-        "remaining_high_f": 90.23,
-        "remaining_high_time_local": "2026-09-23T18:00:00-07:00",
+        "remaining_high_f": 80.15,
+        "remaining_high_time_local": "2026-09-23T23:00:00-07:00",
         "projected_high_f": 93.0
       },
       "RAP": {
         "available": true,
         "model": "RAP",
-        "run_time_utc": "2026-09-23 22:00:00",
-        "rows_received": 22,
-        "max_forecast_hour": 21,
-        "coverage_start_local": "2026-09-23T15:00:00-07:00",
-        "coverage_end_local": "2026-09-24T12:00:00-07:00",
+        "run_time_utc": "2026-09-24 03:00:00",
+        "rows_received": 52,
+        "max_forecast_hour": 51,
+        "coverage_start_local": "2026-09-23T20:00:00-07:00",
+        "coverage_end_local": "2026-09-25T23:00:00-07:00",
         "contract_start_local": "2026-09-23T01:00:00-07:00",
         "contract_end_local": "2026-09-24T01:00:00-07:00",
         "covers_rest_of_contract": true,
-        "remaining_high_f": 87.87,
-        "remaining_high_time_local": "2026-09-23T18:00:00-07:00",
+        "remaining_high_f": 76.89,
+        "remaining_high_time_local": "2026-09-23T23:00:00-07:00",
         "projected_high_f": 93.0
       },
       "GFS-MOS": {
         "available": true,
         "model": "GFS-MOS",
-        "run_time_utc": "2026-09-23 18:00:00",
+        "run_time_utc": "2026-09-24 00:00:00",
         "rows_received": 21,
         "max_forecast_hour": 72,
-        "coverage_start_local": "2026-09-23T17:00:00-07:00",
-        "coverage_end_local": "2026-09-26T11:00:00-07:00",
+        "coverage_start_local": "2026-09-23T23:00:00-07:00",
+        "coverage_end_local": "2026-09-26T17:00:00-07:00",
         "contract_start_local": "2026-09-23T01:00:00-07:00",
         "contract_end_local": "2026-09-24T01:00:00-07:00",
         "covers_rest_of_contract": true,
-        "remaining_high_f": 89.0,
-        "remaining_high_time_local": "2026-09-23T20:00:00-07:00",
+        "remaining_high_f": 82.0,
+        "remaining_high_time_local": "2026-09-23T23:00:00-07:00",
         "projected_high_f": 93.0
       },
       "LAV-MOS": {
         "available": true,
         "model": "LAV-MOS",
-        "run_time_utc": "2026-09-23 23:00:00",
+        "run_time_utc": "2026-09-24 04:00:00",
         "rows_received": 38,
         "max_forecast_hour": 38,
-        "coverage_start_local": "2026-09-23T17:00:00-07:00",
-        "coverage_end_local": "2026-09-25T06:00:00-07:00",
+        "coverage_start_local": "2026-09-23T22:00:00-07:00",
+        "coverage_end_local": "2026-09-25T11:00:00-07:00",
         "contract_start_local": "2026-09-23T01:00:00-07:00",
         "contract_end_local": "2026-09-24T01:00:00-07:00",
         "covers_rest_of_contract": true,
-        "remaining_high_f": 91.0,
-        "remaining_high_time_local": "2026-09-23T18:00:00-07:00",
+        "remaining_high_f": 82.0,
+        "remaining_high_time_local": "2026-09-23T23:00:00-07:00",
         "projected_high_f": 93.0
       }
     },
@@ -466,15 +415,15 @@
   },
   "historical_analogs": {
     "available": true,
-    "count": 40,
-    "checkpoint_hour": 17,
-    "current_temp_f": 91.9,
-    "median_final_high_f": 93.0,
-    "range_80_low_f": 92.0,
-    "range_80_high_f": 94.0,
-    "median_heating_remaining_f": 1.0
+    "count": 8,
+    "checkpoint_hour": 18,
+    "current_temp_f": 82.9,
+    "median_final_high_f": 90.0,
+    "range_80_low_f": 85.4,
+    "range_80_high_f": 97.0,
+    "median_heating_remaining_f": 6.0
   },
-  "next_update_local": "2026-09-23T17:35:00-07:00",
+  "next_update_local": "2026-09-23T23:05:00-07:00",
   "model_accuracy": {
     "7_day": [
       {
@@ -821,6 +770,15 @@
       "checkpoint_hour": 17.0,
       "latest_precise_temp_f": 91.94,
       "latest_temp_f": 92.0,
+      "six_hour_max_f": 93.0,
+      "model_predicted_high_f": 93.0,
+      "nws_am_forecast_high_f": 93.0,
+      "weather_risk": "MEDIUM"
+    },
+    {
+      "checkpoint_hour": 18.0,
+      "latest_precise_temp_f": 82.94,
+      "latest_temp_f": 83.0,
       "six_hour_max_f": 93.0,
       "model_predicted_high_f": 93.0,
       "nws_am_forecast_high_f": 93.0,
