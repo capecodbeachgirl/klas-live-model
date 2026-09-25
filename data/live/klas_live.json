@@ -1,6 +1,6 @@
 {
   "date": "2026-09-24",
-  "updated_at_local": "2026-09-24T22:20:18.105236-07:00",
+  "updated_at_local": "2026-09-24T22:24:04.294920-07:00",
   "latest_metar_time": "2026-09-24T21:56:00-07:00",
   "latest_temp_f": 85.0,
   "latest_precise_temp_f": 84.91999999999999,
@@ -60,8 +60,8 @@
   },
   "radar": {
     "available": true,
-    "latest_time_utc": "2026-09-25T05:06:59+00:00",
-    "prior_time_utc": "2026-09-25T04:36:59+00:00",
+    "latest_time_utc": "2026-09-25T05:12:56+00:00",
+    "prior_time_utc": "2026-09-25T04:42:56+00:00",
     "current": {
       "echo_fraction_by_radius": {
         "0": 0.0,
@@ -249,28 +249,26 @@
     "mean_cloud_fraction_2h": 0.75,
     "cloud_fraction_trend_2h": -0.375,
     "latest_cloud_fraction_below_20000": 0.0,
-    "geocolor_image_url": null,
-    "geocolor_time_utc": null,
-    "infrared_image_url": "https://cdn.star.nesdis.noaa.gov/WFO/vef/13/20262680440_GOES18-ABI-vef-13-600x600.jpg",
-    "infrared_time_utc": "2026-09-25T04:40:00+00:00",
-    "errors": [
-      "GeoColor: HTTPSConnectionPool(host='www.star.nesdis.noaa.gov', port=443): Read timed out. (read timeout=30)"
-    ],
+    "geocolor_image_url": "https://cdn.star.nesdis.noaa.gov/WFO/vef/GEOCOLOR/20262680500_GOES18-ABI-vef-GEOCOLOR-600x600.jpg",
+    "geocolor_time_utc": "2026-09-25T05:00:00+00:00",
+    "infrared_image_url": "https://cdn.star.nesdis.noaa.gov/WFO/vef/13/20262680500_GOES18-ABI-vef-13-600x600.jpg",
+    "infrared_time_utc": "2026-09-25T05:00:00+00:00",
+    "errors": [],
     "image_note": "GOES images are a visual cross-check in this version. The shading label uses KLAS-observed sky cover and does not alter the validated temperature prediction.",
     "source": "NOAA/NESDIS/STAR GOES imagery + KLAS METAR sky cover"
   },
   "wethr": {
     "available": true,
-    "collected_at_local": "2026-09-24T22:19:14.977391-07:00",
+    "collected_at_local": "2026-09-24T22:23:56.947144-07:00",
     "models": {
       "HRRR": {
         "available": true,
         "model": "HRRR",
         "run_time_utc": "2026-09-25 04:00:00",
-        "rows_received": 33,
-        "max_forecast_hour": 8,
+        "rows_received": 69,
+        "max_forecast_hour": 17,
         "coverage_start_local": "2026-09-24T21:00:00-07:00",
-        "coverage_end_local": "2026-09-25T05:00:00-07:00",
+        "coverage_end_local": "2026-09-25T14:00:00-07:00",
         "contract_start_local": "2026-09-24T01:00:00-07:00",
         "contract_end_local": "2026-09-25T01:00:00-07:00",
         "covers_rest_of_contract": true,
