@@ -1,6 +1,6 @@
 {
   "date": "2026-09-25",
-  "updated_at_local": "2026-09-25T12:11:49.208239-07:00",
+  "updated_at_local": "2026-09-25T12:13:14.042927-07:00",
   "latest_metar_time": "2026-09-25T11:56:00-07:00",
   "latest_temp_f": 89.0,
   "latest_precise_temp_f": 89.06,
@@ -27,11 +27,11 @@
     "hours": [
       {
         "time": "2026-09-25T12:00:00-07:00",
-        "temp_f": 89.0,
+        "temp_f": 90.0,
         "pop_pct": 0.0,
         "short_forecast": "Sunny",
         "wind_speed": "5 mph",
-        "wind_direction": "ESE"
+        "wind_direction": "E"
       },
       {
         "time": "2026-09-25T13:00:00-07:00",
@@ -39,13 +39,13 @@
         "pop_pct": 0.0,
         "short_forecast": "Sunny",
         "wind_speed": "7 mph",
-        "wind_direction": "SSE"
+        "wind_direction": "S"
       },
       {
         "time": "2026-09-25T14:00:00-07:00",
         "temp_f": 95.0,
         "pop_pct": 0.0,
-        "short_forecast": "Sunny",
+        "short_forecast": "Mostly Sunny",
         "wind_speed": "8 mph",
         "wind_direction": "S"
       },
@@ -55,7 +55,7 @@
         "pop_pct": 0.0,
         "short_forecast": "Sunny",
         "wind_speed": "10 mph",
-        "wind_direction": "SSW"
+        "wind_direction": "SW"
       },
       {
         "time": "2026-09-25T16:00:00-07:00",
@@ -63,30 +63,30 @@
         "pop_pct": 0.0,
         "short_forecast": "Sunny",
         "wind_speed": "12 mph",
-        "wind_direction": "SSW"
+        "wind_direction": "SW"
       },
       {
         "time": "2026-09-25T17:00:00-07:00",
         "temp_f": 95.0,
-        "pop_pct": 1.0,
+        "pop_pct": 0.0,
         "short_forecast": "Sunny",
         "wind_speed": "12 mph",
-        "wind_direction": "SSW"
+        "wind_direction": "SW"
       },
       {
         "time": "2026-09-25T18:00:00-07:00",
         "temp_f": 94.0,
-        "pop_pct": 1.0,
-        "short_forecast": "Mostly Clear",
+        "pop_pct": 0.0,
+        "short_forecast": "Partly Cloudy",
         "wind_speed": "10 mph",
-        "wind_direction": "SSW"
+        "wind_direction": "SW"
       },
       {
         "time": "2026-09-25T19:00:00-07:00",
-        "temp_f": 92.0,
+        "temp_f": 91.0,
         "pop_pct": 0.0,
         "short_forecast": "Mostly Clear",
-        "wind_speed": "8 mph",
+        "wind_speed": "9 mph",
         "wind_direction": "SW"
       },
       {
@@ -94,11 +94,11 @@
         "temp_f": 88.0,
         "pop_pct": 0.0,
         "short_forecast": "Mostly Clear",
-        "wind_speed": "8 mph",
+        "wind_speed": "9 mph",
         "wind_direction": "SW"
       }
     ],
-    "max_pop_pct": 1.0,
+    "max_pop_pct": 0.0,
     "thunder_possible": false,
     "rain_possible": false,
     "summary": "No meaningful rain/thunder signal in the remaining NWS hourly forecast",
@@ -252,15 +252,15 @@
       "floor_strike": 98.0,
       "cap_strike": 99.0,
       "yes_bid": 0.04,
-      "yes_ask": 0.07,
+      "yes_ask": 0.08,
       "last_price": 0.04,
-      "market_mid": 0.05500000000000001,
+      "market_mid": 0.06,
       "close_time": "2026-09-26T08:00:00Z",
       "occurrence_datetime": "2026-09-26T14:00:00Z",
       "updated_time": "2026-09-24T14:00:01.579811Z",
       "model_probability": 0.07196969696969696,
-      "edge_vs_ask": 0.0019696969696969546,
-      "difference": 0.016969696969696954
+      "edge_vs_ask": -0.00803030303030304,
+      "difference": 0.011969696969696964
     },
     {
       "ticker": "KXHIGHTLV-26SEP25-B100.5",
@@ -363,7 +363,7 @@
   },
   "wethr": {
     "available": true,
-    "collected_at_local": "2026-09-25T12:11:40.964360-07:00",
+    "collected_at_local": "2026-09-25T12:13:09.134835-07:00",
     "models": {
       "HRRR": {
         "available": true,
@@ -397,10 +397,10 @@
         "available": true,
         "model": "NBM",
         "run_time_utc": "2026-09-25 17:00:00",
-        "rows_received": 18,
-        "max_forecast_hour": 18,
+        "rows_received": 24,
+        "max_forecast_hour": 24,
         "coverage_start_local": "2026-09-25T11:00:00-07:00",
-        "coverage_end_local": "2026-09-26T04:00:00-07:00",
+        "coverage_end_local": "2026-09-26T10:00:00-07:00",
         "contract_start_local": "2026-09-25T01:00:00-07:00",
         "contract_end_local": "2026-09-26T01:00:00-07:00",
         "covers_rest_of_contract": true,
@@ -476,7 +476,7 @@
   "wethr_observed_high": {
     "available": true,
     "wethr_high_f": 89.0,
-    "time_of_high_utc": "2026-09-25 19:09:00",
+    "time_of_high_utc": "2026-09-25 19:10:00",
     "sources": [
       "omo",
       "hf_metar",
@@ -485,11 +485,11 @@
     "source_detail": {
       "omo": {
         "first_confirmed_utc": "2026-09-25 18:49:00",
-        "count": 17
+        "count": 18
       },
       "hf_metar": {
         "first_confirmed_utc": "2026-09-25 18:50:00",
-        "count": 4
+        "count": 5
       },
       "metar": {
         "first_confirmed_utc": "2026-09-25 18:56:00",
