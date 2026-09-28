@@ -1,6 +1,6 @@
 {
   "date": "2026-09-27",
-  "updated_at_local": "2026-09-27T22:45:05.471351-07:00",
+  "updated_at_local": "2026-09-27T22:47:22.939367-07:00",
   "latest_metar_time": "2026-09-27T21:56:00-07:00",
   "latest_temp_f": 80.0,
   "latest_precise_temp_f": 80.06,
@@ -63,7 +63,12 @@
     "latest_time_utc": "2026-09-28T05:36:59+00:00",
     "prior_time_utc": "2026-09-28T05:06:59+00:00",
     "current": {
-      "echo_fraction_by_radius": {},
+      "echo_fraction_by_radius": {
+        "0": 0.0,
+        "10": 0.0,
+        "25": 0.0,
+        "50": 0.0
+      },
       "nearest_echo_miles": null
     },
     "prior": {
@@ -244,8 +249,8 @@
     "mean_cloud_fraction_2h": 0.9166666666666666,
     "cloud_fraction_trend_2h": 0.125,
     "latest_cloud_fraction_below_20000": 1.0,
-    "geocolor_image_url": "https://cdn.star.nesdis.noaa.gov/WFO/vef/GEOCOLOR/20262710510_GOES18-ABI-vef-GEOCOLOR-600x600.jpg",
-    "geocolor_time_utc": "2026-09-28T05:10:00+00:00",
+    "geocolor_image_url": "https://cdn.star.nesdis.noaa.gov/WFO/vef/GEOCOLOR/20262710520_GOES18-ABI-vef-GEOCOLOR-600x600.jpg",
+    "geocolor_time_utc": "2026-09-28T05:20:00+00:00",
     "infrared_image_url": "https://cdn.star.nesdis.noaa.gov/WFO/vef/13/20262710520_GOES18-ABI-vef-13-600x600.jpg",
     "infrared_time_utc": "2026-09-28T05:20:00+00:00",
     "errors": [],
@@ -254,7 +259,7 @@
   },
   "wethr": {
     "available": true,
-    "collected_at_local": "2026-09-27T22:44:56.097905-07:00",
+    "collected_at_local": "2026-09-27T22:47:14.762431-07:00",
     "models": {
       "HRRR": {
         "available": true,
@@ -267,8 +272,8 @@
         "contract_start_local": "2026-09-27T01:00:00-07:00",
         "contract_end_local": "2026-09-28T01:00:00-07:00",
         "covers_rest_of_contract": true,
-        "remaining_high_f": 78.82,
-        "remaining_high_time_local": "2026-09-27T22:45:00-07:00",
+        "remaining_high_f": 78.59,
+        "remaining_high_time_local": "2026-09-27T23:00:00-07:00",
         "projected_high_f": 94.0
       },
       "HRRR-EXT": {
