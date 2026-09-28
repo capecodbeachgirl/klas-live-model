@@ -1,6 +1,6 @@
 {
   "date": "2026-09-28",
-  "updated_at_local": "2026-09-28T14:09:50.802275-07:00",
+  "updated_at_local": "2026-09-28T14:12:00.455743-07:00",
   "latest_metar_time": "2026-09-28T13:56:00-07:00",
   "latest_temp_f": 79.0,
   "latest_precise_temp_f": 78.98,
@@ -149,15 +149,10 @@
   },
   "radar": {
     "available": true,
-    "latest_time_utc": "2026-09-28T20:58:05+00:00",
-    "prior_time_utc": "2026-09-28T20:28:05+00:00",
+    "latest_time_utc": "2026-09-28T21:04:58+00:00",
+    "prior_time_utc": "2026-09-28T20:34:58+00:00",
     "current": {
-      "echo_fraction_by_radius": {
-        "0": 0.0,
-        "10": 0.0,
-        "25": 0.0,
-        "50": 0.0
-      },
+      "echo_fraction_by_radius": {},
       "nearest_echo_miles": null
     },
     "prior": {
@@ -185,16 +180,16 @@
       "strike_type": "between",
       "floor_strike": 82.0,
       "cap_strike": 83.0,
-      "yes_bid": 0.82,
+      "yes_bid": 0.81,
       "yes_ask": 0.86,
-      "last_price": 0.83,
-      "market_mid": 0.84,
+      "last_price": 0.8,
+      "market_mid": 0.835,
       "close_time": "2026-09-29T08:00:00Z",
       "occurrence_datetime": "2026-09-29T14:00:00Z",
       "updated_time": "2026-09-27T14:00:03.129158Z",
       "model_probability": 0.8303693570451436,
       "edge_vs_ask": -0.0296306429548564,
-      "difference": -0.009630642954856383
+      "difference": -0.004630642954856379
     },
     {
       "ticker": "KXHIGHTLV-26SEP28-B84.5",
@@ -205,15 +200,15 @@
       "floor_strike": 84.0,
       "cap_strike": 85.0,
       "yes_bid": 0.09,
-      "yes_ask": 0.12,
+      "yes_ask": 0.13,
       "last_price": 0.12,
-      "market_mid": 0.105,
+      "market_mid": 0.11,
       "close_time": "2026-09-29T08:00:00Z",
       "occurrence_datetime": "2026-09-29T14:00:00Z",
       "updated_time": "2026-09-27T14:00:03.129158Z",
       "model_probability": 0.13269493844049246,
-      "edge_vs_ask": 0.012694938440492465,
-      "difference": 0.027694938440492464
+      "edge_vs_ask": 0.002694938440492456,
+      "difference": 0.02269493844049246
     },
     {
       "ticker": "KXHIGHTLV-26SEP28-B86.5",
@@ -225,7 +220,7 @@
       "cap_strike": 87.0,
       "yes_bid": 0.01,
       "yes_ask": 0.02,
-      "last_price": 0.01,
+      "last_price": 0.02,
       "market_mid": 0.015,
       "close_time": "2026-09-29T08:00:00Z",
       "occurrence_datetime": "2026-09-29T14:00:00Z",
@@ -320,7 +315,7 @@
     "cap_strike": 87.0,
     "yes_bid": 0.01,
     "yes_ask": 0.02,
-    "last_price": 0.01,
+    "last_price": 0.02,
     "market_mid": 0.015,
     "close_time": "2026-09-29T08:00:00Z",
     "occurrence_datetime": "2026-09-29T14:00:00Z",
@@ -338,8 +333,8 @@
     "mean_cloud_fraction_2h": 0.875,
     "cloud_fraction_trend_2h": 0.0,
     "latest_cloud_fraction_below_20000": 0.5,
-    "geocolor_image_url": "https://cdn.star.nesdis.noaa.gov/WFO/vef/GEOCOLOR/20262712040_GOES18-ABI-vef-GEOCOLOR-600x600.jpg",
-    "geocolor_time_utc": "2026-09-28T20:40:00+00:00",
+    "geocolor_image_url": "https://cdn.star.nesdis.noaa.gov/WFO/vef/GEOCOLOR/20262712050_GOES18-ABI-vef-GEOCOLOR-600x600.jpg",
+    "geocolor_time_utc": "2026-09-28T20:50:00+00:00",
     "infrared_image_url": "https://cdn.star.nesdis.noaa.gov/WFO/vef/13/20262712040_GOES18-ABI-vef-13-600x600.jpg",
     "infrared_time_utc": "2026-09-28T20:40:00+00:00",
     "errors": [],
@@ -348,7 +343,7 @@
   },
   "wethr": {
     "available": true,
-    "collected_at_local": "2026-09-28T14:09:44.645471-07:00",
+    "collected_at_local": "2026-09-28T14:11:54.809959-07:00",
     "models": {
       "HRRR": {
         "available": true,
@@ -383,28 +378,29 @@
         "available": true,
         "model": "NBM",
         "run_time_utc": "2026-09-28 19:00:00",
-        "rows_received": 9,
-        "max_forecast_hour": 9,
+        "rows_received": 17,
+        "max_forecast_hour": 17,
         "coverage_start_local": "2026-09-28T13:00:00-07:00",
-        "coverage_end_local": "2026-09-28T21:00:00-07:00",
+        "coverage_end_local": "2026-09-29T05:00:00-07:00",
         "contract_start_local": "2026-09-28T01:00:00-07:00",
         "contract_end_local": "2026-09-29T01:00:00-07:00",
-        "covers_rest_of_contract": false,
+        "covers_rest_of_contract": true,
         "remaining_high_f": 80.15,
-        "remaining_high_time_local": "2026-09-28T15:00:00-07:00"
+        "remaining_high_time_local": "2026-09-28T15:00:00-07:00",
+        "projected_high_f": 82.0
       },
       "RAP": {
         "available": true,
         "model": "RAP",
-        "run_time_utc": "2026-09-28 18:00:00",
+        "run_time_utc": "2026-09-28 19:00:00",
         "rows_received": 22,
         "max_forecast_hour": 21,
-        "coverage_start_local": "2026-09-28T11:00:00-07:00",
-        "coverage_end_local": "2026-09-29T08:00:00-07:00",
+        "coverage_start_local": "2026-09-28T12:00:00-07:00",
+        "coverage_end_local": "2026-09-29T09:00:00-07:00",
         "contract_start_local": "2026-09-28T01:00:00-07:00",
         "contract_end_local": "2026-09-29T01:00:00-07:00",
         "covers_rest_of_contract": true,
-        "remaining_high_f": 78.87,
+        "remaining_high_f": 76.17,
         "remaining_high_time_local": "2026-09-28T15:00:00-07:00",
         "projected_high_f": 82.0
       },
@@ -441,9 +437,10 @@
     },
     "consensus": {
       "available": true,
-      "model_count": 4,
+      "model_count": 5,
       "models_used": [
         "HRRR-EXT",
+        "NBM",
         "RAP",
         "GFS-MOS",
         "LAV-MOS"
