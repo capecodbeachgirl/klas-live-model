@@ -1,6 +1,6 @@
 {
   "date": "2026-09-30",
-  "updated_at_local": "2026-09-30T16:24:20.730026-07:00",
+  "updated_at_local": "2026-09-30T16:36:10.790456-07:00",
   "latest_metar_time": "2026-09-30T15:56:00-07:00",
   "latest_temp_f": 92.0,
   "latest_precise_temp_f": 91.94,
@@ -112,8 +112,8 @@
   },
   "radar": {
     "available": true,
-    "latest_time_utc": "2026-09-30T23:14:59+00:00",
-    "prior_time_utc": "2026-09-30T22:44:59+00:00",
+    "latest_time_utc": "2026-09-30T23:28:07+00:00",
+    "prior_time_utc": "2026-09-30T22:58:07+00:00",
     "current": {
       "echo_fraction_by_radius": {
         "0": 0.0,
@@ -148,16 +148,16 @@
       "strike_type": "between",
       "floor_strike": 92.0,
       "cap_strike": 93.0,
-      "yes_bid": 0.9,
-      "yes_ask": 0.91,
-      "last_price": 0.91,
-      "market_mid": 0.905,
+      "yes_bid": 0.92,
+      "yes_ask": 0.96,
+      "last_price": 0.92,
+      "market_mid": 0.94,
       "close_time": "2026-10-01T08:00:00Z",
       "occurrence_datetime": "2026-10-01T14:00:00Z",
       "updated_time": "2026-09-29T14:00:01.941606Z",
       "model_probability": 0.6731366459627329,
-      "edge_vs_ask": -0.2368633540372671,
-      "difference": -0.2318633540372671
+      "edge_vs_ask": -0.28686335403726704,
+      "difference": -0.266863354037267
     },
     {
       "ticker": "KXHIGHTLV-26SEP30-B94.5",
@@ -168,15 +168,15 @@
       "floor_strike": 94.0,
       "cap_strike": 95.0,
       "yes_bid": 0.05,
-      "yes_ask": 0.1,
-      "last_price": 0.1,
-      "market_mid": 0.07500000000000001,
+      "yes_ask": 0.09,
+      "last_price": 0.07,
+      "market_mid": 0.07,
       "close_time": "2026-10-01T08:00:00Z",
       "occurrence_datetime": "2026-10-01T14:00:00Z",
       "updated_time": "2026-09-29T14:00:01.941606Z",
       "model_probability": 0.32142857142857145,
-      "edge_vs_ask": 0.22142857142857145,
-      "difference": 0.24642857142857144
+      "edge_vs_ask": 0.23142857142857146,
+      "difference": 0.25142857142857145
     },
     {
       "ticker": "KXHIGHTLV-26SEP30-B96.5",
@@ -282,15 +282,15 @@
     "floor_strike": 94.0,
     "cap_strike": 95.0,
     "yes_bid": 0.05,
-    "yes_ask": 0.1,
-    "last_price": 0.1,
-    "market_mid": 0.07500000000000001,
+    "yes_ask": 0.09,
+    "last_price": 0.07,
+    "market_mid": 0.07,
     "close_time": "2026-10-01T08:00:00Z",
     "occurrence_datetime": "2026-10-01T14:00:00Z",
     "updated_time": "2026-09-29T14:00:01.941606Z",
     "model_probability": 0.32142857142857145,
-    "edge_vs_ask": 0.22142857142857145,
-    "difference": 0.24642857142857144
+    "edge_vs_ask": 0.23142857142857146,
+    "difference": 0.25142857142857145
   },
   "research_status": "LARGE MODEL/MARKET GAP",
   "satellite": {
@@ -301,31 +301,31 @@
     "mean_cloud_fraction_2h": 0.0,
     "cloud_fraction_trend_2h": 0.0,
     "latest_cloud_fraction_below_20000": 0.0,
-    "geocolor_image_url": "https://cdn.star.nesdis.noaa.gov/WFO/vef/GEOCOLOR/20262732300_GOES18-ABI-vef-GEOCOLOR-600x600.jpg",
-    "geocolor_time_utc": "2026-09-30T23:00:00+00:00",
-    "infrared_image_url": "https://cdn.star.nesdis.noaa.gov/WFO/vef/13/20262732300_GOES18-ABI-vef-13-600x600.jpg",
-    "infrared_time_utc": "2026-09-30T23:00:00+00:00",
+    "geocolor_image_url": "https://cdn.star.nesdis.noaa.gov/WFO/vef/GEOCOLOR/20262732310_GOES18-ABI-vef-GEOCOLOR-600x600.jpg",
+    "geocolor_time_utc": "2026-09-30T23:10:00+00:00",
+    "infrared_image_url": "https://cdn.star.nesdis.noaa.gov/WFO/vef/13/20262732310_GOES18-ABI-vef-13-600x600.jpg",
+    "infrared_time_utc": "2026-09-30T23:10:00+00:00",
     "errors": [],
     "image_note": "GOES images are a visual cross-check in this version. The shading label uses KLAS-observed sky cover and does not alter the validated temperature prediction.",
     "source": "NOAA/NESDIS/STAR GOES imagery + KLAS METAR sky cover"
   },
   "wethr": {
     "available": true,
-    "collected_at_local": "2026-09-30T16:24:15.827310-07:00",
+    "collected_at_local": "2026-09-30T16:36:02.604041-07:00",
     "models": {
       "HRRR": {
         "available": true,
         "model": "HRRR",
         "run_time_utc": "2026-09-30 22:00:00",
-        "rows_received": 57,
-        "max_forecast_hour": 14,
+        "rows_received": 73,
+        "max_forecast_hour": 18,
         "coverage_start_local": "2026-09-30T15:00:00-07:00",
-        "coverage_end_local": "2026-10-01T05:00:00-07:00",
+        "coverage_end_local": "2026-10-01T09:00:00-07:00",
         "contract_start_local": "2026-09-30T01:00:00-07:00",
         "contract_end_local": "2026-10-01T01:00:00-07:00",
         "covers_rest_of_contract": true,
-        "remaining_high_f": 92.68,
-        "remaining_high_time_local": "2026-09-30T16:30:00-07:00",
+        "remaining_high_f": 92.37,
+        "remaining_high_time_local": "2026-09-30T16:45:00-07:00",
         "projected_high_f": 93.0
       },
       "HRRR-EXT": {
@@ -457,7 +457,7 @@
     "range_80_high_f": 94.0,
     "median_heating_remaining_f": 1.0
   },
-  "next_update_local": "2026-09-30T16:35:00-07:00",
+  "next_update_local": "2026-09-30T16:50:00-07:00",
   "model_accuracy": {
     "7_day": [
       {
