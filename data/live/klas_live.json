@@ -1,6 +1,6 @@
 {
   "date": "2026-10-01",
-  "updated_at_local": "2026-10-01T13:15:01.913312-07:00",
+  "updated_at_local": "2026-10-01T13:18:37.749860-07:00",
   "latest_metar_time": "2026-10-01T12:56:00-07:00",
   "latest_temp_f": 89.0,
   "latest_precise_temp_f": 89.06,
@@ -148,10 +148,15 @@
   },
   "radar": {
     "available": true,
-    "latest_time_utc": "2026-10-01T20:06:59+00:00",
-    "prior_time_utc": "2026-10-01T19:36:59+00:00",
+    "latest_time_utc": "2026-10-01T19:58:13+00:00",
+    "prior_time_utc": "2026-10-01T19:28:13+00:00",
     "current": {
-      "echo_fraction_by_radius": {},
+      "echo_fraction_by_radius": {
+        "0": 0.0,
+        "10": 0.0,
+        "25": 0.0,
+        "50": 0.0
+      },
       "nearest_echo_miles": null
     },
     "prior": {
@@ -199,15 +204,15 @@
       "floor_strike": 95.0,
       "cap_strike": 96.0,
       "yes_bid": 0.16,
-      "yes_ask": 0.2,
-      "last_price": 0.18,
-      "market_mid": 0.18,
+      "yes_ask": 0.19,
+      "last_price": 0.16,
+      "market_mid": 0.175,
       "close_time": "2026-10-02T08:00:00Z",
       "occurrence_datetime": "2026-10-02T14:00:00Z",
       "updated_time": "2026-09-30T14:00:01.306598Z",
       "model_probability": 0.22547770700636943,
-      "edge_vs_ask": 0.02547770700636942,
-      "difference": 0.04547770700636944
+      "edge_vs_ask": 0.03547770700636943,
+      "difference": 0.05047770700636944
     },
     {
       "ticker": "KXHIGHTLV-26OCT01-B91.5",
@@ -346,7 +351,7 @@
   },
   "wethr": {
     "available": true,
-    "collected_at_local": "2026-10-01T13:14:55.636417-07:00",
+    "collected_at_local": "2026-10-01T13:18:30.019098-07:00",
     "models": {
       "HRRR": {
         "available": true,
@@ -381,10 +386,10 @@
         "available": true,
         "model": "NBM",
         "run_time_utc": "2026-10-01 18:00:00",
-        "rows_received": 31,
-        "max_forecast_hour": 31,
+        "rows_received": 48,
+        "max_forecast_hour": 48,
         "coverage_start_local": "2026-10-01T12:00:00-07:00",
-        "coverage_end_local": "2026-10-02T18:00:00-07:00",
+        "coverage_end_local": "2026-10-03T11:00:00-07:00",
         "contract_start_local": "2026-10-01T01:00:00-07:00",
         "contract_end_local": "2026-10-02T01:00:00-07:00",
         "covers_rest_of_contract": true,
@@ -461,7 +466,7 @@
   "wethr_observed_high": {
     "available": true,
     "wethr_high_f": 89.0,
-    "time_of_high_utc": "2026-10-01 20:12:00",
+    "time_of_high_utc": "2026-10-01 20:16:00",
     "sources": [
       "omo",
       "hf_metar",
@@ -470,11 +475,11 @@
     "source_detail": {
       "omo": {
         "first_confirmed_utc": "2026-10-01 19:42:00",
-        "count": 25
+        "count": 29
       },
       "hf_metar": {
         "first_confirmed_utc": "2026-10-01 19:45:00",
-        "count": 4
+        "count": 5
       },
       "metar": {
         "first_confirmed_utc": "2026-10-01 19:56:00",
