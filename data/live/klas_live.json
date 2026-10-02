@@ -1,6 +1,6 @@
 {
   "date": "2026-10-02",
-  "updated_at_local": "2026-10-02T12:50:25.842994-07:00",
+  "updated_at_local": "2026-10-02T12:52:29.922712-07:00",
   "latest_metar_time": "2026-10-02T11:56:00-07:00",
   "latest_temp_f": 88.0,
   "latest_precise_temp_f": 87.98,
@@ -198,7 +198,7 @@
       "cap_strike": 95.0,
       "yes_bid": 0.59,
       "yes_ask": 0.66,
-      "last_price": 0.65,
+      "last_price": 0.66,
       "market_mid": 0.625,
       "close_time": "2026-10-03T08:00:00Z",
       "occurrence_datetime": "2026-10-03T14:00:00Z",
@@ -216,15 +216,15 @@
       "floor_strike": 96.0,
       "cap_strike": 97.0,
       "yes_bid": 0.35,
-      "yes_ask": 0.36,
-      "last_price": 0.35,
-      "market_mid": 0.355,
+      "yes_ask": 0.37,
+      "last_price": 0.38,
+      "market_mid": 0.36,
       "close_time": "2026-10-03T08:00:00Z",
       "occurrence_datetime": "2026-10-03T14:00:00Z",
       "updated_time": "2026-10-01T14:00:02.675836Z",
       "model_probability": 0.2752060875079264,
-      "edge_vs_ask": -0.08479391249207358,
-      "difference": -0.07979391249207357
+      "edge_vs_ask": -0.09479391249207358,
+      "difference": -0.08479391249207358
     },
     {
       "ticker": "KXHIGHTLV-26OCT02-B92.5",
@@ -364,7 +364,7 @@
   },
   "wethr": {
     "available": true,
-    "collected_at_local": "2026-10-02T12:50:18.411774-07:00",
+    "collected_at_local": "2026-10-02T12:52:22.421248-07:00",
     "models": {
       "HRRR": {
         "available": true,
@@ -385,10 +385,10 @@
         "available": true,
         "model": "HRRR-EXT",
         "run_time_utc": "2026-10-02 18:00:00",
-        "rows_received": 19,
-        "max_forecast_hour": 18,
+        "rows_received": 49,
+        "max_forecast_hour": 48,
         "coverage_start_local": "2026-10-02T11:00:00-07:00",
-        "coverage_end_local": "2026-10-03T05:00:00-07:00",
+        "coverage_end_local": "2026-10-04T11:00:00-07:00",
         "contract_start_local": "2026-10-02T01:00:00-07:00",
         "contract_end_local": "2026-10-03T01:00:00-07:00",
         "covers_rest_of_contract": true,
@@ -481,7 +481,7 @@
   "wethr_observed_high": {
     "available": true,
     "wethr_high_f": 89.0,
-    "time_of_high_utc": "2026-10-02 19:47:00",
+    "time_of_high_utc": "2026-10-02 19:50:00",
     "sources": [
       "omo",
       "hf_metar"
@@ -489,11 +489,11 @@
     "source_detail": {
       "omo": {
         "first_confirmed_utc": "2026-10-02 19:01:00",
-        "count": 42
+        "count": 44
       },
       "hf_metar": {
         "first_confirmed_utc": "2026-10-02 19:10:00",
-        "count": 8
+        "count": 9
       }
     },
     "omo_informed": true,
