@@ -1,6 +1,6 @@
 {
   "date": "2026-10-03",
-  "updated_at_local": "2026-10-03T01:01:35.632080-07:00",
+  "updated_at_local": "2026-10-03T01:03:51.515146-07:00",
   "latest_metar_time": "2026-10-03T00:56:00-07:00",
   "latest_temp_f": 78.0,
   "latest_precise_temp_f": 78.08,
@@ -292,15 +292,10 @@
   },
   "radar": {
     "available": true,
-    "latest_time_utc": "2026-10-03T07:48:00+00:00",
-    "prior_time_utc": "2026-10-03T07:18:00+00:00",
+    "latest_time_utc": "2026-10-03T07:54:58+00:00",
+    "prior_time_utc": "2026-10-03T07:24:58+00:00",
     "current": {
-      "echo_fraction_by_radius": {
-        "0": 0.0,
-        "10": 0.0,
-        "25": 0.0,
-        "50": 0.0
-      },
+      "echo_fraction_by_radius": {},
       "nearest_echo_miles": null
     },
     "prior": {
@@ -338,7 +333,7 @@
   },
   "wethr": {
     "available": true,
-    "collected_at_local": "2026-10-03T01:01:29.404096-07:00",
+    "collected_at_local": "2026-10-03T01:03:45.223858-07:00",
     "models": {
       "HRRR": {
         "available": true,
@@ -387,15 +382,15 @@
       "RAP": {
         "available": true,
         "model": "RAP",
-        "run_time_utc": "2026-10-03 06:00:00",
+        "run_time_utc": "2026-10-03 07:00:00",
         "rows_received": 22,
         "max_forecast_hour": 21,
-        "coverage_start_local": "2026-10-02T23:00:00-07:00",
-        "coverage_end_local": "2026-10-03T20:00:00-07:00",
+        "coverage_start_local": "2026-10-03T00:00:00-07:00",
+        "coverage_end_local": "2026-10-03T21:00:00-07:00",
         "contract_start_local": "2026-10-03T01:00:00-07:00",
         "contract_end_local": "2026-10-04T01:00:00-07:00",
         "covers_rest_of_contract": false,
-        "remaining_high_f": 94.14,
+        "remaining_high_f": 94.0,
         "remaining_high_time_local": "2026-10-03T15:00:00-07:00"
       },
       "GFS-MOS": {
@@ -449,12 +444,24 @@
     "observed_floor_f": 78.08
   },
   "wethr_observed_high": {
-    "available": false,
-    "wethr_high_f": null,
-    "time_of_high_utc": null,
-    "sources": [],
-    "source_detail": {},
-    "omo_informed": false,
+    "available": true,
+    "wethr_high_f": 78.0,
+    "time_of_high_utc": "2026-10-03 08:01:00",
+    "sources": [
+      "hf_metar",
+      "omo"
+    ],
+    "source_detail": {
+      "hf_metar": {
+        "first_confirmed_utc": "2026-10-03 08:00:00",
+        "count": 1
+      },
+      "omo": {
+        "first_confirmed_utc": "2026-10-03 08:00:00",
+        "count": 2
+      }
+    },
+    "omo_informed": true,
     "data_quality": {
       "nws": {
         "ok": true,
