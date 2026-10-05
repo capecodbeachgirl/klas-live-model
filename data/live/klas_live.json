@@ -1,6 +1,6 @@
 {
   "date": "2026-10-05",
-  "updated_at_local": "2026-10-05T14:55:25.725756-07:00",
+  "updated_at_local": "2026-10-05T14:57:38.672499-07:00",
   "latest_metar_time": "2026-10-05T13:56:00-07:00",
   "latest_temp_f": 93.0,
   "latest_precise_temp_f": 93.02,
@@ -138,10 +138,15 @@
   },
   "radar": {
     "available": true,
-    "latest_time_utc": "2026-10-05T21:48:58+00:00",
-    "prior_time_utc": "2026-10-05T21:18:58+00:00",
+    "latest_time_utc": "2026-10-05T21:48:15+00:00",
+    "prior_time_utc": "2026-10-05T21:18:15+00:00",
     "current": {
-      "echo_fraction_by_radius": {},
+      "echo_fraction_by_radius": {
+        "0": 0.0,
+        "10": 0.0,
+        "25": 0.0,
+        "50": 0.0
+      },
       "nearest_echo_miles": null
     },
     "prior": {
@@ -189,15 +194,15 @@
       "floor_strike": 94.0,
       "cap_strike": 95.0,
       "yes_bid": 0.95,
-      "yes_ask": 0.97,
-      "last_price": 0.98,
-      "market_mid": 0.96,
+      "yes_ask": 0.98,
+      "last_price": 0.97,
+      "market_mid": 0.965,
       "close_time": "2026-10-06T08:00:00Z",
       "occurrence_datetime": "2026-10-06T14:00:00Z",
       "updated_time": "2026-10-04T14:00:03.998606Z",
       "model_probability": 0.2565104166666667,
-      "edge_vs_ask": -0.7134895833333332,
-      "difference": -0.7034895833333332
+      "edge_vs_ask": -0.7234895833333332,
+      "difference": -0.7084895833333333
     },
     {
       "ticker": "KXHIGHTLV-26OCT05-B98.5",
@@ -279,8 +284,8 @@
   "model_method": "nws_anchored",
   "model_bundle": "h14.joblib",
   "observed_floor_f": 93.02,
-  "model_predicted_high_f": 95.79384275930994,
-  "model_correction_f": 0.7938427593099391,
+  "model_predicted_high_f": 95.73931716811423,
+  "model_correction_f": 0.7393171681142263,
   "likely_low_f": 95,
   "likely_high_f": 97,
   "confidence": "MEDIUM",
@@ -289,8 +294,8 @@
     "93": 0.017578125000000003,
     "94": 0.030598958333333336,
     "95": 0.22591145833333337,
-    "96": 0.5123697916666667,
-    "97": 0.16080729166666666,
+    "96": 0.5384114583333334,
+    "97": 0.134765625,
     "98": 0.017578125000000003,
     "99": 0.017578125000000003,
     "100": 0.017578125000000003
@@ -334,7 +339,7 @@
   },
   "wethr": {
     "available": true,
-    "collected_at_local": "2026-10-05T14:55:17.902745-07:00",
+    "collected_at_local": "2026-10-05T14:57:33.889512-07:00",
     "models": {
       "HRRR": {
         "available": true,
@@ -384,17 +389,17 @@
       "RAP": {
         "available": true,
         "model": "RAP",
-        "run_time_utc": "2026-10-05 20:00:00",
-        "rows_received": 22,
-        "max_forecast_hour": 21,
-        "coverage_start_local": "2026-10-05T13:00:00-07:00",
-        "coverage_end_local": "2026-10-06T10:00:00-07:00",
+        "run_time_utc": "2026-10-05 21:00:00",
+        "rows_received": 25,
+        "max_forecast_hour": 25,
+        "coverage_start_local": "2026-10-05T14:00:00-07:00",
+        "coverage_end_local": "2026-10-06T15:00:00-07:00",
         "contract_start_local": "2026-10-05T01:00:00-07:00",
         "contract_end_local": "2026-10-06T01:00:00-07:00",
         "covers_rest_of_contract": true,
-        "remaining_high_f": 93.09,
+        "remaining_high_f": 92.94,
         "remaining_high_time_local": "2026-10-05T15:00:00-07:00",
-        "projected_high_f": 93.09
+        "projected_high_f": 93.02
       },
       "GFS-MOS": {
         "available": true,
@@ -439,10 +444,10 @@
         "LAV-MOS"
       ],
       "median_high_f": 94.0,
-      "mean_high_f": 94.05,
-      "min_high_f": 93.09,
+      "mean_high_f": 94.04,
+      "min_high_f": 93.02,
       "max_high_f": 94.89,
-      "spread_f": 1.8
+      "spread_f": 1.87
     },
     "source": "Wethr.net Forecasts API v2",
     "research_only": true,
@@ -451,7 +456,7 @@
   "wethr_observed_high": {
     "available": true,
     "wethr_high_f": 93.0,
-    "time_of_high_utc": "2026-10-05 21:53:00",
+    "time_of_high_utc": "2026-10-05 21:55:00",
     "sources": [
       "omo",
       "hf_metar",
@@ -460,11 +465,11 @@
     "source_detail": {
       "omo": {
         "first_confirmed_utc": "2026-10-05 20:26:00",
-        "count": 49
+        "count": 51
       },
       "hf_metar": {
         "first_confirmed_utc": "2026-10-05 20:55:00",
-        "count": 9
+        "count": 10
       },
       "metar": {
         "first_confirmed_utc": "2026-10-05 20:56:00",
@@ -811,7 +816,7 @@
       "latest_precise_temp_f": 93.02,
       "latest_temp_f": 93.0,
       "six_hour_max_f": 87.0,
-      "model_predicted_high_f": 95.79384275930994,
+      "model_predicted_high_f": 95.73931716811423,
       "nws_am_forecast_high_f": 95.0,
       "weather_risk": "MEDIUM"
     }
