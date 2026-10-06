@@ -1,6 +1,6 @@
 {
   "date": "2026-10-06",
-  "updated_at_local": "2026-10-06T13:06:51.245032-07:00",
+  "updated_at_local": "2026-10-06T13:10:06.932883-07:00",
   "latest_metar_time": "2026-10-06T12:56:00-07:00",
   "latest_temp_f": 91.0,
   "latest_precise_temp_f": 91.03999999999999,
@@ -187,16 +187,16 @@
       "strike_type": "between",
       "floor_strike": 95.0,
       "cap_strike": 96.0,
-      "yes_bid": 0.63,
+      "yes_bid": 0.58,
       "yes_ask": 0.64,
-      "last_price": 0.64,
-      "market_mid": 0.635,
+      "last_price": 0.59,
+      "market_mid": 0.61,
       "close_time": "2026-10-07T08:00:00Z",
       "occurrence_datetime": "2026-10-07T14:00:00Z",
       "updated_time": "2026-10-05T14:00:02.340965Z",
       "model_probability": 0.6487523992322457,
       "edge_vs_ask": 0.008752399232245689,
-      "difference": 0.013752399232245693
+      "difference": 0.038752399232245716
     },
     {
       "ticker": "KXHIGHTLV-26OCT06-B93.5",
@@ -206,16 +206,16 @@
       "strike_type": "between",
       "floor_strike": 93.0,
       "cap_strike": 94.0,
-      "yes_bid": 0.31,
-      "yes_ask": 0.39,
-      "last_price": 0.39,
-      "market_mid": 0.35,
+      "yes_bid": 0.28,
+      "yes_ask": 0.4,
+      "last_price": 0.4,
+      "market_mid": 0.34,
       "close_time": "2026-10-07T08:00:00Z",
       "occurrence_datetime": "2026-10-07T14:00:00Z",
       "updated_time": "2026-10-05T14:00:02.340965Z",
       "model_probability": 0.25207933461292387,
-      "edge_vs_ask": -0.13792066538707615,
-      "difference": -0.09792066538707611
+      "edge_vs_ask": -0.14792066538707616,
+      "difference": -0.08792066538707616
     },
     {
       "ticker": "KXHIGHTLV-26OCT06-B97.5",
@@ -353,7 +353,7 @@
   },
   "wethr": {
     "available": true,
-    "collected_at_local": "2026-10-06T13:06:43.158084-07:00",
+    "collected_at_local": "2026-10-06T13:09:57.277539-07:00",
     "models": {
       "HRRR": {
         "available": true,
@@ -468,7 +468,7 @@
   "wethr_observed_high": {
     "available": true,
     "wethr_high_f": 91.0,
-    "time_of_high_utc": "2026-10-06 20:02:00",
+    "time_of_high_utc": "2026-10-06 20:05:00",
     "sources": [
       "hf_metar",
       "omo",
@@ -477,11 +477,11 @@
     "source_detail": {
       "hf_metar": {
         "first_confirmed_utc": "2026-10-06 19:30:00",
-        "count": 5
+        "count": 6
       },
       "omo": {
         "first_confirmed_utc": "2026-10-06 19:30:00",
-        "count": 21
+        "count": 23
       },
       "metar": {
         "first_confirmed_utc": "2026-10-06 19:56:00",
