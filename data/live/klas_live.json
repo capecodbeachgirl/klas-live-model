@@ -1,6 +1,6 @@
 {
   "date": "2026-10-09",
-  "updated_at_local": "2026-10-09T16:59:04.539585-07:00",
+  "updated_at_local": "2026-10-09T17:01:44.978555-07:00",
   "latest_metar_time": "2026-10-09T15:56:00-07:00",
   "latest_temp_f": 95.0,
   "latest_precise_temp_f": 95.0,
@@ -26,14 +26,6 @@
   "nws_live_forecast": {
     "available": true,
     "hours": [
-      {
-        "time": "2026-10-09T16:00:00-07:00",
-        "temp_f": 95.0,
-        "pop_pct": 0.0,
-        "short_forecast": "Mostly Sunny",
-        "wind_speed": "8 mph",
-        "wind_direction": "S"
-      },
       {
         "time": "2026-10-09T17:00:00-07:00",
         "temp_f": 96.0,
@@ -71,12 +63,8 @@
     "thunder_possible": false,
     "rain_possible": false,
     "summary": "No meaningful rain/thunder signal in the remaining NWS hourly forecast",
-    "max_sky_cover_pct": 39.0,
+    "max_sky_cover_pct": 27.0,
     "sky_hours": [
-      {
-        "time": "2026-10-09T16:00:00-07:00",
-        "sky_cover_pct": 39.0
-      },
       {
         "time": "2026-10-09T17:00:00-07:00",
         "sky_cover_pct": 27.0
@@ -118,8 +106,8 @@
   },
   "radar": {
     "available": true,
-    "latest_time_utc": "2026-10-09T23:44:59+00:00",
-    "prior_time_utc": "2026-10-09T23:14:59+00:00",
+    "latest_time_utc": "2026-10-09T23:38:58+00:00",
+    "prior_time_utc": "2026-10-09T23:08:58+00:00",
     "current": {
       "echo_fraction_by_radius": {
         "0": 0.0,
@@ -154,16 +142,16 @@
       "strike_type": "between",
       "floor_strike": 96.0,
       "cap_strike": 97.0,
-      "yes_bid": 0.04,
-      "yes_ask": 0.12,
-      "last_price": 0.12,
-      "market_mid": 0.08,
+      "yes_bid": 0.03,
+      "yes_ask": 0.09,
+      "last_price": 0.1,
+      "market_mid": 0.06,
       "close_time": "2026-10-10T08:00:00Z",
       "occurrence_datetime": "2026-10-10T14:00:00Z",
       "updated_time": "2026-10-08T14:00:04.550647Z",
       "model_probability": 0.8145214521452144,
-      "edge_vs_ask": 0.6945214521452144,
-      "difference": 0.7345214521452145
+      "edge_vs_ask": 0.7245214521452145,
+      "difference": 0.7545214521452144
     },
     {
       "ticker": "KXHIGHTLV-26OCT09-B94.5",
@@ -173,16 +161,16 @@
       "strike_type": "between",
       "floor_strike": 94.0,
       "cap_strike": 95.0,
-      "yes_bid": 0.89,
-      "yes_ask": 0.97,
-      "last_price": 0.9,
-      "market_mid": 0.9299999999999999,
+      "yes_bid": 0.92,
+      "yes_ask": 0.98,
+      "last_price": 0.91,
+      "market_mid": 0.95,
       "close_time": "2026-10-10T08:00:00Z",
       "occurrence_datetime": "2026-10-10T14:00:00Z",
       "updated_time": "2026-10-08T14:00:04.550647Z",
       "model_probability": 0.17623762376237623,
-      "edge_vs_ask": -0.7937623762376238,
-      "difference": -0.7537623762376238
+      "edge_vs_ask": -0.8037623762376238,
+      "difference": -0.7737623762376238
     },
     {
       "ticker": "KXHIGHTLV-26OCT09-B98.5",
@@ -264,7 +252,7 @@
   "model_method": "remaining_heating",
   "model_bundle": "h16_remaining.joblib",
   "observed_floor_f": 95.0,
-  "predicted_remaining_heating_f": 1.137482572982573,
+  "predicted_remaining_heating_f": 1.1374825729825733,
   "pre_checkpoint_peak_f": 95.0,
   "model_predicted_high_f": 96.13748257298258,
   "model_correction_f": 0.13748257298257727,
@@ -288,16 +276,16 @@
     "strike_type": "between",
     "floor_strike": 96.0,
     "cap_strike": 97.0,
-    "yes_bid": 0.04,
-    "yes_ask": 0.12,
-    "last_price": 0.12,
-    "market_mid": 0.08,
+    "yes_bid": 0.03,
+    "yes_ask": 0.09,
+    "last_price": 0.1,
+    "market_mid": 0.06,
     "close_time": "2026-10-10T08:00:00Z",
     "occurrence_datetime": "2026-10-10T14:00:00Z",
     "updated_time": "2026-10-08T14:00:04.550647Z",
     "model_probability": 0.8145214521452144,
-    "edge_vs_ask": 0.6945214521452144,
-    "difference": 0.7345214521452145
+    "edge_vs_ask": 0.7245214521452145,
+    "difference": 0.7545214521452144
   },
   "research_status": "EDGE WATCH \u2014 WEATHER RISK MEDIUM",
   "satellite": {
@@ -318,22 +306,21 @@
   },
   "wethr": {
     "available": true,
-    "collected_at_local": "2026-10-09T16:59:00.341927-07:00",
+    "collected_at_local": "2026-10-09T17:01:08.131521-07:00",
     "models": {
       "HRRR": {
         "available": true,
         "model": "HRRR",
-        "run_time_utc": "2026-10-09 22:00:00",
-        "rows_received": 73,
-        "max_forecast_hour": 18,
-        "coverage_start_local": "2026-10-09T15:00:00-07:00",
-        "coverage_end_local": "2026-10-10T09:00:00-07:00",
+        "run_time_utc": "2026-10-09 23:00:00",
+        "rows_received": 25,
+        "max_forecast_hour": 6,
+        "coverage_start_local": "2026-10-09T16:00:00-07:00",
+        "coverage_end_local": "2026-10-09T22:00:00-07:00",
         "contract_start_local": "2026-10-09T01:00:00-07:00",
         "contract_end_local": "2026-10-10T01:00:00-07:00",
-        "covers_rest_of_contract": true,
-        "remaining_high_f": 93.68,
-        "remaining_high_time_local": "2026-10-09T17:00:00-07:00",
-        "projected_high_f": 95.0
+        "covers_rest_of_contract": false,
+        "remaining_high_f": 92.54,
+        "remaining_high_time_local": "2026-10-09T17:15:00-07:00"
       },
       "HRRR-EXT": {
         "available": true,
@@ -346,8 +333,8 @@
         "contract_start_local": "2026-10-09T01:00:00-07:00",
         "contract_end_local": "2026-10-10T01:00:00-07:00",
         "covers_rest_of_contract": true,
-        "remaining_high_f": 94.47,
-        "remaining_high_time_local": "2026-10-09T17:00:00-07:00",
+        "remaining_high_f": 89.4,
+        "remaining_high_time_local": "2026-10-09T18:00:00-07:00",
         "projected_high_f": 95.0
       },
       "NBM": {
@@ -361,8 +348,8 @@
         "contract_start_local": "2026-10-09T01:00:00-07:00",
         "contract_end_local": "2026-10-10T01:00:00-07:00",
         "covers_rest_of_contract": true,
-        "remaining_high_f": 93.83,
-        "remaining_high_time_local": "2026-10-09T17:00:00-07:00",
+        "remaining_high_f": 92.39,
+        "remaining_high_time_local": "2026-10-09T18:00:00-07:00",
         "projected_high_f": 95.0
       },
       "RAP": {
@@ -376,8 +363,8 @@
         "contract_start_local": "2026-10-09T01:00:00-07:00",
         "contract_end_local": "2026-10-10T01:00:00-07:00",
         "covers_rest_of_contract": true,
-        "remaining_high_f": 89.63,
-        "remaining_high_time_local": "2026-10-09T17:00:00-07:00",
+        "remaining_high_f": 86.16,
+        "remaining_high_time_local": "2026-10-09T18:00:00-07:00",
         "projected_high_f": 95.0
       },
       "GFS-MOS": {
@@ -391,8 +378,8 @@
         "contract_start_local": "2026-10-09T01:00:00-07:00",
         "contract_end_local": "2026-10-10T01:00:00-07:00",
         "covers_rest_of_contract": true,
-        "remaining_high_f": 94.0,
-        "remaining_high_time_local": "2026-10-09T17:00:00-07:00",
+        "remaining_high_f": 89.0,
+        "remaining_high_time_local": "2026-10-09T20:00:00-07:00",
         "projected_high_f": 95.0
       },
       "LAV-MOS": {
@@ -406,16 +393,15 @@
         "contract_start_local": "2026-10-09T01:00:00-07:00",
         "contract_end_local": "2026-10-10T01:00:00-07:00",
         "covers_rest_of_contract": true,
-        "remaining_high_f": 94.0,
-        "remaining_high_time_local": "2026-10-09T17:00:00-07:00",
+        "remaining_high_f": 93.0,
+        "remaining_high_time_local": "2026-10-09T18:00:00-07:00",
         "projected_high_f": 95.0
       }
     },
     "consensus": {
       "available": true,
-      "model_count": 6,
+      "model_count": 5,
       "models_used": [
-        "HRRR",
         "HRRR-EXT",
         "NBM",
         "RAP",
@@ -435,7 +421,7 @@
   "wethr_observed_high": {
     "available": true,
     "wethr_high_f": 95.0,
-    "time_of_high_utc": "2026-10-09 23:56:00",
+    "time_of_high_utc": "2026-10-09 23:59:00",
     "sources": [
       "omo",
       "hf_metar",
@@ -445,7 +431,7 @@
     "source_detail": {
       "omo": {
         "first_confirmed_utc": "2026-10-09 21:12:00",
-        "count": 59
+        "count": 62
       },
       "hf_metar": {
         "first_confirmed_utc": "2026-10-09 21:15:00",
