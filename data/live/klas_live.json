@@ -1,6 +1,6 @@
 {
   "date": "2026-10-10",
-  "updated_at_local": "2026-10-10T12:11:38.211484-07:00",
+  "updated_at_local": "2026-10-10T12:14:32.785489-07:00",
   "latest_metar_time": "2026-10-10T11:56:00-07:00",
   "latest_temp_f": 85.0,
   "latest_precise_temp_f": 84.91999999999999,
@@ -16,7 +16,7 @@
   "weather_reasons": [
     "Heavy recent cloud cover",
     "NWS hourly forecast includes thunderstorm potential",
-    "NWS sky cover forecast reaches 98%",
+    "NWS sky cover forecast reaches 95%",
     "Las Vegas NWS discussion contains a convective/monsoon signal"
   ],
   "weather_risk_components": {
@@ -105,43 +105,43 @@
     "thunder_possible": true,
     "rain_possible": true,
     "summary": "NWS hourly forecast includes thunderstorms",
-    "max_sky_cover_pct": 98.0,
+    "max_sky_cover_pct": 95.0,
     "sky_hours": [
       {
         "time": "2026-10-10T12:00:00-07:00",
-        "sky_cover_pct": 88.0
+        "sky_cover_pct": 92.0
       },
       {
         "time": "2026-10-10T13:00:00-07:00",
-        "sky_cover_pct": 90.0
-      },
-      {
-        "time": "2026-10-10T14:00:00-07:00",
-        "sky_cover_pct": 82.0
-      },
-      {
-        "time": "2026-10-10T15:00:00-07:00",
-        "sky_cover_pct": 96.0
-      },
-      {
-        "time": "2026-10-10T16:00:00-07:00",
-        "sky_cover_pct": 80.0
-      },
-      {
-        "time": "2026-10-10T17:00:00-07:00",
-        "sky_cover_pct": 82.0
-      },
-      {
-        "time": "2026-10-10T18:00:00-07:00",
         "sky_cover_pct": 89.0
       },
       {
+        "time": "2026-10-10T14:00:00-07:00",
+        "sky_cover_pct": 94.0
+      },
+      {
+        "time": "2026-10-10T15:00:00-07:00",
+        "sky_cover_pct": 95.0
+      },
+      {
+        "time": "2026-10-10T16:00:00-07:00",
+        "sky_cover_pct": 92.0
+      },
+      {
+        "time": "2026-10-10T17:00:00-07:00",
+        "sky_cover_pct": 95.0
+      },
+      {
+        "time": "2026-10-10T18:00:00-07:00",
+        "sky_cover_pct": 93.0
+      },
+      {
         "time": "2026-10-10T19:00:00-07:00",
-        "sky_cover_pct": 97.0
+        "sky_cover_pct": 91.0
       },
       {
         "time": "2026-10-10T20:00:00-07:00",
-        "sky_cover_pct": 98.0
+        "sky_cover_pct": 93.0
       }
     ],
     "office": "VEF",
@@ -169,15 +169,10 @@
   },
   "radar": {
     "available": true,
-    "latest_time_utc": "2026-10-10T18:52:57+00:00",
-    "prior_time_utc": "2026-10-10T18:22:57+00:00",
+    "latest_time_utc": "2026-10-10T19:06:59+00:00",
+    "prior_time_utc": "2026-10-10T18:36:59+00:00",
     "current": {
-      "echo_fraction_by_radius": {
-        "0": 0.0,
-        "10": 0.0,
-        "25": 0.0,
-        "50": 0.0
-      },
+      "echo_fraction_by_radius": {},
       "nearest_echo_miles": null
     },
     "prior": {
@@ -225,15 +220,15 @@
       "floor_strike": 87.0,
       "cap_strike": 88.0,
       "yes_bid": 0.51,
-      "yes_ask": 0.55,
+      "yes_ask": 0.54,
       "last_price": 0.51,
-      "market_mid": 0.53,
+      "market_mid": 0.525,
       "close_time": "2026-10-11T08:00:00Z",
       "occurrence_datetime": "2026-10-11T14:00:00Z",
       "updated_time": "2026-10-09T14:00:01.737512Z",
       "model_probability": 0.23928342930262314,
-      "edge_vs_ask": -0.3107165706973769,
-      "difference": -0.2907165706973769
+      "edge_vs_ask": -0.3007165706973769,
+      "difference": -0.2857165706973769
     },
     {
       "ticker": "KXHIGHTLV-26OCT10-B91.5",
@@ -371,7 +366,7 @@
   },
   "wethr": {
     "available": true,
-    "collected_at_local": "2026-10-10T12:11:28.510212-07:00",
+    "collected_at_local": "2026-10-10T12:14:23.720738-07:00",
     "models": {
       "HRRR": {
         "available": true,
@@ -405,10 +400,10 @@
         "available": true,
         "model": "NBM",
         "run_time_utc": "2026-10-10 18:00:00",
-        "rows_received": 17,
-        "max_forecast_hour": 22,
+        "rows_received": 32,
+        "max_forecast_hour": 37,
         "coverage_start_local": "2026-10-10T13:00:00-07:00",
-        "coverage_end_local": "2026-10-11T09:00:00-07:00",
+        "coverage_end_local": "2026-10-12T00:00:00-07:00",
         "contract_start_local": "2026-10-10T01:00:00-07:00",
         "contract_end_local": "2026-10-11T01:00:00-07:00",
         "covers_rest_of_contract": true,
