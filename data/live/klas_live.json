@@ -1,6 +1,6 @@
 {
   "date": "2026-10-15",
-  "updated_at_local": "2026-10-15T15:07:36.788932-07:00",
+  "updated_at_local": "2026-10-15T15:08:50.271814-07:00",
   "latest_metar_time": "2026-10-15T14:56:00-07:00",
   "latest_temp_f": 80.0,
   "latest_precise_temp_f": 80.06,
@@ -321,7 +321,7 @@
   },
   "wethr": {
     "available": true,
-    "collected_at_local": "2026-10-15T15:07:29.297560-07:00",
+    "collected_at_local": "2026-10-15T15:08:46.172177-07:00",
     "models": {
       "HRRR": {
         "available": true,
@@ -356,15 +356,16 @@
         "available": true,
         "model": "NBM",
         "run_time_utc": "2026-10-15 21:00:00",
-        "rows_received": 4,
-        "max_forecast_hour": 4,
+        "rows_received": 11,
+        "max_forecast_hour": 11,
         "coverage_start_local": "2026-10-15T15:00:00-07:00",
-        "coverage_end_local": "2026-10-15T18:00:00-07:00",
+        "coverage_end_local": "2026-10-16T01:00:00-07:00",
         "contract_start_local": "2026-10-15T01:00:00-07:00",
         "contract_end_local": "2026-10-16T01:00:00-07:00",
-        "covers_rest_of_contract": false,
+        "covers_rest_of_contract": true,
         "remaining_high_f": 79.97,
-        "remaining_high_time_local": "2026-10-15T17:00:00-07:00"
+        "remaining_high_time_local": "2026-10-15T17:00:00-07:00",
+        "projected_high_f": 80.06
       },
       "RAP": {
         "available": true,
@@ -414,9 +415,10 @@
     },
     "consensus": {
       "available": true,
-      "model_count": 4,
+      "model_count": 5,
       "models_used": [
         "HRRR-EXT",
+        "NBM",
         "RAP",
         "GFS-MOS",
         "LAV-MOS"
@@ -434,7 +436,7 @@
   "wethr_observed_high": {
     "available": true,
     "wethr_high_f": 80.0,
-    "time_of_high_utc": "2026-10-15 22:05:00",
+    "time_of_high_utc": "2026-10-15 22:06:00",
     "sources": [
       "omo",
       "hf_metar",
@@ -443,7 +445,7 @@
     "source_detail": {
       "omo": {
         "first_confirmed_utc": "2026-10-15 21:49:00",
-        "count": 15
+        "count": 16
       },
       "hf_metar": {
         "first_confirmed_utc": "2026-10-15 21:50:00",
