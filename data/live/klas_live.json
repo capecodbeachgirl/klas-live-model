@@ -1,6 +1,6 @@
 {
   "date": "2026-10-16",
-  "updated_at_local": "2026-10-16T16:55:27.588551-07:00",
+  "updated_at_local": "2026-10-16T16:58:39.901423-07:00",
   "latest_metar_time": "2026-10-16T15:56:00-07:00",
   "latest_temp_f": 83.0,
   "latest_precise_temp_f": 82.94,
@@ -116,24 +116,14 @@
   },
   "radar": {
     "available": true,
-    "latest_time_utc": "2026-10-16T23:44:56+00:00",
-    "prior_time_utc": "2026-10-16T23:14:56+00:00",
+    "latest_time_utc": "2026-10-14T17:54:59+00:00",
+    "prior_time_utc": "2026-10-14T17:24:59+00:00",
     "current": {
-      "echo_fraction_by_radius": {
-        "0": 0.0,
-        "10": 0.0,
-        "25": 0.0,
-        "50": 0.0
-      },
+      "echo_fraction_by_radius": {},
       "nearest_echo_miles": null
     },
     "prior": {
-      "echo_fraction_by_radius": {
-        "0": 0.0,
-        "10": 0.0,
-        "25": 0.0,
-        "50": 0.0
-      },
+      "echo_fraction_by_radius": {},
       "nearest_echo_miles": null
     },
     "risk": "LOW",
@@ -152,16 +142,16 @@
       "strike_type": "between",
       "floor_strike": 84.0,
       "cap_strike": 85.0,
-      "yes_bid": 0.03,
-      "yes_ask": 0.08,
-      "last_price": 0.04,
-      "market_mid": 0.055,
+      "yes_bid": 0.05,
+      "yes_ask": 0.1,
+      "last_price": 0.1,
+      "market_mid": 0.07500000000000001,
       "close_time": "2026-10-17T08:00:00Z",
       "occurrence_datetime": "2026-10-17T14:00:00Z",
       "updated_time": "2026-10-15T14:00:02.584983Z",
       "model_probability": 0.6969072164948453,
-      "edge_vs_ask": 0.6169072164948454,
-      "difference": 0.6419072164948453
+      "edge_vs_ask": 0.5969072164948453,
+      "difference": 0.6219072164948454
     },
     {
       "ticker": "KXHIGHTLV-26OCT16-B82.5",
@@ -171,16 +161,16 @@
       "strike_type": "between",
       "floor_strike": 82.0,
       "cap_strike": 83.0,
-      "yes_bid": 0.92,
-      "yes_ask": 0.96,
-      "last_price": 0.97,
-      "market_mid": 0.94,
+      "yes_bid": 0.89,
+      "yes_ask": 0.95,
+      "last_price": 0.89,
+      "market_mid": 0.9199999999999999,
       "close_time": "2026-10-17T08:00:00Z",
       "occurrence_datetime": "2026-10-17T14:00:00Z",
       "updated_time": "2026-10-15T14:00:02.584983Z",
       "model_probability": 0.2934707903780069,
-      "edge_vs_ask": -0.666529209621993,
-      "difference": -0.646529209621993
+      "edge_vs_ask": -0.656529209621993,
+      "difference": -0.626529209621993
     },
     {
       "ticker": "KXHIGHTLV-26OCT16-B86.5",
@@ -286,16 +276,16 @@
     "strike_type": "between",
     "floor_strike": 84.0,
     "cap_strike": 85.0,
-    "yes_bid": 0.03,
-    "yes_ask": 0.08,
-    "last_price": 0.04,
-    "market_mid": 0.055,
+    "yes_bid": 0.05,
+    "yes_ask": 0.1,
+    "last_price": 0.1,
+    "market_mid": 0.07500000000000001,
     "close_time": "2026-10-17T08:00:00Z",
     "occurrence_datetime": "2026-10-17T14:00:00Z",
     "updated_time": "2026-10-15T14:00:02.584983Z",
     "model_probability": 0.6969072164948453,
-    "edge_vs_ask": 0.6169072164948454,
-    "difference": 0.6419072164948453
+    "edge_vs_ask": 0.5969072164948453,
+    "difference": 0.6219072164948454
   },
   "research_status": "EDGE WATCH \u2014 WEATHER RISK MEDIUM",
   "satellite": {
@@ -316,7 +306,7 @@
   },
   "wethr": {
     "available": false,
-    "collected_at_local": "2026-10-16T16:55:23.563735-07:00",
+    "collected_at_local": "2026-10-16T16:58:32.580258-07:00",
     "models": {
       "HRRR": {
         "available": false,
