@@ -1,6 +1,6 @@
 {
   "date": "2026-10-16",
-  "updated_at_local": "2026-10-16T11:42:57.195456-07:00",
+  "updated_at_local": "2026-10-16T11:45:11.817350-07:00",
   "latest_metar_time": "2026-10-16T10:56:00-07:00",
   "latest_temp_f": 77.0,
   "latest_precise_temp_f": 77.0,
@@ -172,19 +172,14 @@
   },
   "radar": {
     "available": true,
-    "latest_time_utc": "2026-10-16T18:36:56+00:00",
-    "prior_time_utc": "2026-10-16T18:06:56+00:00",
+    "latest_time_utc": "2026-10-14T17:54:59+00:00",
+    "prior_time_utc": "2026-10-14T17:24:59+00:00",
     "current": {
       "echo_fraction_by_radius": {},
       "nearest_echo_miles": null
     },
     "prior": {
-      "echo_fraction_by_radius": {
-        "0": 0.0,
-        "10": 0.0,
-        "25": 0.0,
-        "50": 0.0
-      },
+      "echo_fraction_by_radius": {},
       "nearest_echo_miles": null
     },
     "risk": "LOW",
@@ -360,8 +355,8 @@
     "mean_cloud_fraction_2h": 0.0,
     "cloud_fraction_trend_2h": 0.0,
     "latest_cloud_fraction_below_20000": 0.0,
-    "geocolor_image_url": "https://cdn.star.nesdis.noaa.gov/WFO/vef/GEOCOLOR/20262891810_GOES18-ABI-vef-GEOCOLOR-600x600.jpg",
-    "geocolor_time_utc": "2026-10-16T18:10:00+00:00",
+    "geocolor_image_url": "https://cdn.star.nesdis.noaa.gov/WFO/vef/GEOCOLOR/20262891820_GOES18-ABI-vef-GEOCOLOR-600x600.jpg",
+    "geocolor_time_utc": "2026-10-16T18:20:00+00:00",
     "infrared_image_url": "https://cdn.star.nesdis.noaa.gov/WFO/vef/13/20262891820_GOES18-ABI-vef-13-600x600.jpg",
     "infrared_time_utc": "2026-10-16T18:20:00+00:00",
     "errors": [],
@@ -370,7 +365,7 @@
   },
   "wethr": {
     "available": false,
-    "collected_at_local": "2026-10-16T11:42:50.905054-07:00",
+    "collected_at_local": "2026-10-16T11:45:07.911543-07:00",
     "models": {
       "HRRR": {
         "available": false,
