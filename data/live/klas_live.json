@@ -1,6 +1,6 @@
 {
   "date": "2026-10-16",
-  "updated_at_local": "2026-10-16T14:45:10.089523-07:00",
+  "updated_at_local": "2026-10-16T14:47:05.899332-07:00",
   "latest_metar_time": "2026-10-16T13:56:00-07:00",
   "latest_temp_f": 81.0,
   "latest_precise_temp_f": 80.96,
@@ -178,7 +178,7 @@
       "cap_strike": 83.0,
       "yes_bid": 0.58,
       "yes_ask": 0.59,
-      "last_price": 0.58,
+      "last_price": 0.59,
       "market_mid": 0.585,
       "close_time": "2026-10-17T08:00:00Z",
       "occurrence_datetime": "2026-10-17T14:00:00Z",
@@ -312,7 +312,7 @@
     "cap_strike": 83.0,
     "yes_bid": 0.58,
     "yes_ask": 0.59,
-    "last_price": 0.58,
+    "last_price": 0.59,
     "market_mid": 0.585,
     "close_time": "2026-10-17T08:00:00Z",
     "occurrence_datetime": "2026-10-17T14:00:00Z",
@@ -340,7 +340,7 @@
   },
   "wethr": {
     "available": false,
-    "collected_at_local": "2026-10-16T14:45:01.036676-07:00",
+    "collected_at_local": "2026-10-16T14:46:57.667647-07:00",
     "models": {
       "HRRR": {
         "available": false,
