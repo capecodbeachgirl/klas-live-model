@@ -1,6 +1,6 @@
 {
   "date": "2026-10-15",
-  "updated_at_local": "2026-10-15T17:22:18.714351-07:00",
+  "updated_at_local": "2026-10-15T17:24:51.529080-07:00",
   "latest_metar_time": "2026-10-15T16:56:00-07:00",
   "latest_temp_f": 80.0,
   "latest_precise_temp_f": 80.06,
@@ -100,10 +100,15 @@
   },
   "radar": {
     "available": true,
-    "latest_time_utc": "2026-10-16T00:16:58+00:00",
-    "prior_time_utc": "2026-10-15T23:46:58+00:00",
+    "latest_time_utc": "2026-10-16T00:02:56+00:00",
+    "prior_time_utc": "2026-10-15T23:32:56+00:00",
     "current": {
-      "echo_fraction_by_radius": {},
+      "echo_fraction_by_radius": {
+        "0": 0.0,
+        "10": 0.0,
+        "25": 0.0,
+        "50": 0.0
+      },
       "nearest_echo_miles": null
     },
     "prior": {
@@ -241,7 +246,7 @@
   "model_method": "remaining_heating",
   "model_bundle": "h17_remaining.joblib",
   "observed_floor_f": 81.0,
-  "predicted_remaining_heating_f": 0.851468242133683,
+  "predicted_remaining_heating_f": 0.8514682421336832,
   "pre_checkpoint_peak_f": 81.0,
   "model_predicted_high_f": 81.85146824213368,
   "model_correction_f": 2.8514682421336772,
@@ -295,16 +300,16 @@
   },
   "wethr": {
     "available": true,
-    "collected_at_local": "2026-10-15T17:22:11.287070-07:00",
+    "collected_at_local": "2026-10-15T17:24:47.070886-07:00",
     "models": {
       "HRRR": {
         "available": true,
         "model": "HRRR",
         "run_time_utc": "2026-10-15 23:00:00",
-        "rows_received": 65,
-        "max_forecast_hour": 16,
+        "rows_received": 69,
+        "max_forecast_hour": 17,
         "coverage_start_local": "2026-10-15T16:00:00-07:00",
-        "coverage_end_local": "2026-10-16T08:00:00-07:00",
+        "coverage_end_local": "2026-10-16T09:00:00-07:00",
         "contract_start_local": "2026-10-15T01:00:00-07:00",
         "contract_end_local": "2026-10-16T01:00:00-07:00",
         "covers_rest_of_contract": true,
