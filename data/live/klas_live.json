@@ -1,6 +1,6 @@
 {
   "date": "2026-10-18",
-  "updated_at_local": "2026-10-18T13:23:19.735280-07:00",
+  "updated_at_local": "2026-10-18T13:31:30.213375-07:00",
   "latest_metar_time": "2026-10-18T12:56:00-07:00",
   "latest_temp_f": 74.0,
   "latest_precise_temp_f": 73.94,
@@ -152,8 +152,8 @@
   },
   "radar": {
     "available": true,
-    "latest_time_utc": "2026-10-18T20:12:58+00:00",
-    "prior_time_utc": "2026-10-18T19:42:58+00:00",
+    "latest_time_utc": "2026-10-18T20:18:59+00:00",
+    "prior_time_utc": "2026-10-18T19:48:59+00:00",
     "current": {
       "echo_fraction_by_radius": {},
       "nearest_echo_miles": null
@@ -183,16 +183,16 @@
       "strike_type": "between",
       "floor_strike": 77.0,
       "cap_strike": 78.0,
-      "yes_bid": 0.65,
-      "yes_ask": 0.66,
-      "last_price": 0.66,
-      "market_mid": 0.655,
+      "yes_bid": 0.68,
+      "yes_ask": 0.79,
+      "last_price": 0.78,
+      "market_mid": 0.7350000000000001,
       "close_time": "2026-10-19T08:00:00Z",
       "occurrence_datetime": "2026-10-19T14:00:00Z",
       "updated_time": "2026-10-17T14:00:02.347267Z",
       "model_probability": 0.6615483045425463,
-      "edge_vs_ask": 0.001548304542546286,
-      "difference": 0.0065483045425462905
+      "edge_vs_ask": -0.12845169545745372,
+      "difference": -0.07345169545745378
     },
     {
       "ticker": "KXHIGHTLV-26OCT18-B79.5",
@@ -202,16 +202,16 @@
       "strike_type": "between",
       "floor_strike": 79.0,
       "cap_strike": 80.0,
-      "yes_bid": 0.24,
-      "yes_ask": 0.27,
-      "last_price": 0.25,
-      "market_mid": 0.255,
+      "yes_bid": 0.2,
+      "yes_ask": 0.21,
+      "last_price": 0.2,
+      "market_mid": 0.20500000000000002,
       "close_time": "2026-10-19T08:00:00Z",
       "occurrence_datetime": "2026-10-19T14:00:00Z",
       "updated_time": "2026-10-17T14:00:02.347267Z",
       "model_probability": 0.22648752399232247,
-      "edge_vs_ask": -0.04351247600767755,
-      "difference": -0.028512476007677534
+      "edge_vs_ask": 0.016487523992322478,
+      "difference": 0.021487523992322455
     },
     {
       "ticker": "KXHIGHTLV-26OCT18-B75.5",
@@ -221,16 +221,16 @@
       "strike_type": "between",
       "floor_strike": 75.0,
       "cap_strike": 76.0,
-      "yes_bid": 0.01,
+      "yes_bid": 0.03,
       "yes_ask": 0.07,
-      "last_price": 0.06,
-      "market_mid": 0.04,
+      "last_price": 0.08,
+      "market_mid": 0.05,
       "close_time": "2026-10-19T08:00:00Z",
       "occurrence_datetime": "2026-10-19T14:00:00Z",
       "updated_time": "2026-10-17T14:00:02.347267Z",
       "model_probability": 0.060140754958413305,
       "edge_vs_ask": -0.009859245041586702,
-      "difference": 0.020140754958413304
+      "difference": 0.010140754958413302
     },
     {
       "ticker": "KXHIGHTLV-26OCT18-B81.5",
@@ -339,17 +339,17 @@
     "mean_cloud_fraction_2h": 0.875,
     "cloud_fraction_trend_2h": 0.0,
     "latest_cloud_fraction_below_20000": 0.5,
-    "geocolor_image_url": "https://cdn.star.nesdis.noaa.gov/WFO/vef/GEOCOLOR/20262911950_GOES18-ABI-vef-GEOCOLOR-600x600.jpg",
-    "geocolor_time_utc": "2026-10-18T19:50:00+00:00",
-    "infrared_image_url": "https://cdn.star.nesdis.noaa.gov/WFO/vef/13/20262912000_GOES18-ABI-vef-13-600x600.jpg",
-    "infrared_time_utc": "2026-10-18T20:00:00+00:00",
+    "geocolor_image_url": "https://cdn.star.nesdis.noaa.gov/WFO/vef/GEOCOLOR/20262912010_GOES18-ABI-vef-GEOCOLOR-600x600.jpg",
+    "geocolor_time_utc": "2026-10-18T20:10:00+00:00",
+    "infrared_image_url": "https://cdn.star.nesdis.noaa.gov/WFO/vef/13/20262912010_GOES18-ABI-vef-13-600x600.jpg",
+    "infrared_time_utc": "2026-10-18T20:10:00+00:00",
     "errors": [],
     "image_note": "GOES images are a visual cross-check in this version. The shading label uses KLAS-observed sky cover and does not alter the validated temperature prediction.",
     "source": "NOAA/NESDIS/STAR GOES imagery + KLAS METAR sky cover"
   },
   "wethr": {
     "available": false,
-    "collected_at_local": "2026-10-18T13:23:16.217336-07:00",
+    "collected_at_local": "2026-10-18T13:31:23.879338-07:00",
     "models": {
       "HRRR": {
         "available": false,
