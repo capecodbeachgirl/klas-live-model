@@ -1,6 +1,6 @@
 {
   "date": "2026-10-18",
-  "updated_at_local": "2026-10-18T17:26:34.914363-07:00",
+  "updated_at_local": "2026-10-18T17:29:24.720843-07:00",
   "latest_metar_time": "2026-10-18T16:56:00-07:00",
   "latest_temp_f": 77.0,
   "latest_precise_temp_f": 77.0,
@@ -302,7 +302,7 @@
   },
   "wethr": {
     "available": false,
-    "collected_at_local": "2026-10-18T17:26:26.361913-07:00",
+    "collected_at_local": "2026-10-18T17:29:20.231995-07:00",
     "models": {
       "HRRR": {
         "available": false,
