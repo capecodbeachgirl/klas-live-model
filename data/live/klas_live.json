@@ -1,6 +1,6 @@
 {
   "date": "2026-10-20",
-  "updated_at_local": "2026-10-20T15:16:37.365123-07:00",
+  "updated_at_local": "2026-10-20T15:18:27.549422-07:00",
   "latest_metar_time": "2026-10-20T14:56:00-07:00",
   "latest_temp_f": 81.0,
   "latest_precise_temp_f": 80.96,
@@ -188,16 +188,16 @@
       "strike_type": "between",
       "floor_strike": 81.0,
       "cap_strike": 82.0,
-      "yes_bid": 0.61,
+      "yes_bid": 0.6,
       "yes_ask": 0.65,
-      "last_price": 0.64,
-      "market_mid": 0.63,
+      "last_price": 0.65,
+      "market_mid": 0.625,
       "close_time": "2026-10-21T08:00:00Z",
       "occurrence_datetime": "2026-10-21T14:00:00Z",
       "updated_time": "2026-10-19T14:00:01.531651Z",
       "model_probability": 0.2756324900133156,
       "edge_vs_ask": -0.37436750998668444,
-      "difference": -0.3543675099866844
+      "difference": -0.3493675099866844
     },
     {
       "ticker": "KXHIGHTLV-26OCT20-B85.5",
@@ -327,14 +327,14 @@
     "infrared_image_url": null,
     "infrared_time_utc": null,
     "errors": [
-      "GeoColor: 504 Server Error: Gateway Timeout for url: https://www.star.nesdis.noaa.gov/goes/wfo.php?wfo=vef"
+      "GeoColor: 500 Server Error: Internal Server Error for url: https://www.star.nesdis.noaa.gov/goes/wfo.php?wfo=vef"
     ],
     "image_note": "GOES images are a visual cross-check in this version. The shading label uses KLAS-observed sky cover and does not alter the validated temperature prediction.",
     "source": "NOAA/NESDIS/STAR GOES imagery + KLAS METAR sky cover"
   },
   "wethr": {
     "available": false,
-    "collected_at_local": "2026-10-20T15:16:11.795135-07:00",
+    "collected_at_local": "2026-10-20T15:18:03.480639-07:00",
     "models": {
       "HRRR": {
         "available": false,
