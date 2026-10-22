@@ -1,16 +1,16 @@
 {
   "date": "2026-10-22",
-  "updated_at_local": "2026-10-22T01:30:48.247893-07:00",
-  "latest_metar_time": "2026-10-22T00:56:00-07:00",
-  "latest_temp_f": 72.0,
-  "latest_precise_temp_f": 71.96,
-  "latest_dewpoint_f": 54.0,
-  "raw_metar_peak_f": 72.0,
-  "precise_metar_peak_f": 71.96,
+  "updated_at_local": "2026-10-22T07:28:46.332011-07:00",
+  "latest_metar_time": "2026-10-22T06:56:00-07:00",
+  "latest_temp_f": 69.0,
+  "latest_precise_temp_f": 69.08,
+  "latest_dewpoint_f": 50.0,
+  "raw_metar_peak_f": 73.0,
+  "precise_metar_peak_f": 73.04,
   "six_hour_max_f": null,
-  "six_hour_max_report_time": null,
+  "six_hour_max_report_time": "2026-10-22T04:56:00-07:00",
   "nws_am_forecast_high_f": 73.0,
-  "nws_am_issued_at": "2026-10-22T00:17:00-07:00",
+  "nws_am_issued_at": "2026-10-22T04:07:00-07:00",
   "checkpoint_hour": null,
   "weather_risk": "HIGH",
   "weather_reasons": [
@@ -28,54 +28,6 @@
   "nws_live_forecast": {
     "available": true,
     "hours": [
-      {
-        "time": "2026-10-22T01:00:00-07:00",
-        "temp_f": 68.0,
-        "pop_pct": 39.0,
-        "short_forecast": "Scattered Showers And Thunderstorms",
-        "wind_speed": "5 mph",
-        "wind_direction": "SE"
-      },
-      {
-        "time": "2026-10-22T02:00:00-07:00",
-        "temp_f": 67.0,
-        "pop_pct": 24.0,
-        "short_forecast": "Isolated Showers And Thunderstorms",
-        "wind_speed": "5 mph",
-        "wind_direction": "SE"
-      },
-      {
-        "time": "2026-10-22T03:00:00-07:00",
-        "temp_f": 67.0,
-        "pop_pct": 28.0,
-        "short_forecast": "Scattered Showers And Thunderstorms",
-        "wind_speed": "3 mph",
-        "wind_direction": "SSW"
-      },
-      {
-        "time": "2026-10-22T04:00:00-07:00",
-        "temp_f": 66.0,
-        "pop_pct": 30.0,
-        "short_forecast": "Scattered Showers And Thunderstorms",
-        "wind_speed": "3 mph",
-        "wind_direction": "S"
-      },
-      {
-        "time": "2026-10-22T05:00:00-07:00",
-        "temp_f": 66.0,
-        "pop_pct": 46.0,
-        "short_forecast": "Scattered Showers And Thunderstorms",
-        "wind_speed": "3 mph",
-        "wind_direction": "S"
-      },
-      {
-        "time": "2026-10-22T06:00:00-07:00",
-        "temp_f": 65.0,
-        "pop_pct": 44.0,
-        "short_forecast": "Scattered Showers And Thunderstorms",
-        "wind_speed": "5 mph",
-        "wind_direction": "S"
-      },
       {
         "time": "2026-10-22T07:00:00-07:00",
         "temp_f": 65.0,
@@ -196,30 +148,6 @@
     "max_sky_cover_pct": 78.0,
     "sky_hours": [
       {
-        "time": "2026-10-22T01:00:00-07:00",
-        "sky_cover_pct": 68.0
-      },
-      {
-        "time": "2026-10-22T02:00:00-07:00",
-        "sky_cover_pct": 54.0
-      },
-      {
-        "time": "2026-10-22T03:00:00-07:00",
-        "sky_cover_pct": 57.0
-      },
-      {
-        "time": "2026-10-22T04:00:00-07:00",
-        "sky_cover_pct": 59.0
-      },
-      {
-        "time": "2026-10-22T05:00:00-07:00",
-        "sky_cover_pct": 73.0
-      },
-      {
-        "time": "2026-10-22T06:00:00-07:00",
-        "sky_cover_pct": 73.0
-      },
-      {
         "time": "2026-10-22T07:00:00-07:00",
         "sky_cover_pct": 70.0
       },
@@ -283,15 +211,13 @@
   },
   "afd": {
     "available": true,
-    "issued_at": "2026-10-22T07:50:00+00:00",
-    "product_id": "3874d555-d749-467b-b90c-75e7ff894ffb",
-    "text": "\n000\nFXUS65 KVEF 220750\nAFDVEF\n\nArea Forecast Discussion\nNational Weather Service Las Vegas NV\n1250 AM PDT Thu Oct 22 2026\n\n.KEY MESSAGES...\n\n* Additional rounds of rain and storms expected across most of the \n  area today.\n  \n* Dry conditions and seasonable temperatures expected this weekend\n  and early next week. \n\n&&\n\n.DISCUSSION...through Wednesday.\n\nLatest satellite and radar imagery shows two distinct precipitation \nregimes within the forecast area. The most robust convection exists \nin Lincoln County where meso-analysis shows MUCAPE ~1000 J/kg and \neffective shear of 40-50 knots. This environment will keep a \nmarginal threat of severe weather (mainly hail) and flash flooding \npresent through most of the morning hours. The second regime is more \nassociated with vorticity advection and cold air aloft with the low. \nThis activity is much weaker, but persistent moderate rain with a \nfew storms mixed in may cause minor flooding in the most susceptible \nareas of Death Valley this morning. As the low pushes inland today, \nshowers and storms will spread east. The greatest coverage is \nexpected along and north of I-15 and AZ Strip (PoPs 50-90%), with \nmore isolated activity between I-15 and I-40 (PoPs 20-50%). The \nlower instability today should limit the severe potential, but cold \nair aloft and sufficient vertical shear will keep a marginal risk of \nsevere hail in our northeastern areas. By midnight, precipitation is \nforecast to be largely out of our CWA, allowing dry conditions to \nprevail overnight. Isolated shower chances (10-25%) return Friday \nafternoon as the trough lingers overhead, but most locations remain \ndry.\n\nEnsemble guidance has the trough pinching off into a closed low over \nthe weekend, which means it will be slow to exit the region. On \nSaturday, models are in good agreement that the low will be centered \nover northwestern or north-central AZ. This keeps low shower chances \n(10-25%) over eastern Mohave County, while dry conditions and gusty \nnorth winds occur to the west. Dry and calm weather finally returns \nto the entire forecast area on Sunday and sticks around through \nWednesday. During this time, temperatures are forecast to be near or \nslightly below normal for late October.\n\n&&\n\n.AVIATION...For Harry Reid...For the 06Z Forecast \nPackage...Light winds are expected overnight. Increasing south to \nsouthwest winds are expected Thursday late morning through the \nafternoon. Gusts over 20KT are possible, especially after 20Z. Winds \nwill diminish after sunset with gusts ending but elevated south \nwinds around 10KT are expected through Thursday night. Scattered \nshowers are possible Thursday afternoon, with the highest chance for \nrain at the terminals from 20Z-00Z. Isolated thunderstorms are not \nout of the question. If showers were to impact the terminals, they \ncould produce brief moderate to heavy rain and CIGs to 5000ft. \nAnything that is able to develop will diminish after sunset. Expect \nVFR conditions otherwise with CIGs down to 8000ft at times. \n\nFor the rest of southern Nevada, northwest Arizona and southeast \nCalifornia...For the 06Z Forecast Package...Showers with isolated \nthunderstorms will persist through the night, with the highest \nchances in Inyo County into the Southern Great Basin. These showers \nand storms will shift into southern Nevada Thursday, with additional \nshowers developing further south in California in the afternoon. Any \nshowers could bring moderate to heavy rain, CIGs to 5000ft, and any \nthunderstorms would possibly produce lightning and sudden gusty \nwinds. Precipitation will diminish and move east into Utah after \nsunset Thursday. After lighter winds tonight following typical wind \ntrends, breezy south to southwest winds will set up on Thursday. \nWidespread gusts 15-25KT are expected in the afternoon. Winds will \ndiminish around 03Z. but continued winds around 10-15KT are expected \nthrough at least the first part of the night. VFR conditions with \nBKN CIGs 6000-8000ft at times are expected, CIGs will improve as \nrain ends.\n\n&&\n\n.SPOTTER INFORMATION STATEMENT...Spotters are encouraged to report\nany significant weather or impacts according to standard operating\nprocedures.\n\n&&\n\n$$\n\nDISCUSSION...Woods\nAVIATION...Nickerson\n\nFor more forecast information...see us on our webpage:\nhttps://weather.gov/lasvegas or follow us on Facebook and Twitter\n",
-    "risk": "HIGH",
+    "issued_at": "2026-10-22T11:41:00+00:00",
+    "product_id": "b73b7559-7d70-486a-8556-d9eafe338fc7",
+    "text": "\n000\nFXUS65 KVEF 221141\nAFDVEF\n\nArea Forecast Discussion\nNational Weather Service Las Vegas NV\n441 AM PDT Thu Oct 22 2026\n\n.KEY MESSAGES...\n\n* Additional rounds of rain and storms expected across most of the \n  area today.\n  \n* Dry conditions and seasonable temperatures expected this weekend\n  and early next week. \n\n&&\n\n.DISCUSSION...through Wednesday.\n\nLatest satellite and radar imagery shows two distinct precipitation \nregimes within the forecast area. The most robust convection exists \nin Lincoln County where meso-analysis shows MUCAPE ~1000 J/kg and \neffective shear of 40-50 knots. This environment will keep a \nmarginal threat of severe weather (mainly hail) and flash flooding \npresent through most of the morning hours. The second regime is more \nassociated with vorticity advection and cold air aloft with the low. \nThis activity is much weaker, but persistent moderate rain with a \nfew storms mixed in may cause minor flooding in the most susceptible \nareas of Death Valley this morning. As the low pushes inland today, \nshowers and storms will spread east. The greatest coverage is \nexpected along and north of I-15 and AZ Strip (PoPs 50-90%), with \nmore isolated activity between I-15 and I-40 (PoPs 20-50%). The \nlower instability today should limit the severe potential, but cold \nair aloft and sufficient vertical shear will keep a marginal risk of \nsevere hail in our northeastern areas. By midnight, precipitation is \nforecast to be largely out of our CWA, allowing dry conditions to \nprevail overnight. Isolated shower chances (10-25%) return Friday \nafternoon as the trough lingers overhead, but most locations remain \ndry.\n\nEnsemble guidance has the trough pinching off into a closed low over \nthe weekend, which means it will be slow to exit the region. On \nSaturday, models are in good agreement that the low will be centered \nover northwestern or north-central AZ. This keeps low shower chances \n(10-25%) over eastern Mohave County, while dry conditions and gusty \nnorth winds occur to the west. Dry and calm weather finally returns \nto the entire forecast area on Sunday and sticks around through \nWednesday. During this time, temperatures are forecast to be near or \nslightly below normal for late October.\n\n&&\n\n.AVIATION...For Harry Reid...For the 00Z Forecast Package... \nSouth-southwest winds with gusts around 18 kts last until 04z then \nwinds reduce and gusts cut off. Temperatures look to stay above 100 \ndegrees until 06z. Winds become lighter into mid Wednesday morning \nand turn more southeasterly. These winds will increase on the late \nmorning then turn southwesterly again Wednesday afternoon with gusts \naround 18 kts and ease again that evening. Mostly clear skies are \nexpected through the TAF period.\n\nFor the rest of southern Nevada, northwest Arizona and southeast \nCalifornia...For the 00Z Forecast Package...Breezy continue to \naffect most of the region with gusts peaking around 20 kts that will \nlast into the mid evening to early night before reducing. The \nexception will be KDAG which will is beginning to see gusts arrive, \npeaking closer to 25 kts, and not reducing until the late \nnight/early Wednesday. Winds don't look to increase again until the \nlate morning and early afternoon on Wednesday. Mostly clear skies \nare expected through the TAF period.\n\n&&\n\n.SPOTTER INFORMATION STATEMENT...Spotters are encouraged to report\nany significant weather or impacts according to standard operating\nprocedures.\n\n&&\n\n$$\n\nDISCUSSION...Woods\nAVIATION...Murdock\n\nFor more forecast information...see us on our webpage:\nhttps://weather.gov/lasvegas or follow us on Facebook and Twitter\n",
+    "risk": "MEDIUM",
     "high_terms": [],
     "convective_terms": [
-      "thunderstorm",
       "convection",
-      "lightning",
       "showers",
       "shower"
     ],
@@ -301,8 +227,8 @@
   },
   "radar": {
     "available": true,
-    "latest_time_utc": "2026-10-22T08:10:58+00:00",
-    "prior_time_utc": "2026-10-22T07:40:58+00:00",
+    "latest_time_utc": "2026-10-22T14:12:59+00:00",
+    "prior_time_utc": "2026-10-22T13:42:59+00:00",
     "current": {
       "echo_fraction_by_radius": {
         "0": 0.0,
@@ -333,21 +259,21 @@
     "available": true,
     "risk": "HIGH",
     "summary": "Heavy observed cloud cover may be suppressing solar heating at KLAS",
-    "latest_cloud_fraction": 1.0,
-    "mean_cloud_fraction_2h": 1.0,
-    "cloud_fraction_trend_2h": null,
-    "latest_cloud_fraction_below_20000": 1.0,
-    "geocolor_image_url": "https://cdn.star.nesdis.noaa.gov/WFO/vef/GEOCOLOR/20262950800_GOES18-ABI-vef-GEOCOLOR-600x600.jpg",
-    "geocolor_time_utc": "2026-10-22T08:00:00+00:00",
-    "infrared_image_url": "https://cdn.star.nesdis.noaa.gov/WFO/vef/13/20262950810_GOES18-ABI-vef-13-600x600.jpg",
-    "infrared_time_utc": "2026-10-22T08:10:00+00:00",
+    "latest_cloud_fraction": 0.875,
+    "mean_cloud_fraction_2h": 0.875,
+    "cloud_fraction_trend_2h": 0.0,
+    "latest_cloud_fraction_below_20000": 0.875,
+    "geocolor_image_url": "https://cdn.star.nesdis.noaa.gov/WFO/vef/GEOCOLOR/20262951400_GOES18-ABI-vef-GEOCOLOR-600x600.jpg",
+    "geocolor_time_utc": "2026-10-22T14:00:00+00:00",
+    "infrared_image_url": "https://cdn.star.nesdis.noaa.gov/WFO/vef/13/20262951410_GOES18-ABI-vef-13-600x600.jpg",
+    "infrared_time_utc": "2026-10-22T14:10:00+00:00",
     "errors": [],
     "image_note": "GOES images are a visual cross-check in this version. The shading label uses KLAS-observed sky cover and does not alter the validated temperature prediction.",
     "source": "NOAA/NESDIS/STAR GOES imagery + KLAS METAR sky cover"
   },
   "wethr": {
     "available": false,
-    "collected_at_local": "2026-10-22T01:30:41.099341-07:00",
+    "collected_at_local": "2026-10-22T07:28:42.019117-07:00",
     "models": {
       "HRRR": {
         "available": false,
@@ -387,7 +313,7 @@
     },
     "source": "Wethr.net Forecasts API v2",
     "research_only": true,
-    "observed_floor_f": 72.0
+    "observed_floor_f": 73.04
   },
   "wethr_observed_high": {
     "available": false,
@@ -399,7 +325,7 @@
   "historical_analogs": {
     "available": false
   },
-  "next_update_local": "2026-10-22T02:05:00-07:00",
+  "next_update_local": "2026-10-22T08:05:00-07:00",
   "model_accuracy": {
     "7_day": [
       {
@@ -710,6 +636,15 @@
       "checkpoint_hour": null,
       "latest_precise_temp_f": 71.96,
       "latest_temp_f": 72.0,
+      "six_hour_max_f": null,
+      "model_predicted_high_f": null,
+      "nws_am_forecast_high_f": 73.0,
+      "weather_risk": "HIGH"
+    },
+    {
+      "checkpoint_hour": null,
+      "latest_precise_temp_f": 69.08,
+      "latest_temp_f": 69.0,
       "six_hour_max_f": null,
       "model_predicted_high_f": null,
       "nws_am_forecast_high_f": 73.0,
