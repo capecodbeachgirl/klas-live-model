@@ -1,6 +1,6 @@
 {
   "date": "2026-10-22",
-  "updated_at_local": "2026-10-22T15:17:28.976403-07:00",
+  "updated_at_local": "2026-10-22T15:20:54.552025-07:00",
   "latest_metar_time": "2026-10-22T14:56:00-07:00",
   "latest_temp_f": 74.0,
   "latest_precise_temp_f": 73.94,
@@ -134,8 +134,8 @@
   },
   "radar": {
     "available": true,
-    "latest_time_utc": "2026-10-22T21:52:57+00:00",
-    "prior_time_utc": "2026-10-22T21:22:57+00:00",
+    "latest_time_utc": "2026-10-22T22:00:58+00:00",
+    "prior_time_utc": "2026-10-22T21:30:58+00:00",
     "current": {
       "echo_fraction_by_radius": {
         "0": 0.0,
@@ -323,15 +323,15 @@
     "latest_cloud_fraction_below_20000": 0.875,
     "geocolor_image_url": "https://cdn.star.nesdis.noaa.gov/WFO/vef/GEOCOLOR/20262952150_GOES18-ABI-vef-GEOCOLOR-600x600.jpg",
     "geocolor_time_utc": "2026-10-22T21:50:00+00:00",
-    "infrared_image_url": "https://cdn.star.nesdis.noaa.gov/WFO/vef/13/20262952140_GOES18-ABI-vef-13-600x600.jpg",
-    "infrared_time_utc": "2026-10-22T21:40:00+00:00",
+    "infrared_image_url": "https://cdn.star.nesdis.noaa.gov/WFO/vef/13/20262952200_GOES18-ABI-vef-13-600x600.jpg",
+    "infrared_time_utc": "2026-10-22T22:00:00+00:00",
     "errors": [],
     "image_note": "GOES images are a visual cross-check in this version. The shading label uses KLAS-observed sky cover and does not alter the validated temperature prediction.",
     "source": "NOAA/NESDIS/STAR GOES imagery + KLAS METAR sky cover"
   },
   "wethr": {
     "available": false,
-    "collected_at_local": "2026-10-22T15:17:21.962638-07:00",
+    "collected_at_local": "2026-10-22T15:20:50.418181-07:00",
     "models": {
       "HRRR": {
         "available": false,
@@ -389,7 +389,7 @@
     "range_80_high_f": 86.7,
     "median_heating_remaining_f": 3.0
   },
-  "next_update_local": "2026-10-22T15:20:00-07:00",
+  "next_update_local": "2026-10-22T15:35:00-07:00",
   "model_accuracy": {
     "7_day": [
       {
