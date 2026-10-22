@@ -1,6 +1,6 @@
 {
   "date": "2026-10-22",
-  "updated_at_local": "2026-10-22T12:06:15.917763-07:00",
+  "updated_at_local": "2026-10-22T12:10:15.842265-07:00",
   "latest_metar_time": "2026-10-22T11:56:00-07:00",
   "latest_temp_f": 76.0,
   "latest_precise_temp_f": 75.92,
@@ -30,78 +30,78 @@
     "hours": [
       {
         "time": "2026-10-22T12:00:00-07:00",
-        "temp_f": 71.0,
-        "pop_pct": 48.0,
-        "short_forecast": "Scattered Showers And Thunderstorms",
-        "wind_speed": "10 mph",
-        "wind_direction": "S"
-      },
-      {
-        "time": "2026-10-22T13:00:00-07:00",
-        "temp_f": 73.0,
-        "pop_pct": 46.0,
-        "short_forecast": "Scattered Showers And Thunderstorms",
+        "temp_f": 72.0,
+        "pop_pct": 50.0,
+        "short_forecast": "Chance Showers And Thunderstorms",
         "wind_speed": "12 mph",
         "wind_direction": "SSW"
       },
       {
-        "time": "2026-10-22T14:00:00-07:00",
+        "time": "2026-10-22T13:00:00-07:00",
         "temp_f": 72.0,
-        "pop_pct": 55.0,
+        "pop_pct": 50.0,
         "short_forecast": "Chance Showers And Thunderstorms",
         "wind_speed": "13 mph",
-        "wind_direction": "WSW"
+        "wind_direction": "SSW"
+      },
+      {
+        "time": "2026-10-22T14:00:00-07:00",
+        "temp_f": 73.0,
+        "pop_pct": 50.0,
+        "short_forecast": "Chance Showers And Thunderstorms",
+        "wind_speed": "13 mph",
+        "wind_direction": "SW"
       },
       {
         "time": "2026-10-22T15:00:00-07:00",
         "temp_f": 72.0,
-        "pop_pct": 26.0,
-        "short_forecast": "Scattered Showers And Thunderstorms",
+        "pop_pct": 41.0,
+        "short_forecast": "Chance Showers And Thunderstorms",
         "wind_speed": "14 mph",
         "wind_direction": "SW"
       },
       {
         "time": "2026-10-22T16:00:00-07:00",
-        "temp_f": 71.0,
-        "pop_pct": 22.0,
-        "short_forecast": "Isolated Showers And Thunderstorms",
+        "temp_f": 72.0,
+        "pop_pct": 32.0,
+        "short_forecast": "Chance Showers And Thunderstorms",
+        "wind_speed": "14 mph",
+        "wind_direction": "SW"
+      },
+      {
+        "time": "2026-10-22T17:00:00-07:00",
+        "temp_f": 70.0,
+        "pop_pct": 24.0,
+        "short_forecast": "Slight Chance Showers And Thunderstorms",
         "wind_speed": "14 mph",
         "wind_direction": "WSW"
       },
       {
-        "time": "2026-10-22T17:00:00-07:00",
-        "temp_f": 69.0,
-        "pop_pct": 11.0,
-        "short_forecast": "Isolated Showers And Thunderstorms",
-        "wind_speed": "13 mph",
-        "wind_direction": "SW"
-      },
-      {
         "time": "2026-10-22T18:00:00-07:00",
         "temp_f": 67.0,
-        "pop_pct": 7.0,
-        "short_forecast": "Partly Cloudy",
-        "wind_speed": "12 mph",
-        "wind_direction": "SW"
+        "pop_pct": 17.0,
+        "short_forecast": "Slight Chance Showers And Thunderstorms",
+        "wind_speed": "14 mph",
+        "wind_direction": "WSW"
       },
       {
         "time": "2026-10-22T19:00:00-07:00",
         "temp_f": 66.0,
-        "pop_pct": 2.0,
-        "short_forecast": "Mostly Clear",
-        "wind_speed": "12 mph",
+        "pop_pct": 11.0,
+        "short_forecast": "Slight Chance Showers And Thunderstorms",
+        "wind_speed": "13 mph",
         "wind_direction": "WSW"
       },
       {
         "time": "2026-10-22T20:00:00-07:00",
         "temp_f": 65.0,
-        "pop_pct": 1.0,
-        "short_forecast": "Mostly Clear",
-        "wind_speed": "10 mph",
+        "pop_pct": 4.0,
+        "short_forecast": "Partly Cloudy",
+        "wind_speed": "13 mph",
         "wind_direction": "SW"
       }
     ],
-    "max_pop_pct": 55.0,
+    "max_pop_pct": 50.0,
     "thunder_possible": true,
     "rain_possible": true,
     "summary": "NWS hourly forecast includes thunderstorms",
@@ -204,16 +204,16 @@
       "strike_type": "between",
       "floor_strike": 75.0,
       "cap_strike": 76.0,
-      "yes_bid": 0.43,
-      "yes_ask": 0.49,
-      "last_price": 0.43,
-      "market_mid": 0.45999999999999996,
+      "yes_bid": 0.23,
+      "yes_ask": 0.27,
+      "last_price": 0.27,
+      "market_mid": 0.25,
       "close_time": "2026-10-23T08:00:00Z",
       "occurrence_datetime": "2026-10-23T14:00:00Z",
       "updated_time": "2026-10-21T14:00:01.652111Z",
       "model_probability": 0.5360730593607306,
-      "edge_vs_ask": 0.046073059360730584,
-      "difference": 0.07607305936073061
+      "edge_vs_ask": 0.26607305936073056,
+      "difference": 0.2860730593607306
     },
     {
       "ticker": "KXHIGHTLV-26OCT22-T76",
@@ -223,16 +223,16 @@
       "strike_type": "greater",
       "floor_strike": 76.0,
       "cap_strike": null,
-      "yes_bid": 0.52,
-      "yes_ask": 0.59,
-      "last_price": 0.58,
-      "market_mid": 0.5549999999999999,
+      "yes_bid": 0.74,
+      "yes_ask": 0.75,
+      "last_price": 0.72,
+      "market_mid": 0.745,
       "close_time": "2026-10-23T08:00:00Z",
       "occurrence_datetime": "2026-10-23T14:00:00Z",
       "updated_time": "2026-10-21T14:00:01.652111Z",
       "model_probability": 0.4639269406392694,
-      "edge_vs_ask": -0.12607305936073054,
-      "difference": -0.09107305936073051
+      "edge_vs_ask": -0.2860730593607306,
+      "difference": -0.28107305936073057
     },
     {
       "ticker": "KXHIGHTLV-26OCT22-B69.5",
@@ -336,16 +336,16 @@
     "strike_type": "between",
     "floor_strike": 75.0,
     "cap_strike": 76.0,
-    "yes_bid": 0.43,
-    "yes_ask": 0.49,
-    "last_price": 0.43,
-    "market_mid": 0.45999999999999996,
+    "yes_bid": 0.23,
+    "yes_ask": 0.27,
+    "last_price": 0.27,
+    "market_mid": 0.25,
     "close_time": "2026-10-23T08:00:00Z",
     "occurrence_datetime": "2026-10-23T14:00:00Z",
     "updated_time": "2026-10-21T14:00:01.652111Z",
     "model_probability": 0.5360730593607306,
-    "edge_vs_ask": 0.046073059360730584,
-    "difference": 0.07607305936073061
+    "edge_vs_ask": 0.26607305936073056,
+    "difference": 0.2860730593607306
   },
   "research_status": "WEATHER RISK \u2014 WAIT",
   "satellite": {
@@ -366,7 +366,7 @@
   },
   "wethr": {
     "available": false,
-    "collected_at_local": "2026-10-22T12:06:11.430128-07:00",
+    "collected_at_local": "2026-10-22T12:10:05.615677-07:00",
     "models": {
       "HRRR": {
         "available": false,
