@@ -1,11 +1,11 @@
 {
   "date": "2026-10-23",
-  "updated_at_local": "2026-10-23T11:59:32.315398-07:00",
+  "updated_at_local": "2026-10-23T12:05:00.262892-07:00",
   "latest_metar_time": "2026-10-23T11:56:00-07:00",
-  "latest_temp_f": 64.94,
+  "latest_temp_f": 65.0,
   "latest_precise_temp_f": 64.94,
   "latest_dewpoint_f": 41.0,
-  "raw_metar_peak_f": 64.94,
+  "raw_metar_peak_f": 65.0,
   "precise_metar_peak_f": 64.94,
   "six_hour_max_f": 63,
   "six_hour_max_report_time": "2026-10-23T10:56:00-07:00",
@@ -26,16 +26,8 @@
     "available": true,
     "hours": [
       {
-        "time": "2026-10-23T11:00:00-07:00",
-        "temp_f": 65.0,
-        "pop_pct": 0.0,
-        "short_forecast": "Sunny",
-        "wind_speed": "2 mph",
-        "wind_direction": "NNE"
-      },
-      {
         "time": "2026-10-23T12:00:00-07:00",
-        "temp_f": 67.0,
+        "temp_f": 66.0,
         "pop_pct": 1.0,
         "short_forecast": "Sunny",
         "wind_speed": "3 mph",
@@ -43,7 +35,7 @@
       },
       {
         "time": "2026-10-23T13:00:00-07:00",
-        "temp_f": 68.0,
+        "temp_f": 67.0,
         "pop_pct": 1.0,
         "short_forecast": "Sunny",
         "wind_speed": "3 mph",
@@ -51,16 +43,16 @@
       },
       {
         "time": "2026-10-23T14:00:00-07:00",
-        "temp_f": 70.0,
-        "pop_pct": 2.0,
+        "temp_f": 69.0,
+        "pop_pct": 1.0,
         "short_forecast": "Sunny",
         "wind_speed": "5 mph",
         "wind_direction": "ENE"
       },
       {
         "time": "2026-10-23T15:00:00-07:00",
-        "temp_f": 70.0,
-        "pop_pct": 2.0,
+        "temp_f": 69.0,
+        "pop_pct": 1.0,
         "short_forecast": "Sunny",
         "wind_speed": "5 mph",
         "wind_direction": "ENE"
@@ -68,7 +60,7 @@
       {
         "time": "2026-10-23T16:00:00-07:00",
         "temp_f": 70.0,
-        "pop_pct": 2.0,
+        "pop_pct": 1.0,
         "short_forecast": "Sunny",
         "wind_speed": "5 mph",
         "wind_direction": "ENE"
@@ -76,7 +68,7 @@
       {
         "time": "2026-10-23T17:00:00-07:00",
         "temp_f": 69.0,
-        "pop_pct": 2.0,
+        "pop_pct": 1.0,
         "short_forecast": "Sunny",
         "wind_speed": "5 mph",
         "wind_direction": "NE"
@@ -84,15 +76,15 @@
       {
         "time": "2026-10-23T18:00:00-07:00",
         "temp_f": 68.0,
-        "pop_pct": 2.0,
+        "pop_pct": 1.0,
         "short_forecast": "Mostly Clear",
         "wind_speed": "5 mph",
-        "wind_direction": "NNE"
+        "wind_direction": "NE"
       },
       {
         "time": "2026-10-23T19:00:00-07:00",
         "temp_f": 67.0,
-        "pop_pct": 2.0,
+        "pop_pct": 1.0,
         "short_forecast": "Mostly Clear",
         "wind_speed": "5 mph",
         "wind_direction": "NNE"
@@ -100,22 +92,18 @@
       {
         "time": "2026-10-23T20:00:00-07:00",
         "temp_f": 65.0,
-        "pop_pct": 2.0,
+        "pop_pct": 1.0,
         "short_forecast": "Mostly Clear",
-        "wind_speed": "6 mph",
-        "wind_direction": "N"
+        "wind_speed": "5 mph",
+        "wind_direction": "NW"
       }
     ],
-    "max_pop_pct": 2.0,
+    "max_pop_pct": 1.0,
     "thunder_possible": false,
     "rain_possible": false,
     "summary": "No meaningful rain/thunder signal in the remaining NWS hourly forecast",
     "max_sky_cover_pct": 13.0,
     "sky_hours": [
-      {
-        "time": "2026-10-23T11:00:00-07:00",
-        "sky_cover_pct": 5.0
-      },
       {
         "time": "2026-10-23T12:00:00-07:00",
         "sky_cover_pct": 2.0
@@ -175,8 +163,8 @@
   },
   "radar": {
     "available": true,
-    "latest_time_utc": "2026-10-23T18:32:58+00:00",
-    "prior_time_utc": "2026-10-23T18:02:58+00:00",
+    "latest_time_utc": "2026-10-23T18:40:59+00:00",
+    "prior_time_utc": "2026-10-23T18:10:59+00:00",
     "current": {
       "echo_fraction_by_radius": {
         "0": 0.0,
@@ -213,14 +201,14 @@
       "cap_strike": 71.0,
       "yes_bid": 0.74,
       "yes_ask": 0.75,
-      "last_price": 0.74,
+      "last_price": 0.75,
       "market_mid": 0.745,
       "close_time": "2026-10-24T08:00:00Z",
       "occurrence_datetime": "2026-10-24T14:00:00Z",
       "updated_time": "2026-10-22T14:00:03.087178Z",
-      "model_probability": 0.6022727272727273,
-      "edge_vs_ask": -0.1477272727272727,
-      "difference": -0.1427272727272727
+      "model_probability": 0.5922637920101458,
+      "edge_vs_ask": -0.15773620798985422,
+      "difference": -0.1527362079898542
     },
     {
       "ticker": "KXHIGHTLV-26OCT23-B72.5",
@@ -230,16 +218,16 @@
       "strike_type": "between",
       "floor_strike": 72.0,
       "cap_strike": 73.0,
-      "yes_bid": 0.18,
-      "yes_ask": 0.2,
-      "last_price": 0.19,
-      "market_mid": 0.19,
+      "yes_bid": 0.15,
+      "yes_ask": 0.17,
+      "last_price": 0.11,
+      "market_mid": 0.16,
       "close_time": "2026-10-24T08:00:00Z",
       "occurrence_datetime": "2026-10-24T14:00:00Z",
       "updated_time": "2026-10-22T14:00:03.087178Z",
-      "model_probability": 0.2361111111111111,
-      "edge_vs_ask": 0.036111111111111094,
-      "difference": 0.0461111111111111
+      "model_probability": 0.24984147114774885,
+      "edge_vs_ask": 0.07984147114774884,
+      "difference": 0.08984147114774885
     },
     {
       "ticker": "KXHIGHTLV-26OCT23-B68.5",
@@ -249,16 +237,16 @@
       "strike_type": "between",
       "floor_strike": 68.0,
       "cap_strike": 69.0,
-      "yes_bid": 0.05,
-      "yes_ask": 0.07,
-      "last_price": 0.06,
-      "market_mid": 0.060000000000000005,
+      "yes_bid": 0.06,
+      "yes_ask": 0.09,
+      "last_price": 0.07,
+      "market_mid": 0.075,
       "close_time": "2026-10-24T08:00:00Z",
       "occurrence_datetime": "2026-10-24T14:00:00Z",
       "updated_time": "2026-10-22T14:00:03.087178Z",
-      "model_probability": 0.0845959595959596,
-      "edge_vs_ask": 0.014595959595959593,
-      "difference": 0.024595959595959595
+      "model_probability": 0.08497146480659479,
+      "edge_vs_ask": -0.005028535193405209,
+      "difference": 0.00997146480659479
     },
     {
       "ticker": "KXHIGHTLV-26OCT23-T73",
@@ -275,9 +263,9 @@
       "close_time": "2026-10-24T08:00:00Z",
       "occurrence_datetime": "2026-10-24T14:00:00Z",
       "updated_time": "2026-10-22T14:00:03.087178Z",
-      "model_probability": 0.04671717171717172,
-      "edge_vs_ask": 0.03671717171717172,
-      "difference": 0.04171717171717172
+      "model_probability": 0.04692454026632847,
+      "edge_vs_ask": 0.036924540266328465,
+      "difference": 0.04192454026632847
     },
     {
       "ticker": "KXHIGHTLV-26OCT23-B66.5",
@@ -294,9 +282,9 @@
       "close_time": "2026-10-24T08:00:00Z",
       "occurrence_datetime": "2026-10-24T14:00:00Z",
       "updated_time": "2026-10-22T14:00:03.087178Z",
-      "model_probability": 0.021464646464646468,
-      "edge_vs_ask": 0.011464646464646467,
-      "difference": 0.016464646464646467
+      "model_probability": 0.021559923906150916,
+      "edge_vs_ask": 0.011559923906150916,
+      "difference": 0.016559923906150915
     },
     {
       "ticker": "KXHIGHTLV-26OCT23-T66",
@@ -313,55 +301,54 @@
       "close_time": "2026-10-24T08:00:00Z",
       "occurrence_datetime": "2026-10-24T14:00:00Z",
       "updated_time": "2026-10-22T14:00:03.087178Z",
-      "model_probability": 0.008838383838383838,
-      "edge_vs_ask": -0.0011616161616161622,
-      "difference": 0.003838383838383838
+      "model_probability": 0.0044388078630310706,
+      "edge_vs_ask": -0.00556119213696893,
+      "difference": -0.0005611921369689295
     }
   ],
   "model_method": "nws_anchored",
   "model_bundle": "h12.joblib",
-  "observed_floor_f": 64.94,
-  "model_predicted_high_f": 70.82512945330743,
-  "model_correction_f": 0.8251294533074258,
+  "observed_floor_f": 65.0,
+  "model_predicted_high_f": 70.8507386075846,
+  "model_correction_f": 0.8507386075846028,
   "likely_low_f": 69,
   "likely_high_f": 73,
   "confidence": "MEDIUM",
   "model_mae_f": 0.9234740730864509,
   "distribution": {
-    "64": 0.004419191919191919,
-    "65": 0.004419191919191919,
-    "66": 0.004419191919191919,
-    "67": 0.017045454545454548,
-    "68": 0.0422979797979798,
-    "69": 0.0422979797979798,
-    "70": 0.21906565656565657,
-    "71": 0.3832070707070707,
-    "72": 0.18118686868686867,
-    "73": 0.05492424242424242,
-    "74": 0.017045454545454548,
-    "75": 0.029671717171717172
+    "65": 0.0044388078630310706,
+    "66": 0.0044388078630310706,
+    "67": 0.017121116043119847,
+    "68": 0.042485732403297394,
+    "69": 0.042485732403297394,
+    "70": 0.20735573874445148,
+    "71": 0.3849080532656943,
+    "72": 0.19467343056436268,
+    "73": 0.05516804058338617,
+    "74": 0.017121116043119847,
+    "75": 0.02980342422320862
   },
-  "bucket_probability_total": 1.0,
+  "bucket_probability_total": 0.9999999999999999,
   "largest_model_ask_gap": {
-    "ticker": "KXHIGHTLV-26OCT23-T73",
+    "ticker": "KXHIGHTLV-26OCT23-B72.5",
     "event_ticker": "KXHIGHTLV-26OCT23",
-    "title": "Will the maximum temperature be >73\u00b0 on Oct 23, 2026?",
-    "subtitle": "74\u00b0 or above",
-    "strike_type": "greater",
-    "floor_strike": 73.0,
-    "cap_strike": null,
-    "yes_bid": 0.0,
-    "yes_ask": 0.01,
-    "last_price": 0.01,
-    "market_mid": 0.005,
+    "title": "Will the maximum temperature be 72-73\u00b0 on Oct 23, 2026?",
+    "subtitle": "72\u00b0 to 73\u00b0",
+    "strike_type": "between",
+    "floor_strike": 72.0,
+    "cap_strike": 73.0,
+    "yes_bid": 0.15,
+    "yes_ask": 0.17,
+    "last_price": 0.11,
+    "market_mid": 0.16,
     "close_time": "2026-10-24T08:00:00Z",
     "occurrence_datetime": "2026-10-24T14:00:00Z",
     "updated_time": "2026-10-22T14:00:03.087178Z",
-    "model_probability": 0.04671717171717172,
-    "edge_vs_ask": 0.03671717171717172,
-    "difference": 0.04171717171717172
+    "model_probability": 0.24984147114774885,
+    "edge_vs_ask": 0.07984147114774884,
+    "difference": 0.08984147114774885
   },
-  "research_status": "NO STRONG EDGE",
+  "research_status": "WATCH",
   "satellite": {
     "available": true,
     "risk": "LOW",
@@ -380,7 +367,7 @@
   },
   "wethr": {
     "available": false,
-    "collected_at_local": "2026-10-23T11:59:15.936857-07:00",
+    "collected_at_local": "2026-10-23T12:04:54.906992-07:00",
     "models": {
       "HRRR": {
         "available": false,
@@ -420,7 +407,7 @@
     },
     "source": "Wethr.net Forecasts API v2",
     "research_only": true,
-    "observed_floor_f": 64.94
+    "observed_floor_f": 65.0
   },
   "wethr_observed_high": {
     "available": false,
@@ -673,9 +660,9 @@
     {
       "checkpoint_hour": 12.0,
       "latest_precise_temp_f": 64.94,
-      "latest_temp_f": 64.94,
+      "latest_temp_f": 65.0,
       "six_hour_max_f": 63.0,
-      "model_predicted_high_f": 70.82512945330743,
+      "model_predicted_high_f": 70.8507386075846,
       "nws_am_forecast_high_f": 70.0,
       "weather_risk": "LOW"
     }
