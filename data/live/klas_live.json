@@ -1,17 +1,17 @@
 {
   "date": "2026-10-25",
-  "updated_at_local": "2026-10-25T13:58:49.889102-07:00",
-  "latest_metar_time": "2026-10-25T12:56:00-07:00",
-  "latest_temp_f": 70.0,
-  "latest_precise_temp_f": 69.98,
-  "latest_dewpoint_f": 38.0,
-  "raw_metar_peak_f": 70.0,
-  "precise_metar_peak_f": 69.98,
+  "updated_at_local": "2026-10-25T14:00:08.740504-07:00",
+  "latest_metar_time": "2026-10-25T13:56:00-07:00",
+  "latest_temp_f": 71.06,
+  "latest_precise_temp_f": 71.06,
+  "latest_dewpoint_f": 37.04,
+  "raw_metar_peak_f": 71.06,
+  "precise_metar_peak_f": 71.06,
   "six_hour_max_f": 66,
   "six_hour_max_report_time": "2026-10-25T10:56:00-07:00",
   "nws_am_forecast_high_f": 75.0,
   "nws_am_issued_at": "2026-10-25T03:01:00-07:00",
-  "checkpoint_hour": 13,
+  "checkpoint_hour": 14,
   "weather_risk": "LOW",
   "weather_reasons": [
     "No major live weather disruption signal"
@@ -181,9 +181,9 @@
       "close_time": "2026-10-26T08:00:00Z",
       "occurrence_datetime": "2026-10-26T14:00:00Z",
       "updated_time": "2026-10-24T14:00:04.740966Z",
-      "model_probability": 0.645859872611465,
-      "edge_vs_ask": 0.5558598726114651,
-      "difference": 0.5608598726114651
+      "model_probability": 0.6615483045425463,
+      "edge_vs_ask": 0.5715483045425463,
+      "difference": 0.5765483045425464
     },
     {
       "ticker": "KXHIGHTLV-26OCT25-B73.5",
@@ -193,35 +193,16 @@
       "strike_type": "between",
       "floor_strike": 73.0,
       "cap_strike": 74.0,
-      "yes_bid": 0.79,
-      "yes_ask": 0.86,
-      "last_price": 0.86,
-      "market_mid": 0.825,
+      "yes_bid": 0.8,
+      "yes_ask": 0.88,
+      "last_price": 0.89,
+      "market_mid": 0.8400000000000001,
       "close_time": "2026-10-26T08:00:00Z",
       "occurrence_datetime": "2026-10-26T14:00:00Z",
       "updated_time": "2026-10-24T14:00:04.740966Z",
-      "model_probability": 0.25095541401273885,
-      "edge_vs_ask": -0.6090445859872611,
-      "difference": -0.5740445859872612
-    },
-    {
-      "ticker": "KXHIGHTLV-26OCT25-T73",
-      "event_ticker": "KXHIGHTLV-26OCT25",
-      "title": "Will the maximum temperature be <73\u00b0 on Oct 25, 2026?",
-      "subtitle": "72\u00b0 or below",
-      "strike_type": "less",
-      "floor_strike": null,
-      "cap_strike": 73.0,
-      "yes_bid": 0.08,
-      "yes_ask": 0.11,
-      "last_price": 0.11,
-      "market_mid": 0.095,
-      "close_time": "2026-10-26T08:00:00Z",
-      "occurrence_datetime": "2026-10-26T14:00:00Z",
-      "updated_time": "2026-10-24T14:00:05.061734Z",
-      "model_probability": 0.038853503184713374,
-      "edge_vs_ask": -0.07114649681528662,
-      "difference": -0.05614649681528663
+      "model_probability": 0.25207933461292387,
+      "edge_vs_ask": -0.6279206653870761,
+      "difference": -0.5879206653870762
     },
     {
       "ticker": "KXHIGHTLV-26OCT25-B77.5",
@@ -238,9 +219,28 @@
       "close_time": "2026-10-26T08:00:00Z",
       "occurrence_datetime": "2026-10-26T14:00:00Z",
       "updated_time": "2026-10-24T14:00:04.740966Z",
-      "model_probability": 0.034394904458598725,
-      "edge_vs_ask": 0.024394904458598723,
-      "difference": 0.029394904458598724
+      "model_probability": 0.0345489443378119,
+      "edge_vs_ask": 0.0245489443378119,
+      "difference": 0.0295489443378119
+    },
+    {
+      "ticker": "KXHIGHTLV-26OCT25-T73",
+      "event_ticker": "KXHIGHTLV-26OCT25",
+      "title": "Will the maximum temperature be <73\u00b0 on Oct 25, 2026?",
+      "subtitle": "72\u00b0 or below",
+      "strike_type": "less",
+      "floor_strike": null,
+      "cap_strike": 73.0,
+      "yes_bid": 0.08,
+      "yes_ask": 0.11,
+      "last_price": 0.11,
+      "market_mid": 0.095,
+      "close_time": "2026-10-26T08:00:00Z",
+      "occurrence_datetime": "2026-10-26T14:00:00Z",
+      "updated_time": "2026-10-24T14:00:05.061734Z",
+      "model_probability": 0.0345489443378119,
+      "edge_vs_ask": -0.0754510556621881,
+      "difference": -0.0604510556621881
     },
     {
       "ticker": "KXHIGHTLV-26OCT25-B79.5",
@@ -257,9 +257,9 @@
       "close_time": "2026-10-26T08:00:00Z",
       "occurrence_datetime": "2026-10-26T14:00:00Z",
       "updated_time": "2026-10-24T14:00:04.740966Z",
-      "model_probability": 0.029936305732484077,
-      "edge_vs_ask": 0.019936305732484075,
-      "difference": 0.024936305732484076
+      "model_probability": 0.01727447216890595,
+      "edge_vs_ask": 0.007274472168905951,
+      "difference": 0.01227447216890595
     },
     {
       "ticker": "KXHIGHTLV-26OCT25-T80",
@@ -282,27 +282,26 @@
     }
   ],
   "model_method": "nws_anchored",
-  "model_bundle": "h13.joblib",
-  "observed_floor_f": 70.0,
+  "model_bundle": "h14.joblib",
+  "observed_floor_f": 71.06,
   "model_predicted_high_f": 75.0,
   "model_correction_f": 0.0,
   "likely_low_f": 74,
   "likely_high_f": 76,
   "confidence": "HIGH",
-  "model_mae_f": 0.7550828445090019,
+  "model_mae_f": 0.6977868396413381,
   "distribution": {
-    "70": 0.0044585987261146496,
-    "71": 0.0044585987261146496,
-    "72": 0.029936305732484077,
-    "73": 0.029936305732484077,
-    "74": 0.22101910828025478,
-    "75": 0.4375796178343949,
-    "76": 0.20828025477707007,
-    "77": 0.017197452229299363,
-    "78": 0.017197452229299363,
-    "79": 0.029936305732484077
+    "71": 0.004478566858605246,
+    "72": 0.030070377479206652,
+    "73": 0.030070377479206652,
+    "74": 0.2220089571337172,
+    "75": 0.46513115802943056,
+    "76": 0.1964171465131158,
+    "77": 0.01727447216890595,
+    "78": 0.01727447216890595,
+    "79": 0.01727447216890595
   },
-  "bucket_probability_total": 1.0,
+  "bucket_probability_total": 0.9999999999999999,
   "largest_model_ask_gap": {
     "ticker": "KXHIGHTLV-26OCT25-B75.5",
     "event_ticker": "KXHIGHTLV-26OCT25",
@@ -318,9 +317,9 @@
     "close_time": "2026-10-26T08:00:00Z",
     "occurrence_datetime": "2026-10-26T14:00:00Z",
     "updated_time": "2026-10-24T14:00:04.740966Z",
-    "model_probability": 0.645859872611465,
-    "edge_vs_ask": 0.5558598726114651,
-    "difference": 0.5608598726114651
+    "model_probability": 0.6615483045425463,
+    "edge_vs_ask": 0.5715483045425463,
+    "difference": 0.5765483045425464
   },
   "research_status": "LARGE MODEL/MARKET GAP",
   "satellite": {
@@ -341,7 +340,7 @@
   },
   "wethr": {
     "available": false,
-    "collected_at_local": "2026-10-25T13:58:44.280168-07:00",
+    "collected_at_local": "2026-10-25T13:59:56.892884-07:00",
     "models": {
       "HRRR": {
         "available": false,
@@ -381,7 +380,7 @@
     },
     "source": "Wethr.net Forecasts API v2",
     "research_only": true,
-    "observed_floor_f": 70.0
+    "observed_floor_f": 71.06
   },
   "wethr_observed_high": {
     "available": false,
@@ -391,13 +390,13 @@
   },
   "historical_analogs": {
     "available": true,
-    "count": 2,
-    "checkpoint_hour": 13,
-    "current_temp_f": 70.0,
-    "median_final_high_f": 75.0,
-    "range_80_low_f": 74.2,
-    "range_80_high_f": 75.8,
-    "median_heating_remaining_f": 2.5
+    "count": 5,
+    "checkpoint_hour": 14,
+    "current_temp_f": 71.1,
+    "median_final_high_f": 83.0,
+    "range_80_low_f": 74.8,
+    "range_80_high_f": 89.2,
+    "median_heating_remaining_f": 8.0
   },
   "next_update_local": "2026-10-25T14:05:00-07:00",
   "model_accuracy": {
@@ -660,6 +659,15 @@
       "checkpoint_hour": 13.0,
       "latest_precise_temp_f": 69.98,
       "latest_temp_f": 70.0,
+      "six_hour_max_f": 66.0,
+      "model_predicted_high_f": 75.0,
+      "nws_am_forecast_high_f": 75.0,
+      "weather_risk": "LOW"
+    },
+    {
+      "checkpoint_hour": 14.0,
+      "latest_precise_temp_f": 71.06,
+      "latest_temp_f": 71.06,
       "six_hour_max_f": 66.0,
       "model_predicted_high_f": 75.0,
       "nws_am_forecast_high_f": 75.0,
