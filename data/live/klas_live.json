@@ -1,6 +1,6 @@
 {
   "date": "2026-10-26",
-  "updated_at_local": "2026-10-26T13:22:50.673136-07:00",
+  "updated_at_local": "2026-10-26T13:25:42.791575-07:00",
   "latest_metar_time": "2026-10-26T12:56:00-07:00",
   "latest_temp_f": 72.0,
   "latest_precise_temp_f": 71.96,
@@ -180,15 +180,15 @@
       "floor_strike": 76.0,
       "cap_strike": 77.0,
       "yes_bid": 0.74,
-      "yes_ask": 0.77,
+      "yes_ask": 0.76,
       "last_price": 0.77,
-      "market_mid": 0.755,
+      "market_mid": 0.75,
       "close_time": "2026-10-27T08:00:00Z",
       "occurrence_datetime": "2026-10-27T14:00:00Z",
       "updated_time": "2026-10-25T14:00:00.996283Z",
       "model_probability": 0.5821656050955414,
-      "edge_vs_ask": -0.18783439490445863,
-      "difference": -0.17283439490445862
+      "edge_vs_ask": -0.17783439490445863,
+      "difference": -0.16783439490445862
     },
     {
       "ticker": "KXHIGHTLV-26OCT26-B78.5",
@@ -199,15 +199,15 @@
       "floor_strike": 78.0,
       "cap_strike": 79.0,
       "yes_bid": 0.21,
-      "yes_ask": 0.24,
-      "last_price": 0.22,
-      "market_mid": 0.22499999999999998,
+      "yes_ask": 0.26,
+      "last_price": 0.2,
+      "market_mid": 0.235,
       "close_time": "2026-10-27T08:00:00Z",
       "occurrence_datetime": "2026-10-27T14:00:00Z",
       "updated_time": "2026-10-25T14:00:00.996283Z",
       "model_probability": 0.3146496815286624,
-      "edge_vs_ask": 0.07464968152866241,
-      "difference": 0.08964968152866243
+      "edge_vs_ask": 0.0546496815286624,
+      "difference": 0.07964968152866242
     },
     {
       "ticker": "KXHIGHTLV-26OCT26-B74.5",
@@ -317,15 +317,15 @@
     "floor_strike": 78.0,
     "cap_strike": 79.0,
     "yes_bid": 0.21,
-    "yes_ask": 0.24,
-    "last_price": 0.22,
-    "market_mid": 0.22499999999999998,
+    "yes_ask": 0.26,
+    "last_price": 0.2,
+    "market_mid": 0.235,
     "close_time": "2026-10-27T08:00:00Z",
     "occurrence_datetime": "2026-10-27T14:00:00Z",
     "updated_time": "2026-10-25T14:00:00.996283Z",
     "model_probability": 0.3146496815286624,
-    "edge_vs_ask": 0.07464968152866241,
-    "difference": 0.08964968152866243
+    "edge_vs_ask": 0.0546496815286624,
+    "difference": 0.07964968152866242
   },
   "research_status": "WATCH",
   "satellite": {
@@ -346,7 +346,7 @@
   },
   "wethr": {
     "available": false,
-    "collected_at_local": "2026-10-26T13:22:46.128852-07:00",
+    "collected_at_local": "2026-10-26T13:25:36.273436-07:00",
     "models": {
       "HRRR": {
         "available": false,
