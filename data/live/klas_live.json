@@ -1,17 +1,17 @@
 {
   "date": "2026-10-27",
-  "updated_at_local": "2026-10-27T13:00:30.711117-07:00",
-  "latest_metar_time": "2026-10-27T12:56:00-07:00",
-  "latest_temp_f": 75.02,
-  "latest_precise_temp_f": 75.02,
-  "latest_dewpoint_f": 37.94,
-  "raw_metar_peak_f": 75.02,
-  "precise_metar_peak_f": 75.02,
+  "updated_at_local": "2026-10-27T16:40:08.766732-07:00",
+  "latest_metar_time": "2026-10-27T15:56:00-07:00",
+  "latest_temp_f": 81.0,
+  "latest_precise_temp_f": 80.96,
+  "latest_dewpoint_f": 32.0,
+  "raw_metar_peak_f": 81.0,
+  "precise_metar_peak_f": 80.96,
   "six_hour_max_f": 68,
   "six_hour_max_report_time": "2026-10-27T10:56:00-07:00",
   "nws_am_forecast_high_f": 79.0,
   "nws_am_issued_at": "2026-10-27T03:02:00-07:00",
-  "checkpoint_hour": 13,
+  "checkpoint_hour": 16,
   "weather_risk": "LOW",
   "weather_reasons": [
     "No major live weather disruption signal"
@@ -25,30 +25,6 @@
   "nws_live_forecast": {
     "available": true,
     "hours": [
-      {
-        "time": "2026-10-27T13:00:00-07:00",
-        "temp_f": 76.0,
-        "pop_pct": 0.0,
-        "short_forecast": "Sunny",
-        "wind_speed": "8 mph",
-        "wind_direction": "S"
-      },
-      {
-        "time": "2026-10-27T14:00:00-07:00",
-        "temp_f": 77.0,
-        "pop_pct": 0.0,
-        "short_forecast": "Sunny",
-        "wind_speed": "9 mph",
-        "wind_direction": "S"
-      },
-      {
-        "time": "2026-10-27T15:00:00-07:00",
-        "temp_f": 78.0,
-        "pop_pct": 0.0,
-        "short_forecast": "Sunny",
-        "wind_speed": "9 mph",
-        "wind_direction": "S"
-      },
       {
         "time": "2026-10-27T16:00:00-07:00",
         "temp_f": 79.0,
@@ -97,18 +73,6 @@
     "max_sky_cover_pct": 13.0,
     "sky_hours": [
       {
-        "time": "2026-10-27T13:00:00-07:00",
-        "sky_cover_pct": 3.0
-      },
-      {
-        "time": "2026-10-27T14:00:00-07:00",
-        "sky_cover_pct": 3.0
-      },
-      {
-        "time": "2026-10-27T15:00:00-07:00",
-        "sky_cover_pct": 6.0
-      },
-      {
         "time": "2026-10-27T16:00:00-07:00",
         "sky_cover_pct": 4.0
       },
@@ -136,9 +100,9 @@
   },
   "afd": {
     "available": true,
-    "issued_at": "2026-10-27T17:25:00+00:00",
-    "product_id": "8665334a-eab3-4d95-a5fe-4bedeba45609",
-    "text": "\n000\nFXUS65 KVEF 271725\nAFDVEF\n\nArea Forecast Discussion\nNational Weather Service Las Vegas NV\n1025 AM PDT Tue Oct 27 2026\n\n.KEY MESSAGES...\n\n* Dry and seasonable weather conditions through at least Thursday.\n\n* Precipitation chances and cooler temperatures will return to the\n  region later this week, continuing through the weekend. \n\n&&\n\n.DISCUSSION...through Monday.\n\nZonal flow maintains mostly quiet weather conditions and mild \ntemperatures for the next couple of days. A weak shortwave moving \nalong this pattern will prompt breezy southerly winds across much of \nthe area this afternoon, with peak gusts between 15 and 25 mph. \nTemperatures will be within a few degrees of normal through \nThursday, which includes highs in the upper 70s for Las Vegas, the \nlow 80s in the Colorado River Valley, and the upper 60s to low 70s \nin Owens Valley. \n\nA pattern shift arrives later this week as a longwave trough \napproaches the West Coast. The initial push of moisture will occur on \nThursday and Friday as Tropical Storm Vance travels up the Gulf of \nCalifornia ahead of the trough and PWATS rise to upwards of 200 \npercent of normal. Precipitation chances on Thursday night into \nFriday favor northwestern Arizona and southeastern Nevada with POPs \nin the 20 to 60 percent range, particularly over high terrain. \nHowever, more substantial moisture advection will take place on \nSaturday and Sunday as the trough moves inland and draws subtropical \nmoisture into the region. There is still a good amount of \ndiscrepancy between models regarding the trajectory of this \nmoisture, which will heavily influence precipitation amounts. If the \nsouthwesterly flow solution plays out, the rain shadow will limit \nprecipitation totals across the Mojave Desert. However, moisture \nwill reach far further inland if the flow takes a more southerly \ndirection. The presence of an embedded shortwave also has the \npotential to boost precipitation totals. Given these uncertainties, \nplease continue to monitor the forecast for updates over the next \nfew days. \n\n&&\n \n.AVIATION...For Harry Reid...For the 18Z Forecast Package...\nLight easterly winds this morning become SE early this afternoon. \nSpeeds should remain less than 8 knots before 22-23z then increase \nonce the S-SSW shift occurs with gusts of 20 to 25 kt. Gusts persist \nthrough sunset before speeds diminish to 8 knots or less for the \novernight period. VFR conditions will prevail through the TAF \nperiod, with mainly clear skies into the afternoon before SCT high \nclouds with bases AOA 20kft AGL spread into the area during the \nevening and overnight. A similar diurnal wind pattern is expected \nagain tomorrow. \n\nFor the rest of southern Nevada, northwest Arizona and southeast \nCalifornia...For the 18Z Forecast Package...Winds will follow \ntypical diurnal directional trends today with light winds through \nthe morning before speeds increase with gusts to 20 kt in most areas \nduring the mid afternoon and evening. Lighter winds return for the \novernight period. VFR conditions will prevail through the TAF \nperiod, with SCT high clouds overspreading the area from west to \neast later this afternoon through tonight. A similar diurnal wind \npattern is expected again tomorrow.  \n\n&&\n\n.SPOTTER INFORMATION STATEMENT...Spotters are encouraged to report\nany significant weather or impacts according to standard operating\nprocedures.\n\n&&\n\n$$\n\nDISCUSSION...Meltzer \nAVIATION...Moore\n\nFor more forecast information...see us on our webpage: \nhttps://weather.gov/lasvegas or follow us on Facebook and Twitter\n",
+    "issued_at": "2026-10-27T21:32:00+00:00",
+    "product_id": "27688a42-ede0-4dab-bbfd-a13eea6f45a7",
+    "text": "\n000\nFXUS65 KVEF 272132\nAFDVEF\n\nArea Forecast Discussion\nNational Weather Service Las Vegas NV\n232 PM PDT Tue Oct 27 2026\n\n.KEY MESSAGES...\n\n*Dry and seasonable conditions continue through Thursday.\n\n*Precipitation chances and cooler temperatures return to the\n region late this week and continue through the weekend.\n\n&&\n\n.DISCUSSION...\n\nPer latest water vapor imagery and 500 hPa analysis, quasi-zonal \nflow persists over much of the west, maintaining quiescent \nconditions across the region. Temperatures today through Thursday \nwill remain close to seasonal normals, with dry conditions and \nintermittent afternoon breezes forecast. Temperatures each day \nwill top out in the 70s and 80s for lower elevations with 60s in \nthe mountains, and overnight lows dropping into the 40s and 50s \nfor most.\n\nFlow aloft will transition southwesterly late Thursday ahead of a\ntrough taking shape off of the West Coast. Concurrently, a fetch \nof moisture associated with Tropical Storm Vance will move \nnorthward up the Colorado River Valley, resulting in a return of \nprecipitation chances across Mohave County and portions of Clark \nand Lincoln Counties as early as Thursday night, persisting\nthrough Saturday. The aforementioned trough will continue \ndeepening along the West Coast, developing into a split flow \nscenario with a secondary shortwave developing over southern\nCalifornia while the core of the trough remains over the Pacific \nNorthwest. This evolution will limit the winds that are generally \nexpected with these systems, though as the trough axes move over \nthe region during the weekend, precipitation chances become \nwidespread Saturday evening through Sunday. There is uncertainty \nregarding precipitation amounts, with the current forecast \nranging from around a tenth to a half inch across lower elevations \nand up to an inch in the mountains and localized areas in Mohave \nCounty. This will likely change, dependent on the trajectory of \nthe moisture plumes associated with TS Vance and the incoming \ntrough, as well as the amplitude and trajectory of the trough \nitself. Mountain snow is another expectation with this weekend's \nsystem, mainly over the Sierra and the Spring Mountains. \nCurrently, snow levels look to remain around 8500 feet or above \nfor a majority of the event, with minor snow accumulations \nexpected before precipitation moves out of the region Sunday \nnight. Cooler, dry, and breezy conditions will then follow for \nMonday, with highs around 5 to 10 degrees below normal. For those \nkeeping track, the last time Las Vegas had measurable rain on \nHalloween was all the way back in 1987, when a record rainfall for\nthe day of 0.25 inch was observed. So stay tuned, and start \nplanning ahead for potentially soggy trick-or-treating!\n\n&&\n\n.AVIATION...For Harry Reid...For the 00Z Forecast Package...\nWinds have switched to the S-SW for the remainder of the evening \nwith gusts upwards of 20 kts persisting through sunset. Speeds \ndiminish to 8 knots or less for the overnight period. VFR conditions \nwill prevail through the TAF period, however expect increasing high \nclouds with bases AOA 20kft AGL tonight into tomorrow. A similar \ndiurnal wind pattern is expected again tomorrow with light easterly \nflow in the morning becoming S-SW around 21-22z. \n\nFor the rest of southern Nevada, northwest Arizona and southeast \nCalifornia...For the 00Z Forecast Package...Winds will follow \ntypical diurnal directional trends today and tomorrow. Winds have \nturned southerly at most locations this afternoon with the exception \nof KDAG which will see W-SW winds pick up after 00z. Gusty W-SW \nwinds persist at KDAG through around 05z before becoming WNW around \n10 kt through the rest of the overnight hours. Elsewhere, lighter \nwinds return for the overnight period becoming variable at times. \nVFR conditions will prevail through the TAF period, with SCT high \nclouds overspreading the area from west to east tonight. A similar \ndiurnal wind pattern is expected again tomorrow with a shift to S \nwinds in the 19-21z timeframe with gusts under 20 kt.\n\n&&\n\n.SPOTTER INFORMATION STATEMENT...Spotters are encouraged to report\nany significant weather or impacts according to standard operating\nprocedures.\n\n&&\n\n$$\n\nDISCUSSION...Phillipson\nAVIATION...Moore\n\nFor more forecast information...see us on our webpage:\nhttps://weather.gov/lasvegas or follow us on Facebook and Twitter\n",
     "risk": "LOW",
     "high_terms": [],
     "convective_terms": [],
@@ -148,8 +112,8 @@
   },
   "radar": {
     "available": true,
-    "latest_time_utc": "2026-10-27T19:40:56+00:00",
-    "prior_time_utc": "2026-10-27T19:10:56+00:00",
+    "latest_time_utc": "2026-10-27T23:21:37+00:00",
+    "prior_time_utc": "2026-10-27T22:51:37+00:00",
     "current": {
       "echo_fraction_by_radius": {
         "0": 0.0,
@@ -177,63 +141,6 @@
   "model_available": true,
   "markets": [
     {
-      "ticker": "KXHIGHTLV-26OCT27-B79.5",
-      "event_ticker": "KXHIGHTLV-26OCT27",
-      "title": "Will the maximum temperature be 79-80\u00b0 on Oct 27, 2026?",
-      "subtitle": "79\u00b0 to 80\u00b0",
-      "strike_type": "between",
-      "floor_strike": 79.0,
-      "cap_strike": 80.0,
-      "yes_bid": 0.26,
-      "yes_ask": 0.33,
-      "last_price": 0.3,
-      "market_mid": 0.29500000000000004,
-      "close_time": "2026-10-28T08:00:00Z",
-      "occurrence_datetime": "2026-10-28T14:00:00Z",
-      "updated_time": "2026-10-26T14:00:00.932294Z",
-      "model_probability": 0.6487523992322457,
-      "edge_vs_ask": 0.3187523992322457,
-      "difference": 0.35375239923224566
-    },
-    {
-      "ticker": "KXHIGHTLV-26OCT27-B77.5",
-      "event_ticker": "KXHIGHTLV-26OCT27",
-      "title": "Will the maximum temperature be 77-78\u00b0 on Oct 27, 2026?",
-      "subtitle": "77\u00b0 to 78\u00b0",
-      "strike_type": "between",
-      "floor_strike": 77.0,
-      "cap_strike": 78.0,
-      "yes_bid": 0.02,
-      "yes_ask": 0.04,
-      "last_price": 0.05,
-      "market_mid": 0.03,
-      "close_time": "2026-10-28T08:00:00Z",
-      "occurrence_datetime": "2026-10-28T14:00:00Z",
-      "updated_time": "2026-10-26T14:00:00.932294Z",
-      "model_probability": 0.25207933461292387,
-      "edge_vs_ask": 0.21207933461292386,
-      "difference": 0.22207933461292387
-    },
-    {
-      "ticker": "KXHIGHTLV-26OCT27-B75.5",
-      "event_ticker": "KXHIGHTLV-26OCT27",
-      "title": "Will the maximum temperature be 75-76\u00b0 on Oct 27, 2026?",
-      "subtitle": "75\u00b0 to 76\u00b0",
-      "strike_type": "between",
-      "floor_strike": 75.0,
-      "cap_strike": 76.0,
-      "yes_bid": 0.0,
-      "yes_ask": 0.01,
-      "last_price": 0.02,
-      "market_mid": 0.005,
-      "close_time": "2026-10-28T08:00:00Z",
-      "occurrence_datetime": "2026-10-28T14:00:00Z",
-      "updated_time": "2026-10-26T14:00:00.932294Z",
-      "model_probability": 0.0345489443378119,
-      "edge_vs_ask": 0.0245489443378119,
-      "difference": 0.0295489443378119
-    },
-    {
       "ticker": "KXHIGHTLV-26OCT27-B81.5",
       "event_ticker": "KXHIGHTLV-26OCT27",
       "title": "Will the maximum temperature be 81-82\u00b0 on Oct 27, 2026?",
@@ -241,16 +148,16 @@
       "strike_type": "between",
       "floor_strike": 81.0,
       "cap_strike": 82.0,
-      "yes_bid": 0.65,
-      "yes_ask": 0.69,
-      "last_price": 0.68,
-      "market_mid": 0.6699999999999999,
+      "yes_bid": 0.97,
+      "yes_ask": 0.98,
+      "last_price": 0.98,
+      "market_mid": 0.975,
       "close_time": "2026-10-28T08:00:00Z",
       "occurrence_datetime": "2026-10-28T14:00:00Z",
       "updated_time": "2026-10-26T14:00:00.932294Z",
-      "model_probability": 0.0345489443378119,
-      "edge_vs_ask": -0.6554510556621881,
-      "difference": -0.6354510556621881
+      "model_probability": 0.9168384879725087,
+      "edge_vs_ask": -0.06316151202749132,
+      "difference": -0.05816151202749131
     },
     {
       "ticker": "KXHIGHTLV-26OCT27-T82",
@@ -267,9 +174,66 @@
       "close_time": "2026-10-28T08:00:00Z",
       "occurrence_datetime": "2026-10-28T14:00:00Z",
       "updated_time": "2026-10-26T14:00:00.932294Z",
-      "model_probability": 0.030070377479206652,
-      "edge_vs_ask": 0.020070377479206654,
-      "difference": 0.02507037747920665
+      "model_probability": 0.08316151202749139,
+      "edge_vs_ask": 0.0731615120274914,
+      "difference": 0.07816151202749139
+    },
+    {
+      "ticker": "KXHIGHTLV-26OCT27-B75.5",
+      "event_ticker": "KXHIGHTLV-26OCT27",
+      "title": "Will the maximum temperature be 75-76\u00b0 on Oct 27, 2026?",
+      "subtitle": "75\u00b0 to 76\u00b0",
+      "strike_type": "between",
+      "floor_strike": 75.0,
+      "cap_strike": 76.0,
+      "yes_bid": 0.0,
+      "yes_ask": 0.01,
+      "last_price": 0.02,
+      "market_mid": 0.005,
+      "close_time": "2026-10-28T08:00:00Z",
+      "occurrence_datetime": "2026-10-28T14:00:00Z",
+      "updated_time": "2026-10-26T14:00:00.932294Z",
+      "model_probability": 0,
+      "edge_vs_ask": -0.01,
+      "difference": -0.005
+    },
+    {
+      "ticker": "KXHIGHTLV-26OCT27-B77.5",
+      "event_ticker": "KXHIGHTLV-26OCT27",
+      "title": "Will the maximum temperature be 77-78\u00b0 on Oct 27, 2026?",
+      "subtitle": "77\u00b0 to 78\u00b0",
+      "strike_type": "between",
+      "floor_strike": 77.0,
+      "cap_strike": 78.0,
+      "yes_bid": 0.0,
+      "yes_ask": 0.01,
+      "last_price": 0.01,
+      "market_mid": 0.005,
+      "close_time": "2026-10-28T08:00:00Z",
+      "occurrence_datetime": "2026-10-28T14:00:00Z",
+      "updated_time": "2026-10-26T14:00:00.932294Z",
+      "model_probability": 0,
+      "edge_vs_ask": -0.01,
+      "difference": -0.005
+    },
+    {
+      "ticker": "KXHIGHTLV-26OCT27-B79.5",
+      "event_ticker": "KXHIGHTLV-26OCT27",
+      "title": "Will the maximum temperature be 79-80\u00b0 on Oct 27, 2026?",
+      "subtitle": "79\u00b0 to 80\u00b0",
+      "strike_type": "between",
+      "floor_strike": 79.0,
+      "cap_strike": 80.0,
+      "yes_bid": 0.0,
+      "yes_ask": 0.01,
+      "last_price": 0.01,
+      "market_mid": 0.005,
+      "close_time": "2026-10-28T08:00:00Z",
+      "occurrence_datetime": "2026-10-28T14:00:00Z",
+      "updated_time": "2026-10-26T14:00:00.932294Z",
+      "model_probability": 0,
+      "edge_vs_ask": -0.01,
+      "difference": -0.005
     },
     {
       "ticker": "KXHIGHTLV-26OCT27-T75",
@@ -291,66 +255,64 @@
       "difference": -0.005
     }
   ],
-  "model_method": "nws_anchored",
-  "model_bundle": "h13.joblib",
-  "observed_floor_f": 75.02,
-  "model_predicted_high_f": 79.0,
-  "model_correction_f": 0.0,
-  "likely_low_f": 78,
-  "likely_high_f": 80,
+  "model_method": "remaining_heating",
+  "model_bundle": "h16_remaining.joblib",
+  "observed_floor_f": 81.0,
+  "predicted_remaining_heating_f": 0.6763819444444445,
+  "pre_checkpoint_peak_f": 81.0,
+  "model_predicted_high_f": 81.67638194444444,
+  "model_correction_f": 2.6763819444444437,
+  "likely_low_f": 81,
+  "likely_high_f": 82,
   "confidence": "HIGH",
-  "model_mae_f": 0.7550828445090019,
+  "model_mae_f": 0.4495189722064723,
   "distribution": {
-    "75": 0.004478566858605246,
-    "76": 0.030070377479206652,
-    "77": 0.030070377479206652,
-    "78": 0.2220089571337172,
-    "79": 0.43953934740882916,
-    "80": 0.2092130518234165,
-    "81": 0.01727447216890595,
-    "82": 0.01727447216890595,
-    "83": 0.030070377479206652
+    "81": 0.3484536082474227,
+    "82": 0.5683848797250859,
+    "83": 0.07353951890034363,
+    "84": 0.0048109965635738825,
+    "85": 0.0048109965635738825
   },
   "bucket_probability_total": 1.0,
   "largest_model_ask_gap": {
-    "ticker": "KXHIGHTLV-26OCT27-B79.5",
+    "ticker": "KXHIGHTLV-26OCT27-T82",
     "event_ticker": "KXHIGHTLV-26OCT27",
-    "title": "Will the maximum temperature be 79-80\u00b0 on Oct 27, 2026?",
-    "subtitle": "79\u00b0 to 80\u00b0",
-    "strike_type": "between",
-    "floor_strike": 79.0,
-    "cap_strike": 80.0,
-    "yes_bid": 0.26,
-    "yes_ask": 0.33,
-    "last_price": 0.3,
-    "market_mid": 0.29500000000000004,
+    "title": "Will the maximum temperature be >82\u00b0 on Oct 27, 2026?",
+    "subtitle": "83\u00b0 or above",
+    "strike_type": "greater",
+    "floor_strike": 82.0,
+    "cap_strike": null,
+    "yes_bid": 0.0,
+    "yes_ask": 0.01,
+    "last_price": 0.01,
+    "market_mid": 0.005,
     "close_time": "2026-10-28T08:00:00Z",
     "occurrence_datetime": "2026-10-28T14:00:00Z",
     "updated_time": "2026-10-26T14:00:00.932294Z",
-    "model_probability": 0.6487523992322457,
-    "edge_vs_ask": 0.3187523992322457,
-    "difference": 0.35375239923224566
+    "model_probability": 0.08316151202749139,
+    "edge_vs_ask": 0.0731615120274914,
+    "difference": 0.07816151202749139
   },
-  "research_status": "LARGE MODEL/MARKET GAP",
+  "research_status": "WATCH",
   "satellite": {
     "available": true,
     "risk": "LOW",
     "summary": "Observed KLAS sky cover suggests limited cloud shading",
     "latest_cloud_fraction": 0.25,
     "mean_cloud_fraction_2h": 0.25,
-    "cloud_fraction_trend_2h": null,
+    "cloud_fraction_trend_2h": 0.0,
     "latest_cloud_fraction_below_20000": 0.0,
-    "geocolor_image_url": "https://cdn.star.nesdis.noaa.gov/WFO/vef/GEOCOLOR/20263001930_GOES18-ABI-vef-GEOCOLOR-600x600.jpg",
-    "geocolor_time_utc": "2026-10-27T19:30:00+00:00",
-    "infrared_image_url": "https://cdn.star.nesdis.noaa.gov/WFO/vef/13/20263001940_GOES18-ABI-vef-13-600x600.jpg",
-    "infrared_time_utc": "2026-10-27T19:40:00+00:00",
+    "geocolor_image_url": "https://cdn.star.nesdis.noaa.gov/WFO/vef/GEOCOLOR/20263002300_GOES18-ABI-vef-GEOCOLOR-600x600.jpg",
+    "geocolor_time_utc": "2026-10-27T23:00:00+00:00",
+    "infrared_image_url": "https://cdn.star.nesdis.noaa.gov/WFO/vef/13/20263002320_GOES18-ABI-vef-13-600x600.jpg",
+    "infrared_time_utc": "2026-10-27T23:20:00+00:00",
     "errors": [],
     "image_note": "GOES images are a visual cross-check in this version. The shading label uses KLAS-observed sky cover and does not alter the validated temperature prediction.",
     "source": "NOAA/NESDIS/STAR GOES imagery + KLAS METAR sky cover"
   },
   "wethr": {
     "available": false,
-    "collected_at_local": "2026-10-27T13:00:20.269304-07:00",
+    "collected_at_local": "2026-10-27T16:40:02.509059-07:00",
     "models": {
       "HRRR": {
         "available": false,
@@ -390,7 +352,7 @@
     },
     "source": "Wethr.net Forecasts API v2",
     "research_only": true,
-    "observed_floor_f": 75.02
+    "observed_floor_f": 81.0
   },
   "wethr_observed_high": {
     "available": false,
@@ -400,15 +362,15 @@
   },
   "historical_analogs": {
     "available": true,
-    "count": 11,
-    "checkpoint_hour": 13,
-    "current_temp_f": 75.0,
-    "median_final_high_f": 83.0,
-    "range_80_low_f": 76.0,
-    "range_80_high_f": 88.0,
-    "median_heating_remaining_f": 6.0
+    "count": 16,
+    "checkpoint_hour": 16,
+    "current_temp_f": 81.0,
+    "median_final_high_f": 84.0,
+    "range_80_low_f": 82.0,
+    "range_80_high_f": 95.5,
+    "median_heating_remaining_f": 2.5
   },
-  "next_update_local": "2026-10-27T13:05:00-07:00",
+  "next_update_local": "2026-10-27T16:50:00-07:00",
   "model_accuracy": {
     "7_day": [
       {
@@ -671,6 +633,15 @@
       "latest_temp_f": 75.02,
       "six_hour_max_f": 68.0,
       "model_predicted_high_f": 79.0,
+      "nws_am_forecast_high_f": 79.0,
+      "weather_risk": "LOW"
+    },
+    {
+      "checkpoint_hour": 16.0,
+      "latest_precise_temp_f": 80.96,
+      "latest_temp_f": 81.0,
+      "six_hour_max_f": 68.0,
+      "model_predicted_high_f": 81.67638194444444,
       "nws_am_forecast_high_f": 79.0,
       "weather_risk": "LOW"
     }
