@@ -1,6 +1,6 @@
 {
   "date": "2026-10-28",
-  "updated_at_local": "2026-10-28T13:09:53.655405-07:00",
+  "updated_at_local": "2026-10-28T13:11:54.534119-07:00",
   "latest_metar_time": "2026-10-28T12:56:00-07:00",
   "latest_temp_f": 75.0,
   "latest_precise_temp_f": 75.02,
@@ -148,8 +148,8 @@
   },
   "radar": {
     "available": true,
-    "latest_time_utc": "2026-10-28T19:50:59+00:00",
-    "prior_time_utc": "2026-10-28T19:20:59+00:00",
+    "latest_time_utc": "2026-10-28T20:00:21+00:00",
+    "prior_time_utc": "2026-10-28T19:30:21+00:00",
     "current": {
       "echo_fraction_by_radius": {
         "0": 0.0,
@@ -186,7 +186,7 @@
       "cap_strike": 79.0,
       "yes_bid": 0.25,
       "yes_ask": 0.26,
-      "last_price": 0.26,
+      "last_price": 0.25,
       "market_mid": 0.255,
       "close_time": "2026-10-29T08:00:00Z",
       "occurrence_datetime": "2026-10-29T14:00:00Z",
@@ -205,7 +205,7 @@
       "cap_strike": 81.0,
       "yes_bid": 0.73,
       "yes_ask": 0.74,
-      "last_price": 0.74,
+      "last_price": 0.75,
       "market_mid": 0.735,
       "close_time": "2026-10-29T08:00:00Z",
       "occurrence_datetime": "2026-10-29T14:00:00Z",
@@ -322,7 +322,7 @@
     "cap_strike": 79.0,
     "yes_bid": 0.25,
     "yes_ask": 0.26,
-    "last_price": 0.26,
+    "last_price": 0.25,
     "market_mid": 0.255,
     "close_time": "2026-10-29T08:00:00Z",
     "occurrence_datetime": "2026-10-29T14:00:00Z",
@@ -340,8 +340,8 @@
     "mean_cloud_fraction_2h": 0.625,
     "cloud_fraction_trend_2h": -0.375,
     "latest_cloud_fraction_below_20000": 0.0,
-    "geocolor_image_url": "https://cdn.star.nesdis.noaa.gov/WFO/vef/GEOCOLOR/20263011940_GOES18-ABI-vef-GEOCOLOR-600x600.jpg",
-    "geocolor_time_utc": "2026-10-28T19:40:00+00:00",
+    "geocolor_image_url": "https://cdn.star.nesdis.noaa.gov/WFO/vef/GEOCOLOR/20263011950_GOES18-ABI-vef-GEOCOLOR-600x600.jpg",
+    "geocolor_time_utc": "2026-10-28T19:50:00+00:00",
     "infrared_image_url": "https://cdn.star.nesdis.noaa.gov/WFO/vef/13/20263011940_GOES18-ABI-vef-13-600x600.jpg",
     "infrared_time_utc": "2026-10-28T19:40:00+00:00",
     "errors": [],
@@ -350,7 +350,7 @@
   },
   "wethr": {
     "available": false,
-    "collected_at_local": "2026-10-28T13:09:48.891115-07:00",
+    "collected_at_local": "2026-10-28T13:11:49.807609-07:00",
     "models": {
       "HRRR": {
         "available": false,
