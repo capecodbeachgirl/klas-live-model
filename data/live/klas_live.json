@@ -1,17 +1,17 @@
 {
   "date": "2026-10-28",
-  "updated_at_local": "2026-10-28T17:00:17.144692-07:00",
-  "latest_metar_time": "2026-10-28T16:56:00-07:00",
-  "latest_temp_f": 77.0,
-  "latest_precise_temp_f": 77.0,
-  "latest_dewpoint_f": 35.06,
+  "updated_at_local": "2026-10-28T22:34:32.459905-07:00",
+  "latest_metar_time": "2026-10-28T21:56:00-07:00",
+  "latest_temp_f": 69.0,
+  "latest_precise_temp_f": 69.08,
+  "latest_dewpoint_f": 36.0,
   "raw_metar_peak_f": 79.0,
   "precise_metar_peak_f": 78.98,
   "six_hour_max_f": 80,
   "six_hour_max_report_time": "2026-10-28T16:56:00-07:00",
   "nws_am_forecast_high_f": 79.0,
   "nws_am_issued_at": "2026-10-28T03:02:00-07:00",
-  "checkpoint_hour": 17,
+  "checkpoint_hour": 18,
   "weather_risk": "LOW",
   "weather_reasons": [
     "No major live weather disruption signal"
@@ -23,64 +23,14 @@
     "radar_risk": "LOW"
   },
   "nws_live_forecast": {
-    "available": true,
-    "hours": [
-      {
-        "time": "2026-10-28T17:00:00-07:00",
-        "temp_f": 77.0,
-        "pop_pct": 0.0,
-        "short_forecast": "Sunny",
-        "wind_speed": "7 mph",
-        "wind_direction": "S"
-      },
-      {
-        "time": "2026-10-28T18:00:00-07:00",
-        "temp_f": 75.0,
-        "pop_pct": 0.0,
-        "short_forecast": "Mostly Clear",
-        "wind_speed": "7 mph",
-        "wind_direction": "S"
-      },
-      {
-        "time": "2026-10-28T19:00:00-07:00",
-        "temp_f": 73.0,
-        "pop_pct": 0.0,
-        "short_forecast": "Mostly Clear",
-        "wind_speed": "7 mph",
-        "wind_direction": "S"
-      },
-      {
-        "time": "2026-10-28T20:00:00-07:00",
-        "temp_f": 69.0,
-        "pop_pct": 0.0,
-        "short_forecast": "Mostly Clear",
-        "wind_speed": "7 mph",
-        "wind_direction": "S"
-      }
-    ],
-    "max_pop_pct": 0.0,
+    "available": false,
+    "hours": [],
+    "max_pop_pct": null,
     "thunder_possible": false,
     "rain_possible": false,
-    "summary": "No meaningful rain/thunder signal in the remaining NWS hourly forecast",
-    "max_sky_cover_pct": 25.0,
-    "sky_hours": [
-      {
-        "time": "2026-10-28T17:00:00-07:00",
-        "sky_cover_pct": 20.0
-      },
-      {
-        "time": "2026-10-28T18:00:00-07:00",
-        "sky_cover_pct": 25.0
-      },
-      {
-        "time": "2026-10-28T19:00:00-07:00",
-        "sky_cover_pct": 14.0
-      },
-      {
-        "time": "2026-10-28T20:00:00-07:00",
-        "sky_cover_pct": 10.0
-      }
-    ],
+    "summary": "NWS hourly forecast unavailable",
+    "max_sky_cover_pct": null,
+    "sky_hours": [],
     "office": "VEF",
     "grid_x": 122,
     "grid_y": 94,
@@ -88,9 +38,9 @@
   },
   "afd": {
     "available": true,
-    "issued_at": "2026-10-28T21:00:00+00:00",
-    "product_id": "3ff9499c-f5a8-473b-b1db-0f39573915db",
-    "text": "\n000\nFXUS65 KVEF 282100\nAFDVEF\n\nArea Forecast Discussion\nNational Weather Service Las Vegas NV\n200 PM PDT Wed Oct 28 2026\n\n.KEY MESSAGES...\n\n*Dry and seasonable conditions continue through Thursday.\n\n*Precipitation chances and cooler temperatures return to the\n region late this week and continue through the weekend.\n\n*Breezy, cool, and dry conditions return early next week.\n\n\n&&\n\n.DISCUSSION...Through Tuesday.\n\nZonal flow aloft continues across the region, though water vapor \nimagery indicates a fetch of mid-level moisture translating \neastward, yielding an increase in cloud cover. Skies will become \nmostly cloudy overnight tonight, with additional influence from \nmoisture advecting northward through the Gulf of California and \ninto the Lower Colorado River Valley from TS Vance, currently \nlocated just to the southeast of Baja California Sur. Despite the \nincrease in moisture, any precipitation will hold off until late \nThursday night, with dry conditions and near normal temperatures \npersisting until then.\n\nOn Thursday, flow aloft will transition to southwesterly ahead of\na deepening trough off of the West Coast. The aforementioned \nmoisture plume associated with TS Vance will result in \nprecipitable water values increasing to 1 to 2 standard deviations\nabove normal for late October, resulting in a return of shower \nand thunderstorm chances across Mohave County and portions of \nClark and Lincoln County late Thursday night and continuing into \nSaturday. The aforementioned trough will continue deepening along \nthe West Coast, developing into a split flow scenario with a \nsecondary shortwave developing near southern California, while the\ncore of the trough remains over the Pacific Northwest. This \nevolution will limit the winds that are generally expected with \nthese systems, though as the trough axes move over the region \nduring the weekend, precipitation chances become widespread \nSaturday evening through Sunday as additional subtropical moisture\nis routed into the region and precipitable water values increase\nto over 4 standard deviations above normal. There remains \nuncertainty in just how much precipitation will occur, with the \ncurrent forecast ranging from around a quarter to a half inch \nacross lower elevations, and up to an inch and a half in the \nmountains and localized spots across Mohave and eastern Lincoln \nCounties, where precipitation will be prolonged. Changes in the \ntiming and trajectory of the trough as well as characteristics of \nthe moisture return would result in changes to the precipitation \nforecast, thus, confidence in timing and amounts is moderate. \nMountain snow is another expectation with this weekend's system, \nmainly over the Sierra and the Spring Mountains. Snow levels still\nlook to remain at or above 8500 feet through a majority of the \nevent, with snow levels dropping as precipitation moves out of the\nregion. Accumulations of wet snow at the peaks could be up to 4 \nto 6 inches, once again, dependent on overall QPF. Precipitation \nis expected to quickly come to an end from west to east through \nSunday night.\n\nAs the trough departs the region early next week, a tightening  \ngradient on its western periphery is expected to result in breezy\nto gusty conditions on Monday, especially across the southern \nGreat Basin. Gusty conditions are expected to diminish through \nMonday evening for most, though terrain-enhanced gusts through the\nLower Colorado River Valley may persist into Tuesday. Cooler \ntemperatures will also stick around early next week, in spite of \nshortwave ridging progged to build over the region in the wake of \nthe departing trough. Highs will remain around 5 degrees below \nnormal for most through Tuesday with dry conditions expected.\n\n&&\n\n.AVIATION...For Harry Reid...For the 18Z Forecast Package...Light\neasterly winds will shift to the southeast this afternoon, \nincreasing to 8-10KT before becoming light again by sunset. While \na sporadic higher gust to around 15KT is possible during the \nafternoon, gusts are not expected to be persistent. Light winds \npersist thereafter, following typical daily directional patterns \nuntil Thursday afternoon, when winds shift to the southwest and \nincrease to 8-10KT. Increasing mid-level and high clouds are \nexpected through the forecast period, becoming SCT-BKN around \n15kft Thursday morning onward. VFR conditions prevail.\n\nFor the rest of southern Nevada, northwest Arizona and southeast\nCalifornia...For the 18Z Forecast Package...Winds will remain\nbetween 5-10KT and follow typical daily directional patterns the \nnext 24 hours. VFR conditions will continue with increasing mid- \nlevel and high clouds through the forecast period with bases at or\nabove 15kft. \n\n&&\n\n.SPOTTER INFORMATION STATEMENT...Spotters are encouraged to report\nany significant weather or impacts according to standard operating\nprocedures.\n\n&&\n\n$$\n\nDISCUSSION/AVIATION...Phillipson\n\n\nFor more forecast information...see us on our webpage:\nhttps://weather.gov/lasvegas or follow us on Facebook and Twitter\n",
+    "issued_at": "2026-10-29T04:45:00+00:00",
+    "product_id": "f7105a25-623b-46a2-8983-784aaabe53b0",
+    "text": "\n000\nFXUS65 KVEF 290445\nAFDVEF\n\nArea Forecast Discussion\nNational Weather Service Las Vegas NV\n945 PM PDT Wed Oct 28 2026\n\n.KEY MESSAGES...\n\n* Dry and seasonable conditions continue through Thursday.\n\n* Precipitation chances and cooler temperatures return to the region \n  late this week and continue through the weekend.\n\n* Breezy, cool, and dry conditions return early next week.\n\n&&\n\n\n.DISCUSSION...Today through Tuesday.\n\nZonal flow aloft continues across the region, though water vapor \nimagery indicates a fetch of mid-level moisture translating \neastward, yielding an increase in cloud cover. Skies will become \nmostly cloudy overnight tonight, with additional influence from \nmoisture advecting northward through the Gulf of California and \ninto the Lower Colorado River Valley from TS Vance, currently \nlocated just to the southeast of Baja California Sur. Despite the \nincrease in moisture, any precipitation will hold off until late \nThursday night, with dry conditions and near normal temperatures \npersisting until then.\n\nOn Thursday, flow aloft will transition to southwesterly ahead of\na deepening trough off of the West Coast. The aforementioned \nmoisture plume associated with TS Vance will result in \nprecipitable water values increasing to 1 to 2 standard deviations\nabove normal for late October, resulting in a return of shower \nand thunderstorm chances across Mohave County and portions of \nClark and Lincoln County late Thursday night and continuing into \nSaturday. The aforementioned trough will continue deepening along \nthe West Coast, developing into a split flow scenario with a \nsecondary shortwave developing near southern California, while the\ncore of the trough remains over the Pacific Northwest. This \nevolution will limit the winds that are generally expected with \nthese systems, though as the trough axes move over the region \nduring the weekend, precipitation chances become widespread \nSaturday evening through Sunday as additional subtropical moisture\nis routed into the region and precipitable water values increase\nto over 4 standard deviations above normal. There remains \nuncertainty in just how much precipitation will occur, with the \ncurrent forecast ranging from around a quarter to a half inch \nacross lower elevations, and up to an inch and a half in the \nmountains and localized spots across Mohave and eastern Lincoln \nCounties, where precipitation will be prolonged. Changes in the \ntiming and trajectory of the trough as well as characteristics of \nthe moisture return would result in changes to the precipitation \nforecast, thus, confidence in timing and amounts is moderate. \nMountain snow is another expectation with this weekend's system, \nmainly over the Sierra and the Spring Mountains. Snow levels still\nlook to remain at or above 8500 feet through a majority of the \nevent, with snow levels dropping as precipitation moves out of the\nregion. Accumulations of wet snow at the peaks could be up to 4 \nto 6 inches, once again, dependent on overall QPF. Precipitation \nis expected to quickly come to an end from west to east through \nSunday night.\n\nAs the trough departs the region early next week, a tightening  \ngradient on its western periphery is expected to result in breezy\nto gusty conditions on Monday, especially across the southern \nGreat Basin. Gusty conditions are expected to diminish through \nMonday evening for most, though terrain-enhanced gusts through the\nLower Colorado River Valley may persist into Tuesday. Cooler \ntemperatures will also stick around early next week, in spite of \nshortwave ridging progged to build over the region in the wake of \nthe departing trough. Highs will remain around 5 degrees below \nnormal for most through Tuesday with dry conditions expected.\n&&\n\n\n.AVIATION...For Harry Reid...For the 06Z Forecast Package...Light \nand diurnal winds expected through the TAF period, with afternoon \nbreezes generally around 8 kts. Can't rule out an occasional gust to \n15 kts in the afternoon, with southeast being the favored direction. \nHigh clouds will continue to increase overnight with SCT-BKN aoa 15 \nkft through the day on Thursday.\n\nFor the rest of southern Nevada, northwest Arizona and southeast \nCalifornia...For the 06Z Forecast Package...Winds will be generally \nlight and diurnal through the TAF period, with occasional gusts of \n15 to 20 kts from the south-southeast at the Las Vegas Valley, \nColorado River Valley, and Owens Valley TAF sites. KDAG will see \nisolated gusts from the southeast this afternoon before shifting \nfrom the west after sunset. High clouds will continue to increase \novernight with SCT-BKN aoa 15 kft through the day on Thursday.\n&&\n\n\n.SPOTTER INFORMATION STATEMENT...Spotters are encouraged to report\nany significant weather or impacts according to standard operating\nprocedures.\n\n&&\n\n$$\n\nDISCUSSION...Phillipson\nAVIATION...Soulat\n\n\nFor more forecast information...see us on our webpage:\nhttps://weather.gov/lasvegas or follow us on Facebook and Twitter\n",
     "risk": "LOW",
     "high_terms": [],
     "convective_terms": [
@@ -103,15 +53,10 @@
   },
   "radar": {
     "available": true,
-    "latest_time_utc": "2026-10-28T23:40:58+00:00",
-    "prior_time_utc": "2026-10-28T23:10:58+00:00",
+    "latest_time_utc": "2026-10-29T05:22:56+00:00",
+    "prior_time_utc": "2026-10-29T04:52:56+00:00",
     "current": {
-      "echo_fraction_by_radius": {
-        "0": 0.0,
-        "10": 0.0,
-        "25": 0.0,
-        "50": 0.0
-      },
+      "echo_fraction_by_radius": {},
       "nearest_echo_miles": null
     },
     "prior": {
@@ -146,9 +91,9 @@
       "close_time": "2026-10-29T08:00:00Z",
       "occurrence_datetime": "2026-10-29T14:00:00Z",
       "updated_time": "2026-10-27T14:00:00.780618Z",
-      "model_probability": 0.9866412213740459,
-      "edge_vs_ask": -0.013358778625954137,
-      "difference": -0.008358778625954133
+      "model_probability": 0.9873646209386282,
+      "edge_vs_ask": -0.012635379061371799,
+      "difference": -0.007635379061371794
     },
     {
       "ticker": "KXHIGHTLV-26OCT28-T81",
@@ -165,9 +110,9 @@
       "close_time": "2026-10-29T08:00:00Z",
       "occurrence_datetime": "2026-10-29T14:00:00Z",
       "updated_time": "2026-10-27T14:00:00.780618Z",
-      "model_probability": 0.013358778625954198,
-      "edge_vs_ask": 0.003358778625954198,
-      "difference": 0.008358778625954199
+      "model_probability": 0.01263537906137184,
+      "edge_vs_ask": 0.00263537906137184,
+      "difference": 0.00763537906137184
     },
     {
       "ticker": "KXHIGHTLV-26OCT28-B74.5",
@@ -247,21 +192,21 @@
     }
   ],
   "model_method": "remaining_heating",
-  "model_bundle": "h17_remaining.joblib",
+  "model_bundle": "h18_remaining.joblib",
   "observed_floor_f": 80.0,
-  "predicted_remaining_heating_f": 0.9494350320839292,
+  "predicted_remaining_heating_f": 0.7513013963725611,
   "pre_checkpoint_peak_f": 79.0,
   "model_predicted_high_f": 80.0,
   "model_correction_f": 1.0,
   "likely_low_f": 80,
   "likely_high_f": 81,
   "confidence": "HIGH",
-  "model_mae_f": 0.4473460776640661,
+  "model_mae_f": 0.4206937872400014,
   "distribution": {
-    "80": 0.8272900763358779,
-    "81": 0.15935114503816794,
-    "82": 0.006679389312977099,
-    "83": 0.006679389312977099
+    "80": 0.8907942238267148,
+    "81": 0.09657039711191336,
+    "82": 0.00631768953068592,
+    "83": 0.00631768953068592
   },
   "bucket_probability_total": 1.0,
   "largest_model_ask_gap": {
@@ -279,30 +224,30 @@
     "close_time": "2026-10-29T08:00:00Z",
     "occurrence_datetime": "2026-10-29T14:00:00Z",
     "updated_time": "2026-10-27T14:00:00.780618Z",
-    "model_probability": 0.013358778625954198,
-    "edge_vs_ask": 0.003358778625954198,
-    "difference": 0.008358778625954199
+    "model_probability": 0.01263537906137184,
+    "edge_vs_ask": 0.00263537906137184,
+    "difference": 0.00763537906137184
   },
   "research_status": "NO STRONG EDGE",
   "satellite": {
     "available": true,
-    "risk": "LOW",
-    "summary": "Observed KLAS sky cover suggests limited cloud shading",
-    "latest_cloud_fraction": 0.25,
-    "mean_cloud_fraction_2h": 0.4166666666666667,
-    "cloud_fraction_trend_2h": -0.25,
+    "risk": "MEDIUM",
+    "summary": "Meaningful cloud shading is present or increasing at KLAS",
+    "latest_cloud_fraction": 0.5,
+    "mean_cloud_fraction_2h": 0.5,
+    "cloud_fraction_trend_2h": 0.0,
     "latest_cloud_fraction_below_20000": 0.0,
-    "geocolor_image_url": "https://cdn.star.nesdis.noaa.gov/WFO/vef/GEOCOLOR/20263012330_GOES18-ABI-vef-GEOCOLOR-600x600.jpg",
-    "geocolor_time_utc": "2026-10-28T23:30:00+00:00",
-    "infrared_image_url": "https://cdn.star.nesdis.noaa.gov/WFO/vef/13/20263012340_GOES18-ABI-vef-13-600x600.jpg",
-    "infrared_time_utc": "2026-10-28T23:40:00+00:00",
+    "geocolor_image_url": "https://cdn.star.nesdis.noaa.gov/WFO/vef/GEOCOLOR/20263020510_GOES18-ABI-vef-GEOCOLOR-600x600.jpg",
+    "geocolor_time_utc": "2026-10-29T05:10:00+00:00",
+    "infrared_image_url": "https://cdn.star.nesdis.noaa.gov/WFO/vef/13/20263020510_GOES18-ABI-vef-13-600x600.jpg",
+    "infrared_time_utc": "2026-10-29T05:10:00+00:00",
     "errors": [],
     "image_note": "GOES images are a visual cross-check in this version. The shading label uses KLAS-observed sky cover and does not alter the validated temperature prediction.",
     "source": "NOAA/NESDIS/STAR GOES imagery + KLAS METAR sky cover"
   },
   "wethr": {
     "available": false,
-    "collected_at_local": "2026-10-28T17:00:04.996837-07:00",
+    "collected_at_local": "2026-10-28T22:34:27.128325-07:00",
     "models": {
       "HRRR": {
         "available": false,
@@ -352,15 +297,15 @@
   },
   "historical_analogs": {
     "available": true,
-    "count": 11,
-    "checkpoint_hour": 17,
-    "current_temp_f": 77.0,
-    "median_final_high_f": 82.0,
-    "range_80_low_f": 79.0,
-    "range_80_high_f": 90.0,
-    "median_heating_remaining_f": 5.0
+    "count": 3,
+    "checkpoint_hour": 18,
+    "current_temp_f": 69.1,
+    "median_final_high_f": 79.0,
+    "range_80_low_f": 75.0,
+    "range_80_high_f": 86.2,
+    "median_heating_remaining_f": 6.0
   },
-  "next_update_local": "2026-10-28T17:05:00-07:00",
+  "next_update_local": "2026-10-28T23:05:00-07:00",
   "model_accuracy": {
     "7_day": [
       {
@@ -621,6 +566,15 @@
       "checkpoint_hour": 17.0,
       "latest_precise_temp_f": 77.0,
       "latest_temp_f": 77.0,
+      "six_hour_max_f": 80.0,
+      "model_predicted_high_f": 80.0,
+      "nws_am_forecast_high_f": 79.0,
+      "weather_risk": "LOW"
+    },
+    {
+      "checkpoint_hour": 18.0,
+      "latest_precise_temp_f": 69.08,
+      "latest_temp_f": 69.0,
       "six_hour_max_f": 80.0,
       "model_predicted_high_f": 80.0,
       "nws_am_forecast_high_f": 79.0,
