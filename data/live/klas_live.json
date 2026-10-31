@@ -1,7 +1,7 @@
 {
   "date": "2026-10-31",
-  "updated_at_local": "2026-10-31T01:54:36.764401-07:00",
-  "latest_metar_time": "2026-10-31T00:56:00-07:00",
+  "updated_at_local": "2026-10-31T02:30:40.090460-07:00",
+  "latest_metar_time": "2026-10-31T01:56:00-07:00",
   "latest_temp_f": 59.0,
   "latest_precise_temp_f": 59.0,
   "latest_dewpoint_f": 55.0,
@@ -12,30 +12,22 @@
   "nws_am_forecast_high_f": 73.0,
   "nws_am_issued_at": "2026-10-30T23:52:00-07:00",
   "checkpoint_hour": null,
-  "weather_risk": "HIGH",
+  "weather_risk": "MEDIUM",
   "weather_reasons": [
     "Heavy recent cloud cover",
-    "NWS hourly forecast includes thunderstorm potential",
+    "NWS rain chance reaches 34% through this evening",
     "NWS sky cover forecast reaches 99%",
     "Las Vegas NWS discussion contains a convective/monsoon signal"
   ],
   "weather_risk_components": {
     "observed_risk": "MEDIUM",
-    "forecast_risk": "HIGH",
+    "forecast_risk": "MEDIUM",
     "afd_risk": "MEDIUM",
     "radar_risk": "LOW"
   },
   "nws_live_forecast": {
     "available": true,
     "hours": [
-      {
-        "time": "2026-10-31T01:00:00-07:00",
-        "temp_f": 64.0,
-        "pop_pct": 6.0,
-        "short_forecast": "Slight Chance Showers And Thunderstorms",
-        "wind_speed": "2 mph",
-        "wind_direction": "E"
-      },
       {
         "time": "2026-10-31T02:00:00-07:00",
         "temp_f": 64.0,
@@ -128,7 +120,7 @@
         "time": "2026-10-31T13:00:00-07:00",
         "temp_f": 71.0,
         "pop_pct": 34.0,
-        "short_forecast": "Mostly Cloudy",
+        "short_forecast": "Chance Light Rain",
         "wind_speed": "7 mph",
         "wind_direction": "SE"
       },
@@ -136,7 +128,7 @@
         "time": "2026-10-31T14:00:00-07:00",
         "temp_f": 72.0,
         "pop_pct": 22.0,
-        "short_forecast": "Partly Sunny",
+        "short_forecast": "Slight Chance Light Rain",
         "wind_speed": "8 mph",
         "wind_direction": "SE"
       },
@@ -176,7 +168,7 @@
         "time": "2026-10-31T19:00:00-07:00",
         "temp_f": 69.0,
         "pop_pct": 9.0,
-        "short_forecast": "Slight Chance Rain Showers",
+        "short_forecast": "Cloudy",
         "wind_speed": "7 mph",
         "wind_direction": "S"
       },
@@ -184,21 +176,17 @@
         "time": "2026-10-31T20:00:00-07:00",
         "temp_f": 68.0,
         "pop_pct": 13.0,
-        "short_forecast": "Chance Rain Showers",
+        "short_forecast": "Cloudy",
         "wind_speed": "7 mph",
         "wind_direction": "S"
       }
     ],
     "max_pop_pct": 34.0,
-    "thunder_possible": true,
+    "thunder_possible": false,
     "rain_possible": true,
-    "summary": "NWS hourly forecast includes thunderstorms",
+    "summary": "NWS hourly forecast includes showers/rain",
     "max_sky_cover_pct": 99.0,
     "sky_hours": [
-      {
-        "time": "2026-10-31T01:00:00-07:00",
-        "sky_cover_pct": 62.0
-      },
       {
         "time": "2026-10-31T02:00:00-07:00",
         "sky_cover_pct": 62.0
@@ -283,26 +271,26 @@
   },
   "afd": {
     "available": true,
-    "issued_at": "2026-10-31T06:00:00+00:00",
-    "product_id": "2af5c0ef-0989-4a55-af54-ad10ff702117",
-    "text": "\n000\nFXUS65 KVEF 310600\nAFDVEF\n\nArea Forecast Discussion\nNational Weather Service Las Vegas NV\n1100 PM PDT Fri Oct 30 2026\n\n.KEY MESSAGES...\n\n*  Precipitation chances and cooler temperatures continue through\n   the weekend. Heavy rain and thunderstorms may result in flash \n   flooding at times.\n\n*  Cool and dry conditions for early next week.\n\n&&\n\n.DISCUSSION...through Thursday\n\nAn unsettled weather pattern continues through the weekend as an \nupper level trough interacts with anomalous moisture associated with \nthe remnants of Tropical Storm Vance. This afternoon, scattered \nshowers and thunderstorms have been very efficient in the moist \nenvironment, dropping a quick 0.50 inches or more as they move over \nand flash flooding has been reported. Instability has also been \nimpressive early this afternoon which has allowed for strong to \nsevere thunderstorms with hail to develop in portions of Clark \nCounty. Scattered showers and thunderstorms will continue in \nsouthern Nevada and Mohave County which could lead to additional \nimpacts such as heavy rain, flash flooding, and hail. By early \ntonight, this round will have waned as showers become more isolated \nin eastern Lincoln, northeast Clark, and northern Mohave County \ntonight through much of Saturday. This lull in activity will end \nSaturday evening though as the trough approaches. Forcing and \nmoisture will increase with the incoming trough, however there \ncontinues to be uncertainty in how much moisture will advent \nnorthward into the area. The difference between the HRRR and \nRRFS/REFS is vast, especially on Sunday. Favored the RRFS/REFS \nsolution as anomalous moisture is expected to be in place for most \nareas, but low confidence in how much will fall. The highest \nconfidence for rainfall that could be moderate to heavy at times is \nin Mohave County where NBM has a 70%-80% probability for over 1 inch \nof rainfall from Saturday night through Sunday night. This is also \nwhere there is some agreement for at least 200% of normal PWATs \n(with higher anomalies possible). Given this signal for heavy rain \nalong with saturated soils from recent rainfall today- issued a \nFlash Flood Watch for Saturday night through Sunday night in Mohave \nCounty outside the Colorado River Valley. Heavy rain and flash \nflooding is possible outside of this area, and if the ECMWF solution \nwith higher PWATs further north and west verifies- later shifts may \nneed to expand this flood watch. Precipitation will be possible \nareawide. , snow levels will remain high (generally above \n9,0009,500 feet). The peaks of the Sierra and Spring Mountains \ncould pick up several inches of snow, but recreational areas like \nLee Canyon should see little to no accumulation. \n\nAs the trough exits early next week, a tightening surface gradient \nalong its western flank will drive breezy to gusty winds Monday, \nparticularly across the southern Great Basin. Most gusts will \nsubside Monday evening, though terrain-channeled winds through the \nColorado River Valley could linger into Tuesday. Cooler air will \nsettle in behind the system despite shortwave ridging building \noverhead, keeping highs roughly 5 degrees below seasonal normals \nthrough Tuesday under dry conditions. \n\n&&\n\n.AVIATION...For Harry Reid...For the 06Z Forecast Package...\n\nMost of the shower activity has ended for the overnight period; \nhowever, a stray shower or two can't be ruled out, but confidence is \ntoo low to include in the TAF. CIGs will generally remain above \n5kft, but some lower CIGs down to 2kft will be possible through 08Z. \nWinds will generally be light and variable. Southeast winds will \nincrease after 21Z with gusts up to 18kts. Rain chances will \nincrease late Saturday evening with lowering CIGs and low chances of \nvisibility restrictions. \n\nFor the rest of southern Nevada, northwest Arizona and southeast \nCalifornia...For the 06Z Forecast Package...Most of the shower \nactivity has ended, but some lower CIGs will remain across the Las \nVegas Valley through at least 08z. Elsewhere, generally light winds \nand CIGs 10kft or higher. Rain chances will increase late afternoon \nareawide with lowering CIGs and slight chances of visibility \nrestrictions. The greatest threat of rain and low CIGs will be \nduring the overnight period. \n\n&&\n\n.SPOTTER INFORMATION STATEMENT...Spotters are encouraged to report\nany significant weather or impacts according to standard operating\nprocedures.\n\n&&\n\n$$\n\nDISCUSSION...Nickerson\nAVIATION...Gorelow\n\nFor more forecast information...see us on our webpage:\nhttps://weather.gov/lasvegas or follow us on Facebook and Twitter\n",
+    "issued_at": "2026-10-31T09:16:00+00:00",
+    "product_id": "532168b9-495e-43bb-a2f2-debc55e4ca59",
+    "text": "\n000\nFXUS65 KVEF 310916\nAFDVEF\n\nArea Forecast Discussion\nNational Weather Service Las Vegas NV\n216 AM PDT Sat Oct 31 2026\n\n.KEY MESSAGES...\n\n* Isolated showers and thunderstorms continue through the day today \n  before becoming widespread overnight into Sunday.\n\n* Conditions dry out on Monday as gusty north winds pick up across\n  the region. Temperatures remain slightly below normal next week.\n\n&&\n\n\n.DISCUSSION...Today through Friday.\n\nShowers and thunderstorms have largely waned, though light shower \nactivity continues in northeastern Clark County as of 1 AM. Moisture \nwill continue to surge northward into the Mojave Desert today as \nlongwave troughing across the western CONUS helps to usher anomalous \nsubtropical moisture into the region. Expect isolated showers and \nthunderstorms across the forecast area this afternoon, with best \nchances across southeastern Nevada and northwestern Arizona. \nForecast instability is not as high as it was yesterday, likely due \nto the potential for persistent cloud cover through the morning and \nafternoon hours. As a result, convection will initially favor the \nhigher terrain before pushing north-northwestward over adjacent \ndesert valleys. Cannot rule out isolated instances of flash flooding \nbeneath stronger storms and/or beneath training storms (forming and \nmoving over the same location repeatedly). A shortwave trough \nembedded within the aforementioned longwave trough will attempt to \nclose off over the southeastern Pacific Ocean as it pushes into the \nsouthern California Coast this evening. Meanwhile, the center of the \nlongwave trough will sag southward, ultimately phasing with the \nshortwave as they pass through the Desert Southwest tonight into \nSunday morning. The associated moisture surge coupled with the \napproach of the longwave trough axis will result in widespread \nshowers and isolated thunderstorms across southeastern California, \nsouthern Nevada, and northwestern Arizona this evening through \nSunday. Forecast precipitation amounts remain least certain across \nsouthern Nye, Clark, and Lincoln counties, as the trajectory of the \nmoisture plume will depend on how rain-shadowed we get / far north \nmoisture advects into our region. Drier model runs for the next 48 \nhours insinuate an additional 0.10 to 0.25 inches across southern \nNye and Clark counties and 0.50 to 0.75 inches across eastern \nLincoln County... while wetter runs favor 0.50 to 0.75 inches for \nsouthern Nye/Clark counties and 1.00 to 1.50 inches for eastern \nLincoln County through Sunday night. Meanwhile, confidence is best \nover Mohave County, where there continues to be an 80% chance of \nover an inch of rainfall, with higher amounts in the higher terrain \nand underneath embedded thunderstorms. As a result, the Flash Flood \nWatch for Mohave County remains in good shape and will go into \neffect at 5 PM MST tonight. Will continue to assess the need to \nexpand the areal extent of this watch as we move through the day \ntoday. Since the 0.03 inches picked up at KLAS yesterday, Harry Reid \nAirport now needs 0.23 inches of rainfall today to tie the Wettest \nOctober on record (currently 1.45 inches set in 2005).\n\nPrecipitation is expected to clear out Sunday night into Monday \nmorning for the start of the work week as the longwave trough pushes \neastward. Expect gusty north-northwesterly winds in the wake of the \ntrough axis Sunday night into Monday, with gust speeds between 20 \nand 30 mph. Topographic enhancement may result in greater gust \nspeeds along the Colorado River Valley, which could allow wave \nheights on Lake Mohave and Lake Havasu to exceed 2 feet. Afternoon \nhighs will range 3 to 5 degrees below-normal through the work\nweek.\n&&\n\n\n.AVIATION...For Harry Reid...For the 06Z Forecast Package...\nMost of the shower activity has ended for the overnight period; \nhowever, a stray shower or two can't be ruled out, but confidence \nis too low to include in the TAF. CIGs will generally remain above\n5kft, but CIGs down to 2kft will be possible through 08Z. Winds \nwill generally be light and variable. Southeast winds will \nincrease after 21Z with gusts up to 18kts. Rain chances will \nincrease late Saturday evening with lowering CIGs and low chances \nof visibility restrictions. \n\nFor the rest of southern Nevada, northwest Arizona and southeast \nCalifornia...For the 06Z Forecast Package...Most of the shower \nactivity has ended, but some lower CIGs will remain across the Las \nVegas Valley through at least 08z. Elsewhere, generally light winds \nand CIGs 10kft or higher. Rain chances will increase late afternoon \nareawide with lowering CIGs and slight chances of visibility \nrestrictions. The greatest threat of rain and low CIGs will be \nduring the overnight period. \n&&\n\n\n.SPOTTER INFORMATION STATEMENT...Spotters are encouraged to report\nany significant weather or impacts according to standard operating\nprocedures.\n\n&&\n\n$$\n\nDISCUSSION...Soulat\nAVIATION...Gorelow\n\nFor more forecast information...see us on our webpage:\nhttps://weather.gov/lasvegas or follow us on Facebook and Twitter\n",
     "risk": "HIGH",
-    "high_terms": [
-      "severe thunderstorm"
-    ],
+    "high_terms": [],
     "convective_terms": [
       "thunderstorm",
+      "convection",
       "showers",
-      "shower"
+      "shower",
+      "moisture surge"
     ],
     "negative_signals": 0,
-    "snippet": "Heavy rain and thunderstorms may result in flash flooding at times. This afternoon, scattered showers and thunderstorms have been very efficient in the moist environment, dropping a quick 0.50 inches or more as they move over and flash flooding has been reported.",
+    "snippet": "* Isolated showers and thunderstorms continue through the day today before becoming widespread overnight into Sunday. Showers and thunderstorms have largely waned, though light shower activity continues in northeastern Clark County as of 1 AM.",
     "source": "NWS Las Vegas Area Forecast Discussion"
   },
   "radar": {
     "available": true,
-    "latest_time_utc": "2026-10-31T08:44:09+00:00",
-    "prior_time_utc": "2026-10-31T08:14:09+00:00",
+    "latest_time_utc": "2026-10-31T09:18:54+00:00",
+    "prior_time_utc": "2026-10-31T08:48:54+00:00",
     "current": {
       "echo_fraction_by_radius": {
         "0": 0.0,
@@ -335,19 +323,19 @@
     "summary": "Heavy observed cloud cover may be suppressing solar heating at KLAS",
     "latest_cloud_fraction": 0.875,
     "mean_cloud_fraction_2h": 0.875,
-    "cloud_fraction_trend_2h": null,
+    "cloud_fraction_trend_2h": 0.0,
     "latest_cloud_fraction_below_20000": 0.875,
-    "geocolor_image_url": "https://cdn.star.nesdis.noaa.gov/WFO/vef/GEOCOLOR/20263040820_GOES18-ABI-vef-GEOCOLOR-600x600.jpg",
-    "geocolor_time_utc": "2026-10-31T08:20:00+00:00",
-    "infrared_image_url": "https://cdn.star.nesdis.noaa.gov/WFO/vef/13/20263040830_GOES18-ABI-vef-13-600x600.jpg",
-    "infrared_time_utc": "2026-10-31T08:30:00+00:00",
+    "geocolor_image_url": "https://cdn.star.nesdis.noaa.gov/WFO/vef/GEOCOLOR/20263040910_GOES18-ABI-vef-GEOCOLOR-600x600.jpg",
+    "geocolor_time_utc": "2026-10-31T09:10:00+00:00",
+    "infrared_image_url": "https://cdn.star.nesdis.noaa.gov/WFO/vef/13/20263040910_GOES18-ABI-vef-13-600x600.jpg",
+    "infrared_time_utc": "2026-10-31T09:10:00+00:00",
     "errors": [],
     "image_note": "GOES images are a visual cross-check in this version. The shading label uses KLAS-observed sky cover and does not alter the validated temperature prediction.",
     "source": "NOAA/NESDIS/STAR GOES imagery + KLAS METAR sky cover"
   },
   "wethr": {
     "available": false,
-    "collected_at_local": "2026-10-31T01:54:30.932538-07:00",
+    "collected_at_local": "2026-10-31T02:30:32.582282-07:00",
     "models": {
       "HRRR": {
         "available": false,
@@ -399,7 +387,7 @@
   "historical_analogs": {
     "available": false
   },
-  "next_update_local": "2026-10-31T02:05:00-07:00",
+  "next_update_local": "2026-10-31T03:05:00-07:00",
   "model_accuracy": {
     "7_day": [
       {
@@ -637,6 +625,15 @@
       "model_predicted_high_f": null,
       "nws_am_forecast_high_f": 73.0,
       "weather_risk": "HIGH"
+    },
+    {
+      "checkpoint_hour": null,
+      "latest_precise_temp_f": 59.0,
+      "latest_temp_f": 59.0,
+      "six_hour_max_f": null,
+      "model_predicted_high_f": null,
+      "nws_am_forecast_high_f": 73.0,
+      "weather_risk": "MEDIUM"
     }
   ]
 }
