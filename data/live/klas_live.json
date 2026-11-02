@@ -1,6 +1,6 @@
 {
   "date": "2026-11-02",
-  "updated_at_local": "2026-11-02T02:01:43.163756-08:00",
+  "updated_at_local": "2026-11-02T02:06:09.005652-08:00",
   "latest_metar_time": "2026-11-02T01:56:00-08:00",
   "latest_temp_f": 56.0,
   "latest_precise_temp_f": 55.94,
@@ -286,7 +286,12 @@
     "latest_time_utc": "2026-11-02T09:54:58+00:00",
     "prior_time_utc": "2026-11-02T09:24:58+00:00",
     "current": {
-      "echo_fraction_by_radius": {},
+      "echo_fraction_by_radius": {
+        "0": 0.0,
+        "10": 0.0,
+        "25": 0.0,
+        "50": 0.0
+      },
       "nearest_echo_miles": null
     },
     "prior": {
@@ -324,7 +329,7 @@
   },
   "wethr": {
     "available": false,
-    "collected_at_local": "2026-11-02T02:01:33.484580-08:00",
+    "collected_at_local": "2026-11-02T02:06:03.855290-08:00",
     "models": {
       "HRRR": {
         "available": false,
@@ -376,7 +381,7 @@
   "historical_analogs": {
     "available": false
   },
-  "next_update_local": "2026-11-02T02:05:00-08:00",
+  "next_update_local": "2026-11-02T03:05:00-08:00",
   "model_accuracy": {
     "7_day": [
       {
