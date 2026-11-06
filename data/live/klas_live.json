@@ -1,17 +1,17 @@
 {
   "date": "2026-11-05",
-  "updated_at_local": "2026-11-05T13:55:13.841604-08:00",
-  "latest_metar_time": "2026-11-05T12:56:00-08:00",
-  "latest_temp_f": 66.0,
-  "latest_precise_temp_f": 66.02,
-  "latest_dewpoint_f": 34.0,
-  "raw_metar_peak_f": 66.0,
-  "precise_metar_peak_f": 66.02,
-  "six_hour_max_f": 63,
-  "six_hour_max_report_time": "2026-11-05T09:56:00-08:00",
+  "updated_at_local": "2026-11-05T17:53:35.157511-08:00",
+  "latest_metar_time": "2026-11-05T16:56:00-08:00",
+  "latest_temp_f": 67.0,
+  "latest_precise_temp_f": 66.92,
+  "latest_dewpoint_f": 35.0,
+  "raw_metar_peak_f": 68.0,
+  "precise_metar_peak_f": 68.0,
+  "six_hour_max_f": 69,
+  "six_hour_max_report_time": "2026-11-05T15:56:00-08:00",
   "nws_am_forecast_high_f": 68.0,
   "nws_am_issued_at": "2026-11-05T02:01:00-08:00",
-  "checkpoint_hour": 13,
+  "checkpoint_hour": 17,
   "weather_risk": "LOW",
   "weather_reasons": [
     "No major live weather disruption signal"
@@ -25,38 +25,6 @@
   "nws_live_forecast": {
     "available": true,
     "hours": [
-      {
-        "time": "2026-11-05T13:00:00-08:00",
-        "temp_f": 68.0,
-        "pop_pct": 0.0,
-        "short_forecast": "Sunny",
-        "wind_speed": "5 mph",
-        "wind_direction": "NNE"
-      },
-      {
-        "time": "2026-11-05T14:00:00-08:00",
-        "temp_f": 68.0,
-        "pop_pct": 0.0,
-        "short_forecast": "Mostly Sunny",
-        "wind_speed": "5 mph",
-        "wind_direction": "NNE"
-      },
-      {
-        "time": "2026-11-05T15:00:00-08:00",
-        "temp_f": 68.0,
-        "pop_pct": 0.0,
-        "short_forecast": "Mostly Sunny",
-        "wind_speed": "5 mph",
-        "wind_direction": "NNE"
-      },
-      {
-        "time": "2026-11-05T16:00:00-08:00",
-        "temp_f": 69.0,
-        "pop_pct": 0.0,
-        "short_forecast": "Partly Sunny",
-        "wind_speed": "5 mph",
-        "wind_direction": "NE"
-      },
       {
         "time": "2026-11-05T17:00:00-08:00",
         "temp_f": 66.0,
@@ -94,24 +62,8 @@
     "thunder_possible": false,
     "rain_possible": false,
     "summary": "No meaningful rain/thunder signal in the remaining NWS hourly forecast",
-    "max_sky_cover_pct": 63.0,
+    "max_sky_cover_pct": 26.0,
     "sky_hours": [
-      {
-        "time": "2026-11-05T13:00:00-08:00",
-        "sky_cover_pct": 7.0
-      },
-      {
-        "time": "2026-11-05T14:00:00-08:00",
-        "sky_cover_pct": 29.0
-      },
-      {
-        "time": "2026-11-05T15:00:00-08:00",
-        "sky_cover_pct": 48.0
-      },
-      {
-        "time": "2026-11-05T16:00:00-08:00",
-        "sky_cover_pct": 63.0
-      },
       {
         "time": "2026-11-05T17:00:00-08:00",
         "sky_cover_pct": 26.0
@@ -136,9 +88,9 @@
   },
   "afd": {
     "available": true,
-    "issued_at": "2026-11-05T19:34:00+00:00",
-    "product_id": "c676b5e1-cf8b-43d4-9d18-5337c71de7d5",
-    "text": "\n000\nFXUS65 KVEF 051934\nAFDVEF\n\nArea Forecast Discussion\nNational Weather Service Las Vegas NV\n1130 AM PST Thu Nov 5 2026\n\n.KEY MESSAGES...\n\n* Northerly winds will pick up Friday and Saturday, with stronger\n  speeds and elevated wave heights along the Colorado River\n  Valley. Otherwise, quiet conditions.\n\n&&\n\n.DISCUSSION...Today through Wednesday.\nA weak shortwave will drop into the region today through tonight, \ndeveloping into a cutoff low over western Arizona on Friday. In \nresponse, tightening surface pressure gradients will generate breezy \nnorth winds across the region. Most areas can expect sustained winds \nof 15 to 25 mph with gusts of 25 to 30 mph on Friday, followed by \ngradually diminishing winds Saturday. Down the Colorado River \nValley, topographic channeling will enhance gusts up to 40 mph from \nLake Mohave southward on Friday. Gusts will ease to around 30 mph \nSaturday before dropping off significantly by Sunday. Consequently, \na Lake Wind Advisory is in effect for Lake Mohave and Lake Havasu \nfrom early Friday morning through Saturday afternoon, where wave \nheights of 2 to 3 feet are expected. Weak high pressure will build \nover the Desert Southwest late this weekend into early next week, \nbringing lighter winds and a warming trend. Another weak shortwave \nis projected to pass through mid-week, but should bring minimal \nimpactskeeping temperatures near normal alongside dry conditions.\n&&\n\n.AVIATION...For Harry Reid...For the 18Z Forecast Package...\nLight east/northeast winds this morning will shift to the west \nand northwest this evening and overnight. Wind speeds should \ngenerally remain 10 knots or less through much of the TAF period. \nHowever, beyond 14z-15z Friday, expect a slight uptick in \nnorth/northeast winds with gusts to 20 knots. Ceilings and \nvisibilities to remain VFR. \n\nFor the rest of southern Nevada, northwest Arizona and southeast \nCalifornia...For the 18Z Forecast Package...Winds will generally \nremain diurnal and rather light through much of the TAF period. \nBeyond 12z tomorrow, a northerly flow pattern will ensue, \nresulting in a prevailing north/northeast wind at most terminals, \nthe exception being KDAG. Winds will become especially gusty at \nKEED/KIFP due to compression through the Colorado River Valley. \nWinds look to remain elevated well beyond the TAF period at these \ntwo sites. Otherwise no impactful aviation weather is expected.\n\n&&\n\n.SPOTTER INFORMATION STATEMENT...Spotters are encouraged to report\nany significant weather or impacts according to standard operating\nprocedures.\n\n&&\n\n$$\n\nDISCUSSION...Gorelow\nAVIATION...Austin\n\nFor more forecast information...see us on our webpage:\nhttps://weather.gov/lasvegas or follow us on Facebook and Twitter\n",
+    "issued_at": "2026-11-05T23:36:00+00:00",
+    "product_id": "02d7b260-9be1-4732-9077-dc16598b83d6",
+    "text": "\n000\nFXUS65 KVEF 052336\nAFDVEF\n\nArea Forecast Discussion\nNational Weather Service Las Vegas NV\n333 PM PST Thu Nov 5 2026\n\n.KEY MESSAGES...\n\n* Northerly winds will pick up Friday and Saturday, with stronger\n  speeds and elevated wave heights along the Colorado River\n  Valley. Otherwise, quiet conditions.\n\n&&\n\n.DISCUSSION...Today through Wednesday.\nA weak shortwave will drop into the region today through tonight, \ndeveloping into a cutoff low over western Arizona on Friday. In \nresponse, tightening surface pressure gradients will generate breezy \nnorth winds across the region. Most areas can expect sustained winds \nof 15 to 25 mph with gusts of 25 to 30 mph on Friday, followed by \ngradually diminishing winds Saturday. Down the Colorado River \nValley, topographic channeling will enhance gusts up to 40 mph from \nLake Mohave southward on Friday. Gusts will ease to around 30 mph \nSaturday before dropping off significantly by Sunday. Consequently, \na Lake Wind Advisory is in effect for Lake Mohave and Lake Havasu \nfrom early Friday morning through Saturday afternoon, where wave \nheights of 2 to 3 feet are expected. Weak high pressure will build \nover the Desert Southwest late this weekend into early next week, \nbringing lighter winds and a warming trend. Another weak shortwave \nis projected to pass through mid-week, but should bring minimal \nimpactskeeping temperatures near normal alongside dry conditions.\n&&\n\n.AVIATION...For Harry Reid...For the 00Z Forecast Package...\nGenerally light to occasional northeast winds through sunset with \nwinds then becoming west to northwest overnight with speeds less \nthan 10 knots. Starting around 16Z Friday, look for northeast winds \nto increase with speeds around 11 knots and gusts up to 20 knots. \nCeilings and visibilities to remain VFR. \n\nFor the rest of southern Nevada, northwest Arizona and southeast \nCalifornia...For the 00Z Forecast Package...Winds will generally \nremain diurnal and rather light through much of the TAF period. \nBeyond 12z Friday, a northerly flow pattern will ensue, resulting in \na prevailing north/northeast wind at most terminals, the exception \nbeing KDAG. Winds will become especially gusty at KEED/KIFP due to \ncompression through the Colorado River Valley with gusts exceeing 30 \nknots. Winds look to remain elevated well beyond the TAF period at \nthese two sites. Otherwise no impactful aviation weather is expected.\n\n&&\n\n.SPOTTER INFORMATION STATEMENT...Spotters are encouraged to report\nany significant weather or impacts according to standard operating\nprocedures.\n\n&&\n\n$$\n\nDISCUSSION...Gorelow\nAVIATION...Gorelow\n\nFor more forecast information...see us on our webpage:\nhttps://weather.gov/lasvegas or follow us on Facebook and Twitter\n",
     "risk": "LOW",
     "high_terms": [],
     "convective_terms": [],
@@ -148,8 +100,8 @@
   },
   "radar": {
     "available": true,
-    "latest_time_utc": "2026-11-05T21:44:59+00:00",
-    "prior_time_utc": "2026-11-05T21:14:59+00:00",
+    "latest_time_utc": "2026-11-06T01:48:01+00:00",
+    "prior_time_utc": "2026-11-06T01:18:01+00:00",
     "current": {
       "echo_fraction_by_radius": {
         "0": 0.0,
@@ -184,35 +136,16 @@
       "strike_type": "between",
       "floor_strike": 69.0,
       "cap_strike": 70.0,
-      "yes_bid": 0.6,
-      "yes_ask": 0.71,
-      "last_price": 0.62,
-      "market_mid": 0.655,
+      "yes_bid": 0.99,
+      "yes_ask": 1.0,
+      "last_price": 0.99,
+      "market_mid": 0.995,
       "close_time": "2026-11-06T09:00:00Z",
       "occurrence_datetime": "2026-11-06T15:00:00Z",
       "updated_time": "2026-11-04T15:00:00.730282Z",
-      "model_probability": 0.6645244215938304,
-      "edge_vs_ask": -0.04547557840616956,
-      "difference": 0.009524421593830379
-    },
-    {
-      "ticker": "KXHIGHTLV-26NOV05-B67.5",
-      "event_ticker": "KXHIGHTLV-26NOV05",
-      "title": "Will the maximum temperature be 67-68\u00b0 on Nov 5, 2026?",
-      "subtitle": "67\u00b0 to 68\u00b0",
-      "strike_type": "between",
-      "floor_strike": 67.0,
-      "cap_strike": 68.0,
-      "yes_bid": 0.31,
-      "yes_ask": 0.4,
-      "last_price": 0.4,
-      "market_mid": 0.355,
-      "close_time": "2026-11-06T09:00:00Z",
-      "occurrence_datetime": "2026-11-06T15:00:00Z",
-      "updated_time": "2026-11-04T15:00:00.730282Z",
-      "model_probability": 0.2275064267352185,
-      "edge_vs_ask": -0.1724935732647815,
-      "difference": -0.12749357326478147
+      "model_probability": 0.9866412213740459,
+      "edge_vs_ask": -0.013358778625954137,
+      "difference": -0.008358778625954133
     },
     {
       "ticker": "KXHIGHTLV-26NOV05-B71.5",
@@ -222,16 +155,35 @@
       "strike_type": "between",
       "floor_strike": 71.0,
       "cap_strike": 72.0,
-      "yes_bid": 0.01,
-      "yes_ask": 0.04,
-      "last_price": 0.01,
-      "market_mid": 0.025,
+      "yes_bid": 0.0,
+      "yes_ask": 0.01,
+      "last_price": 0.03,
+      "market_mid": 0.005,
       "close_time": "2026-11-06T09:00:00Z",
       "occurrence_datetime": "2026-11-06T15:00:00Z",
       "updated_time": "2026-11-04T15:00:00.730282Z",
-      "model_probability": 0.060411311053984576,
-      "edge_vs_ask": 0.020411311053984575,
-      "difference": 0.035411311053984575
+      "model_probability": 0.013358778625954198,
+      "edge_vs_ask": 0.003358778625954198,
+      "difference": 0.008358778625954199
+    },
+    {
+      "ticker": "KXHIGHTLV-26NOV05-B67.5",
+      "event_ticker": "KXHIGHTLV-26NOV05",
+      "title": "Will the maximum temperature be 67-68\u00b0 on Nov 5, 2026?",
+      "subtitle": "67\u00b0 to 68\u00b0",
+      "strike_type": "between",
+      "floor_strike": 67.0,
+      "cap_strike": 68.0,
+      "yes_bid": 0.0,
+      "yes_ask": 0.01,
+      "last_price": 0.01,
+      "market_mid": 0.005,
+      "close_time": "2026-11-06T09:00:00Z",
+      "occurrence_datetime": "2026-11-06T15:00:00Z",
+      "updated_time": "2026-11-04T15:00:00.730282Z",
+      "model_probability": 0,
+      "edge_vs_ask": -0.01,
+      "difference": -0.005
     },
     {
       "ticker": "KXHIGHTLV-26NOV05-B73.5",
@@ -248,28 +200,9 @@
       "close_time": "2026-11-06T09:00:00Z",
       "occurrence_datetime": "2026-11-06T15:00:00Z",
       "updated_time": "2026-11-04T15:00:00.730282Z",
-      "model_probability": 0.03020565552699229,
-      "edge_vs_ask": 0.020205655526992293,
-      "difference": 0.02520565552699229
-    },
-    {
-      "ticker": "KXHIGHTLV-26NOV05-T67",
-      "event_ticker": "KXHIGHTLV-26NOV05",
-      "title": "Will the maximum temperature be <67\u00b0 on Nov 5, 2026?",
-      "subtitle": "66\u00b0 or below",
-      "strike_type": "less",
-      "floor_strike": null,
-      "cap_strike": 67.0,
-      "yes_bid": 0.0,
-      "yes_ask": 0.01,
-      "last_price": 0.01,
-      "market_mid": 0.005,
-      "close_time": "2026-11-06T09:00:00Z",
-      "occurrence_datetime": "2026-11-06T15:00:00Z",
-      "updated_time": "2026-11-04T15:00:00.730282Z",
-      "model_probability": 0.017352185089974295,
-      "edge_vs_ask": 0.007352185089974294,
-      "difference": 0.012352185089974294
+      "model_probability": 0,
+      "edge_vs_ask": -0.01,
+      "difference": -0.005
     },
     {
       "ticker": "KXHIGHTLV-26NOV05-T74",
@@ -289,26 +222,43 @@
       "model_probability": 0,
       "edge_vs_ask": -0.01,
       "difference": -0.005
+    },
+    {
+      "ticker": "KXHIGHTLV-26NOV05-T67",
+      "event_ticker": "KXHIGHTLV-26NOV05",
+      "title": "Will the maximum temperature be <67\u00b0 on Nov 5, 2026?",
+      "subtitle": "66\u00b0 or below",
+      "strike_type": "less",
+      "floor_strike": null,
+      "cap_strike": 67.0,
+      "yes_bid": 0.0,
+      "yes_ask": 0.01,
+      "last_price": 0.01,
+      "market_mid": 0.005,
+      "close_time": "2026-11-06T09:00:00Z",
+      "occurrence_datetime": "2026-11-06T15:00:00Z",
+      "updated_time": "2026-11-04T15:00:00.730282Z",
+      "model_probability": 0,
+      "edge_vs_ask": -0.01,
+      "difference": -0.005
     }
   ],
-  "model_method": "nws_anchored",
-  "model_bundle": "h13.joblib",
-  "observed_floor_f": 66.02,
-  "model_predicted_high_f": 69.27108075084627,
-  "model_correction_f": 1.2710807508462665,
-  "likely_low_f": 68,
+  "model_method": "remaining_heating",
+  "model_bundle": "h17_remaining.joblib",
+  "observed_floor_f": 69.0,
+  "predicted_remaining_heating_f": 1.0174693737634908,
+  "pre_checkpoint_peak_f": 68.0,
+  "model_predicted_high_f": 69.01746937376349,
+  "model_correction_f": 1.0174693737634897,
+  "likely_low_f": 69,
   "likely_high_f": 70,
   "confidence": "HIGH",
-  "model_mae_f": 0.7550828445090019,
+  "model_mae_f": 0.4473460776640661,
   "distribution": {
-    "66": 0.017352185089974295,
-    "67": 0.043059125964010285,
-    "68": 0.18444730077120822,
-    "69": 0.4286632390745502,
-    "70": 0.23586118251928023,
-    "71": 0.043059125964010285,
-    "72": 0.017352185089974295,
-    "73": 0.03020565552699229
+    "69": 0.8272900763358779,
+    "70": 0.15935114503816794,
+    "71": 0.006679389312977099,
+    "72": 0.006679389312977099
   },
   "bucket_probability_total": 1.0,
   "largest_model_ask_gap": {
@@ -319,37 +269,37 @@
     "strike_type": "between",
     "floor_strike": 71.0,
     "cap_strike": 72.0,
-    "yes_bid": 0.01,
-    "yes_ask": 0.04,
-    "last_price": 0.01,
-    "market_mid": 0.025,
+    "yes_bid": 0.0,
+    "yes_ask": 0.01,
+    "last_price": 0.03,
+    "market_mid": 0.005,
     "close_time": "2026-11-06T09:00:00Z",
     "occurrence_datetime": "2026-11-06T15:00:00Z",
     "updated_time": "2026-11-04T15:00:00.730282Z",
-    "model_probability": 0.060411311053984576,
-    "edge_vs_ask": 0.020411311053984575,
-    "difference": 0.035411311053984575
+    "model_probability": 0.013358778625954198,
+    "edge_vs_ask": 0.003358778625954198,
+    "difference": 0.008358778625954199
   },
   "research_status": "NO STRONG EDGE",
   "satellite": {
     "available": true,
     "risk": "MEDIUM",
     "summary": "Meaningful cloud shading is present or increasing at KLAS",
-    "latest_cloud_fraction": 0.5,
-    "mean_cloud_fraction_2h": 0.5,
-    "cloud_fraction_trend_2h": 0.0,
-    "latest_cloud_fraction_below_20000": 0.5,
-    "geocolor_image_url": "https://cdn.star.nesdis.noaa.gov/WFO/vef/GEOCOLOR/20263092130_GOES18-ABI-vef-GEOCOLOR-600x600.jpg",
-    "geocolor_time_utc": "2026-11-05T21:30:00+00:00",
-    "infrared_image_url": "https://cdn.star.nesdis.noaa.gov/WFO/vef/13/20263092130_GOES18-ABI-vef-13-600x600.jpg",
-    "infrared_time_utc": "2026-11-05T21:30:00+00:00",
+    "latest_cloud_fraction": 0.25,
+    "mean_cloud_fraction_2h": 0.5416666666666666,
+    "cloud_fraction_trend_2h": -0.625,
+    "latest_cloud_fraction_below_20000": 0.25,
+    "geocolor_image_url": "https://cdn.star.nesdis.noaa.gov/WFO/vef/GEOCOLOR/20263100130_GOES18-ABI-vef-GEOCOLOR-600x600.jpg",
+    "geocolor_time_utc": "2026-11-06T01:30:00+00:00",
+    "infrared_image_url": "https://cdn.star.nesdis.noaa.gov/WFO/vef/13/20263100130_GOES18-ABI-vef-13-600x600.jpg",
+    "infrared_time_utc": "2026-11-06T01:30:00+00:00",
     "errors": [],
     "image_note": "GOES images are a visual cross-check in this version. The shading label uses KLAS-observed sky cover and does not alter the validated temperature prediction.",
     "source": "NOAA/NESDIS/STAR GOES imagery + KLAS METAR sky cover"
   },
   "wethr": {
     "available": false,
-    "collected_at_local": "2026-11-05T13:55:08.723443-08:00",
+    "collected_at_local": "2026-11-05T17:53:30.877860-08:00",
     "models": {
       "HRRR": {
         "available": false,
@@ -389,7 +339,7 @@
     },
     "source": "Wethr.net Forecasts API v2",
     "research_only": true,
-    "observed_floor_f": 66.02
+    "observed_floor_f": 69.0
   },
   "wethr_observed_high": {
     "available": false,
@@ -398,9 +348,16 @@
     "error": "401 Client Error: Unauthorized for url: https://wethr.net/api/v2/observations.php?station_code=KLAS&mode=wethr_high&logic=nws"
   },
   "historical_analogs": {
-    "available": false
+    "available": true,
+    "count": 2,
+    "checkpoint_hour": 17,
+    "current_temp_f": 66.9,
+    "median_final_high_f": 81.0,
+    "range_80_low_f": 75.4,
+    "range_80_high_f": 86.6,
+    "median_heating_remaining_f": 11.0
   },
-  "next_update_local": "2026-11-05T14:05:00-08:00",
+  "next_update_local": "2026-11-05T18:05:00-08:00",
   "model_accuracy": {
     "7_day": [
       {
@@ -654,6 +611,15 @@
       "latest_temp_f": 66.0,
       "six_hour_max_f": 63.0,
       "model_predicted_high_f": 69.27108075084627,
+      "nws_am_forecast_high_f": 68.0,
+      "weather_risk": "LOW"
+    },
+    {
+      "checkpoint_hour": 17.0,
+      "latest_precise_temp_f": 66.92,
+      "latest_temp_f": 67.0,
+      "six_hour_max_f": 69.0,
+      "model_predicted_high_f": 69.01746937376349,
       "nws_am_forecast_high_f": 68.0,
       "weather_risk": "LOW"
     }
