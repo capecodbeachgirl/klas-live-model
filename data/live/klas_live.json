@@ -1,6 +1,6 @@
 {
   "date": "2026-11-06",
-  "updated_at_local": "2026-11-06T17:02:30.069912-08:00",
+  "updated_at_local": "2026-11-06T17:05:54.650646-08:00",
   "latest_metar_time": "2026-11-06T16:56:00-08:00",
   "latest_temp_f": 70.0,
   "latest_precise_temp_f": 69.98,
@@ -246,7 +246,7 @@
   "model_method": "remaining_heating",
   "model_bundle": "h17_remaining.joblib",
   "observed_floor_f": 72.0,
-  "predicted_remaining_heating_f": 1.0350377153483763,
+  "predicted_remaining_heating_f": 1.035037715348376,
   "pre_checkpoint_peak_f": 72.0,
   "model_predicted_high_f": 73.03503771534838,
   "model_correction_f": 0.035037715348380516,
@@ -300,7 +300,7 @@
   },
   "wethr": {
     "available": false,
-    "collected_at_local": "2026-11-06T17:02:23.383797-08:00",
+    "collected_at_local": "2026-11-06T17:05:43.081677-08:00",
     "models": {
       "HRRR": {
         "available": false,
@@ -358,7 +358,7 @@
     "range_80_high_f": 86.6,
     "median_heating_remaining_f": 11.0
   },
-  "next_update_local": "2026-11-06T17:05:00-08:00",
+  "next_update_local": "2026-11-06T17:20:00-08:00",
   "model_accuracy": {
     "7_day": [
       {
