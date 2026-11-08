@@ -1,6 +1,6 @@
 {
   "date": "2026-11-08",
-  "updated_at_local": "2026-11-08T15:49:21.699490-08:00",
+  "updated_at_local": "2026-11-08T15:50:24.774662-08:00",
   "latest_metar_time": "2026-11-08T14:56:00-08:00",
   "latest_temp_f": 74.0,
   "latest_precise_temp_f": 73.94,
@@ -124,8 +124,8 @@
   },
   "radar": {
     "available": true,
-    "latest_time_utc": "2026-11-08T23:34:57+00:00",
-    "prior_time_utc": "2026-11-08T23:04:57+00:00",
+    "latest_time_utc": "2026-11-08T23:28:58+00:00",
+    "prior_time_utc": "2026-11-08T22:58:58+00:00",
     "current": {
       "echo_fraction_by_radius": {
         "0": 0.0,
@@ -323,7 +323,7 @@
   },
   "wethr": {
     "available": false,
-    "collected_at_local": "2026-11-08T15:49:13.729808-08:00",
+    "collected_at_local": "2026-11-08T15:50:14.520066-08:00",
     "models": {
       "HRRR": {
         "available": false,
@@ -381,7 +381,7 @@
     "range_80_high_f": 86.7,
     "median_heating_remaining_f": 3.0
   },
-  "next_update_local": "2026-11-08T15:50:00-08:00",
+  "next_update_local": "2026-11-08T16:05:00-08:00",
   "model_accuracy": {
     "7_day": [
       {
