@@ -1,6 +1,6 @@
 {
   "date": "2026-11-08",
-  "updated_at_local": "2026-11-08T12:19:19.259889-08:00",
+  "updated_at_local": "2026-11-08T12:23:31.030364-08:00",
   "latest_metar_time": "2026-11-08T11:56:00-08:00",
   "latest_temp_f": 71.0,
   "latest_precise_temp_f": 71.06,
@@ -148,9 +148,9 @@
   },
   "afd": {
     "available": true,
-    "issued_at": "2026-11-08T18:44:00+00:00",
-    "product_id": "5f70c142-7733-4eb9-8056-e4ffc3041137",
-    "text": "\n000\nFXUS65 KVEF 081844\nAFDVEF\n\nArea Forecast Discussion\nNational Weather Service Las Vegas NV\n1044 AM PST Sun Nov 8 2026\n\n.KEY MESSAGES...\n\n* Quiet and pleasant conditions anticipated through Friday.\n\n* Models continue to suggest the return of an active pattern by next \n  weekend.\n\n&&\n\n.DISCUSSION...through next weekend.\n\nUpper-level ridging largely remains in place this week, with just \nsome slight fluctuations as a weak disturbance passes through mid-\nweek. During this time, temperatures stay 2-6 degrees above normal, \nresulting in quite pleasant weather across the region. Some periodic \nbreeziness is possible mid-week, but not expecting anything \nimpactful. Precipitation chances remain below 10% through Friday \nafternoon. \n\nLate in the week, the pattern becomes more active with a closed low \nset to develop off the SoCal/Baja coast and a larger trough in the \nnortheast Pacific. Guidance is coming into better agreement on the \nplacement and phasing (or lack thereof in this case) of these \nsystems. Latest runs have the closed low coming ashore late Friday \nand into the weekend. There remains a fair amount of track \nuncertainty, but the southern track shown in most guidance results \nin low (10-30%) PoPs across the southern half of the CWA Friday \nnight into Saturday with limited temperature and wind response. As \nfor the larger trough, timing looks most likely to be late in the \nweekend and into the following week. Uncertainty is still moderate \nto high, but this second system looks more favorable for widespread \nprecipitation, cooler temperatures, and increased winds.\n\n&&\n\n.AVIATION...For Harry Reid...For the 18Z Forecast Package...Light\nwinds under 8KT will follow typical daily directional patterns. \nLight northeasterly winds will continue through the afternoon, \neventually veering to the west early this evening. VFR conditions \nwith clear skies will continue.\n\nFor the rest of southern Nevada, northwest Arizona and southeast\nCalifornia...For the 18Z Forecast Package...Northerly terrain- \nenhanced winds continue through the Lower Colorado River Valley \nfrom KIFP to KEED, with the strongest winds expected at KIFP where\ngusts to around 20KT will persist into the afternoon. Elsewhere, \nwinds follow typical daily directional patterns with speeds around\n5-10KT. Gusty up-valley winds in the northern Owens Valley could \nproduce intermittent gusts to around 15KT at KBIH during the \nafternoon, diminishing by mid-evening. VFR conditions prevail.\n\n&&\n\n.SPOTTER INFORMATION STATEMENT...Spotters are encouraged to report\nany significant weather or impacts according to standard operating\nprocedures.\n\n&&\n\n$$\n\nDISCUSSION...Woods\nAVIATION...Stessman\n\nFor more forecast information...see us on our webpage:\nhttps://weather.gov/lasvegas or follow us on Facebook and Twitter\n",
+    "issued_at": "2026-11-08T20:16:00+00:00",
+    "product_id": "922cd567-fbd6-4563-9759-7efa71d66ae0",
+    "text": "\n000\nFXUS65 KVEF 082016\nAFDVEF\n\nArea Forecast Discussion\nNational Weather Service Las Vegas NV\n1216 PM PST Sun Nov 8 2026\n\n.KEY MESSAGES...\n\n* Quiet and pleasant conditions anticipated through Friday.\n\n* Models continue to suggest the return of an active pattern by next \n  weekend.\n\n&&\n\n.DISCUSSION...through next weekend.\n\nHigh pressure maintains quiet weather conditions through most of the \nweek. Breezy northerly winds pick up on Wednesday due to a passing \nweak shortwave, especially in the Colorado River Valley. High \ntemperatures run 2 to 6 degrees above normal for this time of year, \nwhich means highs in the mid-70s for Las Vegas and the low 80s in \nthe Colorado River Valley. Precipitation is not expected through at \nleast Friday. \n\nA change in the weather pattern is expected towards the end of the \nweek as a closed low approaches the Southern California Coast, \nfollowed closely by an open trough to the north. The closed low comes \nashore near the International Border by Friday night into Saturday. \nThis track would give a decent southerly trajectory for moisture to \nreach the Mojave Desert as seen in GFS and ECMWF IVT guidance. \nSouthern San Bernardino, Clark, and Mohave counties seem to have the \nbest precipitation chances at this time, but precipitation totals in \nensembles remain light. The strongest winds would also be far to the \nsouth with little wind response in the forecast area. However, any \nvariation in the track of the low could change wind or precipitation \noutcomes. Afterwards, the open trough will move ashore early next \nweek, bringing additional chances for precipitation, cooler \ntemperatures, and elevated winds. Again, confidence is low regarding \nspecific impacts because they will depend on the strength and \nposition of the incoming trough.\n\n&&\n\n.AVIATION...For Harry Reid...For the 18Z Forecast Package...Light\nwinds under 8KT will follow typical daily directional patterns. \nLight northeasterly winds will continue through the afternoon, \neventually veering to the west early this evening. VFR conditions \nwith clear skies will continue.\n\nFor the rest of southern Nevada, northwest Arizona and southeast\nCalifornia...For the 18Z Forecast Package...Northerly terrain- \nenhanced winds continue through the Lower Colorado River Valley \nfrom KIFP to KEED, with the strongest winds expected at KIFP where\ngusts to around 20KT will persist into the afternoon. Elsewhere, \nwinds follow typical daily directional patterns with speeds around\n5-10KT. Gusty up-valley winds in the northern Owens Valley could \nproduce intermittent gusts to around 15KT at KBIH during the \nafternoon, diminishing by mid-evening. VFR conditions prevail.\n\n&&\n\n.SPOTTER INFORMATION STATEMENT...Spotters are encouraged to report\nany significant weather or impacts according to standard operating\nprocedures.\n\n&&\n\n$$\n\nDISCUSSION...Meltzer\nAVIATION...Stessman\n\nFor more forecast information...see us on our webpage:\nhttps://weather.gov/lasvegas or follow us on Facebook and Twitter\n",
     "risk": "LOW",
     "high_terms": [],
     "convective_terms": [],
@@ -160,8 +160,8 @@
   },
   "radar": {
     "available": true,
-    "latest_time_utc": "2026-11-08T20:04:58+00:00",
-    "prior_time_utc": "2026-11-08T19:34:58+00:00",
+    "latest_time_utc": "2026-11-08T20:17:50+00:00",
+    "prior_time_utc": "2026-11-08T19:47:50+00:00",
     "current": {
       "echo_fraction_by_radius": {
         "0": 0.0,
@@ -197,15 +197,15 @@
       "floor_strike": 76.0,
       "cap_strike": 77.0,
       "yes_bid": 0.01,
-      "yes_ask": 0.03,
+      "yes_ask": 0.02,
       "last_price": 0.01,
-      "market_mid": 0.02,
+      "market_mid": 0.015,
       "close_time": "2026-11-09T09:00:00Z",
       "occurrence_datetime": "2026-11-09T15:00:00Z",
       "updated_time": "2026-11-07T15:00:00.960282Z",
       "model_probability": 0.5184713375796178,
-      "edge_vs_ask": 0.4884713375796178,
-      "difference": 0.4984713375796178
+      "edge_vs_ask": 0.4984713375796178,
+      "difference": 0.5034713375796178
     },
     {
       "ticker": "KXHIGHTLV-26NOV08-B74.5",
@@ -217,7 +217,7 @@
       "cap_strike": 75.0,
       "yes_bid": 0.88,
       "yes_ask": 0.89,
-      "last_price": 0.88,
+      "last_price": 0.89,
       "market_mid": 0.885,
       "close_time": "2026-11-09T09:00:00Z",
       "occurrence_datetime": "2026-11-09T15:00:00Z",
@@ -334,15 +334,15 @@
     "floor_strike": 76.0,
     "cap_strike": 77.0,
     "yes_bid": 0.01,
-    "yes_ask": 0.03,
+    "yes_ask": 0.02,
     "last_price": 0.01,
-    "market_mid": 0.02,
+    "market_mid": 0.015,
     "close_time": "2026-11-09T09:00:00Z",
     "occurrence_datetime": "2026-11-09T15:00:00Z",
     "updated_time": "2026-11-07T15:00:00.960282Z",
     "model_probability": 0.5184713375796178,
-    "edge_vs_ask": 0.4884713375796178,
-    "difference": 0.4984713375796178
+    "edge_vs_ask": 0.4984713375796178,
+    "difference": 0.5034713375796178
   },
   "research_status": "LARGE MODEL/MARKET GAP",
   "satellite": {
@@ -353,17 +353,17 @@
     "mean_cloud_fraction_2h": 0.25,
     "cloud_fraction_trend_2h": 0.0,
     "latest_cloud_fraction_below_20000": 0.0,
-    "geocolor_image_url": "https://cdn.star.nesdis.noaa.gov/WFO/vef/GEOCOLOR/20263121950_GOES18-ABI-vef-GEOCOLOR-600x600.jpg",
-    "geocolor_time_utc": "2026-11-08T19:50:00+00:00",
-    "infrared_image_url": "https://cdn.star.nesdis.noaa.gov/WFO/vef/13/20263121940_GOES18-ABI-vef-13-600x600.jpg",
-    "infrared_time_utc": "2026-11-08T19:40:00+00:00",
+    "geocolor_image_url": "https://cdn.star.nesdis.noaa.gov/WFO/vef/GEOCOLOR/20263122000_GOES18-ABI-vef-GEOCOLOR-600x600.jpg",
+    "geocolor_time_utc": "2026-11-08T20:00:00+00:00",
+    "infrared_image_url": "https://cdn.star.nesdis.noaa.gov/WFO/vef/13/20263122000_GOES18-ABI-vef-13-600x600.jpg",
+    "infrared_time_utc": "2026-11-08T20:00:00+00:00",
     "errors": [],
     "image_note": "GOES images are a visual cross-check in this version. The shading label uses KLAS-observed sky cover and does not alter the validated temperature prediction.",
     "source": "NOAA/NESDIS/STAR GOES imagery + KLAS METAR sky cover"
   },
   "wethr": {
     "available": false,
-    "collected_at_local": "2026-11-08T12:19:10.627811-08:00",
+    "collected_at_local": "2026-11-08T12:23:23.199271-08:00",
     "models": {
       "HRRR": {
         "available": false,
@@ -421,7 +421,7 @@
     "range_80_high_f": 83.7,
     "median_heating_remaining_f": 6.5
   },
-  "next_update_local": "2026-11-08T12:20:00-08:00",
+  "next_update_local": "2026-11-08T12:35:00-08:00",
   "model_accuracy": {
     "7_day": [
       {
