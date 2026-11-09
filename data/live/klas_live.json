@@ -1,14 +1,14 @@
 {
   "date": "2026-11-09",
-  "updated_at_local": "2026-11-09T03:24:09.168597-08:00",
-  "latest_metar_time": "2026-11-09T02:56:00-08:00",
+  "updated_at_local": "2026-11-09T04:45:15.479863-08:00",
+  "latest_metar_time": "2026-11-09T03:56:00-08:00",
   "latest_temp_f": 54.0,
   "latest_precise_temp_f": 53.96,
-  "latest_dewpoint_f": 34.0,
+  "latest_dewpoint_f": 33.0,
   "raw_metar_peak_f": 55.04,
   "precise_metar_peak_f": 55.04,
   "six_hour_max_f": null,
-  "six_hour_max_report_time": null,
+  "six_hour_max_report_time": "2026-11-09T03:56:00-08:00",
   "nws_am_forecast_high_f": 74.0,
   "nws_am_issued_at": "2026-11-09T02:00:00-08:00",
   "checkpoint_hour": null,
@@ -25,14 +25,6 @@
   "nws_live_forecast": {
     "available": true,
     "hours": [
-      {
-        "time": "2026-11-09T03:00:00-08:00",
-        "temp_f": 56.0,
-        "pop_pct": 0.0,
-        "short_forecast": "Clear",
-        "wind_speed": "1 mph",
-        "wind_direction": "W"
-      },
       {
         "time": "2026-11-09T04:00:00-08:00",
         "temp_f": 55.0,
@@ -177,10 +169,6 @@
     "max_sky_cover_pct": 46.0,
     "sky_hours": [
       {
-        "time": "2026-11-09T03:00:00-08:00",
-        "sky_cover_pct": 3.0
-      },
-      {
         "time": "2026-11-09T04:00:00-08:00",
         "sky_cover_pct": 3.0
       },
@@ -268,10 +256,15 @@
   },
   "radar": {
     "available": true,
-    "latest_time_utc": "2026-11-09T11:14:57+00:00",
-    "prior_time_utc": "2026-11-09T10:44:57+00:00",
+    "latest_time_utc": "2026-11-09T12:38:02+00:00",
+    "prior_time_utc": "2026-11-09T12:08:02+00:00",
     "current": {
-      "echo_fraction_by_radius": {},
+      "echo_fraction_by_radius": {
+        "0": 0.0,
+        "10": 0.0,
+        "25": 0.0,
+        "50": 0.0
+      },
       "nearest_echo_miles": null
     },
     "prior": {
@@ -299,17 +292,17 @@
     "mean_cloud_fraction_2h": 0.0,
     "cloud_fraction_trend_2h": 0.0,
     "latest_cloud_fraction_below_20000": 0.0,
-    "geocolor_image_url": "https://cdn.star.nesdis.noaa.gov/WFO/vef/GEOCOLOR/20263131100_GOES18-ABI-vef-GEOCOLOR-600x600.jpg",
-    "geocolor_time_utc": "2026-11-09T11:00:00+00:00",
-    "infrared_image_url": "https://cdn.star.nesdis.noaa.gov/WFO/vef/13/20263131100_GOES18-ABI-vef-13-600x600.jpg",
-    "infrared_time_utc": "2026-11-09T11:00:00+00:00",
+    "geocolor_image_url": "https://cdn.star.nesdis.noaa.gov/WFO/vef/GEOCOLOR/20263131220_GOES18-ABI-vef-GEOCOLOR-600x600.jpg",
+    "geocolor_time_utc": "2026-11-09T12:20:00+00:00",
+    "infrared_image_url": "https://cdn.star.nesdis.noaa.gov/WFO/vef/13/20263131220_GOES18-ABI-vef-13-600x600.jpg",
+    "infrared_time_utc": "2026-11-09T12:20:00+00:00",
     "errors": [],
     "image_note": "GOES images are a visual cross-check in this version. The shading label uses KLAS-observed sky cover and does not alter the validated temperature prediction.",
     "source": "NOAA/NESDIS/STAR GOES imagery + KLAS METAR sky cover"
   },
   "wethr": {
     "available": false,
-    "collected_at_local": "2026-11-09T03:24:03.159351-08:00",
+    "collected_at_local": "2026-11-09T04:44:59.252769-08:00",
     "models": {
       "HRRR": {
         "available": false,
@@ -361,7 +354,7 @@
   "historical_analogs": {
     "available": false
   },
-  "next_update_local": "2026-11-09T04:05:00-08:00",
+  "next_update_local": "2026-11-09T05:05:00-08:00",
   "model_accuracy": {
     "7_day": [
       {
@@ -591,6 +584,15 @@
     ]
   },
   "progression": [
+    {
+      "checkpoint_hour": null,
+      "latest_precise_temp_f": 53.96,
+      "latest_temp_f": 54.0,
+      "six_hour_max_f": null,
+      "model_predicted_high_f": null,
+      "nws_am_forecast_high_f": 74.0,
+      "weather_risk": "LOW"
+    },
     {
       "checkpoint_hour": null,
       "latest_precise_temp_f": 53.96,
