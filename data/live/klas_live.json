@@ -1,6 +1,6 @@
 {
   "date": "2026-11-09",
-  "updated_at_local": "2026-11-09T16:02:39.312445-08:00",
+  "updated_at_local": "2026-11-09T16:08:52.377748-08:00",
   "latest_metar_time": "2026-11-09T15:56:00-08:00",
   "latest_temp_f": 72.0,
   "latest_precise_temp_f": 71.96,
@@ -112,8 +112,8 @@
   },
   "radar": {
     "available": true,
-    "latest_time_utc": "2026-11-09T23:58:10+00:00",
-    "prior_time_utc": "2026-11-09T23:28:10+00:00",
+    "latest_time_utc": "2026-11-09T23:44:59+00:00",
+    "prior_time_utc": "2026-11-09T23:14:59+00:00",
     "current": {
       "echo_fraction_by_radius": {
         "0": 0.0,
@@ -148,16 +148,16 @@
       "strike_type": "between",
       "floor_strike": 74.0,
       "cap_strike": 75.0,
-      "yes_bid": 0.03,
-      "yes_ask": 0.06,
-      "last_price": 0.02,
-      "market_mid": 0.045,
+      "yes_bid": 0.01,
+      "yes_ask": 0.05,
+      "last_price": 0.01,
+      "market_mid": 0.030000000000000002,
       "close_time": "2026-11-10T09:00:00Z",
       "occurrence_datetime": "2026-11-10T15:00:00Z",
       "updated_time": "2026-11-08T15:00:01.023699Z",
       "model_probability": 0.8501971090670171,
-      "edge_vs_ask": 0.790197109067017,
-      "difference": 0.805197109067017
+      "edge_vs_ask": 0.800197109067017,
+      "difference": 0.820197109067017
     },
     {
       "ticker": "KXHIGHTLV-26NOV09-B76.5",
@@ -186,16 +186,16 @@
       "strike_type": "between",
       "floor_strike": 72.0,
       "cap_strike": 73.0,
-      "yes_bid": 0.93,
-      "yes_ask": 0.97,
+      "yes_bid": 0.94,
+      "yes_ask": 0.98,
       "last_price": 0.98,
-      "market_mid": 0.95,
+      "market_mid": 0.96,
       "close_time": "2026-11-10T09:00:00Z",
       "occurrence_datetime": "2026-11-10T15:00:00Z",
       "updated_time": "2026-11-08T15:00:01.023699Z",
       "model_probability": 0.004599211563731931,
-      "edge_vs_ask": -0.9654007884362681,
-      "difference": -0.9454007884362681
+      "edge_vs_ask": -0.9754007884362681,
+      "difference": -0.9554007884362681
     },
     {
       "ticker": "KXHIGHTLV-26NOV09-B78.5",
@@ -283,16 +283,16 @@
     "strike_type": "between",
     "floor_strike": 74.0,
     "cap_strike": 75.0,
-    "yes_bid": 0.03,
-    "yes_ask": 0.06,
-    "last_price": 0.02,
-    "market_mid": 0.045,
+    "yes_bid": 0.01,
+    "yes_ask": 0.05,
+    "last_price": 0.01,
+    "market_mid": 0.030000000000000002,
     "close_time": "2026-11-10T09:00:00Z",
     "occurrence_datetime": "2026-11-10T15:00:00Z",
     "updated_time": "2026-11-08T15:00:01.023699Z",
     "model_probability": 0.8501971090670171,
-    "edge_vs_ask": 0.790197109067017,
-    "difference": 0.805197109067017
+    "edge_vs_ask": 0.800197109067017,
+    "difference": 0.820197109067017
   },
   "research_status": "LARGE MODEL/MARKET GAP",
   "satellite": {
@@ -313,7 +313,7 @@
   },
   "wethr": {
     "available": false,
-    "collected_at_local": "2026-11-09T16:02:34.361211-08:00",
+    "collected_at_local": "2026-11-09T16:08:42.901253-08:00",
     "models": {
       "HRRR": {
         "available": false,
@@ -371,7 +371,7 @@
     "range_80_high_f": 90.0,
     "median_heating_remaining_f": 18.0
   },
-  "next_update_local": "2026-11-09T16:05:00-08:00",
+  "next_update_local": "2026-11-09T16:20:00-08:00",
   "model_accuracy": {
     "7_day": [
       {
