@@ -1,6 +1,6 @@
 {
   "date": "2026-11-13",
-  "updated_at_local": "2026-11-13T13:51:48.076094-08:00",
+  "updated_at_local": "2026-11-13T13:55:01.286020-08:00",
   "latest_metar_time": "2026-11-13T12:56:00-08:00",
   "latest_temp_f": 71.0,
   "latest_precise_temp_f": 71.06,
@@ -153,8 +153,8 @@
   },
   "radar": {
     "available": true,
-    "latest_time_utc": "2026-11-13T21:44:04+00:00",
-    "prior_time_utc": "2026-11-13T21:14:04+00:00",
+    "latest_time_utc": "2026-11-13T21:30:57+00:00",
+    "prior_time_utc": "2026-11-13T21:00:57+00:00",
     "current": {
       "echo_fraction_by_radius": {
         "0": 0.0,
@@ -189,16 +189,16 @@
       "strike_type": "between",
       "floor_strike": 73.0,
       "cap_strike": 74.0,
-      "yes_bid": 0.16,
-      "yes_ask": 0.21,
-      "last_price": 0.17,
-      "market_mid": 0.185,
+      "yes_bid": 0.06,
+      "yes_ask": 0.13,
+      "last_price": 0.06,
+      "market_mid": 0.095,
       "close_time": "2026-11-14T09:00:00Z",
       "occurrence_datetime": "2026-11-14T15:00:00Z",
       "updated_time": "2026-11-12T15:00:01.294608Z",
       "model_probability": 0.6541302887844191,
-      "edge_vs_ask": 0.4441302887844192,
-      "difference": 0.46913028878441915
+      "edge_vs_ask": 0.5241302887844191,
+      "difference": 0.5591302887844192
     },
     {
       "ticker": "KXHIGHTLV-26NOV13-B71.5",
@@ -208,16 +208,16 @@
       "strike_type": "between",
       "floor_strike": 71.0,
       "cap_strike": 72.0,
-      "yes_bid": 0.79,
-      "yes_ask": 0.86,
-      "last_price": 0.86,
-      "market_mid": 0.825,
+      "yes_bid": 0.88,
+      "yes_ask": 0.94,
+      "last_price": 0.95,
+      "market_mid": 0.9099999999999999,
       "close_time": "2026-11-14T09:00:00Z",
       "occurrence_datetime": "2026-11-14T15:00:00Z",
       "updated_time": "2026-11-12T15:00:01.294608Z",
       "model_probability": 0.2780389523169913,
-      "edge_vs_ask": -0.5819610476830087,
-      "difference": -0.5469610476830087
+      "edge_vs_ask": -0.6619610476830087,
+      "difference": -0.6319610476830086
     },
     {
       "ticker": "KXHIGHTLV-26NOV13-B75.5",
@@ -323,16 +323,16 @@
     "strike_type": "between",
     "floor_strike": 73.0,
     "cap_strike": 74.0,
-    "yes_bid": 0.16,
-    "yes_ask": 0.21,
-    "last_price": 0.17,
-    "market_mid": 0.185,
+    "yes_bid": 0.06,
+    "yes_ask": 0.13,
+    "last_price": 0.06,
+    "market_mid": 0.095,
     "close_time": "2026-11-14T09:00:00Z",
     "occurrence_datetime": "2026-11-14T15:00:00Z",
     "updated_time": "2026-11-12T15:00:01.294608Z",
     "model_probability": 0.6541302887844191,
-    "edge_vs_ask": 0.4441302887844192,
-    "difference": 0.46913028878441915
+    "edge_vs_ask": 0.5241302887844191,
+    "difference": 0.5591302887844192
   },
   "research_status": "EDGE WATCH \u2014 WEATHER RISK MEDIUM",
   "satellite": {
@@ -353,7 +353,7 @@
   },
   "wethr": {
     "available": false,
-    "collected_at_local": "2026-11-13T13:51:41.325681-08:00",
+    "collected_at_local": "2026-11-13T13:54:57.124591-08:00",
     "models": {
       "HRRR": {
         "available": false,
