@@ -1,100 +1,38 @@
 {
   "date": "2026-11-16",
-  "updated_at_local": "2026-11-16T16:09:35.985818-08:00",
-  "latest_metar_time": "2026-11-16T15:56:00-08:00",
-  "latest_temp_f": 63.0,
-  "latest_precise_temp_f": 62.959999999999994,
-  "latest_dewpoint_f": 44.0,
+  "updated_at_local": "2026-11-16T23:49:40.553023-08:00",
+  "latest_metar_time": "2026-11-16T22:56:00-08:00",
+  "latest_temp_f": 59.0,
+  "latest_precise_temp_f": 59.0,
+  "latest_dewpoint_f": 53.0,
   "raw_metar_peak_f": 63.0,
   "precise_metar_peak_f": 62.959999999999994,
-  "six_hour_max_f": 63,
-  "six_hour_max_report_time": "2026-11-16T15:56:00-08:00",
+  "six_hour_max_f": null,
+  "six_hour_max_report_time": "2026-11-16T21:56:00-08:00",
   "nws_am_forecast_high_f": 68.0,
   "nws_am_issued_at": "2026-11-16T02:00:00-08:00",
-  "checkpoint_hour": 16,
-  "weather_risk": "MEDIUM",
+  "checkpoint_hour": 18,
+  "weather_risk": "HIGH",
   "weather_reasons": [
+    "Recent precipitation at KLAS",
     "Heavy recent cloud cover",
-    "NWS sky cover forecast reaches 75%",
     "Las Vegas NWS discussion contains a convective/monsoon signal"
   ],
   "weather_risk_components": {
-    "observed_risk": "MEDIUM",
+    "observed_risk": "HIGH",
     "forecast_risk": "LOW",
     "afd_risk": "MEDIUM",
     "radar_risk": "LOW"
   },
   "nws_live_forecast": {
-    "available": true,
-    "hours": [
-      {
-        "time": "2026-11-16T16:00:00-08:00",
-        "temp_f": 69.0,
-        "pop_pct": 10.0,
-        "short_forecast": "Mostly Cloudy",
-        "wind_speed": "8 mph",
-        "wind_direction": "SSE"
-      },
-      {
-        "time": "2026-11-16T17:00:00-08:00",
-        "temp_f": 67.0,
-        "pop_pct": 11.0,
-        "short_forecast": "Partly Sunny",
-        "wind_speed": "7 mph",
-        "wind_direction": "S"
-      },
-      {
-        "time": "2026-11-16T18:00:00-08:00",
-        "temp_f": 67.0,
-        "pop_pct": 11.0,
-        "short_forecast": "Partly Cloudy",
-        "wind_speed": "7 mph",
-        "wind_direction": "S"
-      },
-      {
-        "time": "2026-11-16T19:00:00-08:00",
-        "temp_f": 66.0,
-        "pop_pct": 11.0,
-        "short_forecast": "Mostly Cloudy",
-        "wind_speed": "7 mph",
-        "wind_direction": "S"
-      },
-      {
-        "time": "2026-11-16T20:00:00-08:00",
-        "temp_f": 63.0,
-        "pop_pct": 15.0,
-        "short_forecast": "Slight Chance Rain Showers",
-        "wind_speed": "6 mph",
-        "wind_direction": "S"
-      }
-    ],
-    "max_pop_pct": 15.0,
+    "available": false,
+    "hours": [],
+    "max_pop_pct": null,
     "thunder_possible": false,
-    "rain_possible": true,
-    "summary": "NWS hourly forecast includes showers/rain",
-    "max_sky_cover_pct": 75.0,
-    "sky_hours": [
-      {
-        "time": "2026-11-16T16:00:00-08:00",
-        "sky_cover_pct": 75.0
-      },
-      {
-        "time": "2026-11-16T17:00:00-08:00",
-        "sky_cover_pct": 52.0
-      },
-      {
-        "time": "2026-11-16T18:00:00-08:00",
-        "sky_cover_pct": 42.0
-      },
-      {
-        "time": "2026-11-16T19:00:00-08:00",
-        "sky_cover_pct": 55.0
-      },
-      {
-        "time": "2026-11-16T20:00:00-08:00",
-        "sky_cover_pct": 63.0
-      }
-    ],
+    "rain_possible": false,
+    "summary": "NWS hourly forecast unavailable",
+    "max_sky_cover_pct": null,
+    "sky_hours": [],
     "office": "VEF",
     "grid_x": 122,
     "grid_y": 94,
@@ -102,14 +40,13 @@
   },
   "afd": {
     "available": true,
-    "issued_at": "2026-11-16T19:37:00+00:00",
-    "product_id": "7b656bb3-f877-496e-b6da-e61b7a98173b",
-    "text": "\n000\nFXUS65 KVEF 161937\nAFDVEF\n\nArea Forecast Discussion\nNational Weather Service Las Vegas NV\n1138 AM PST Mon Nov 16 2026\n\n.KEY MESSAGES...\n\n* Precipitation and cooler weather arrives Monday and lasts\n  through Tuesday\n\n* Gusty southwest to west winds are expected Tuesday into Tuesday \n  evening for much of the area. \n\n* A colder system arrives in the mid-week, causing Winter Storm\n  Watch for the Eastern Sierra for accumulating snow and bringing \n  another batch of scattered showers for the rest of the region.\n\n&&\n\n.DISCUSSION...Through Monday\n\nA cold front is currently making its way south along the Sierra \nNevada and is expected to reach the Eastern Sierra this afternoon. \nMost of the precipitation will remain along the western slopes of \nthe Sierra, although a few isolated light showers will be possible \novernight across portions of southern Nevada and southeast \nCalifornia. As the trough continues to dig over the eastern Pacific, \nit will tap into some Pacific moisture overnight into Tuesday. While \nthis moisture tap is not particularly impressive, PW values are \nexpected to increase to 200-250% of normal for this time of year \nacross the CWA. As the trough begins to swing inland late tonight \ninto Tuesday, improving dynamics, including strong upper-level \ndiffluence, will combine with the increasing moisture to support \nscattered to widespread showers across mainly the eastern half of \nthe forecast area, including Clark, Lincoln, and Mohave counties.\nThe greatest potential for heavier rainfall and isolated \nthunderstorms will be across Lincoln and Mohave counties, where WPC \nhas outlined a Marginal Risk for excessive rainfall. Rainfall totals \nwill generally range from 0.25 to 0.50 inches across these areas, \nwith amounts elsewhere remaining below 0.25 inches. While locally \nheavier showers could result in isolated flooding, the overall flood \nrisk remains low.\n\nGusty southwest to west winds are also expected late tonight through \nTuesday, with most areas seeing sustained winds of 15 to 25 mph and \ngusts around 30 mph. However, stronger winds are expected across \nsouthern Clark County and northern San Bernardino County, including \nthe I-15 corridor, where sustained winds of 20 to 30 mph and gusts \naround 50 mph are likely. A Wind Advisory has been issued for these \nareas Tuesday morning through Tuesday afternoon. Winds will decrease \nand shift to the northwest behind the cold front, although Esmeralda \nand central Nye counties could still see gusts of 30 to 35 mph \nTuesday afternoon and evening.\n\nAfter a brief break on Wednesday, a stronger and wetter system is \nexpected to push into the West Coast. While this system is not \nexpected to dig as far south as Tuesday's trough, it will feature a \nmore substantial moisture tap, with strong IVT values supporting \nsignificant precipitation across the Sierra Wednesday night through \nThursday. Current snowfall forecasts call for 10 to 18 inches \nbetween 5,000 and 8,000 feet, with 18 to 36 inches above 8,000 feet \nand locally higher amounts along the Sierra crest. Strong winds will \naccompany the snowfall, with gusts exceeding 50 mph along the \nhighest peaks.\n\nAlthough the bulk of the moisture will remain focused on the Sierra, \nsome precipitation will spread into the remainder of the CWA. This \ncould bring lighter snow accumulations to the higher elevations of \nsouthern Nevada, including around 4 inches at Mt. Charleston, along \nwith another round of rain showers that could linger into early \nFriday. Rainfall rates are expected to remain relatively light, but \nthe prolonged duration of precipitation could result in storm totals \nof 0.10 to 0.40 inches across much of the region.\n\nThere is still some uncertainty regarding the timing of this system, \nas the trough is currently located over the Gulf of Alaska and model \nguidance is beginning to suggest a slower progression inland near \nthe California/Oregon border. As a result, adjustments to the timing \nand precipitation amounts may be needed in subsequent forecasts. \nBeyond Friday, a transient ridge is expected to build over the \nregion, keeping additional precipitation farther north while \nallowing temperatures to gradually warm through the weekend.\n\n&&\n\n.AVIATION...For Harry Reid...For the 18Z Forecast Package...Light \nwinds will persist into this evening, with directions favoring \neasterly components, although variable winds are possible at times. \nCIGs will continue to fall through the afternoon, reaching around \n6kft AGL during the evening. Areas of virga or light showers will \nbegin to spread into the valley after 03Z, with better chances \ndeveloping after 08Z. As the more persistent showers move in \novernight, CIGs will fall to 4kft to 6kft AGL, with a 30 percent \nchance of seeing CIGs as low as 3kft AGL. Most of the showers should \nend shortly after daybreak, but as they do, southerly winds will \nincrease, with gusts of 20 to 25 knots becoming likely. CIGs will \nalso improve, potentially faster than what is shown in the TAF \nTuesday morning. \n\nFor the rest of southern Nevada, northwest Arizona and southeast \nCalifornia...For the 18Z Forecast Package...Winds across the region \nwill be somewhat variable through the evening, with speeds generally \naround 5 to 10 knots. The main exception will be around KBIH in the \nnorthern Owens Valley, where up-valley winds gusting to around 30 \nknots are expected through sunset. CIGs will gradually lower through \nthe afternoon, falling to around 4kft to 6kft AGL by late evening. \nLight showers will also begin to overspread the area this evening \nand overnight, which may potentially bring CIGs down to 2kft to 4kft \nAGL at times. Improving conditions are expected Tuesday morning, \nwith most of the shower activity moving east of regional terminals \nby late morning. \n\n&&\n\n.SPOTTER INFORMATION STATEMENT...Spotters are encouraged to report\nany significant weather or impacts according to standard operating\nprocedures.\n\n&&\n\n$$\n\nDISCUSSION...Gorelow/Murdock \nAVIATION...Planz\n\nFor more forecast information...see us on our webpage:\nhttps://weather.gov/lasvegas or follow us on Facebook and Twitter\n",
-    "risk": "HIGH",
+    "issued_at": "2026-11-17T05:15:00+00:00",
+    "product_id": "16795117-d5ff-4c54-bb5c-442a7a7ce8b9",
+    "text": "\n000\nFXUS65 KVEF 170515\nAFDVEF\n\nArea Forecast Discussion\nNational Weather Service Las Vegas NV\n915 PM PST Mon Nov 16 2026\n\n.KEY MESSAGES...\n\n* Precipitation and cooler weather arrives Monday and lasts\n  through Tuesday\n\n* Gusty southwest to west winds are expected Tuesday into Tuesday \n  evening for much of the area. \n\n* A colder system arrives in the mid-week, causing Winter Storm\n  Watch for the Eastern Sierra for accumulating snow and bringing \n  another batch of scattered showers for the rest of the region.\n\n&&\n\n.DISCUSSION...Through Monday\n\nA cold front is currently making its way south along the Sierra \nNevada and is expected to reach the Eastern Sierra this afternoon. \nMost of the precipitation will remain along the western slopes of \nthe Sierra, although a few isolated light showers will be possible \novernight across portions of southern Nevada and southeast \nCalifornia. As the trough continues to dig over the eastern Pacific, \nit will tap into some Pacific moisture overnight into Tuesday. While \nthis moisture tap is not particularly impressive, PW values are \nexpected to increase to 200-250% of normal for this time of year \nacross the CWA. As the trough begins to swing inland late tonight \ninto Tuesday, improving dynamics, including strong upper-level \ndiffluence, will combine with the increasing moisture to support \nscattered to widespread showers across mainly the eastern half of \nthe forecast area, including Clark, Lincoln, and Mohave counties.\nThe greatest potential for heavier rainfall and isolated \nthunderstorms will be across Lincoln and Mohave counties, where WPC \nhas outlined a Marginal Risk for excessive rainfall. Rainfall totals \nwill generally range from 0.25 to 0.50 inches across these areas, \nwith amounts elsewhere remaining below 0.25 inches. While locally \nheavier showers could result in isolated flooding, the overall flood \nrisk remains low.\n\nGusty southwest to west winds are also expected late tonight through \nTuesday, with most areas seeing sustained winds of 15 to 25 mph and \ngusts around 30 mph. However, stronger winds are expected across \nsouthern Clark County and northern San Bernardino County, including \nthe I-15 corridor, where sustained winds of 20 to 30 mph and gusts \naround 50 mph are likely. A Wind Advisory has been issued for these \nareas Tuesday morning through Tuesday afternoon. Winds will decrease \nand shift to the northwest behind the cold front, although Esmeralda \nand central Nye counties could still see gusts of 30 to 35 mph \nTuesday afternoon and evening.\n\nAfter a brief break on Wednesday, a stronger and wetter system is \nexpected to push into the West Coast. While this system is not \nexpected to dig as far south as Tuesday's trough, it will feature a \nmore substantial moisture tap, with strong IVT values supporting \nsignificant precipitation across the Sierra Wednesday night through \nThursday. Current snowfall forecasts call for 10 to 18 inches \nbetween 5,000 and 8,000 feet, with 18 to 36 inches above 8,000 feet \nand locally higher amounts along the Sierra crest. Strong winds will \naccompany the snowfall, with gusts exceeding 50 mph along the \nhighest peaks.\n\nAlthough the bulk of the moisture will remain focused on the Sierra, \nsome precipitation will spread into the remainder of the CWA. This \ncould bring lighter snow accumulations to the higher elevations of \nsouthern Nevada, including around 4 inches at Mt. Charleston, along \nwith another round of rain showers that could linger into early \nFriday. Rainfall rates are expected to remain relatively light, but \nthe prolonged duration of precipitation could result in storm totals \nof 0.10 to 0.40 inches across much of the region.\n\nThere is still some uncertainty regarding the timing of this system, \nas the trough is currently located over the Gulf of Alaska and model \nguidance is beginning to suggest a slower progression inland near \nthe California/Oregon border. As a result, adjustments to the timing \nand precipitation amounts may be needed in subsequent forecasts. \nBeyond Friday, a transient ridge is expected to build over the \nregion, keeping additional precipitation farther north while \nallowing temperatures to gradually warm through the weekend.\n\n&&\n\n.AVIATION...For Harry Reid...For the 06Z Forecast Package...Light \nwinds expected through the early morning hours with decreasing CIGS \nas light shower activity moves into the Las Vegas Valley. Heavier \nshowers with CIGS of 3-5kft AGL are expected after 8z with mountain \nobscuration expected. Improving conditions expected near sunrise \nwith increasing southwesterly winds and gusts of 20-25 knots. Sky \nconditions will improve through the day with fairly rapid clearing \nexpected through the morning hours. Winds will trend light by the \nevening. \n\nFor the rest of southern Nevada, northwest Arizona and southeast \nCalifornia...For the 06Z Forecast Package...Winds across the region \nwill be somewhat variable through the evening, with speeds generally \naround 5 to 10 knots. Light showers will continue to overspread the \narea overnight, which may potentially bring CIGs down to 2kft to \n4kft AGL at times. Improving conditions are expected Tuesday \nmorning, with most of the shower activity moving east of regional \nterminals by late morning with fairly rapid clearing from west to \neast. Winds will trend light areawide by early evening. \n\n&&\n\n.SPOTTER INFORMATION STATEMENT...Spotters are encouraged to report\nany significant weather or impacts according to standard operating\nprocedures.\n\n&&\n\n$$\n\nDISCUSSION...Gorelow/Murdock \nAVIATION...Planz\n\nFor more forecast information...see us on our webpage:\nhttps://weather.gov/lasvegas or follow us on Facebook and Twitter\n",
+    "risk": "MEDIUM",
     "high_terms": [],
     "convective_terms": [
       "thunderstorm",
-      "virga",
       "showers",
       "shower"
     ],
@@ -119,8 +56,8 @@
   },
   "radar": {
     "available": true,
-    "latest_time_utc": "2026-11-16T23:50:59+00:00",
-    "prior_time_utc": "2026-11-16T23:20:59+00:00",
+    "latest_time_utc": "2026-11-17T07:32:56+00:00",
+    "prior_time_utc": "2026-11-17T07:02:56+00:00",
     "current": {
       "echo_fraction_by_radius": {
         "0": 0.0,
@@ -148,25 +85,6 @@
   "model_available": true,
   "markets": [
     {
-      "ticker": "KXHIGHTLV-26NOV16-B66.5",
-      "event_ticker": "KXHIGHTLV-26NOV16",
-      "title": "Will the maximum temperature be 66-67\u00b0 on Nov 16, 2026?",
-      "subtitle": "66\u00b0 to 67\u00b0",
-      "strike_type": "between",
-      "floor_strike": 66.0,
-      "cap_strike": 67.0,
-      "yes_bid": 0.02,
-      "yes_ask": 0.04,
-      "last_price": 0.04,
-      "market_mid": 0.03,
-      "close_time": "2026-11-17T09:00:00Z",
-      "occurrence_datetime": "2026-11-17T15:00:00Z",
-      "updated_time": "2026-11-15T15:00:01.123851Z",
-      "model_probability": 0.6108567691301504,
-      "edge_vs_ask": 0.5708567691301504,
-      "difference": 0.5808567691301504
-    },
-    {
       "ticker": "KXHIGHTLV-26NOV16-T66",
       "event_ticker": "KXHIGHTLV-26NOV16",
       "title": "Will the maximum temperature be <66\u00b0 on Nov 16, 2026?",
@@ -174,16 +92,35 @@
       "strike_type": "less",
       "floor_strike": null,
       "cap_strike": 66.0,
-      "yes_bid": 0.98,
-      "yes_ask": 0.99,
+      "yes_bid": 0.99,
+      "yes_ask": 1.0,
       "last_price": 0.99,
-      "market_mid": 0.985,
+      "market_mid": 0.995,
       "close_time": "2026-11-17T09:00:00Z",
       "occurrence_datetime": "2026-11-17T15:00:00Z",
       "updated_time": "2026-11-15T15:00:01.123851Z",
-      "model_probability": 0.37998691955526487,
-      "edge_vs_ask": -0.6100130804447351,
-      "difference": -0.6050130804447351
+      "model_probability": 0.9648208469055375,
+      "edge_vs_ask": -0.03517915309446251,
+      "difference": -0.030179153094462507
+    },
+    {
+      "ticker": "KXHIGHTLV-26NOV16-B66.5",
+      "event_ticker": "KXHIGHTLV-26NOV16",
+      "title": "Will the maximum temperature be 66-67\u00b0 on Nov 16, 2026?",
+      "subtitle": "66\u00b0 to 67\u00b0",
+      "strike_type": "between",
+      "floor_strike": 66.0,
+      "cap_strike": 67.0,
+      "yes_bid": 0.0,
+      "yes_ask": 0.01,
+      "last_price": 0.01,
+      "market_mid": 0.005,
+      "close_time": "2026-11-17T09:00:00Z",
+      "occurrence_datetime": "2026-11-17T15:00:00Z",
+      "updated_time": "2026-11-15T15:00:01.123851Z",
+      "model_probability": 0.03517915309446254,
+      "edge_vs_ask": 0.025179153094462538,
+      "difference": 0.03017915309446254
     },
     {
       "ticker": "KXHIGHTLV-26NOV16-B68.5",
@@ -200,9 +137,9 @@
       "close_time": "2026-11-17T09:00:00Z",
       "occurrence_datetime": "2026-11-17T15:00:00Z",
       "updated_time": "2026-11-15T15:00:01.123851Z",
-      "model_probability": 0.009156311314584695,
-      "edge_vs_ask": -0.0008436886854153048,
-      "difference": 0.004156311314584695
+      "model_probability": 0,
+      "edge_vs_ask": -0.01,
+      "difference": -0.005
     },
     {
       "ticker": "KXHIGHTLV-26NOV16-B70.5",
@@ -263,24 +200,22 @@
     }
   ],
   "model_method": "remaining_heating",
-  "model_bundle": "h16_remaining.joblib",
+  "model_bundle": "h18_remaining.joblib",
   "observed_floor_f": 63.0,
-  "predicted_remaining_heating_f": 2.6119122682872686,
+  "predicted_remaining_heating_f": 1.4494308660296236,
   "pre_checkpoint_peak_f": 63.0,
-  "model_predicted_high_f": 65.61191226828727,
-  "model_correction_f": -2.38808773171273,
-  "likely_low_f": 65,
-  "likely_high_f": 66,
-  "confidence": "MEDIUM",
-  "model_mae_f": 0.4495189722064723,
+  "model_predicted_high_f": 64.44943086602963,
+  "model_correction_f": -3.55056913397037,
+  "likely_low_f": 64,
+  "likely_high_f": 65,
+  "confidence": "LOW",
+  "model_mae_f": 0.4206937872400014,
   "distribution": {
-    "63": 0.004578155657292348,
-    "64": 0.04381948986265533,
-    "65": 0.3315892740353172,
-    "66": 0.540876389797253,
-    "67": 0.06998037933289732,
-    "68": 0.004578155657292348,
-    "69": 0.004578155657292348
+    "63": 0.04364820846905538,
+    "64": 0.4866449511400652,
+    "65": 0.43452768729641694,
+    "66": 0.030618892508143324,
+    "67": 0.004560260586319218
   },
   "bucket_probability_total": 1.0,
   "largest_model_ask_gap": {
@@ -291,18 +226,18 @@
     "strike_type": "between",
     "floor_strike": 66.0,
     "cap_strike": 67.0,
-    "yes_bid": 0.02,
-    "yes_ask": 0.04,
-    "last_price": 0.04,
-    "market_mid": 0.03,
+    "yes_bid": 0.0,
+    "yes_ask": 0.01,
+    "last_price": 0.01,
+    "market_mid": 0.005,
     "close_time": "2026-11-17T09:00:00Z",
     "occurrence_datetime": "2026-11-17T15:00:00Z",
     "updated_time": "2026-11-15T15:00:01.123851Z",
-    "model_probability": 0.6108567691301504,
-    "edge_vs_ask": 0.5708567691301504,
-    "difference": 0.5808567691301504
+    "model_probability": 0.03517915309446254,
+    "edge_vs_ask": 0.025179153094462538,
+    "difference": 0.03017915309446254
   },
-  "research_status": "EDGE WATCH \u2014 WEATHER RISK MEDIUM",
+  "research_status": "WEATHER RISK \u2014 WAIT",
   "satellite": {
     "available": true,
     "risk": "HIGH",
@@ -311,17 +246,17 @@
     "mean_cloud_fraction_2h": 1.0,
     "cloud_fraction_trend_2h": 0.0,
     "latest_cloud_fraction_below_20000": 1.0,
-    "geocolor_image_url": "https://cdn.star.nesdis.noaa.gov/WFO/vef/GEOCOLOR/20263202340_GOES18-ABI-vef-GEOCOLOR-600x600.jpg",
-    "geocolor_time_utc": "2026-11-16T23:40:00+00:00",
-    "infrared_image_url": "https://cdn.star.nesdis.noaa.gov/WFO/vef/13/20263202340_GOES18-ABI-vef-13-600x600.jpg",
-    "infrared_time_utc": "2026-11-16T23:40:00+00:00",
+    "geocolor_image_url": "https://cdn.star.nesdis.noaa.gov/WFO/vef/GEOCOLOR/20263210720_GOES18-ABI-vef-GEOCOLOR-600x600.jpg",
+    "geocolor_time_utc": "2026-11-17T07:20:00+00:00",
+    "infrared_image_url": "https://cdn.star.nesdis.noaa.gov/WFO/vef/13/20263210730_GOES18-ABI-vef-13-600x600.jpg",
+    "infrared_time_utc": "2026-11-17T07:30:00+00:00",
     "errors": [],
     "image_note": "GOES images are a visual cross-check in this version. The shading label uses KLAS-observed sky cover and does not alter the validated temperature prediction.",
     "source": "NOAA/NESDIS/STAR GOES imagery + KLAS METAR sky cover"
   },
   "wethr": {
     "available": false,
-    "collected_at_local": "2026-11-16T16:09:23.964032-08:00",
+    "collected_at_local": "2026-11-16T23:49:36.022572-08:00",
     "models": {
       "HRRR": {
         "available": false,
@@ -372,7 +307,7 @@
   "historical_analogs": {
     "available": false
   },
-  "next_update_local": "2026-11-16T16:20:00-08:00",
+  "next_update_local": "2026-11-17T00:05:00-08:00",
   "model_accuracy": {
     "7_day": [
       {
@@ -551,6 +486,15 @@
       "model_predicted_high_f": 65.61191226828727,
       "nws_am_forecast_high_f": 68.0,
       "weather_risk": "MEDIUM"
+    },
+    {
+      "checkpoint_hour": 18.0,
+      "latest_precise_temp_f": 59.0,
+      "latest_temp_f": 59.0,
+      "six_hour_max_f": null,
+      "model_predicted_high_f": 64.44943086602963,
+      "nws_am_forecast_high_f": 68.0,
+      "weather_risk": "HIGH"
     }
   ]
 }
