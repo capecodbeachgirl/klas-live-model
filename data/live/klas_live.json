@@ -1,6 +1,6 @@
 {
   "date": "2026-11-18",
-  "updated_at_local": "2026-11-18T14:53:49.024982-08:00",
+  "updated_at_local": "2026-11-18T14:55:01.563771-08:00",
   "latest_metar_time": "2026-11-18T13:56:00-08:00",
   "latest_temp_f": 61.0,
   "latest_precise_temp_f": 60.980000000000004,
@@ -137,14 +137,24 @@
   },
   "radar": {
     "available": true,
-    "latest_time_utc": "2026-11-17T23:52:58+00:00",
-    "prior_time_utc": "2026-11-17T23:22:58+00:00",
+    "latest_time_utc": "2026-11-18T22:44:59+00:00",
+    "prior_time_utc": "2026-11-18T22:14:59+00:00",
     "current": {
-      "echo_fraction_by_radius": {},
+      "echo_fraction_by_radius": {
+        "0": 0.0,
+        "10": 0.0,
+        "25": 0.0,
+        "50": 0.0
+      },
       "nearest_echo_miles": null
     },
     "prior": {
-      "echo_fraction_by_radius": {},
+      "echo_fraction_by_radius": {
+        "0": 0.0,
+        "10": 0.0,
+        "25": 0.0,
+        "50": 0.0
+      },
       "nearest_echo_miles": null
     },
     "risk": "LOW",
@@ -163,16 +173,16 @@
       "strike_type": "between",
       "floor_strike": 63.0,
       "cap_strike": 64.0,
-      "yes_bid": 0.24,
-      "yes_ask": 0.35,
-      "last_price": 0.35,
-      "market_mid": 0.295,
+      "yes_bid": 0.21,
+      "yes_ask": 0.33,
+      "last_price": 0.31,
+      "market_mid": 0.27,
       "close_time": "2026-11-19T09:00:00Z",
       "occurrence_datetime": "2026-11-19T15:00:00Z",
       "updated_time": "2026-11-17T15:00:01.367346Z",
       "model_probability": 0.685222001325381,
-      "edge_vs_ask": 0.33522200132538105,
-      "difference": 0.39022200132538104
+      "edge_vs_ask": 0.355222001325381,
+      "difference": 0.415222001325381
     },
     {
       "ticker": "KXHIGHTLV-26NOV18-B61.5",
@@ -182,16 +192,16 @@
       "strike_type": "between",
       "floor_strike": 61.0,
       "cap_strike": 62.0,
-      "yes_bid": 0.67,
-      "yes_ask": 0.78,
-      "last_price": 0.67,
-      "market_mid": 0.7250000000000001,
+      "yes_bid": 0.69,
+      "yes_ask": 0.81,
+      "last_price": 0.77,
+      "market_mid": 0.75,
       "close_time": "2026-11-19T09:00:00Z",
       "occurrence_datetime": "2026-11-19T15:00:00Z",
       "updated_time": "2026-11-17T15:00:01.367346Z",
       "model_probability": 0.26110006626905236,
-      "edge_vs_ask": -0.5188999337309477,
-      "difference": -0.46389993373094773
+      "edge_vs_ask": -0.5488999337309477,
+      "difference": -0.48889993373094764
     },
     {
       "ticker": "KXHIGHTLV-26NOV18-B65.5",
@@ -297,16 +307,16 @@
     "strike_type": "between",
     "floor_strike": 63.0,
     "cap_strike": 64.0,
-    "yes_bid": 0.24,
-    "yes_ask": 0.35,
-    "last_price": 0.35,
-    "market_mid": 0.295,
+    "yes_bid": 0.21,
+    "yes_ask": 0.33,
+    "last_price": 0.31,
+    "market_mid": 0.27,
     "close_time": "2026-11-19T09:00:00Z",
     "occurrence_datetime": "2026-11-19T15:00:00Z",
     "updated_time": "2026-11-17T15:00:01.367346Z",
     "model_probability": 0.685222001325381,
-    "edge_vs_ask": 0.33522200132538105,
-    "difference": 0.39022200132538104
+    "edge_vs_ask": 0.355222001325381,
+    "difference": 0.415222001325381
   },
   "research_status": "LARGE MODEL/MARKET GAP",
   "satellite": {
@@ -327,7 +337,7 @@
   },
   "wethr": {
     "available": false,
-    "collected_at_local": "2026-11-18T14:53:42.579178-08:00",
+    "collected_at_local": "2026-11-18T14:54:54.952963-08:00",
     "models": {
       "HRRR": {
         "available": false,
