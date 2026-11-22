@@ -1,6 +1,6 @@
 {
   "date": "2026-11-22",
-  "updated_at_local": "2026-11-22T13:38:39.082702-08:00",
+  "updated_at_local": "2026-11-22T13:41:46.467323-08:00",
   "latest_metar_time": "2026-11-22T12:56:00-08:00",
   "latest_temp_f": 56.0,
   "latest_precise_temp_f": 55.94,
@@ -153,8 +153,8 @@
   },
   "radar": {
     "available": true,
-    "latest_time_utc": "2026-11-22T21:20:58+00:00",
-    "prior_time_utc": "2026-11-22T20:50:58+00:00",
+    "latest_time_utc": "2026-11-22T21:33:58+00:00",
+    "prior_time_utc": "2026-11-22T21:03:58+00:00",
     "current": {
       "echo_fraction_by_radius": {
         "0": 0.0,
@@ -189,16 +189,16 @@
       "strike_type": "between",
       "floor_strike": 58.0,
       "cap_strike": 59.0,
-      "yes_bid": 0.58,
-      "yes_ask": 0.7,
-      "last_price": 0.54,
-      "market_mid": 0.6399999999999999,
+      "yes_bid": 0.6,
+      "yes_ask": 0.67,
+      "last_price": 0.68,
+      "market_mid": 0.635,
       "close_time": "2026-11-23T09:00:00Z",
       "occurrence_datetime": "2026-11-23T15:00:00Z",
       "updated_time": "2026-11-21T15:00:01.500991Z",
       "model_probability": 0.6719681908548708,
-      "edge_vs_ask": -0.02803180914512915,
-      "difference": 0.031968190854870904
+      "edge_vs_ask": 0.001968190854870766,
+      "difference": 0.0369681908548708
     },
     {
       "ticker": "KXHIGHTLV-26NOV22-B56.5",
@@ -208,15 +208,15 @@
       "strike_type": "between",
       "floor_strike": 56.0,
       "cap_strike": 57.0,
-      "yes_bid": 0.31,
-      "yes_ask": 0.44,
+      "yes_bid": 0.34,
+      "yes_ask": 0.41,
       "last_price": 0.28,
       "market_mid": 0.375,
       "close_time": "2026-11-23T09:00:00Z",
       "occurrence_datetime": "2026-11-23T15:00:00Z",
       "updated_time": "2026-11-21T15:00:01.500991Z",
       "model_probability": 0.26110006626905236,
-      "edge_vs_ask": -0.17889993373094765,
+      "edge_vs_ask": -0.14889993373094762,
       "difference": -0.11389993373094764
     },
     {
@@ -353,7 +353,7 @@
   },
   "wethr": {
     "available": false,
-    "collected_at_local": "2026-11-22T13:38:34.776923-08:00",
+    "collected_at_local": "2026-11-22T13:41:38.768949-08:00",
     "models": {
       "HRRR": {
         "available": false,
