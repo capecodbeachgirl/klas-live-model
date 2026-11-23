@@ -1,17 +1,17 @@
 {
   "date": "2026-11-22",
-  "updated_at_local": "2026-11-22T13:41:46.467323-08:00",
-  "latest_metar_time": "2026-11-22T12:56:00-08:00",
+  "updated_at_local": "2026-11-22T17:58:30.999377-08:00",
+  "latest_metar_time": "2026-11-22T16:56:00-08:00",
   "latest_temp_f": 56.0,
   "latest_precise_temp_f": 55.94,
-  "latest_dewpoint_f": 24.0,
-  "raw_metar_peak_f": 56.0,
-  "precise_metar_peak_f": 55.94,
-  "six_hour_max_f": 52,
-  "six_hour_max_report_time": "2026-11-22T09:56:00-08:00",
+  "latest_dewpoint_f": 25.0,
+  "raw_metar_peak_f": 57.0,
+  "precise_metar_peak_f": 57.02,
+  "six_hour_max_f": 57,
+  "six_hour_max_report_time": "2026-11-22T15:56:00-08:00",
   "nws_am_forecast_high_f": 58.0,
   "nws_am_issued_at": "2026-11-22T02:00:00-08:00",
-  "checkpoint_hour": 13,
+  "checkpoint_hour": 17,
   "weather_risk": "MEDIUM",
   "weather_reasons": [
     "Heavy recent cloud cover",
@@ -27,38 +27,6 @@
   "nws_live_forecast": {
     "available": true,
     "hours": [
-      {
-        "time": "2026-11-22T13:00:00-08:00",
-        "temp_f": 57.0,
-        "pop_pct": 0.0,
-        "short_forecast": "Mostly Sunny",
-        "wind_speed": "3 mph",
-        "wind_direction": "E"
-      },
-      {
-        "time": "2026-11-22T14:00:00-08:00",
-        "temp_f": 57.0,
-        "pop_pct": 0.0,
-        "short_forecast": "Mostly Cloudy",
-        "wind_speed": "3 mph",
-        "wind_direction": "E"
-      },
-      {
-        "time": "2026-11-22T15:00:00-08:00",
-        "temp_f": 58.0,
-        "pop_pct": 0.0,
-        "short_forecast": "Mostly Cloudy",
-        "wind_speed": "2 mph",
-        "wind_direction": "E"
-      },
-      {
-        "time": "2026-11-22T16:00:00-08:00",
-        "temp_f": 56.0,
-        "pop_pct": 0.0,
-        "short_forecast": "Mostly Cloudy",
-        "wind_speed": "2 mph",
-        "wind_direction": "ENE"
-      },
       {
         "time": "2026-11-22T17:00:00-08:00",
         "temp_f": 54.0,
@@ -99,22 +67,6 @@
     "max_sky_cover_pct": 94.0,
     "sky_hours": [
       {
-        "time": "2026-11-22T13:00:00-08:00",
-        "sky_cover_pct": 50.0
-      },
-      {
-        "time": "2026-11-22T14:00:00-08:00",
-        "sky_cover_pct": 76.0
-      },
-      {
-        "time": "2026-11-22T15:00:00-08:00",
-        "sky_cover_pct": 85.0
-      },
-      {
-        "time": "2026-11-22T16:00:00-08:00",
-        "sky_cover_pct": 80.0
-      },
-      {
         "time": "2026-11-22T17:00:00-08:00",
         "sky_cover_pct": 82.0
       },
@@ -138,9 +90,9 @@
   },
   "afd": {
     "available": true,
-    "issued_at": "2026-11-22T19:30:00+00:00",
-    "product_id": "f001789b-cdf3-4ae9-8c6a-22d4df198f6e",
-    "text": "\n000\nFXUS65 KVEF 221930\nAFDVEF\n\nArea Forecast Discussion\nNational Weather Service Las Vegas NV\n1130 AM PST Sun Nov 22 2026\n\n.KEY MESSAGES...\n\n* Minimal weather impacts through next week. \n\n* Increased clouds and gusty mountain winds into Monday.\n\n* Warming each day Tuesday through Saturday, pushing above normal by \n  Thursday or Friday. \n\n* Cooler and more unsettled weather next week. \n\n&&\n\n.DISCUSSION...Through this Weekend.\nA short-wave trough, currently centered just west of San Fransisco, \nwill move through the region by Monday afternoon. There may be \nenough moisture to bring showers to the Sierras. The latest \nprojections backed off a bit on that moisture however, which means \nany snow will be up to an inch or two or less at elevations above \n4,500 feet. On the east side of the mountains, the moisture really \ndecreases at lower levels, so while ample mid-to-high level clouds \nare expected, any showers are unlikely. This system will also \ngenerate gusty but sub-advisory-level winds over many mountains and \nthe western Mohave desert. \n\nQuiet conditions look to follow starting Tuesday, with high pressure \naloft building over the region. Temperatures will steadily climb \neach day, pushing above normal by Thanksgiving or Black Friday, and \npeaking on Saturday when temperatures will likely be 5 to 10 degrees \nabove normal. The current forecast is likely on the lower end of the \nrange of outcome by a few degrees - especially for the end of the \nweek. There will be some breezy winds at times. There is a little \nnortheast push Monday Night for the hills and mountains from Las \nVegas southward, and some breezy northerly winds Wednesday through \nThursday down the Colorado River. Wind Advisories are unlikely. A \npattern change remains on target for next week, with much cooler \nconditions and periods of precipitation and gusty winds. Stay tuned.\n\n&&\n\n.AVIATION...For Harry Reid...For the 18Z Forecast Package...Winds\nwill remain light and somewhat variable through the forecast \nperiod, but will generally follow daily directional patterns. Mid-\nlevel and high clouds will persist, with bands at or above 15kft \npassing over the region through the forecast period. Late evening,\nexpect a BKN deck around 12kft to develop, with a brief window \nlate tonight into early Monday when a few clouds around 9-10kft \nwill be possible with rapid improvement expected thereafter. VFR \nconditions are expected to continue.\n\n\nFor the rest of southern Nevada, northwest Arizona and southeast\nCalifornia...For the 18Z Forecast Package...Winds across the\nregion will remain around 5-10KT and generally follow typical \ndaily directional patterns with some variability. Bands of mid-\nlevel and high clouds around 15kft and above will continue passing\nover the region, with a brief period of lower ceilings around \n10-12kft expected tonight into early Monday morning before \nceilings improve. VFR conditions are expected to prevail, with \nsome terrain obscuration possible tonight, especially for KBIH in \nthe northern Owens Valley.\n\n&&\n\n.SPOTTER INFORMATION STATEMENT...Spotters are encouraged to report\nany significant weather or impacts according to standard operating\nprocedures.\n\n&&\n\n$$\n\nDISCUSSION...RK\nAVIATION...Phillipson\n\nFor more forecast information...see us on our webpage:\nhttps://weather.gov/lasvegas or follow us on Facebook and Twitter\n",
+    "issued_at": "2026-11-22T23:36:00+00:00",
+    "product_id": "159e07cd-8fd3-4b30-bbbd-d60040c0ebb1",
+    "text": "\n000\nFXUS65 KVEF 222336\nAFDVEF\n\nArea Forecast Discussion\nNational Weather Service Las Vegas NV\n336 PM PST Sun Nov 22 2026\n\n.KEY MESSAGES...\n\n* Minimal weather impacts through next week. \n\n* Increased clouds and gusty mountain winds into Monday.\n\n* Warming each day Tuesday through Saturday, pushing above normal\n  by Thursday or Friday. \n\n* Cooler and more unsettled weather next week. \n\n&&\n\n.DISCUSSION...Through this Weekend.\n\nA short-wave trough, currently centered just west of San\nFransisco, will move through the region by Monday afternoon. \nThere may be enough moisture to bring showers to the Sierras. The \nlatest projections backed off a bit on that moisture however, \nwhich means any snow will be up to an inch or two or less at \nelevations above 4,500 feet. On the east side of the mountains, \nthe moisture really decreases at lower levels, so while ample mid-\nto-high level clouds are expected, any showers are unlikely. This \nsystem will also generate gusty but sub-advisory-level winds over \nmany mountains and the western Mohave desert. \n\nQuiet conditions look to follow starting Tuesday, with high\npressure aloft building over the region. Temperatures will \nsteadily climb each day, pushing above normal by Thanksgiving or \nBlack Friday, and peaking on Saturday when temperatures will \nlikely be 5 to 10 degrees above normal. The current forecast is \nlikely on the lower end of the range of outcome by a few degrees -\nespecially for the end of the week. There will be some breezy \nwinds at times. There is a little northeast push Monday Night for \nthe hills and mountains from Las Vegas southward, and some breezy \nnortherly winds Wednesday through Thursday down the Colorado \nRiver. Wind Advisories are unlikely. A pattern change remains on \ntarget for next week, with much cooler conditions and periods of \nprecipitation and gusty winds. Stay tuned.\n\n&&\n\n.AVIATION...For Harry Reid...For the 00Z Forecast Package...Winds\nwill remain light and somewhat variable through the forecast \nperiod, but will generally follow daily directional patterns.\nMid-level and high clouds will increase through this evening, with\nceilings expected to become BKN around 12kft. Ceilings begin\nimproving late tonight, however there is a brief window late \ntonight into early Monday when a few clouds around 9-10kft will be\npossible with rapid improvement expected thereafter. VFR \nconditions are expected to continue.\n\n\nFor the rest of southern Nevada, northwest Arizona and southeast\nCalifornia...For the 00Z Forecast Package...Winds across the\nregion will remain under 10KT and generally follow typical daily \ndirectional patterns with some variability. Bands of mid-level \nand high clouds around 12-15kft and above will continue passing \nover the region, with a brief period of lower ceilings around \n8-10kft expected tonight into early Monday morning with quick\nimprovement expected thereafter. VFR conditions are expected to \nprevail, with some terrain obscuration possible tonight, \nespecially for KBIH in the northern Owens Valley.\n\n&&\n\n.SPOTTER INFORMATION STATEMENT...Spotters are encouraged to report\nany significant weather or impacts according to standard operating\nprocedures.\n\n&&\n\n$$\n\nDISCUSSION...RK\nAVIATION...Phillipson\n\nFor more forecast information...see us on our webpage:\nhttps://weather.gov/lasvegas or follow us on Facebook and Twitter\n",
     "risk": "MEDIUM",
     "high_terms": [],
     "convective_terms": [
@@ -148,13 +100,13 @@
       "shower"
     ],
     "negative_signals": 0,
-    "snippet": "There may be enough moisture to bring showers to the Sierras. On the east side of the mountains, the moisture really decreases at lower levels, so while ample mid-to-high level clouds are expected, any showers are unlikely.",
+    "snippet": "There may be enough moisture to bring showers to the Sierras. On the east side of the mountains, the moisture really decreases at lower levels, so while ample mid- to-high level clouds are expected, any showers are unlikely.",
     "source": "NWS Las Vegas Area Forecast Discussion"
   },
   "radar": {
     "available": true,
-    "latest_time_utc": "2026-11-22T21:33:58+00:00",
-    "prior_time_utc": "2026-11-22T21:03:58+00:00",
+    "latest_time_utc": "2026-11-23T01:38:58+00:00",
+    "prior_time_utc": "2026-11-23T01:08:58+00:00",
     "current": {
       "echo_fraction_by_radius": {
         "0": 0.0,
@@ -189,16 +141,16 @@
       "strike_type": "between",
       "floor_strike": 58.0,
       "cap_strike": 59.0,
-      "yes_bid": 0.6,
-      "yes_ask": 0.67,
-      "last_price": 0.68,
-      "market_mid": 0.635,
+      "yes_bid": 0.0,
+      "yes_ask": 0.01,
+      "last_price": 0.01,
+      "market_mid": 0.005,
       "close_time": "2026-11-23T09:00:00Z",
       "occurrence_datetime": "2026-11-23T15:00:00Z",
       "updated_time": "2026-11-21T15:00:01.500991Z",
-      "model_probability": 0.6719681908548708,
-      "edge_vs_ask": 0.001968190854870766,
-      "difference": 0.0369681908548708
+      "model_probability": 0.8145214521452147,
+      "edge_vs_ask": 0.8045214521452146,
+      "difference": 0.8095214521452146
     },
     {
       "ticker": "KXHIGHTLV-26NOV22-B56.5",
@@ -208,16 +160,16 @@
       "strike_type": "between",
       "floor_strike": 56.0,
       "cap_strike": 57.0,
-      "yes_bid": 0.34,
-      "yes_ask": 0.41,
-      "last_price": 0.28,
-      "market_mid": 0.375,
+      "yes_bid": 0.99,
+      "yes_ask": 1.0,
+      "last_price": 0.99,
+      "market_mid": 0.995,
       "close_time": "2026-11-23T09:00:00Z",
       "occurrence_datetime": "2026-11-23T15:00:00Z",
       "updated_time": "2026-11-21T15:00:01.500991Z",
-      "model_probability": 0.26110006626905236,
-      "edge_vs_ask": -0.14889993373094762,
-      "difference": -0.11389993373094764
+      "model_probability": 0.17623762376237623,
+      "edge_vs_ask": -0.8237623762376238,
+      "difference": -0.8187623762376237
     },
     {
       "ticker": "KXHIGHTLV-26NOV22-B60.5",
@@ -234,9 +186,9 @@
       "close_time": "2026-11-23T09:00:00Z",
       "occurrence_datetime": "2026-11-23T15:00:00Z",
       "updated_time": "2026-11-21T15:00:01.500991Z",
-      "model_probability": 0.03578528827037773,
-      "edge_vs_ask": 0.02578528827037773,
-      "difference": 0.03078528827037773
+      "model_probability": 0.009240924092409241,
+      "edge_vs_ask": -0.0007590759075907592,
+      "difference": 0.004240924092409241
     },
     {
       "ticker": "KXHIGHTLV-26NOV22-B62.5",
@@ -253,9 +205,9 @@
       "close_time": "2026-11-23T09:00:00Z",
       "occurrence_datetime": "2026-11-23T15:00:00Z",
       "updated_time": "2026-11-21T15:00:01.500991Z",
-      "model_probability": 0.031146454605699137,
-      "edge_vs_ask": 0.02114645460569914,
-      "difference": 0.026146454605699136
+      "model_probability": 0,
+      "edge_vs_ask": -0.01,
+      "difference": -0.005
     },
     {
       "ticker": "KXHIGHTLV-26NOV22-T63",
@@ -296,33 +248,33 @@
       "difference": -0.005
     }
   ],
-  "model_method": "nws_anchored",
-  "model_bundle": "h13.joblib",
-  "observed_floor_f": 56.0,
-  "model_predicted_high_f": 58.0,
-  "model_correction_f": 0.0,
+  "model_method": "remaining_heating",
+  "model_bundle": "h17_remaining.joblib",
+  "observed_floor_f": 57.02,
+  "predicted_remaining_heating_f": 1.1865765563555806,
+  "pre_checkpoint_peak_f": 57.0,
+  "model_predicted_high_f": 58.18657655635558,
+  "model_correction_f": 0.18657655635558257,
   "likely_low_f": 57,
   "likely_high_f": 59,
   "confidence": "MEDIUM",
-  "model_mae_f": 0.7550828445090019,
+  "model_mae_f": 0.4473460776640661,
   "distribution": {
-    "56": 0.031146454605699137,
-    "57": 0.22995361166335324,
-    "58": 0.4552683896620278,
-    "59": 0.21669980119284296,
-    "60": 0.017892644135188866,
-    "61": 0.017892644135188866,
-    "62": 0.031146454605699137
+    "57": 0.17623762376237623,
+    "58": 0.6646864686468648,
+    "59": 0.14983498349834984,
+    "60": 0.0046204620462046205,
+    "61": 0.0046204620462046205
   },
-  "bucket_probability_total": 1.0,
+  "bucket_probability_total": 1.0000000000000002,
   "largest_model_ask_gap": {
-    "ticker": "KXHIGHTLV-26NOV22-B60.5",
+    "ticker": "KXHIGHTLV-26NOV22-B58.5",
     "event_ticker": "KXHIGHTLV-26NOV22",
-    "title": "Will the maximum temperature be 60-61\u00b0 on Nov 22, 2026?",
-    "subtitle": "60\u00b0 to 61\u00b0",
+    "title": "Will the maximum temperature be 58-59\u00b0 on Nov 22, 2026?",
+    "subtitle": "58\u00b0 to 59\u00b0",
     "strike_type": "between",
-    "floor_strike": 60.0,
-    "cap_strike": 61.0,
+    "floor_strike": 58.0,
+    "cap_strike": 59.0,
     "yes_bid": 0.0,
     "yes_ask": 0.01,
     "last_price": 0.01,
@@ -330,30 +282,30 @@
     "close_time": "2026-11-23T09:00:00Z",
     "occurrence_datetime": "2026-11-23T15:00:00Z",
     "updated_time": "2026-11-21T15:00:01.500991Z",
-    "model_probability": 0.03578528827037773,
-    "edge_vs_ask": 0.02578528827037773,
-    "difference": 0.03078528827037773
+    "model_probability": 0.8145214521452147,
+    "edge_vs_ask": 0.8045214521452146,
+    "difference": 0.8095214521452146
   },
-  "research_status": "WEATHER WATCH",
+  "research_status": "EDGE WATCH \u2014 WEATHER RISK MEDIUM",
   "satellite": {
     "available": true,
     "risk": "HIGH",
     "summary": "Heavy observed cloud cover may be suppressing solar heating at KLAS",
     "latest_cloud_fraction": 0.875,
-    "mean_cloud_fraction_2h": 0.875,
-    "cloud_fraction_trend_2h": 0.0,
+    "mean_cloud_fraction_2h": 0.9166666666666666,
+    "cloud_fraction_trend_2h": -0.125,
     "latest_cloud_fraction_below_20000": 0.875,
-    "geocolor_image_url": "https://cdn.star.nesdis.noaa.gov/WFO/vef/GEOCOLOR/20263262110_GOES18-ABI-vef-GEOCOLOR-600x600.jpg",
-    "geocolor_time_utc": "2026-11-22T21:10:00+00:00",
-    "infrared_image_url": "https://cdn.star.nesdis.noaa.gov/WFO/vef/13/20263262120_GOES18-ABI-vef-13-600x600.jpg",
-    "infrared_time_utc": "2026-11-22T21:20:00+00:00",
+    "geocolor_image_url": "https://cdn.star.nesdis.noaa.gov/WFO/vef/GEOCOLOR/20263270130_GOES18-ABI-vef-GEOCOLOR-600x600.jpg",
+    "geocolor_time_utc": "2026-11-23T01:30:00+00:00",
+    "infrared_image_url": "https://cdn.star.nesdis.noaa.gov/WFO/vef/13/20263270130_GOES18-ABI-vef-13-600x600.jpg",
+    "infrared_time_utc": "2026-11-23T01:30:00+00:00",
     "errors": [],
     "image_note": "GOES images are a visual cross-check in this version. The shading label uses KLAS-observed sky cover and does not alter the validated temperature prediction.",
     "source": "NOAA/NESDIS/STAR GOES imagery + KLAS METAR sky cover"
   },
   "wethr": {
     "available": false,
-    "collected_at_local": "2026-11-22T13:41:38.768949-08:00",
+    "collected_at_local": "2026-11-22T17:58:24.629001-08:00",
     "models": {
       "HRRR": {
         "available": false,
@@ -393,7 +345,7 @@
     },
     "source": "Wethr.net Forecasts API v2",
     "research_only": true,
-    "observed_floor_f": 56.0
+    "observed_floor_f": 57.02
   },
   "wethr_observed_high": {
     "available": false,
@@ -404,7 +356,7 @@
   "historical_analogs": {
     "available": false
   },
-  "next_update_local": "2026-11-22T13:50:00-08:00",
+  "next_update_local": "2026-11-22T18:05:00-08:00",
   "model_accuracy": {
     "7_day": [
       {
@@ -581,6 +533,15 @@
       "latest_temp_f": 56.0,
       "six_hour_max_f": 52.0,
       "model_predicted_high_f": 58.0,
+      "nws_am_forecast_high_f": 58.0,
+      "weather_risk": "MEDIUM"
+    },
+    {
+      "checkpoint_hour": 17.0,
+      "latest_precise_temp_f": 55.94,
+      "latest_temp_f": 56.0,
+      "six_hour_max_f": 57.0,
+      "model_predicted_high_f": 58.18657655635558,
       "nws_am_forecast_high_f": 58.0,
       "weather_risk": "MEDIUM"
     }
